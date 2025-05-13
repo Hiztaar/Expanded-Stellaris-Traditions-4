@@ -1,0 +1,16 @@
+name="Expanded Stellaris Traditions 3"
+tags={
+	"Balance"
+	"Buildings"
+	"Economy"
+	"Technologies"
+	"Military"
+	"Leaders"
+	"Events"
+	"Diplomacy"
+	"Species"
+}
+picture="Expanded_Stellaris_Traditions_3.png"
+version="3.12.*"
+supported_version="v3.14.*"
+remote_file_id="3181487775"
