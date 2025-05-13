@@ -1,2 +1,0 @@
-# trait_sorting_priority_<rarity>_<council yes/no>_<tier>
-@trait_sorting_priority_common_no_3 = 55
