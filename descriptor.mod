@@ -1,0 +1,17 @@
+name="Expanded Stellaris Traditions 3.14"
+tags={
+	"Balance"
+	"Buildings"
+	"Economy"
+	"Technologies"
+	"Military"
+	"Leaders"
+	"Events"
+	"Diplomacy"
+	"Species"
+}
+picture="thumbnail.png"
+version="3.14.*"
+supported_version="v3.14.*"
+path="C:/Users/Ben/Documents/Paradox Interactive/Stellaris/mod/Expanded_Stellaris_Traditions_3.14"
+remote_file_id="3479397903"

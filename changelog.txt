@@ -1,0 +1,27 @@
+24/05/2024 (Metallichydra)
+
+- Changed all ruler_skill_levels to ruler_skill_add (Venerability and Individualism)
+- Changed all leader_skill_levels to leader_initial_skill (Omnipresence, Venerability and Individualism)
+- Changed cybernetics commander_skill_levels to commander_initial_skill
+
+22/08/2024 (Metallichydra)
+
+- Removed most economic categories to avoid overwriting the entire file
+- Removed all clerk modifiers except for produces_add to avoid overwrites.
+- Changed all instances of planet_jobs_organic_produces_mult to planet_jobs_organics_produces_mult
+- removed all instances of agenda resource mults as only finding the voice provides a resource
+- Removed all instances of modifiers from overwrites now that they're removed. I just forgot to keep track of which I removed. This is the same thing as the ones above.
+
+This means there should be no more overwrites, or very few if there is some I missed.
+
+14/01/2025
+- Fixed localisation of tr_est_individualism_3: Now states that it icnreases Effective Ruler Skill instead of Ruler Level Cap
+- Updated tr_est_greed_1 and tr_est_desires_1 to use a triggered modifier instead of monthly events. Additionally fixed tr_est_desires_1, so it now is no longer stuck on the value it got when it was first adopted
+- Synaptic Lathe should no longer be given jobs from traditions.
+- Spaceborn now correctly grants 1 energy to all stars that produce energy, instead of giving this bonus to a random star that produces energy.
+- Fixed Piracy agenda saying "Priracy".
+- Piracy finisher no got an extra "Finisher Effect: Adopting all piracy traditions grants: :
+- tr_est_order_2 now uses a standard modifier instead of applying a modifier to all factions.
+- tr_est_justice_finish now uses a triggered modifier instead of monthly events.
+- tr_est_philosophy_5 now has a tradition swap for virtual machines.
+- tr_est_administratum_2 now grants officials +1 starting skill level.
