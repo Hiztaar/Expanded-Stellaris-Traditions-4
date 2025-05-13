@@ -1,0 +1,29 @@
+##################################
+# Scripted Effects
+##################################
+
+create_EST_situation_handler = {
+	if = {
+		limit = {
+			NOT = {
+				exists = event_target:EST_situation_handler_country
+			}
+		}
+		create_country = {
+			name = EST_BLANK
+			type = EST_situation_handler
+			authority = "auth_oligarchic"
+			origin = "origin_default"
+			species = random
+			flag = random
+			ethos = {
+				ethic = ethic_fanatic_militarist
+			}
+			ignore_initial_colony_error = yes
+			effect = {
+				save_global_event_target_as = EST_situation_handler_country
+			}
+		}
+		set_global_flag = EST_situation_handler_created
+	}
+}
