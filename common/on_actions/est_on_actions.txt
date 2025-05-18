@@ -16,6 +16,8 @@ on_monthly_pulse_country = {
 
 		est_foundation.1
 
+		est_fury.10
+
 		#est_greed.1
 
 		est_hacking.1
@@ -549,3 +551,5 @@ on_game_start = {
 		est_general.1
 	}
 }
+
+

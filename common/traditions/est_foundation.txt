@@ -1,11 +1,50 @@
 tr_est_foundation_adopt = {
 	unlocks_agenda = agenda_est_foundation
+
+	custom_tooltip = tr_est_foundation_adopt_desc
+
 	modifier = {
 		all_technology_research_speed = 0.05
-		pop_government_ethic_attraction = 0.15
-		empire_size_penalty_mult = 0.50
+		pop_government_ethic_attraction = 0.10
+	}
+
+	potential = {
+		always = yes
+	}
+
+	# Empire size penalty logic depending on sector/subj. count
+	country_modifier = {
+		modifier = {
+			# Ideal condition: 0–1 sector and no subjects
+			add = {
+				trigger = {
+					num_sectors <= 1
+					NOT = { has_subject = yes }
+				}
+				modifier = {
+					empire_size_penalty_mult = 0
+					empire_size_pops_mult = -0.50
+					empire_size_systems_mult = -0.50
+					empire_size_colonies_mult = -0.50
+					empire_size_districts_mult = -0.50
+				}
+			}
+			# Otherwise, default malus
+			add = {
+				trigger = {
+					OR = {
+						num_sectors > 1
+						has_subject = yes
+					}
+				}
+				modifier = {
+					empire_size_penalty_mult = 0.5
+				}
+			}
+		}
 	}
 }
+
 
 tr_est_foundation_finish = {
 	modifier = {
@@ -60,11 +99,10 @@ tr_est_foundation_2 = {
 			}
 		}
 		if = {
-			limit = {
-				Not = { has_global_flag = est_foundation_2_picked_flag }
-			}
-			set_global_flag = est_foundation_2_picked_flag
+			limit = { NOT = { has_country_flag = est_foundation_2_picked_flag } }
+			set_country_flag = est_foundation_2_picked_flag
 		}
+
 	}
 
 	ai_weight = { factor = 5000 }
@@ -85,7 +123,10 @@ tr_est_foundation_4 = {
 	
 	modifier = {
 		add_base_country_intel = 10
-		science_ship_survey_speed = 0.20
+		starbase_shield_hp_mult = 0.20
+		starbase_armor_hp_mult = 0.20
+		starbase_hull_mult = 0.20
+		starbase_weapon_damage = 0.20
 	}
 
 	ai_weight = { factor = 5000 }

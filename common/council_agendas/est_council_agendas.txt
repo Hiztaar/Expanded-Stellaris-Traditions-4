@@ -322,7 +322,7 @@ agenda_est_destruction = {
 	}
 	modifier = {
 		pop_purge_speed = 0.1
-		create_debris_chance = 0.05
+		# create_debris_chance = 0.05 #Does not exist in 4.x
 		ship_orbital_bombardment_mult = 0.1
 		army_collateral_damage_mult = 0.5
 	}

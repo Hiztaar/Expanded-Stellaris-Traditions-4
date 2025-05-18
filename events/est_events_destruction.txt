@@ -1,35 +1,38 @@
 namespace = est_destruction
 
 
-#Destruction 1, influence from purging.
+# Destruction 1 – Influence from purging (2 Influence per 25 pops)
 planet_event = {
-	id = est_destruction.1
-	hide_window = yes
-	is_triggered_only = yes
-	
-	trigger = {
-		from = {
-			OR = {
-				has_active_tradition = tr_est_destruction_1
-			}
-		}
-		fromfrom = {
-			is_robot_pop = no
-			NOT = {
-				is_same_species = owner_species
-			}
-		}
-		is_controlled_by = from
-	}
-	
-	immediate = {
-		from = {
-			add_resource = {
-				influence = 2
-			}
-		}
-	}
+    id = est_destruction.1
+    hide_window       = yes
+    is_triggered_only = yes
+
+    trigger = {
+        from = { has_active_tradition = tr_est_destruction_1 }   # You own the perk
+        fromfrom = {                                             # The pop being purged…
+            is_robot_pop    = no
+            NOT = { is_same_species = owner_species }
+        }
+        is_controlled_by = from                                  # Pop is on your planet
+    }
+
+    immediate = {
+        from = {                                                 # Country scope
+            change_variable = {
+                which  = est_destruction_purged_pops             # running counter
+                value  = 1
+            }
+            if = {
+                limit = { check_variable = { which = est_destruction_purged_pops value >= 25 } }
+                subtract_variable = { which = est_destruction_purged_pops value = 25 }  # keep the remainder
+                add_resource = {
+                    influence = 2                                 # payout
+                }
+            }
+        }
+    }
 }
+
 
 #Destruction 3, penalty to fleet on entering battle.
 country_event = {

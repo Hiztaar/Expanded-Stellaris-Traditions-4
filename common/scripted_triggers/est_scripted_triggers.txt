@@ -62,6 +62,10 @@ est_no_rivals = {
 	}
 }
 
+est_num_rivals = { 
+	num_rivals = 0
+}
+
 est_no_fed_federation_builders = {
 	has_ai_personality = federation_builders
 	Not = {

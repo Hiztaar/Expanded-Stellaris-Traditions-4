@@ -29,6 +29,13 @@ tr_est_fury_finish = {
 tr_est_fury_1 = {
 	custom_tooltip = tr_est_fury_1_desc
 
+	allow = {
+	  has_tradition = tr_est_fury_adopt
+	  num_rivals > 0
+	  NOT = { has_tradition = tr_est_fury_1_no_rivals }
+	}
+
+
 	on_enabled = {
 		country_event = {
 			id =  est_fury.1
@@ -42,7 +49,7 @@ tr_est_fury_1 = {
 		custom_tooltip = tr_est_fury_1_no_rivals_desc
 	
 		name = tr_est_fury_1_no_rivals
-		trigger = { est_no_rivals = yes }	
+		trigger = { est_num_rivals = yes }	
 		on_enabled = {
 			country_event = {
 				id =  est_fury.1

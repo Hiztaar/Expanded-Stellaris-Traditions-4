@@ -540,33 +540,38 @@ tr_est_serverbound_finish:0 "Serverbound Traditions Finished"
 
 
 ################################################################
-# Faith
+# Religion (ex Faith)
 ################################################################
 
-tradition_est_faith:0 "Faith"
-tradition_est_faith_desc:0 "The galaxy is vast and full of wonders but we must not let it lead us astray from our true path."
+tradition_est_faith:0 "Religião"
+tradition_est_faith_desc:0 "A galáxia é vasta e cheia de maravilhas, mas não devemos nos desviar de nossa religião sagrada."
 
-tr_est_faith_adopt:0 "Faith Traditions"
+tr_est_faith_adopt:0 "Tradições Religiosas"
+tr_est_faith_adopt_desc:0 "§YFelicidade Pop§! aumentada em §G+5%§!."
 
-tr_est_faith_1:0 "One Faith"
-tr_est_faith_1_delayed:0 "Before our ascent into the stars, our people were fractured by differing systems of belief. Now, we stand united under the one true faith."
+tr_est_faith_1:0 "Uma Só Religião"
+tr_est_faith_1_desc:0 "Produção de §YUnidade§! aumentada em §G+10%§!."
+tr_est_faith_1_delayed:0 "Antes de nossa ascensão às estrelas, nosso povo era dividido por muitos credos. Agora, estamos unidos em uma única religião verdadeira."
 
-tr_est_faith_2:0 "Holy Scripts"
-tr_est_faith_2_delayed:0 "The words of our faith are distributed to all citizens, that they may know their calling as it is read in scripture."
+tr_est_faith_2:0 "Textos Sagrados"
+tr_est_faith_2_desc:0 "§YEstabilidade Planetária§! aumentada em §G+5§!."
+tr_est_faith_2_delayed:0 "Os textos sagrados de nossa religião são disponibilizados a todos, para que cada cidadão compreenda seu papel segundo os ensinamentos divinos."
 
-tr_est_faith_3:0 "The Clergy"
-#tr_est_faith_3_desc:0 "Provide §Y1§! £job_priest£ §Y$job_priest$ Job§! per §Y35§! £pop£ Pops on a planet."
-#tr_est_faith_3_spiritualist_desc:0 "£job_priest£ §Y$job_priest$§! produce §Y1§! additional £unity  §YUnity§! and consume §Y1§! less £consumer_goods  §YConsumer Goods§!." 
-tr_est_faith_3_delayed:0 "The foremost servants of our faith, the clergy, provide our citizen with inner peace, hope, and guidance in their faith."
+tr_est_faith_3:0 "O Clero"
+tr_est_faith_3_desc:0 "Adiciona §Y1§! emprego de §YSacerdote§! por §Y67 Pops§!.\nSe §YEspiritualista§!, sacerdotes geram §G+0.02§! £unity£ Unidade e têm §G-20%§! de consumo de Bens de Consumo."
+tr_est_faith_3_delayed:0 "O clero, como guardiões venerados de nossa religião, traz paz, orientação e propósito divino ao povo."
 
-tr_est_faith_4:0 "Preachers"
-tr_est_faith_4_delayed:0 "Preachers travel our empire to preach the holy message as told by our highest priests and prophets. This ensures that their words reach the great masses."
+tr_est_faith_4:0 "Missionários"
+tr_est_faith_4_desc:0 "§YCusto de Tradição por Tamanho de Império§! reduzido em §G20%§!."
+tr_est_faith_4_delayed:0 "Missionários percorrem nossos mundos para espalhar a mensagem sagrada, levando as palavras de nossos sumos sacerdotes a todos os cantos do império."
 
 tr_est_faith_5:0 "Deus Vult"
-tr_est_faith_5_delayed:0 "In war, our cause is justified by the divines. Our warriors stand ready to die for their beliefs."
+tr_est_faith_5_desc:0 "§YMoral do Exército§! aumentada em §G+25%§!. §YDano de Armas de Naves§! aumentado em §G+5%§!."
+tr_est_faith_5_delayed:0 "Nossas guerras são justas, nossa causa é santificada. Com convicção religiosa, nossos guerreiros estão prontos para dar suas vidas pelo divino."
 
-tr_est_faith_finish:0 "Faith Traditions Finished"
-tr_est_faith_finish_desc:0 "Increase §YEthics Attraction§! for a selected §YEthic§! by §G+50%§!.\nAscension Perks Unlocked: §G+1§!"
+tr_est_faith_finish:0 "Tradições Religiosas Concluídas"
+tr_est_faith_finish_desc:0 "Aumenta §YAtração por Ética§! de uma §YÉtica§! escolhida em §G+50%§!.\nVagas de Vantagem de Ascensão desbloqueadas: §G+1§!"
+
 
 
 ################################################################
@@ -600,29 +605,34 @@ tr_est_purposefullness_finish:0 "Purposefullness Traditions Finished"
 # Foundation
 ################################################################
 
-tradition_est_foundation:0 "Foundation"
-tradition_est_foundation_desc:0 "Others try to spread their empires far and wide. We work towards a deeper and more fundamental goal."
+tradition_est_foundation:0 "Fundação"
+tradition_est_foundation_desc:0 "Outros tentam expandir seus impérios ao máximo. Nós buscamos um objetivo mais profundo e fundamental."
 
-tr_est_foundation_adopt:0 "Foundation Traditions"
+tr_est_foundation_adopt:0 "Tradições da Fundação"
+tr_est_foundation_adopt_desc:0 "Concede §Y+5%§! de Velocidade de Pesquisa e §Y+10%§! de Atração pela Ética Governamental. Penalidades de Tamanho do Império dependem da estrutura imperial:§L\n• Se ≤1 Setor e nenhum Súdito: Tamanho do Império por Populações, Sistemas, Colônias e Distritos reduzido em 50%, sem penalidade adicional.\n• Caso contrário: Penalidade de Tamanho do Império aumentada em 50%.§!"
 
-tr_est_foundation_1:0 "A Common Cause"
-tr_est_foundation_1_delayed:0 "We are all united in a common cause. Everyone of us knows that they are an important cog in the machinery that works towards our goal."
+tr_est_foundation_1:0 "Uma Causa Comum"
+tr_est_foundation_1_desc:0 "§YUnidade proveniente de Empregos§! aumentada em §G+15%§!."
+tr_est_foundation_1_delayed:0 "Estamos todos unidos por uma causa comum. Cada um de nós sabe que é uma engrenagem importante na máquina que trabalha por nosso objetivo."
 
-tr_est_foundation_2:0 "Centralized Government"
-tr_est_foundation_2_desc:0 "£energy  §YEnergy Credit§!, £engineering  §YEngineering§!, £physics  §YPhysics§!, £society  §YSociety§!, and £trade_value  §YTrade Value§! output is increased by §G+10%§! on our §YCapital World§!. This is increased to  §G+20%§!/ §G+30%§! if we have researched the §Y$tech_colonial_centralization$§!/§Y$tech_galactic_administration$§! technologies, respective."
-tr_est_foundation_2_delayed:0 "Our government is centralized to our capital from which it can govern the relatively few number of worlds that we control."
+tr_est_foundation_2:0 "Governo Centralizado"
+tr_est_foundation_2_desc:0 "A produção de £energy §YCréditos de Energia§!, £engineering §YEngenharia§!, £physics §YFísica§!, £society §YSociedade§! e £trade_value §YValor Comercial§! é aumentada em §G+10%§! em nosso §YMundo Capital§!. Este bônus aumenta para §G+20%§!/§G+30%§! se pesquisarmos as tecnologias §Y$tech_colonial_centralization$§!/§Y$tech_galactic_administration$§!, respectivamente."
+tr_est_foundation_2_delayed:0 "Nosso governo é centralizado em nossa capital, de onde pode governar os poucos mundos que controlamos."
 
-tr_est_foundation_3:0 "The Grand Design"
-tr_est_foundation_3_delayed:0 "Central to everything is the Grand Design. It is this that we follow and only a few know it down to the smallest detail."
+tr_est_foundation_3:0 "O Grande Projeto"
+tr_est_foundation_3_desc:0 "Adiciona §G+1§! de §YInfluência§! base mensal."
+tr_est_foundation_3_delayed:0 "Central a tudo está o Grande Projeto. É isso que seguimos, e apenas poucos conhecem todos os seus detalhes."
 
-tr_est_foundation_4:0 "Intelligence Gathering Corps"
-tr_est_foundation_4_delayed:0 "Our Intelligence Gathering Corps travel the galaxy and continuously send information back home about the state of the galaxy. This information is vital to our cause, or at least to minimize disturbance from the outside."
+tr_est_foundation_4:0 "Inteligência é Poder"
+tr_est_foundation_4_desc:0 "§YPontos de Escudo, Armadura e Hull§! e §YDano de Armas§! de Bases Estelares aumentados em §G+20%§!. Concede também §G+10§! de §YInteligência Base§! sobre todos os impérios."
+tr_est_foundation_4_delayed:0 "O conhecimento nos protege, as muralhas nos defendem. Nossas bases estelares são sentinelas e fortalezas — alimentadas por um fluxo constante de informações sobre nossos inimigos."
 
-tr_est_foundation_5:0 "Progressive Economy"
-tr_est_foundation_5_desc:0 "Increase the §YResource Output§! by all §YSpecialists Jobs§! by §G+10%§!."
-tr_est_foundation_5_delayed:0 "Other empires may draw resources from their vast realms, something we may not. To still be able to compete we have been forced to reshape the very fundamentals of our economy. While our realm might not be as resourceful as those of others, even the most plentiful of realms is not as resourceful as the people which populate ours."
+tr_est_foundation_5:0 "Economia Progressiva"
+tr_est_foundation_5_desc:0 "Aumenta a §YProdução de Recursos§! de todos os §YEmpregos de Especialistas§! em §G+10%§!."
+tr_est_foundation_5_delayed:0 "Outros impérios podem explorar vastos recursos. Nós não. Para competir, reformulamos os fundamentos de nossa economia. Nosso povo é nosso maior recurso."
 
-tr_est_foundation_finish:0 "Foundation Traditions Finished"
+tr_est_foundation_finish:0 "Tradições da Fundação Concluídas"
+tr_est_foundation_finish_desc:0 "§G+1§! £intel_decryption£ Descriptografia, §G+25%§! na Velocidade de Crescimento de Redes de Espionagem, e libera um slot adicional de §YAperfeiçoamento Ascendente§!."
 
 
 ################################################################
@@ -699,39 +709,62 @@ tr_est_subminds_finish:0 "Subminds Traditions Finished"
 # Friendship
 ################################################################
 
-tradition_est_friendship:0 "Friendship"
-tradition_est_friendship_desc:0 "Everyone should be considered a friend until they prove us wrong. While all of us in the galaxy are different, in this diversity we can find strength."
+ tradition_est_friendship:0 "Amizade"
+ tradition_est_friendship_desc:0 "Todos devem ser considerados amigos até que provem o contrário. Embora todos sejamos diferentes na galáxia, é nessa diversidade que encontramos força."
 
-tr_est_friendship_adopt:0 "Friendship Traditions"
-tr_est_friendship_adopt_desc:0 "No £opinion  §YOpinion§! penalty from first contact. Receive £unity  §YUnity§! whenever we make contact with another empire. In addition, §Y$MOD_ENVOY_IMPROVE_RELATIONS_MULT$§! is increased by §G+25%§!."
+ tr_est_friendship_adopt:0 "Tradições de Amizade"
+ tr_est_friendship_adopt_desc:0 "Sem penalidade de £opinion §YOpinião§! no primeiro contato. Receba £unity §YUnidade§! sempre que fizer contato com outro império. Além disso, §Y$MOD_ENVOY_IMPROVE_RELATIONS_MULT$§! é aumentado em §G+25%§!."
 
-tr_est_friendship_1:0 "Foreign Embassies"
-tr_est_friendship_1_desc:0 "Foreign Empire £opinion  §YOpinion§! is increased by §G+30§!."
-tr_est_friendship_1_delayed:0 "Until they prove us wrong,we will consider those living outside our borders as our friends. We will send embassies to their worlds to learn their ways, and teach them about ours."
+ tr_est_friendship_1:0 "Embaixadas Estrangeiras"
+ tr_est_friendship_1_desc:0 "A £opinion §YOpinião§! de impérios estrangeiros é aumentada em §G+30§!."
+ tr_est_friendship_1_delayed:0 "Até que provem o contrário, consideramos aqueles que vivem fora de nossas fronteiras como amigos. Enviaremos embaixadas a seus mundos para aprender seus costumes e ensinar os nossos."
 
-tr_est_friendship_2:0 "A Melting Pot of Cultures"
-tr_est_friendship_2_delayed:0 "As all manner of sentients gather on our worlds, ideas from different cultures mix. This melting pot of cultures is a prime basis for new technological advancements."
+ tr_est_friendship_2:0 "Caldeirão Cultural"
+ tr_est_friendship_2_desc:0 "§Y$MOD_ALL_TECH_RESEARCH_SPEED$§! aumentado em §G+5%§!."
+ tr_est_friendship_2_delayed:0 "À medida que seres de todas as espécies se reúnem em nossos mundos, ideias de diferentes culturas se fundem. Este caldeirão é a base ideal para novos avanços tecnológicos."
 
-tr_est_friendship_3:0 "Kindness"
-tr_est_friendship_3_delayed:0 "Every act of kindness grows the spirit and strengthens the soul."
+ tr_est_friendship_3:0 "Bondade"
+ tr_est_friendship_3_desc:0 "Adiciona §Y100§! empregos de Trabalhador da Saúde. Médicos produzem §Y+20%§! mais de £society_research§! Pesquisa em Sociedade."
+ tr_est_friendship_3_delayed:0 "Todo ato de bondade eleva o espírito e fortalece a alma."
 
-tr_est_friendship_4:0 "The Way of Peace"
-tr_est_friendship_4_desc:0 "Reduces §YBorder Friction§! by §G-50%§! and §YCollateral Damage§! reduced by §G-50%§!."
-tr_est_friendship_4_delayed:0 "Force answers force, war breeds war, and death only brings death. To break this vicious circle, we must proceed with open hands, to show the galaxy our good intentions."
-tr_est_friendship_4_militarist:0 "Brothers in Arms"
-tr_est_friendship_4_militarist_desc:0 "Increases §Y$MOD_SHIP_WEAPON_DAMAGE$§! by §G+10%§! and §YShip Build Speed§! by §G+25%§! while we are fighting a war together with at least one ally."
-tr_est_friendship_4_militarist_delayed:0 "Everything is better together, most of all war. Together we will celebrate our victories and mourn our defeats. We will defeat our enemies together, or perish at the side of our allies."
+ tr_est_friendship_4:0 "O Caminho da Paz"
+ tr_est_friendship_4_desc:0 "Aumenta £influence£ §YInfluência Mensal§! em §G+0.15§!. Se §YMilitarista§!: §Y$MOD_SHIP_WEAPON_DAMAGE$§! §G+10%§!, §YVelocidade de Construção de Naves§! §G+25%§! durante guerras conjuntas."
+ tr_est_friendship_4_delayed:0 "A força gera força, a guerra gera guerra e a morte apenas traz mais morte. Para romper esse ciclo vicioso, devemos avançar com mãos abertas, mostrando nossas boas intenções."
 
-tr_est_friendship_5:0 "Open Society"
-tr_est_friendship_5_desc:0 "§Y$MOD_PLANET_IMMIGRATION_PULL_MULT$§! increased by §G+40%§! and §Y$mod_pop_ethic_xenophile_attraction_mult$§! by §G+15%§!."
-tr_est_friendship_5_delayed:0 "Our society is open towards others. Here all sentients may gather and find a home."
-tr_est_friendship_5_not_xenophile:0 "$tr_est_friendship_5$"
-tr_est_friendship_5_not_xenophile_desc:0 "§Y$MOD_PLANET_IMMIGRATION_PULL_MULT$§! increased by §G+50%§!."
-#tr_est_friendship_5:0 "Brotherhood"
-#tr_est_friendship_5_delayed:0 "We refuse to accept the view that the galaxy is bound to the starless midnight of hate and war and that the daybreak of peace and brotherhood will never become a reality. We believe that unconditional friendship will have the final word."
+ tr_est_friendship_4_militarist:0 "Irmãos de Armas"
+ tr_est_friendship_4_militarist_desc:0 "Aumenta §Y$MOD_SHIP_WEAPON_DAMAGE$§! em §G+10%§! e §YVelocidade de Construção de Naves§! em §G+25%§! enquanto estivermos em guerra com pelo menos um aliado."
+ tr_est_friendship_4_militarist_delayed:0 "Tudo é melhor em conjunto — especialmente a guerra. Celebramos as vitórias e lamentamos as derrotas lado a lado. Derrotaremos nossos inimigos juntos, ou pereceremos ao lado de nossos aliados."
 
-tr_est_friendship_finish:0 "Friendship Traditions Finished"
-tr_est_friendship_finish_desc:0 "Increase £energy£ §YEnergy Credit§! and £unity  §YUnity§! output by §G+10%§! on all planets with at least §Y3§! species.\nAscension Perks Unlocked: §G+1§!"
+ tr_est_friendship_5:0 "Sociedade Aberta"
+
+ tr_est_friendship_5_desc_corp:0 "§Y+5%§! Peso Diplomático da Economia.\n§Y+10%§! Atração por Ética Xenófila."
+ tr_est_friendship_5_delayed_corp:0 "Nossa economia é aberta à cooperação galáctica e ao crescimento compartilhado. §Y+5%§! Peso Diplomático da Economia.\n§Y+10%§! Atração por Ética Xenófila."
+
+ tr_est_friendship_5_desc_dict:0 "§Y+5%§! Felicidade dos Escravos.\n§Y+10%§! Atração por Ética Xenófila."
+ tr_est_friendship_5_delayed_dict:0 "Mesmo aqueles na base de nossa hierarquia se beneficiam de nossos princípios. §Y+5%§! Felicidade dos Escravos.\n§Y+10%§! Atração por Ética Xenófila."
+
+ tr_est_friendship_5_desc_imp:0 "§Y+5%§! Peso Diplomático por Populações.\n§Y+10%§! Atração por Ética Xenófila."
+ tr_est_friendship_5_delayed_imp:0 "Nossa força está em nosso povo. Quanto mais somos, mais influentes nos tornamos. §Y+5%§! Peso Diplomático por Populações.\n§Y+10%§! Atração por Ética Xenófila."
+
+ tr_est_friendship_5_desc_demo:0 "§Y+5%§! Duração e Velocidade de Agendas.\n§Y+10%§! Atração por Ética Xenófila."
+ tr_est_friendship_5_delayed_demo:0 "A voz do povo cresce em força e eficiência. §Y+5%§! Duração e Velocidade de Agendas.\n§Y+10%§! Atração por Ética Xenófila."
+
+ tr_est_friendship_5_desc_mil:0 "§Y+5%§! Peso Diplomático de Poder Militar.\n§Y+10%§! Atração por Ética Xenófila."
+ tr_est_friendship_5_delayed_mil:0 "Acreditamos que a força possibilita a paz. §Y+5%§! Peso Diplomático de Poder Militar.\n§Y+10%§! Atração por Ética Xenófila."
+
+ tr_est_friendship_5_desc_spi:0 "§Y+5%§! Unidade por Empregos.\n§Y+10%§! Atração por Ética Xenófila."
+ tr_est_friendship_5_delayed_spi:0 "Nossos valores são compartilhados não pela conquista, mas pela cultura. §Y+5%§! Unidade por Empregos.\n§Y+10%§! Atração por Ética Xenófila."
+
+ tr_est_friendship_5_desc_mat:0 "§Y+5%§! Peso Diplomático da Tecnologia.\n§Y+10%§! Atração por Ética Xenófila."
+ tr_est_friendship_5_delayed_mat:0 "Nossa tecnologia inspira respeito e admiração. §Y+5%§! Peso Diplomático da Tecnologia.\n§Y+10%§! Atração por Ética Xenófila."
+
+ tr_est_friendship_5_desc_fallback:0 "§Y+10%§! Atração por Ética Xenófila.\n§Y-20%§! Atrito Fronteiriço."
+ tr_est_friendship_5_delayed_fallback:0 "Nossa sociedade é aberta a todos, independente de poder ou crença. §Y+10%§! Atração por Ética Xenófila.\n§Y-20%§! Atrito Fronteiriço."
+
+ tr_est_friendship_5_not_xenophile:0 "$tr_est_friendship_5$"
+
+ tr_est_friendship_finish:0 "Tradições de Amizade Concluídas"
+ tr_est_friendship_finish_desc:0 "Aumenta a produção de £energy£ §YCréditos de Energia§! e £unity§! §YUnidade§! em §G+10%§! em todos os planetas com pelo menos §Y3§! espécies.\nVagas de Ascensão Desbloqueadas: §G+1§!"
 
 
 ################################################################
@@ -854,35 +887,39 @@ tr_est_greed_finish:0 "Greed Traditions Finished"
 # Desires
 ################################################################
 
-tradition_est_desires:0 "Desires"
-tradition_est_desires_desc:0 "We are driven by our desires. However much we can gather we will always want more."
+tradition_est_desires:0 "Desejos"
+tradition_est_desires_desc:0 "Somos movidos por nossos desejos. Por mais que possamos reunir, sempre vamos querer mais."
 
-tr_est_desires_adopt:0 "Desires Traditions"
+tr_est_desires_adopt:0 "Tradições de Desejos"
+tr_est_desires_adopt_desc:0 "Desbloqueia a §YAgenda de Desejos§!. A produção de §YMinérios§! aumenta em §G+10%§!."
 
-tr_est_desires_1:0 "Hoarders"
-tr_est_desires_1_desc:0 "£influence£ §Y$mod_country_influence_produces_add$§! is increased by §Y0.5§!/§Y1§!/§Y1.5§!/§Y2§! if we have at least §Y500§!/§Y6000§!/§Y25000§!/§Y80000§! stored £energy  §YEnergy Credits§!."
-tr_est_desires_1_delayed:0 "Collection and accumulation, it speaks to our very soul. We are what we have and we will have it all."
+tr_est_desires_1:0 "Acumuladores"
+tr_est_desires_1_desc:0 "£influence£ §Y$mod_country_influence_produces_add$§! aumentada em §Y0.5§!/§Y1§!/§Y1.5§!/§Y2§! se tivermos pelo menos §Y500§!/§Y6000§!/§Y25000§!/§Y80000§! £energy §YCréditos de Energia§! armazenados."
+tr_est_desires_1_delayed:0 "Colecionar e acumular fala diretamente à nossa alma. Somos o que temos, e teremos tudo."
 
-tr_est_desires_2:0 "Ruthless Negotiators"
-tr_est_desires_2_desc:0 "§YMarket Fee§! reduced by §G-5%§!. Unlocks the §YRuthless Negotiations§! policy which increases §Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§! by §G5%§!/§G10%§!/§G15%§! while reducing Foreign Empire £opinion  §YOpinion§!  by §R-15§!/§R-30§!/§R-45§!."
-tr_est_desires_2_delayed:0 "We will use all means to get what we want. Others might not like us for it, but that is none of our concern."
+tr_est_desires_2:0 "Negociadores Implacáveis"
+tr_est_desires_2_desc:0 "§YTaxa de Mercado§! reduzida em §G-5%§!. Desbloqueia a política §YNegociações Implacáveis§!, que aumenta a §Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§! em §G5%§!/§G10%§!/§G15%§! e reduz a £opinion §YOpinião§! de Impérios Estrangeiros em §R-15§!/§R-30§!/§R-45§!."
+tr_est_desires_2_delayed:0 "Usaremos todos os meios para obter o que queremos. Outros podem não gostar, mas isso não é problema nosso."
 
-tr_est_desires_2_no_dip:0 "Land Grab"
-tr_est_desires_2_no_dip_desc:0 "§YStarbase Influence Cost§! reduced by §G-15%§!."
-tr_est_desires_2_no_dip_delayed:0 "The galaxy is filled with empty planets, for now. If we do not claim them, someone else will. We must seize what we can before it is to late."
+tr_est_greed_2_no_dip:0 "Corrida Territorial"
+tr_est_greed_2_no_dip_desc:0 "O §YCusto de Influência para Estações Estelares§! é reduzido em §G-15%§!."
+tr_est_greed_2_no_dip_delayed:0 "A galáxia está cheia de planetas vazios – por enquanto. Se não os reivindicarmos, outros o farão. Devemos agarrar o que pudermos antes que seja tarde demais."
 
-tr_est_desires_3:0 "Thrifty"
-tr_est_desires_3_delayed:0 "Another way of gaining more is by spending less."
+tr_est_desires_3:0 "Econômicos"
+tr_est_desires_3_desc:0 "§YManutenção dos Empregos§! reduzida em §G10%§!."
+tr_est_desires_3_delayed:0 "Outra forma de obter mais é gastando menos."
 
-tr_est_desires_4:0 "In Pursuit of Treasures"
-tr_est_desires_4_desc:0 "§YAdvanced Strategic Resources§! output increased by §G+33%§!."
-tr_est_desires_4_delayed:0 "Our desire for the most valuable materials of this universe borders compulsion, the possession of these rarities outweigths everything else in our collections."
+tr_est_desires_4:0 "Em Busca de Tesouros"
+tr_est_desires_4_desc:0 "A produção de §YRecursos Estratégicos Avançados§! é aumentada em §G+33%§!."
+tr_est_desires_4_delayed:0 "Nosso desejo pelos materiais mais valiosos do universo beira a compulsão; possuir essas raridades supera todo o resto em nossas coleções."
 
-tr_est_desires_5:0 "The Great Craving"
-tr_est_desires_5_desc:0 "Gain £unity  §YUnity§! whenever a planet is colonized or conquered."
-tr_est_desires_5_delayed:0 "This hunger within. It is a flame that will never die, an endless appetite for more. It drives us to consume, and when we no longer can consume it is it which will consume us."
+tr_est_desires_5:0 "O Grande Desejo"
+tr_est_desires_5_desc:0 "Ganha £unity §YUnidade§! sempre que um planeta for colonizado ou conquistado."
+tr_est_desires_5_delayed:0 "Essa fome interior. É uma chama que nunca se apaga, um apetite infinito por mais. Ela nos impulsiona a consumir e, quando não pudermos mais, será ela quem nos consumirá."
 
-tr_est_desires_finish:0 "Desires Traditions Finished"
+tr_est_desires_finish:0 "Tradições de Desejos Concluídas"
+tr_est_desires_finish_desc:0 "A produção de §YCréditos de Energia§! é aumentada em §G+10%§!. Desbloqueia um §YEspaço de Vantagem de Ascensão§! adicional."
+
 
 
 ################################################################
@@ -1043,33 +1080,36 @@ tr_est_justice_finish_desc:0 "£unity£ §YUnity§! output is increased by §G+1
 # Destruction
 ################################################################
 
-tradition_est_destruction:0 "Destruction"
-tradition_est_destruction_desc:0 "Choosing the path of destruction is simple. Deciding whom to destroy first is more difficult."
+tradition_est_destruction:0 "Destruição"
+tradition_est_destruction_desc:0 "Escolher o caminho da destruição é simples. Decidir quem destruir primeiro é mais difícil."
 
-tr_est_destruction_adopt:0 "Destruction Traditions"
+tr_est_destruction_adopt:0 "Tradições da Destruição"
+tr_est_destruction_adopt_desc:0 "Desbloqueia a §YAgenda de Destruição§!. §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! aumentado em §G+20%§!."
 
-tr_est_destruction_1:0 "Task of Destruction"
-tr_est_destruction_1_desc:0 "§Y$MOD_POP_PURGE_SPEED$§! increased by §G+100%§!. Also, gain §Y2§! £influence  §YInfluence§! whenever we purge a £pop  §YPop§!."
-tr_est_destruction_1_delayed:0 "Every life snuffed out brings us one step closer to the ultimate goal of cleansing the galaxy."
+tr_est_destruction_1:0 "Tarefa de Destruição"
+tr_est_destruction_1_desc:0 "§Y$MOD_POP_PURGE_SPEED$§! aumentado em §G+100%§!. Ganha §Y2§! £influence §YInfluência§! a cada §Y25§! £pop §YPops§! exterminados (acumulativo)."
+tr_est_destruction_1_delayed:0 "Cada vida apagada nos aproxima de nosso objetivo final de purificar a galáxia."
 
-tr_est_destruction_2:0 "Warborn"
-tr_est_destruction_2_delayed:0 ""We were born to fight. Only in battle can we realize our true natures."
+tr_est_destruction_2:0 "Nascidos para a Guerra"
+tr_est_destruction_2_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! e §Y$MOD_ARMY_DAMAGE_MULT$§! aumentados em §G+10%§!."
+tr_est_destruction_2_delayed:0 "Nascemos para lutar. Somente na batalha podemos realizar nossa verdadeira natureza."
 
-tr_est_destruction_3:0 "Relentless Pursuit"
-tr_est_destruction_3_desc:0 "Reduce the §YShip Disengage Chance§! by §R-33%§! hostile fleets we are fighting."
-tr_est_destruction_3_delayed:0 "Prey should never be given the mercy of escape. Their only reprieve from the hunt should be a swift death."
+tr_est_destruction_3:0 "Perseguição Implacável"
+tr_est_destruction_3_desc:0 "Reduz a §YChance de Fuga de Naves§! inimigas em §R-33%§! durante batalhas."
+tr_est_destruction_3_delayed:0 "A presa nunca deve receber a misericórdia da fuga. Sua única trégua deve ser a morte rápida."
 
-tr_est_destruction_4:0 "Fear"
-tr_est_destruction_4_desc:0 "Reduces £unity  §YUnity§! output and §YGrowth Speed§! of neighbouring mortal empires by §R-20%§!."
-tr_est_destruction_4_passive_AI_desc:0 "§Y$MOD_ARMY_MORALE_DAMAGE_MULT$§! increased by §G+25%§!."
-tr_est_destruction_4_delayed:0 "Everyone knows who we are. They know or purpose and that we are capable of achieving it. Our mere presence in this galaxy causes terror in its inhabitants."
+tr_est_destruction_4:0 "Medo"
+tr_est_destruction_4_desc:0 "Reduz a produção de £unity §YUnidade§! e a §YVelocidade de Crescimento Pop§! dos impérios vizinhos não-Gestalt em §R-20%§!."
+tr_est_destruction_4_passive_AI_desc:0 "§Y$MOD_ARMY_MORALE_DAMAGE_MULT$§! aumentado em §G+25%§!."
+tr_est_destruction_4_delayed:0 "Todos sabem quem somos. Sabem de nosso propósito e do que somos capazes. Nossa mera presença já espalha terror."
 
-tr_est_destruction_5:0 "Nemesis of the Galaxy"
-tr_est_destruction_5_no_rivals_desc:0 "Our £influence  §Y$mod_country_base_influence_produces_add$§! is increased by §Y2§! while we are at war."
-tr_est_destruction_5_delayed:0 "Empire after empire falls before our might. The galactic community is beginning to realize that they must destroy us, before we destroy them."
+tr_est_destruction_5:0 "Nêmesis da Galáxia"
+tr_est_destruction_5_no_rivals_desc:0 "Nossa £influence §Y$mod_country_base_influence_produces_add$§! é aumentada em §Y2§! enquanto estivermos em guerra."
+tr_est_destruction_5_delayed:0 "Império após império cai diante de nosso poder. A galáxia percebe que precisa nos destruir antes que os destruamos."
 
-tr_est_destruction_finish:0 "Destruction Traditions Finished"
-tr_est_destruction_finish_desc:0 "Increase the §YWar Exhaustion Gain§! by §R+20%§! for all our enemies in war.\nAscension Perks Unlocked: §G+1§!"
+tr_est_destruction_finish:0 "Tradições da Destruição Concluídas"
+tr_est_destruction_finish_desc:0 "Aumenta o §YGanho de Exaustão de Guerra§! em §R+20%§! para todos os nossos inimigos em guerra.\nVagas de Ascensão Desbloqueadas: §G+1§!"
+
 
 
 ################################################################
@@ -1118,39 +1158,40 @@ tr_est_liberty_finish:0 "Liberty Traditions Finished"
 # Fury
 ################################################################
 
-tradition_est_fury:0 "Fury"
-tradition_est_fury_desc:0 "Within us burns the eternal flame of hate. As we unleash this rage the flame may diminish, but can never be quenched."
+tradition_est_fury:0 "Fúria"
+tradition_est_fury_desc:0 "Dentro de nós arde a chama eterna do ódio. Ao liberar essa raiva, a chama pode diminuir, mas jamais será extinta."
 
-tr_est_fury_adopt:0 "Fury Traditions"
-tr_est_fury_adopt_desc:0 "Unlocks the §YFury§! policy which can be set from level §Y0§! to level §Y5§!, reducing foreign empire £opinion  §YOpinion§! by §R-0§!/§R-10§!/§R-25§!/§R-45§!/§R-70§!/§R-100§! respectively. Each level increases the efficiency of the various fury traditions.\nIncrease §Y$MOD_SHIP_FIRE_RATE_MULT$§! by §G+5%§! and an additional §G+1%§! for each §YFury Level§!."
+tr_est_fury_adopt:0 "Tradições da Fúria"
+tr_est_fury_adopt_desc:0 "Desbloqueia a política §YFúria§!, que pode ser ajustada do nível §Y0§! ao §Y5§!, reduzindo a £opinion opinião de impérios estrangeiros em §R-0§!/§R-10§!/§R-25§!/§R-45§!/§R-70§!/§R-100§!. Cada nível aumenta a eficácia de todas as tradições da Fúria.\nAumenta §Y$MOD_SHIP_FIRE_RATE_MULT$§! em §G+5%§!, mais §G+1%§! por §YNível de Fúria§!."
 
-tr_est_fury_1:0 "Hatred"
-tr_est_fury_1_desc:0 "£influence  §YInfluence Gain§! from §YRivals§! increased by §G+25%§! and an additional §G+5%§! for each §YFury Level§!."
-tr_est_fury_1_delayed:0 "We cannot bear the presence of our adversaries, their mere existence in this galaxy is a pain to us, a pain only relieved by their destruction."
+tr_est_fury_1:0 "Ódio"
+tr_est_fury_1_desc:0 "Ganho de £influence §YInfluência§! com §YInimigos Declarados§! aumentado em §G+25%§!, mais §G+5%§! por §YNível de Fúria§!."
+tr_est_fury_1_delayed:0 "Não suportamos a presença de nossos inimigos. Sua mera existência é uma tortura que só pode ser aliviada com sua destruição total."
 
-tr_est_fury_1_no_rivals:0 "Recklessness"
-tr_est_fury_1_no_rivals_desc:0 "§Y$MOD_SHIP_SPEED_MULT$§! increased by §G+5%§! and an additional §G+3%§! for each §YFury Level§!."
-tr_est_fury_1_no_rivals_delayed:0 "Without hesitation, we will throw ourselves into combat, for every second we spend waiting is a second of pain."
+tr_est_fury_1_no_rivals:0 "Temeridade"
+tr_est_fury_1_no_rivals_desc:0 "§Y$MOD_SHIP_SPEED_MULT$§! aumentado em §G+5%§!, mais §G+3%§! por §YNível de Fúria§!."
+tr_est_fury_1_no_rivals_delayed:0 "Sem hesitar, lançamo-nos ao combate. Cada segundo de espera é um segundo de agonia."
 
-tr_est_fury_2:0 "The Spirit of War"
-tr_est_fury_2_desc:0 "§YWar Exhaustion Gain§! reduced by §G-5%§! and an additional §G-9%§! for each §YFury Level§!."
-tr_est_fury_2_delayed:0 "We do not suffer from war as others do. Indeed this is our natural state for only in war can we fully pursue or desire for death and destruction."
+tr_est_fury_2:0 "O Espírito da Guerra"
+tr_est_fury_2_desc:0 "Ganho de §YCansaço de Guerra§! reduzido em §G-5%§!, mais §G-9%§! por §YNível de Fúria§!."
+tr_est_fury_2_delayed:0 "Não sofremos com a guerra como os outros. Ela é nosso estado natural — só nela podemos buscar plenamente nossa vontade de destruição."
 
-tr_est_fury_3:0 "Fighting Frenzy"
-tr_est_fury_3_desc:0 "§Y$MOD_ARMY_DAMAGE_MULT$§! increased by §G+20%§! and an additional §G+6%§! for each §YFury Level§!."
-tr_est_fury_3_delayed:0 "It is easy to lose oneself in battle, by simply letting go and embracing its frenzy. We lose all thoughts and impression, there is only our weapons and the blood of our enemies."
+tr_est_fury_3:0 "Frenesi de Combate"
+tr_est_fury_3_desc:0 "§Y$MOD_ARMY_DAMAGE_MULT$§! aumentado em §G+20%§!, mais §G+6%§! por §YNível de Fúria§!."
+tr_est_fury_3_delayed:0 "É fácil perder-se na batalha — basta se render ao frenesi. Sem pensamentos, sem medo — apenas sangue, aço e vitória."
 
-tr_est_fury_4:0 "Battle Rage"
-tr_est_fury_4_desc:0 "Whenever one of our fleets destroy another fleet in battle (very small fleets do not count) increase the §Y$MOD_SHIP_FIRE_RATE_MULT$§! and §Y$MOD_SHIP_SPEED_MULT$§! of that fleet by §G+10%§!. Effect lasts for §Y4§! months and an additional §Y4§! months for each §YFury Level§!."
-tr_est_fury_4_delayed:0 "Only in the heat of battle are we truly relieved of the pain of our rage. Only in battle can we release our all-consuming fury. Only in battle can we absolve ourselves of this agony of hatred."
+tr_est_fury_4:0 "Raiva de Batalha"
+tr_est_fury_4_desc:0 "Quando uma de nossas frotas destrói outra (frotas muito pequenas são excluídas), aumenta seu §Y$MOD_SHIP_FIRE_RATE_MULT$§! e §Y$MOD_SHIP_SPEED_MULT$§! em §G+10%§!. Dura §Y4§! meses, mais §Y4§! por §YNível de Fúria§!."
+tr_est_fury_4_delayed:0 "Somente no calor da batalha nos livramos da dor da nossa raiva. A batalha é a única absolvição para a fúria que nos consome."
 
-tr_est_fury_5:0 "Ravager"
-tr_est_fury_5_desc:0 "Whenever we successfully invade a planet, there is a §Y5%§! chance for every £pop  §YPop§! on the planet that we kill it. Chance to kill a £pop  §YPop§! is increased by §G3%§! for each §YFury Level§!. Gain a small amount of £unity  §YUnity§! for every £pop  §YPop§! killed. Each planet can only be affected once every §Y10§! years. The effect can be turned off using the §Y$policy_est_fury_5_ravage$§! policy."
-tr_est_fury_5_passive_AI_desc:0 "Whenever we successfully invade a planet we receive a small amount of £unity  §YUnity§!. In addition, §Y$MOD_ARMY_DAMAGE_MULT$§! increased by §G+10%§!."
-tr_est_fury_5_delayed:0 "When we can't take out our fury on the living souls of our enemies we can only express it by destroying what others have built. It is a poor substitute for the killing of life, but for lack of this it will have to do."
+tr_est_fury_5:0 "Devastador"
+tr_est_fury_5_desc:0 "Ao conquistar um planeta, podemos matar até §Y25§! £pop §YPops§! com uma chance base de §Y5%§! por pop, aumentando em §G+3%§! por §YNível de Fúria§!. Gera até §Y200§! £unity §YUnidade§! com base nos pops mortos. Pode ser desativado via política §YDevastador§!."
+tr_est_fury_5_passive_AI_desc:0 "Ao conquistar um planeta, ganhe uma pequena quantidade de £unity §YUnidade§!. Além disso, §Y$MOD_ARMY_DAMAGE_MULT$§! é aumentado em §G+10%§!."
+tr_est_fury_5_delayed:0 "Quando não podemos extravasar nossa fúria em seres vivos, destruímos o que eles construíram. É um substituto ruim — mas é o que temos."
 
-tr_est_fury_finish:0 "Fury Traditions Finished"
-tr_est_fury_finish_desc:0 "Increase $tr_est_fury_adopt$ §Y$MOD_SHIP_WEAPON_DAMAGE$§! by §G+2%§! for each §YFury Level§!.\nAscension Perks Unlocked: §G+1§!"
+tr_est_fury_finish:0 "Tradições da Fúria Completas"
+tr_est_fury_finish_desc:0 "Aumenta §Y$MOD_SHIP_WEAPON_DAMAGE$§! em §G+2%§! por §YNível de Fúria§!.\nVagas de Vantagem Ascendente: §G+1§!"
+
 
 
 ################################################################

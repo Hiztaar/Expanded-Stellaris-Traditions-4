@@ -175,6 +175,41 @@ mod_est_confederacy_4 = {
 	monthly_loyalty = 1
 }
 
+#Friendship
+mod_est_friendship_1 = {
+	opinion_increase = 30
+}
+
+mod_est_friendship_5_corp = {
+	diplomatic_weight_economy_mult = 0.05
+}
+mod_est_friendship_5_dict = {
+	species_trait_slave_happiness = 0.05
+}
+mod_est_friendship_5_imp = {
+	diplomatic_weight_pops_mult = 0.05
+}
+mod_est_friendship_5_demo = {
+	agenda_duration_mult = 0.05
+	agenda_progress_speed_mult = 0.05
+}
+mod_est_friendship_5_mil = {
+	diplomatic_weight_military_mult = 0.05
+}
+mod_est_friendship_5_spi = {
+	planet_jobs_unity_produces_mult = 0.05
+}
+mod_est_friendship_5_mat = {
+	diplomatic_weight_tech_mult = 0.05
+}
+mod_est_friendship_5_fallback = {
+	border_friction_mult = -0.20
+}
+mod_est_friendship_5_xeno = {
+	pop_ethic_xenophile_attraction_mult = 0.10
+}
+
+
 #Friendship/Malice
 mod_est_friendship_4_militarist = {
 	ship_weapon_damage = 0.10

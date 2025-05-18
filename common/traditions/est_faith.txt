@@ -1,5 +1,4 @@
 tr_est_faith_adopt = {
-	unlocks_agenda = agenda_est_faith
 	modifier = {
 		pop_happiness = 0.05
 	}
@@ -113,7 +112,7 @@ tr_est_faith_3 = {
 	possible = { has_tradition = tr_est_faith_2 }
 
 	modifier = { 
-		job_priest_per_pop = 0.02857
+		job_priest_per_pop = 0.015
 	}
 
 	tradition_swap = {
@@ -127,8 +126,8 @@ tr_est_faith_3 = {
 			}
 		}	
 		modifier = {
-			planet_priests_unity_produces_add = 1
-			planet_priests_consumer_goods_upkeep_mult = -0.50
+			planet_priests_unity_produces_add = 0.02
+			planet_priests_consumer_goods_upkeep_mult = -0.20
 		}
 		weight = { factor = 1 }
 	}

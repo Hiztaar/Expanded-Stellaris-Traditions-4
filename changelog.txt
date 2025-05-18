@@ -1,4 +1,7 @@
-14/01/2025 (Hiztaar)
+V1.0 of EST 4
+
+- Localization Tooltips: Added all missing tooltip (_desc ) localizations on every single tradition
+- Full translation in Portuguese, French, German, Polish, Russian, Spanish
 
 ---------------------------------------------------------------------------
 
@@ -150,4 +153,86 @@ Date: 2025-05-17
 
 ---------------------------------------------------------------------------
 
+Expanded Traditions - Desires Rework  
+Version: 4.0.0  
+Date: 2025-05-17
+
+- Desires: Fully updated for Stellaris 4.x compatibility  
+- Verified tradition and agenda logic, modifiers, and event hooks work under 4.x  
+- Confirmed tr_est_desires_5 Unity bonus stacks permanently with no cap  
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Destruction Rework  
+Version: 4.0.0  
+Date: 2025-05-18
+
+- Destruction: Fully updated for Stellaris 4.x compatibility  
+- Perk 1 "Purging Protocols" reworked:  
+  • Now grants 2 Influence per 25 pops purged (tracked cumulatively)  
+- Removed unused modifier `create_debris_chance` from agenda and finisher  
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Faith Update - Renamed "Religion"
+Version: 4.0.0  
+Date: 2025-05-18
+
+- Replaced deprecated `unlocks_agenda` in adopt effect (now handled by council agenda trigger)
+- Adjusted priest scaling: `job_priest_per_pop` set to 0.015
+- Balanced spiritualist variant of Perk 3:
+  • Unity bonus reduced to +0.02 per priest
+  • Consumer Goods upkeep reduction lowered to -20%
+- Renamed "Religion" to not conflict with other Tradition mods
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Foundation partial Remake
+Version: 4.0.0  
+Date: 2025-05-18
+
+- Adopt Effect: Now dynamically reduces empire size by 50% only if empire has ≤1 sector and no subjects; otherwise, applies +50% penalty
+- Perk 2: Replaced global flag with country flag for MP safety
+- Perk 4: Replaced survey speed bonus with +20% starbase hull, armor, shield, and weapon damage
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Friendship Rework  
+Version: 4.0.0  
+Date: 2025-05-18
+
+- Perk 1: Now grants +30 Opinion from other empires via static modifier as it was not working at all before
+- Perk 3: Updated to add +100 Healthcare Worker jobs and +20% Society Research from Doctors
+- Perk 5: Fully reworked with new bonuses based on authority and ethics
+  • All empires: +10% Xenophile Ethic Attraction
+  • Corporate: +5% Diplomatic Weight from Economy
+  • Dictatorial: +5% Slave Happiness
+  • Imperial: +5% Diplomatic Weight from Pops
+  • Democratic: +5% Agenda Speed and Duration
+  • Militarist: +5% Diplomatic Weight from Military
+  • Spiritualist: +5% Unity from Jobs
+  • Materialist: +5% Diplomatic Weight from Technology
+  • All others: -20% Border Friction
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Fury Remake  
+Version: 4.0.0  
+Date: 2025-05-18
+
+- Fury: Fully updated AND finished (it was unfinished) for Stellaris 4.x compatibility
+- Replaced obsolete pop-kill loop with a capped 25 pop kill system; Unity gain scaled and capped at 200
+- Removed 10-year cooldown on Ravager effect; now triggers every invasion if policy enabled
+- Implemented real diplomatic penalties per Fury Level (up to -100 opinion); dynamically updated via est_fury.2
+- Added dynamic opinion modifier set (mod_est_fury_opinion_0 to _5)
+- Updated est_fury.2 to remove and apply opinion modifiers on policy change
+- Ensured all perk modifiers scale cleanly with policy level and are updated instantly via country_event
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
 

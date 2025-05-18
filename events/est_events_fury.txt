@@ -19,6 +19,42 @@ country_event = {
 	}
 }
 
+country_event = {
+  id = est_fury.10
+  hide_window = yes
+  is_triggered_only = no
+
+  trigger = {
+    has_tradition = tr_est_fury_adopt
+    OR = {
+      has_tradition = tr_est_fury_1
+      has_tradition = tr_est_fury_1_no_rivals
+    }
+  }
+
+  immediate = {
+    if = {
+      limit = { num_rivals > 0 }
+      if = {
+        limit = { has_tradition = tr_est_fury_1_no_rivals }
+        remove_tradition = tr_est_fury_1_no_rivals
+        add_tradition = tr_est_fury_1
+        country_event = { id = est_fury.2 days = 1 } # update modifiers
+      }
+    }
+    if = {
+      limit = { num_rivals = 0 }
+      if = {
+        limit = { has_tradition = tr_est_fury_1 }
+        remove_tradition = tr_est_fury_1
+        add_tradition = tr_est_fury_1_no_rivals
+        country_event = { id = est_fury.2 days = 1 } # update modifiers
+      }
+    }
+  }
+}
+
+
 #Fury traditions, updates all modifiers.
 country_event = {
 	id = est_fury.2
@@ -30,154 +66,161 @@ country_event = {
 			limit = {
 				has_active_tradition = tr_est_fury_adopt
 			}
+			
+			# Remove old adopt-level modifiers
 			switch = {
 				trigger = has_modifier 
-				
-				mod_est_fury_adopt_0 = {remove_modifier = "mod_est_fury_adopt_0" }
-				mod_est_fury_adopt_1 = {remove_modifier = "mod_est_fury_adopt_1" }
-				mod_est_fury_adopt_2 = {remove_modifier = "mod_est_fury_adopt_2" }
-				mod_est_fury_adopt_3 = {remove_modifier = "mod_est_fury_adopt_3" }
-				mod_est_fury_adopt_4 = {remove_modifier = "mod_est_fury_adopt_4" }
-				mod_est_fury_adopt_5 = {remove_modifier = "mod_est_fury_adopt_5" }
+				mod_est_fury_adopt_0 = { remove_modifier = "mod_est_fury_adopt_0" }
+				mod_est_fury_adopt_1 = { remove_modifier = "mod_est_fury_adopt_1" }
+				mod_est_fury_adopt_2 = { remove_modifier = "mod_est_fury_adopt_2" }
+				mod_est_fury_adopt_3 = { remove_modifier = "mod_est_fury_adopt_3" }
+				mod_est_fury_adopt_4 = { remove_modifier = "mod_est_fury_adopt_4" }
+				mod_est_fury_adopt_5 = { remove_modifier = "mod_est_fury_adopt_5" }
+			}
+
+			# 🔻 NEW: Remove old opinion malus modifiers
+			switch = {
+				trigger = has_modifier
+				mod_est_fury_opinion_0 = { remove_modifier = "mod_est_fury_opinion_0" }
+				mod_est_fury_opinion_1 = { remove_modifier = "mod_est_fury_opinion_1" }
+				mod_est_fury_opinion_2 = { remove_modifier = "mod_est_fury_opinion_2" }
+				mod_est_fury_opinion_3 = { remove_modifier = "mod_est_fury_opinion_3" }
+				mod_est_fury_opinion_4 = { remove_modifier = "mod_est_fury_opinion_4" }
+				mod_est_fury_opinion_5 = { remove_modifier = "mod_est_fury_opinion_5" }
+			}
+
+			# Reapply current opinion malus
+			switch = {
+				trigger = has_policy_flag
+				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_opinion_0" days = -1 } }
+				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_opinion_1" days = -1 } }
+				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_opinion_2" days = -1 } }
+				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_opinion_3" days = -1 } }
+				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_opinion_4" days = -1 } }
+				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_opinion_5" days = -1 } }
+			}
+
+			# Reapply current Fury-level adopt bonus
+			switch = {
+				trigger = has_policy_flag
+				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_adopt_0" days = -1 } }
+				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_adopt_1" days = -1 } }
+				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_adopt_2" days = -1 } }
+				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_adopt_3" days = -1 } }
+				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_adopt_4" days = -1 } }
+				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_adopt_5" days = -1 } }
+			}
+		}
+		
+		# Remaining logic (unchanged)
+		if = {
+			limit = { has_active_tradition = tr_est_fury_1 }
+			switch = {
+				trigger = has_modifier 
+				mod_est_fury_1_0 = { remove_modifier = "mod_est_fury_1_0" }
+				mod_est_fury_1_1 = { remove_modifier = "mod_est_fury_1_1" }
+				mod_est_fury_1_2 = { remove_modifier = "mod_est_fury_1_2" }
+				mod_est_fury_1_3 = { remove_modifier = "mod_est_fury_1_3" }
+				mod_est_fury_1_4 = { remove_modifier = "mod_est_fury_1_4" }
+				mod_est_fury_1_5 = { remove_modifier = "mod_est_fury_1_5" }
 			}
 			switch = {
 				trigger = has_policy_flag
-				
-				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_adopt_0" days = -1} }
-				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_adopt_1" days = -1} }
-				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_adopt_2" days = -1} }
-				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_adopt_3" days = -1} }
-				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_adopt_4" days = -1} }
-				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_adopt_5" days = -1} }
+				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_1_0" days = -1 } }
+				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_1_1" days = -1 } }
+				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_1_2" days = -1 } }
+				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_1_3" days = -1 } }
+				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_1_4" days = -1 } }
+				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_1_5" days = -1 } }
 			}
 		}
 		if = {
-			limit = {
-				has_active_tradition = tr_est_fury_1
-			}
+			limit = { has_active_tradition = tr_est_fury_1_no_rivals }
 			switch = {
 				trigger = has_modifier 
-				
-				mod_est_fury_1_0 = {remove_modifier = "mod_est_fury_1_0" }
-				mod_est_fury_1_1 = {remove_modifier = "mod_est_fury_1_1" }
-				mod_est_fury_1_2 = {remove_modifier = "mod_est_fury_1_2" }
-				mod_est_fury_1_3 = {remove_modifier = "mod_est_fury_1_3" }
-				mod_est_fury_1_4 = {remove_modifier = "mod_est_fury_1_4" }
-				mod_est_fury_1_5 = {remove_modifier = "mod_est_fury_1_5" }
+				mod_est_fury_1_no_rivals_0 = { remove_modifier = "mod_est_fury_1_no_rivals_0" }
+				mod_est_fury_1_no_rivals_1 = { remove_modifier = "mod_est_fury_1_no_rivals_1" }
+				mod_est_fury_1_no_rivals_2 = { remove_modifier = "mod_est_fury_1_no_rivals_2" }
+				mod_est_fury_1_no_rivals_3 = { remove_modifier = "mod_est_fury_1_no_rivals_3" }
+				mod_est_fury_1_no_rivals_4 = { remove_modifier = "mod_est_fury_1_no_rivals_4" }
+				mod_est_fury_1_no_rivals_5 = { remove_modifier = "mod_est_fury_1_no_rivals_5" }
 			}
 			switch = {
 				trigger = has_policy_flag
-				
-				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_1_0" days = -1} }
-				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_1_1" days = -1} }
-				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_1_2" days = -1} }
-				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_1_3" days = -1} }
-				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_1_4" days = -1} }
-				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_1_5" days = -1} }
+				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_0" days = -1 } }
+				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_1" days = -1 } }
+				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_2" days = -1 } }
+				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_3" days = -1 } }
+				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_4" days = -1 } }
+				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_5" days = -1 } }
 			}
 		}
 		if = {
-			limit = {
-				has_active_tradition = tr_est_fury_1_no_rivals
-			}
+			limit = { has_active_tradition = tr_est_fury_2 }
 			switch = {
 				trigger = has_modifier 
-				
-				mod_est_fury_1_no_rivals_0 = {remove_modifier = "mod_est_fury_1_no_rivals_0" }
-				mod_est_fury_1_no_rivals_1 = {remove_modifier = "mod_est_fury_1_no_rivals_1" }
-				mod_est_fury_1_no_rivals_2 = {remove_modifier = "mod_est_fury_1_no_rivals_2" }
-				mod_est_fury_1_no_rivals_3 = {remove_modifier = "mod_est_fury_1_no_rivals_3" }
-				mod_est_fury_1_no_rivals_4 = {remove_modifier = "mod_est_fury_1_no_rivals_4" }
-				mod_est_fury_1_no_rivals_5 = {remove_modifier = "mod_est_fury_1_no_rivals_5" }
+				mod_est_fury_2_0 = { remove_modifier = "mod_est_fury_2_0" }
+				mod_est_fury_2_1 = { remove_modifier = "mod_est_fury_2_1" }
+				mod_est_fury_2_2 = { remove_modifier = "mod_est_fury_2_2" }
+				mod_est_fury_2_3 = { remove_modifier = "mod_est_fury_2_3" }
+				mod_est_fury_2_4 = { remove_modifier = "mod_est_fury_2_4" }
+				mod_est_fury_2_5 = { remove_modifier = "mod_est_fury_2_5" }
 			}
 			switch = {
 				trigger = has_policy_flag
-				
-				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_0" days = -1} }
-				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_1" days = -1} }
-				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_2" days = -1} }
-				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_3" days = -1} }
-				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_4" days = -1} }
-				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_1_no_rivals_5" days = -1} }
+				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_2_0" days = -1 } }
+				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_2_1" days = -1 } }
+				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_2_2" days = -1 } }
+				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_2_3" days = -1 } }
+				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_2_4" days = -1 } }
+				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_2_5" days = -1 } }
 			}
 		}
 		if = {
-			limit = {
-				has_active_tradition = tr_est_fury_2
-			}
+			limit = { has_active_tradition = tr_est_fury_3 }
 			switch = {
 				trigger = has_modifier 
-				
-				mod_est_fury_2_0 = {remove_modifier = "mod_est_fury_2_0" }
-				mod_est_fury_2_1 = {remove_modifier = "mod_est_fury_2_1" }
-				mod_est_fury_2_2 = {remove_modifier = "mod_est_fury_2_2" }
-				mod_est_fury_2_3 = {remove_modifier = "mod_est_fury_2_3" }
-				mod_est_fury_2_4 = {remove_modifier = "mod_est_fury_2_4" }
-				mod_est_fury_2_5 = {remove_modifier = "mod_est_fury_2_5" }
+				mod_est_fury_3_0 = { remove_modifier = "mod_est_fury_3_0" }
+				mod_est_fury_3_1 = { remove_modifier = "mod_est_fury_3_1" }
+				mod_est_fury_3_2 = { remove_modifier = "mod_est_fury_3_2" }
+				mod_est_fury_3_3 = { remove_modifier = "mod_est_fury_3_3" }
+				mod_est_fury_3_4 = { remove_modifier = "mod_est_fury_3_4" }
+				mod_est_fury_3_5 = { remove_modifier = "mod_est_fury_3_5" }
 			}
 			switch = {
 				trigger = has_policy_flag
-				
-				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_2_0" days = -1} }
-				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_2_1" days = -1} }
-				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_2_2" days = -1} }
-				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_2_3" days = -1} }
-				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_2_4" days = -1} }
-				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_2_5" days = -1} }
+				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_3_0" days = -1 } }
+				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_3_1" days = -1 } }
+				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_3_2" days = -1 } }
+				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_3_3" days = -1 } }
+				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_3_4" days = -1 } }
+				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_3_5" days = -1 } }
 			}
 		}
 		if = {
-			limit = {
-				has_active_tradition = tr_est_fury_3
-			}
+			limit = { has_active_tradition = tr_est_fury_finish }
 			switch = {
 				trigger = has_modifier 
-				
-				mod_est_fury_3_0 = {remove_modifier = "mod_est_fury_3_0" }
-				mod_est_fury_3_1 = {remove_modifier = "mod_est_fury_3_1" }
-				mod_est_fury_3_2 = {remove_modifier = "mod_est_fury_3_2" }
-				mod_est_fury_3_3 = {remove_modifier = "mod_est_fury_3_3" }
-				mod_est_fury_3_4 = {remove_modifier = "mod_est_fury_3_4" }
-				mod_est_fury_3_5 = {remove_modifier = "mod_est_fury_3_5" }
+				mod_est_fury_finish_0 = { remove_modifier = "mod_est_fury_finish_0" }
+				mod_est_fury_finish_1 = { remove_modifier = "mod_est_fury_finish_1" }
+				mod_est_fury_finish_2 = { remove_modifier = "mod_est_fury_finish_2" }
+				mod_est_fury_finish_3 = { remove_modifier = "mod_est_fury_finish_3" }
+				mod_est_fury_finish_4 = { remove_modifier = "mod_est_fury_finish_4" }
+				mod_est_fury_finish_5 = { remove_modifier = "mod_est_fury_finish_5" }
 			}
 			switch = {
 				trigger = has_policy_flag
-				
-				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_3_0" days = -1} }
-				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_3_1" days = -1} }
-				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_3_2" days = -1} }
-				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_3_3" days = -1} }
-				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_3_4" days = -1} }
-				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_3_5" days = -1} }
-			}
-		}
-		if = {
-			limit = {
-				has_active_tradition = tr_est_fury_finish
-			}
-			switch = {
-				trigger = has_modifier 
-				
-				mod_est_fury_finish_0 = {remove_modifier = "mod_est_fury_finish_0" }
-				mod_est_fury_finish_1 = {remove_modifier = "mod_est_fury_finish_1" }
-				mod_est_fury_finish_2 = {remove_modifier = "mod_est_fury_finish_2" }
-				mod_est_fury_finish_3 = {remove_modifier = "mod_est_fury_finish_3" }
-				mod_est_fury_finish_4 = {remove_modifier = "mod_est_fury_finish_4" }
-				mod_est_fury_finish_5 = {remove_modifier = "mod_est_fury_finish_5" }
-			}
-			switch = {
-				trigger = has_policy_flag
-				
-				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_finish_0" days = -1} }
-				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_finish_1" days = -1} }
-				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_finish_2" days = -1} }
-				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_finish_3" days = -1} }
-				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_finish_4" days = -1} }
-				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_finish_5" days = -1} }
+				est_fury_0 = { add_modifier = { modifier = "mod_est_fury_finish_0" days = -1 } }
+				est_fury_1 = { add_modifier = { modifier = "mod_est_fury_finish_1" days = -1 } }
+				est_fury_2 = { add_modifier = { modifier = "mod_est_fury_finish_2" days = -1 } }
+				est_fury_3 = { add_modifier = { modifier = "mod_est_fury_finish_3" days = -1 } }
+				est_fury_4 = { add_modifier = { modifier = "mod_est_fury_finish_4" days = -1 } }
+				est_fury_5 = { add_modifier = { modifier = "mod_est_fury_finish_5" days = -1 } }
 			}
 		}
 	}
 }
+
 
 #Fury 4, a fleet enters battle.
 country_event = {
@@ -289,92 +332,52 @@ country_event = {
 			has_active_tradition = tr_est_fury_5
 			has_active_tradition = tr_est_fury_5_passive_AI
 		}
-		Not = {
-			has_policy_flag = est_fury_5_ravage_off
-		}
+		NOT = { has_policy_flag = est_fury_5_ravage_off }
 	}
 
 	immediate = {
-		fromfrom = {
-			every_owned_pop = {
-				random_list = {
-					5 = {
-						if = {
-							limit = {
-								root = {
-									has_active_tradition = tr_est_fury_5
+		fromfrom = { # conquered planet
+			# Cap total kills to 25 pops max
+			set_variable = { which = fury_pops_killed value = 0 }
+			save_event_target_as = target_planet
+
+			while = {
+				limit = {
+					check_variable = { which = fury_pops_killed value < 25 }
+					event_target:target_planet = { any_owned_pop = { exists = this } }
+				}
+				event_target:target_planet = {
+					random_owned_pop = {
+						limit = { exists = this }
+
+						random_list = {
+							5 = {
+								if = { limit = { root = { has_active_tradition = tr_est_fury_5 } }
+									kill_pop = yes
+									change_variable = { which = fury_pops_killed value = 1 add = yes }
 								}
+
+								root = {
+									add_monthly_resource_mult = {
+										resource = unity
+										value = 2
+										min = 5
+										max = 100
+									}
+								}
+
+								modifier = { factor = 1.6 root = { has_policy_flag = est_fury_1 } }
+								modifier = { factor = 2.2 root = { has_policy_flag = est_fury_2 } }
+								modifier = { factor = 2.8 root = { has_policy_flag = est_fury_3 } }
+								modifier = { factor = 3.4 root = { has_policy_flag = est_fury_4 } }
+								modifier = { factor = 4.0 root = { has_policy_flag = est_fury_5 } }
 							}
-							kill_pop = yes
-						}
-						root = {
-							add_monthly_resource_mult = {
-								resource = unity
-								value = 2
-								min = 5
-								max = 100
-							}
-						}
-						modifier = {
-							factor = 1.6
-							root = { 
-								has_policy_flag = est_fury_1
-							}
-						}
-						modifier = {
-							factor = 2.2
-							root = { 
-								has_policy_flag = est_fury_2
-							}
-						}
-						modifier = {
-							factor = 2.8
-							root = { 
-								has_policy_flag = est_fury_3
-							}
-						}
-						modifier = {
-							factor = 3.4
-							root = { 
-								has_policy_flag = est_fury_4
-							}
-						}
-						modifier = {
-							factor = 4.0
-							root = { 
-								has_policy_flag = est_fury_5
-							}
-						}
-					}
-					95 = {
-						modifier = {
-							factor = 0.968
-							root = { 
-								has_policy_flag = est_fury_1
-							}
-						}
-						modifier = {
-							factor = 0.937
-							root = { 
-								has_policy_flag = est_fury_2
-							}
-						}
-						modifier = {
-							factor = 0.905
-							root = { 
-								has_policy_flag = est_fury_3
-							}
-						}
-						modifier = {
-							factor = 0.874
-							root = { 
-								has_policy_flag = est_fury_4
-							}
-						}
-						modifier = {
-							factor = 0.842
-							root = { 
-								has_policy_flag = est_fury_5
+							95 = {
+								modifier = { factor = 0.968 root = { has_policy_flag = est_fury_1 } }
+								modifier = { factor = 0.937 root = { has_policy_flag = est_fury_2 } }
+								modifier = { factor = 0.905 root = { has_policy_flag = est_fury_3 } }
+								modifier = { factor = 0.874 root = { has_policy_flag = est_fury_4 } }
+								modifier = { factor = 0.842 root = { has_policy_flag = est_fury_5 } }
 							}
 						}
 					}
@@ -383,3 +386,4 @@ country_event = {
 		}
 	}
 }
+
