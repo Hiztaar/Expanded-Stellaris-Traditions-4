@@ -172,6 +172,7 @@ mod_est_commerce_finish_5 = {
 mod_est_confederacy_4 = {
 	pop_happiness = 0.1
 	country_naval_cap_mult = 0.2
+	monthly_loyalty = 1
 }
 
 #Friendship/Malice

@@ -1,0 +1,4 @@
+﻿l_french:
+ job_est_research_director:0 "Directeur de Recherche"
+ job_est_research_director_desc:0 "Un scientifique d’élite senior supervisant les divisions de recherche planétaire. Sa contribution améliore légèrement les progrès scientifiques nationaux dans tous les domaines."
+ job_est_research_director_effect_desc:0 "£physics_research£ +0.11 £society_research£ +0.11 £engineering_research£ +0.11, £consumer_goods£ -0.03"

@@ -1,0 +1,6 @@
+#######################################################################
+# Dynamic Job Generation – common/scripted_triggers/est_academy_triggers.txt
+#######################################################################
+est_has_towers_of_ivory = {
+    has_tradition = tr_est_academy_4
+}

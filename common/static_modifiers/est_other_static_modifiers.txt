@@ -10,7 +10,7 @@ mod_est_cybernetics_4 = {
 
 #Confederacy
 mod_est_confederacy_5 = {
-	ships_upkeep_mult = -0.50
+	ships_upkeep_mult = -0.10
 }
 
 #Greed

@@ -1,0 +1,4 @@
+﻿l_spanish:
+job_est_research_director:0 "Director de Investigación"
+job_est_research_director_desc:0 "Un científico de élite senior encargado de supervisar las divisiones de investigación planetaria. Su contribución mejora ligeramente el progreso nacional en todas las áreas científicas."
+job_est_research_director_effect_desc:0 "£physics_research£ +0,11 £society_research£ +0,11 £engineering_research£ +0,11, £consumer_goods£ -0,03"

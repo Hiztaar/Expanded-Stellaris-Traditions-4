@@ -1,0 +1,21 @@
+#######################################################################
+# New Job – common/jobs/est_academy_jobs.txt
+#######################################################################
+job_est_research_director = {
+    category = specialist
+    tier = 2
+
+    resources = {
+        produces = {
+            physics_research = 0.11
+            society_research = 0.11
+            engineering_research = 0.11
+        }
+        upkeep = {
+            consumer_goods = 0.03
+        }
+    }
+
+    icon = "gfx/interface/icons/jobs/job_researcher.dds"
+    assimilation_citizen = yes
+}

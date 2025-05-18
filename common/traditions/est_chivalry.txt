@@ -10,36 +10,24 @@ tr_est_chivalry_adopt = {
 					has_trait =	leader_trait_general_est_chivalry
 					has_trait =	leader_trait_official_est_chivalry
 					has_trait =	leader_trait_scientist_est_chivalry
-#					has_trait =	leader_trait_ruler_est_chivalry #(Ben_D): All things that are "ruler" related aren't relevant anymore
 				}
 			}
 			if = {
-				limit = {
-					has_trait = subclass_commander_admiral
-				}
+				limit = { leader_class = admiral }
 				add_trait = leader_trait_admiral_est_chivalry
-#				add_trait = leader_trait_ruler_est_chivalry
 			}
 			if = {
-				limit = {
-					has_trait = subclass_commander_general
-				}
+				limit = { leader_class = general }
 				add_trait = leader_trait_general_est_chivalry
 			}
 			if = {
 				limit = { leader_class = official }
 				add_trait = leader_trait_official_est_chivalry
-#				add_trait = leader_trait_ruler_est_chivalry
 			}
 			if = {
 				limit = { leader_class = scientist }
 				add_trait = leader_trait_scientist_est_chivalry
-#				add_trait = leader_trait_ruler_est_chivalry
 			}
-#			if = {
-#				limit = { leader_class = ruler }
-#				add_trait = leader_trait_ruler_est_chivalry
-#			}
 		}
 		every_pool_leader = {
 			limit = {
@@ -48,23 +36,23 @@ tr_est_chivalry_adopt = {
 					has_trait = leader_trait_general_est_chivalry
 					has_trait = leader_trait_official_est_chivalry
 					has_trait = leader_trait_scientist_est_chivalry
-#					has_trait = leader_trait_ruler_est_chivalry
 				}
 			}
 			if = {
-				limit = { leader_class = commander }
+				limit = { leader_class = admiral }
 				add_trait = leader_trait_admiral_est_chivalry
-#				add_trait = leader_trait_ruler_est_chivalry
+			}
+			if = {
+				limit = { leader_class = general }
+				add_trait = leader_trait_general_est_chivalry
 			}
 			if = {
 				limit = { leader_class = official }
 				add_trait = leader_trait_official_est_chivalry
-#				add_trait = leader_trait_ruler_est_chivalry
 			}
 			if = {
 				limit = { leader_class = scientist }
 				add_trait = leader_trait_scientist_est_chivalry
-#				add_trait = leader_trait_ruler_est_chivalry
 			}
 #			if = {
 #				limit = { leader_class = ruler }

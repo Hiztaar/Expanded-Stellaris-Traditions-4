@@ -1,0 +1,4 @@
+﻿l_polish:
+job_est_research_director:0 "Dyrektor Badań"
+job_est_research_director_desc:0 "Starszy elitarny naukowiec nadzorujący planetarne działy badawcze. Jego wkład nieznacznie zwiększa postępy badań narodowych we wszystkich dziedzinach."
+job_est_research_director_effect_desc:0 "£physics_research£ +0,11 £society_research£ +0,11 £engineering_research£ +0,11, £consumer_goods£ -0,03"

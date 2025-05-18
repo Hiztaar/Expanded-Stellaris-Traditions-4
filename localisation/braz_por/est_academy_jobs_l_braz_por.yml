@@ -1,0 +1,4 @@
+﻿l_braz_por:
+job_est_research_director:0 "Diretor de Pesquisa"
+job_est_research_director_desc:0 "Um cientista de elite sênior que supervisiona as divisões de pesquisa planetária. Sua contribuição aumenta marginalmente o progresso científico nacional em todas as áreas."
+job_est_research_director_effect_desc:0 "£physics_research£ +0,11 £society_research£ +0,11 £engineering_research£ +0,11, £consumer_goods£ -0,03"

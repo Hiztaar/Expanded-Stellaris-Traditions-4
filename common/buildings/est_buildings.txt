@@ -40,7 +40,7 @@
 @wonder_build_time = 1080
 @wonder_build_cost = 4000
 @wonder_influence_cost = 200
-@wonder_unity_prod = 2
+@wonder_culture_workers = 400
 
 #Aesthetics 5
 building_est_aesthetics_5_wonder_garden = {
@@ -57,8 +57,8 @@ building_est_aesthetics_5_wonder_garden = {
 			minerals = @wonder_build_cost
 			influence = @wonder_influence_cost
 		}
-		produces = {
-			unity = @wonder_unity_prod
+		jobs = {
+			culture_worker = @wonder_culture_workers
 		}
 	}	
 	
@@ -73,20 +73,23 @@ building_est_aesthetics_5_wonder_garden = {
 	
 	allow = {
 		has_major_upgraded_capital = yes
-		num_pops >= 100
+		num_pops = {
+			comparison = greater_than_or_equal
+			value = 8000
+		}
 	}
 	
 	potential = {
 		planet = {
 			NOT = { 
 				has_building = building_est_aesthetics_5_wonder_monument
-				has_building_construction =  building_est_aesthetics_5_wonder_monument
+				has_pending_building = building_est_aesthetics_5_wonder_monument
 				has_building = building_est_aesthetics_5_wonder_stage
-				has_building_construction =building_est_aesthetics_5_wonder_stage
+				has_pending_building = building_est_aesthetics_5_wonder_stage
 				has_building = building_est_aesthetics_5_wonder_halls
-				has_building_construction =building_est_aesthetics_5_wonder_halls
+				has_pending_building = building_est_aesthetics_5_wonder_halls
 				has_building = building_est_aesthetics_5_wonder_museum
-				has_building_construction =building_est_aesthetics_5_wonder_museum
+				has_pending_building = building_est_aesthetics_5_wonder_museum
 			}			
 		}
 		owner = {
@@ -121,8 +124,8 @@ building_est_aesthetics_5_wonder_monument = {
 			minerals = @wonder_build_cost
 			influence = @wonder_influence_cost
 		}
-		produces = {
-			unity = @wonder_unity_prod
+		jobs = {
+			culture_worker = @wonder_culture_workers
 		}
 	}	
 	
@@ -136,20 +139,23 @@ building_est_aesthetics_5_wonder_monument = {
 	
 	allow = {
 		has_major_upgraded_capital = yes
-		num_pops >= 100
+		num_pops = {
+			comparison = greater_than_or_equal
+			value = 8000
+		}
 	}
 	
 	potential = {
 		planet = {
 			NOT = { 
 				has_building = building_est_aesthetics_5_wonder_garden
-				has_building_construction = building_est_aesthetics_5_wonder_garden
+				has_pending_building = building_est_aesthetics_5_wonder__garden
 				has_building = building_est_aesthetics_5_wonder_stage
-				has_building_construction =building_est_aesthetics_5_wonder_stage
+				has_pending_building = building_est_aesthetics_5_wonder__stage
 				has_building = building_est_aesthetics_5_wonder_halls
-				has_building_construction =building_est_aesthetics_5_wonder_halls
+				has_pending_building = building_est_aesthetics_5_wonder__halls
 				has_building = building_est_aesthetics_5_wonder_museum
-				has_building_construction =building_est_aesthetics_5_wonder_museum
+				has_pending_building = building_est_aesthetics_5_wonder__museum
 			}			
 		}
 		owner = {
@@ -184,8 +190,8 @@ building_est_aesthetics_5_wonder_stage = {
 			minerals = @wonder_build_cost
 			influence = @wonder_influence_cost
 		}
-		produces = {
-			unity = @wonder_unity_prod
+		jobs = {
+			culture_worker = @wonder_culture_workers
 		}
 	}	
 	
@@ -199,14 +205,17 @@ building_est_aesthetics_5_wonder_stage = {
 	
 	allow = {
 		has_major_upgraded_capital = yes
-		num_pops >= 100
+		num_pops = {
+			comparison = greater_than_or_equal
+			value = 8000
+		}
 	}
 	
 	potential = {
 		planet = {
 			NOT = {  
 				has_building = building_est_aesthetics_5_wonder_garden
-				has_building_construction = building_est_aesthetics_5_wonder_garden
+				has_pending_building = building_est_aesthetics_5_wonder_garden
 				has_building = building_est_aesthetics_5_wonder_monument
 				has_building_construction =  building_est_aesthetics_5_wonder_monument
 				has_building = building_est_aesthetics_5_wonder_halls
@@ -247,8 +256,8 @@ building_est_aesthetics_5_wonder_halls = {
 			minerals = @wonder_build_cost
 			influence = @wonder_influence_cost
 		}
-		produces = {
-			unity = @wonder_unity_prod
+		jobs = {
+			culture_worker = @wonder_culture_workers
 		}
 	}	
 	
@@ -262,14 +271,17 @@ building_est_aesthetics_5_wonder_halls = {
 	
 	allow = {
 		has_major_upgraded_capital = yes
-		num_pops >= 100
+		num_pops = {
+			comparison = greater_than_or_equal
+			value = 8000
+		}
 	}
 	
 	potential = {
 		planet = {
 			NOT = { 
 				has_building = building_est_aesthetics_5_wonder_garden
-				has_building_construction = building_est_aesthetics_5_wonder_garden
+				has_pending_building = building_est_aesthetics_5_wonder_garden
 				has_building = building_est_aesthetics_5_wonder_monument
 				has_building_construction =  building_est_aesthetics_5_wonder_monument
 				has_building = building_est_aesthetics_5_wonder_stage
@@ -310,8 +322,8 @@ building_est_aesthetics_5_wonder_museum = {
 			minerals = @wonder_build_cost
 			influence = @wonder_influence_cost
 		}
-		produces = {
-			unity = @wonder_unity_prod
+		jobs = {
+			culture_worker = @wonder_culture_workers
 		}
 	}	
 	
@@ -325,14 +337,17 @@ building_est_aesthetics_5_wonder_museum = {
 	
 	allow = {
 		has_major_upgraded_capital = yes
-		num_pops >= 100
+		num_pops = {
+			comparison = greater_than_or_equal
+			value = 8000
+		}
 	}
 	
 	potential = {
 		planet = {
 			NOT = { 
 				has_building = building_est_aesthetics_5_wonder_garden
-				has_building_construction = building_est_aesthetics_5_wonder_garden
+				has_pending_building = building_est_aesthetics_5_wonder_garden
 				has_building = building_est_aesthetics_5_wonder_monument
 				has_building_construction =  building_est_aesthetics_5_wonder_monument
 				has_building = building_est_aesthetics_5_wonder_stage
@@ -364,8 +379,8 @@ building_est_archivist_finish_archive = {
 	icon = "building_est_archivist_finish_archive"
 	base_buildtime = 360
 	base_cap_amount = 1
-
 	category = research
+	tags = { research_building }
 
 	resources = {
 		category = planet_buildings
@@ -380,10 +395,16 @@ building_est_archivist_finish_archive = {
 		}
 	}	
 	
-	planet_modifier = {
-		planet_jobs_engineering_research_produces_mult = 0.1
-		planet_jobs_physics_research_produces_mult = 0.1
-		planet_jobs_society_research_produces_mult = 0.1
+	triggered_planet_modifier = {
+		potential = { always = yes }
+		modifier = {
+			job_engineer_add = 80
+			job_physicist_add = 80
+			job_biologist_add = 80
+			planet_jobs_engineering_research_produces_mult = 0.1
+			planet_jobs_physics_research_produces_mult = 0.1
+			planet_jobs_society_research_produces_mult = 0.1
+		}
 	}
 	
 	allow = {
@@ -418,25 +439,33 @@ building_est_cybernetics_finish_automated_power_plant = {
 			minerals = 240
 		}
 		produces = {
-			energy = 6
+			energy = 50
 		}
 	}	
 
 	planet_modifier = {
 		district_generator_max = -1
+		district_arcology_generator_max = -1
 	}
 	
 	allow = {
 		has_upgraded_capital = yes
-		num_free_districts = { 
-			type = district_generator
-			value > 0
+		OR = {
+			# Has at least one of either type
+			num_free_districts = { type = district_generator value > 0 }
+			num_free_districts = { type = district_arcology_generator value > 0 }
+
+			# Fallback: neither district type is defined at all
+			AND = {
+				NOT = { has_district = district_generator }
+				NOT = { has_district = district_arcology_generator }
+			}
 		}
 	}
-	
+
 	potential = {
 		planet = {
-			NOT = { is_planet_class = pc_habitat }
+			NOT = { is_planet_class = pc_habitat }			
 		}
 		owner = {
 			has_active_tradition = tr_est_cybernetics_finish
@@ -447,6 +476,7 @@ building_est_cybernetics_finish_automated_power_plant = {
 		factor = 0 #Hard for AI to use.
 	}	
 }
+
 #Cybernetics Finish
 building_est_cybernetics_finish_automated_farm = {
 	icon = "building_est_cybernetics_finish_automated_farm"
@@ -461,7 +491,7 @@ building_est_cybernetics_finish_automated_farm = {
 			minerals = 240
 		}
 		produces = {
-			food = 10
+			food = 60
 		}
 		upkeep = {
 			energy = 2
@@ -470,13 +500,21 @@ building_est_cybernetics_finish_automated_farm = {
 
 	planet_modifier = {
 		district_farming_max = -1
+		district_arcology_farming_max = -1
 	}
 	
 	allow = {
 		has_upgraded_capital = yes
-		num_free_districts = { 
-			type = district_farming
-			value > 0
+		OR = {
+			# Has at least one of either type
+			num_free_districts = { type = district_farming value > 0 }
+			num_free_districts = { type = district_arcology_farming value > 0 }
+
+			# Fallback: neither district type is defined at all
+			AND = {
+				NOT = { has_district = district_farming }
+				NOT = { has_district = district_arcology_farming }
+			}
 		}
 	}
 	
@@ -508,7 +546,7 @@ building_est_cybernetics_finish_automated_mine = {
 			minerals = 240
 		}
 		produces = {
-			minerals = 6
+			minerals = 50
 		}
 		upkeep = {
 			energy = 2
@@ -517,13 +555,21 @@ building_est_cybernetics_finish_automated_mine = {
 
 	planet_modifier = {
 		district_mining_max = -1
+		district_arcology_mining_max = -1
 	}
 	
 	allow = {
 		has_upgraded_capital = yes
-		num_free_districts = { 
-			type = district_mining
-			value > 0
+		OR = {
+			# Has at least one of either type
+			num_free_districts = { type = district_mining value > 0 }
+			num_free_districts = { type = district_arcology_mining value > 0 }
+
+			# Fallback: neither district type is defined at all
+			AND = {
+				NOT = { has_district = district_mining }
+				NOT = { has_district = district_arcology_mining }
+			}
 		}
 	}
 	

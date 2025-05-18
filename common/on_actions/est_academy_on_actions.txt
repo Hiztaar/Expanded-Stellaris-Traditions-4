@@ -1,0 +1,8 @@
+on_actions = {
+    on_leader_hired = { events = { est_academy.5 } }
+}
+on_actions = {
+    on_monthly_pulse = {
+        events = { est_academy.6 }
+    }
+}

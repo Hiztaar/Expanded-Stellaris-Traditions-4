@@ -79,7 +79,6 @@ tr_est_aesthetics_adopt = {
 
 tr_est_aesthetics_finish = {
 	modifier = {
-#		planet_culture_workers_society_research_produces_add = 2 #(Ben_D): Depricated by Paradox
 		planet_culture_workers_society_research_produces_mult = 0.05 #(Ben_D): Added
 		ascension_perks_add = 1
 	}
@@ -162,18 +161,6 @@ tr_est_aesthetics_3 = {
 			potential = { is_at_war = yes }
 			country_unity_produces_mult = 0.20
 		}
-		## (Metallichydra): Swapped to use Triggered Modifier instead of using on_actions
-		#on_enabled = {
-		#	if = {
-		#		limit = {
-		#			is_at_war = yes
-		#		}
-		#		add_modifier = {
-		#			modifier = "mod_est_aesthetics_3_xenophobe"
-		#			days = -1				
-		#		}
-		#	}
-		#}
 		weight = { factor = 1 }
 	}
 	
@@ -204,7 +191,6 @@ tr_est_aesthetics_4 = {
 	custom_tooltip = tr_est_aesthetics_4_desc
 	
 	modifier ={
-#		planet_districts_cities_unity_produces_add = 5 #(Ben_D): Depricated by Paradox
 		planet_clerks_unity_produces_add = 2 #(Ben_D): Added closest equivalent
 	}
 

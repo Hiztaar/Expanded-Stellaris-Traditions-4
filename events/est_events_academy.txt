@@ -310,6 +310,75 @@ country_event = {
 	}
 }
 
+# ------------------------------------------------------------------
+#Grant Academician to *all* current scientists when finishing
+# ------------------------------------------------------------------
+country_event = {
+    id = est_academy.4
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        every_country_leader = {
+            limit = { 
+				NOT = { has_trait = leader_trait_est_academician }
+            }
+            add_trait = leader_trait_est_academician
+        }
+    }
+}
+
+# ------------------------------------------------------------------
+# Auto-grant Academician to newly hired scientists *after* finish
+# ------------------------------------------------------------------
+leader_event = {
+    id = est_academy.5
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        owner = { has_tradition = tr_est_academy_finish }
+        NOT = { has_trait = leader_trait_est_academician }
+    }
+
+    immediate = { add_trait = leader_trait_est_academician }
+}
+
+#######################################################################
+# Event Logic – events/est_academy_events.txt
+#######################################################################
+country_event = {
+    id = est_academy.6
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        every_owned_planet = {
+            if = {
+                limit = { owner = { has_tradition = tr_est_academy_4 } }
+
+                set_variable = { name = director_jobs value = 0 }
+
+                every_pop = {
+                    limit = {
+                        has_job = job_researcher
+                        is_being_purged = no
+                        is_sapient = yes
+                    }
+                    mod_variable = { name = director_jobs add = 1 }
+                }
+
+                while = {
+                    limit = { check_variable = { name = director_jobs value >= 10 } }
+                    add_jobs = { job_est_research_director = 1 }
+                    change_variable = { name = director_jobs subtract = 10 }
+                }
+            }
+        }
+    }
+}
+
+
 # Academy Finish, upgrades traits for leader that levels up/is generated.  #(Ben_D): Depricated
 #country_event = {
 #	id = est_academy.3

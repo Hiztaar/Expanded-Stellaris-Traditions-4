@@ -1,0 +1,4 @@
+﻿l_german:
+job_est_research_director:0 "Forschungsdirektor"
+job_est_research_director_desc:0 "Ein hochrangiger Elitewissenschaftler, der die planetaren Forschungsabteilungen überwacht. Sein Beitrag steigert den nationalen Forschungsfortschritt in allen Bereichen geringfügig."
+job_est_research_director_effect_desc:0 "£physics_research£ +0,11 £society_research£ +0,11 £engineering_research£ +0,11, £consumer_goods£ -0,03"

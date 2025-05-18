@@ -1,27 +1,153 @@
-24/05/2024 (Metallichydra)
+14/01/2025 (Hiztaar)
 
-- Changed all ruler_skill_levels to ruler_skill_add (Venerability and Individualism)
-- Changed all leader_skill_levels to leader_initial_skill (Omnipresence, Venerability and Individualism)
-- Changed cybernetics commander_skill_levels to commander_initial_skill
+---------------------------------------------------------------------------
 
-22/08/2024 (Metallichydra)
+Expanded Traditions - Academy Rework  
+Version: 4.0.0  
+Date: 2025-05-15
 
-- Removed most economic categories to avoid overwriting the entire file
-- Removed all clerk modifiers except for produces_add to avoid overwrites.
-- Changed all instances of planet_jobs_organic_produces_mult to planet_jobs_organics_produces_mult
-- removed all instances of agenda resource mults as only finding the voice provides a resource
-- Removed all instances of modifiers from overwrites now that they're removed. I just forgot to keep track of which I removed. This is the same thing as the ones above.
+- Academy: Fully updated for Stellaris 4.x compatibility
+- Added new elite job: Research Director
+- Research Director produces +0.11 Physics, Society, and Engineering research; consumes 0.03 Consumer Goods
+- Automatically created: 1 job per 10 researcher pops (job_researcher) on each planet
+- System updates dynamically every month via on_monthly_pulse
+- Added academician trait for leaders which grants some research production
+- Fully replaces obsolete job-addition logic tied to building tiers
+- Integrated cleanly into tradition tr_est_academy_4 (Towers of Ivory)
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
 
-This means there should be no more overwrites, or very few if there is some I missed.
+---------------------------------------------------------------------------
 
-14/01/2025
-- Fixed localisation of tr_est_individualism_3: Now states that it icnreases Effective Ruler Skill instead of Ruler Level Cap
-- Updated tr_est_greed_1 and tr_est_desires_1 to use a triggered modifier instead of monthly events. Additionally fixed tr_est_desires_1, so it now is no longer stuck on the value it got when it was first adopted
-- Synaptic Lathe should no longer be given jobs from traditions.
-- Spaceborn now correctly grants 1 energy to all stars that produce energy, instead of giving this bonus to a random star that produces energy.
-- Fixed Piracy agenda saying "Priracy".
-- Piracy finisher no got an extra "Finisher Effect: Adopting all piracy traditions grants: :
-- tr_est_order_2 now uses a standard modifier instead of applying a modifier to all factions.
-- tr_est_justice_finish now uses a triggered modifier instead of monthly events.
-- tr_est_philosophy_5 now has a tradition swap for virtual machines.
-- tr_est_administratum_2 now grants officials +1 starting skill level.
+Expanded Traditions - Archivists Rework  
+Version: 4.0.0  
+Date: 2025-05-15
+
+- Archivists: Fully updated for Stellaris 4.x compatibility
+- Added missing localization entries for tr_est_archivist_3 and tr_est_archivist_3_GC
+- Archivist Finisher building (building_est_archivist_finish_archive) now adds:
+  • +80 Physicist, Engineer, and Biologist jobs
+  • Research World eligible via research_building tag
+- Verified event est_archivist.6 triggers via on_system_survey for +10 Influence
+- Scripted value EST_num_researched_technologies confirmed functional
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Aesthetics Rework  
+Version: 4.0.0  
+Date: 2025-05-15  
+
+- Aesthetics: Fully updated for Stellaris 4.x compatibility  
+- Added missing localization entries and updated all perk descriptions  
+- Perk 2 “Guild of Artists” now grants scaling Culture Worker jobs (0.025 per pop)  
+- Perk 4 “Grand Architecture” now adds:  
+  • +2 Unity from Clerks  
+  • +1 monthly Influence  
+- Perk 5 “Galactic Wonders” reworked:  
+  • Each wonder provides +400 Culture Worker jobs  
+  • Pop requirement set to ≥8000; one wonder per planet  
+  • Replaced flat Unity with job production; uses `has_pending_building` check  
+- Localization fully revised and expanded to: Brazilian Portuguese, French, German, Polish, Russian, Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Benevolence Update  
+Version: 4.0.0  
+Date: 2025-05-15  
+
+- Benevolence: fully updated for Stellaris 4.x compatibility  
+- Added missing localization keys: Adopt, Perk 2, Perk 4, Perk 5 descriptions  
+- Updated all English perk texts for clarity and consistency  
+- New translations provided for: Brazilian Portuguese, French, German, Polish, Russian, Spanish  
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Biogenesis Rework  
+Version: 4.0.0  
+Date: 2025-05-15
+
+- Biogenesis: Fully updated for Stellaris 4.x compatibility
+- Perk 4 rebalanced: now grants +10% Pop Growth Speed by default, upgraded to +20% with Evolutionary Mastery
+- Filled all missing localization entries (_desc) for adoption, finish, and each perk
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Chivalry Migration  
+Version: 4.0.0  
+Date: 2025-05-15
+
+- Chivalry: Fully updated for Stellaris 4.x compatibility
+- Replaced obsolete `leader_class = commander` with `leader_class = admiral` and `leader_class = general`
+- Replaced deprecated `subclass_commander_*` trait detection with valid class-based checks
+- Perk 5 (`tr_est_chivalry_5`): Confirmed Unity gain on ship destruction functions through `on_ship_destroyed_perp` event
+- Added ship size support for NSC2: escort, patrol, light_cruiser, battlecruiser, dreadnought, superdreadnought, carrier, explorer, flagship, juggernaut
+- Added ship size support for Gigastructural superweapons: asteroid_artillery, moon_cracker, planet_cracker, system_cracker, superweapon, birthing_star, world_spear, stellar_gun, planetary_cannon
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Collectivism Migration  
+Version: 4.0.0  
+Date: 2025-05-15
+
+- Collectivism: Fully updated for Stellaris 4.x compatibility
+- Filled all missing localization entries
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Commerce Rework  
+Version: 4.0.0  
+Date: 2025-05-16
+
+- Commerce: Fully updated for Stellaris 4.x compatibility  
+- Rebalanced Clerk Unity bonus to +0.015 per job  
+- Replaced obsolete trade protection bonus with valid branch office modifiers : 25% increase of benefits for both the megacorp and the planet owner
+- Finisher effect now dynamically grants Executives to Corporates, Merchants to others  
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Confederacy Rework  
+Version: 4.0.0  
+Date: 2025-05-17
+
+- Confederacy: Fully updated for Stellaris 4.x compatibility  
+- Perk 3: Unity from factions nerfed from +33% to +15% for balance  
+- Perk 4: Subject empires now gain +10% happiness, +20% naval capacity, and +1 monthly loyalty  
+- Perk 4: Obsolete opinion modifier removed (opinion_est_confederacy_4)  
+- Perk 5: Starbase upkeep and outpost cost reduction increased to -10% 
+- Ship upkeep reduction nerfed from -50% to -10%
+- No deprecated modifiers remain; all effects validated for 4.x  
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Cooperativity Rework  
+Version: 4.0.0  
+Date: 2025-05-17
+
+- Starter effect thresholds updated for Stellaris 4.x population scaling:
+  • >500 pops: +3% jobs; >2000: +6%; >5000: +10%
+- Starter effect now dynamically reapplied monthly via est_cooperativity.1
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Cybernetics Rework  
+Version: 4.0.0  
+Date: 2025-05-17
+
+- Cybernetics: Fully updated for Stellaris 4.x compatibility  
+- Reworked finisher buildings for compatibility with planet-class districts
+  • Automated Power Plant now supports both generator and arcology_generator districts and produces 50 energy  
+  • Automated Farm now supports both farming and arcology_farming districts and produces 60 food  
+  • Automated Mine now supports both mining and arcology_mining districts and produces 50 minerals 
+  • All 3 buildings now include fallback logic for planets with no relevant district type  
+  • Buildings now correctly reduce the associated district cap
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+

@@ -6,35 +6,30 @@ tr_est_cooperativity_adopt = {
 		every_owned_planet = {
 			if = {
 				limit = {
-					num_pops > 23
+					num_pops > 5000
 				}
 				add_modifier = {
-					modifier = "mod_est_cooperativity_adopt_3"
+					modifier = "mod_est_cooperativity_adopt_3"  # +10%
 					days = -1
 				}
 			}
-			else = {
-				if = {
-					limit = {
-						num_pops > 19
-					}
-					add_modifier = {
-						modifier = "mod_est_cooperativity_adopt_2"
-						days = -1
-					}
+			else_if = {
+				limit = {
+					num_pops > 2000
 				}
-				else = {
-					if = {
-						limit = {
-							num_pops > 15
-						}
-						add_modifier = {
-							modifier = "mod_est_cooperativity_adopt_1"
-							days = -1
-						}
-					}
+				add_modifier = {
+					modifier = "mod_est_cooperativity_adopt_2"  # +6%
+					days = -1
 				}
-			
+			}
+			else_if = {
+				limit = {
+					num_pops > 500
+				}
+				add_modifier = {
+					modifier = "mod_est_cooperativity_adopt_1"  # +3%
+					days = -1
+				}
 			}
 		}
 	}

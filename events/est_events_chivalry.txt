@@ -52,15 +52,12 @@ country_event = {
 			}
 			every_owned_leader = {
 				if = {
-					limit = {
-						has_trait = subclass_commander_admiral
-					}
+					limit = { leader_class = admiral }
 					add_trait = leader_trait_admiral_est_chivalry
 				}
 				else_if = {
 					limit = {
-						has_trait = subclass_commander_general
-					}
+						limit = { leader_class = general }
 					add_trait = leader_trait_general_est_chivalry
 				}
 			}
@@ -78,8 +75,6 @@ country_event = {
 		has_active_tradition = tr_est_chivalry_adopt
 		from = {
 			Not = {
-#				has_trait = leader_trait_commander_est_chivalry #(Ben_D): Trait shouldn't be assigned before sub-class is determined
-#				has_trait = leader_trait_general_est_chivalry
 				has_trait = leader_trait_official_est_chivalry
 				has_trait = leader_trait_scientist_est_chivalry
 			}		
@@ -88,29 +83,16 @@ country_event = {
 
 	immediate = {
 		from = {
-#			if = {
-#				limit = { leader_class = commander }
-#				add_trait = leader_trait_commander_est_chivalry
-#				add_ruler_trait = leader_trait_ruler_est_chivalry #(Ben_D): All "ruler" related things are no longer relevant
-#				break = yes
-#			}
 			if = {
 				limit = { leader_class = official }
 				add_trait = leader_trait_official_est_chivalry
-#				add_ruler_trait = leader_trait_ruler_est_chivalry
 				break = yes
 			}
 			if = {
 				limit = { leader_class = scientist }
 				add_trait = leader_trait_scientist_est_chivalry
-#				add_ruler_trait = leader_trait_ruler_est_chivalry
 				break = yes
 			}
-#			if = {
-#				limit = { leader_class = ruler }
-#				add_ruler_trait = leader_trait_ruler_est_chivalry
-#				break = yes
-#			}
 		}
 	}
 }
@@ -139,7 +121,7 @@ country_event = {
 					limit = {
 						exists = leader
 						leader = {
-							has_trait = subclass_commander_general
+							 leader_class = general
 						}
 						planet = {
 							has_planet_flag = est_chivalry_adopt_tmp_planet_flag
@@ -182,7 +164,7 @@ country_event = {
 					limit = {
 						exists = leader
 						leader = {
-							has_trait = subclass_commander_general
+							 leader_class = general
 						}
 						planet = {
 							has_planet_flag = est_chivalry_adopt_tmp_planet_flag
@@ -229,7 +211,7 @@ country_event = {
 						leader = {
 							if = {
 								limit = {
-									has_trait = subclass_commander_admiral
+									leader_class = admiral
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -252,7 +234,7 @@ country_event = {
 						leader = {
 							if = {
 								limit = {
-									has_trait = subclass_commander_admiral
+									leader_class = admiral
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -276,7 +258,7 @@ country_event = {
 						leader = {
 							if = {
 								limit = {
-									has_trait = subclass_commander_admiral
+									leader_class = admiral
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -300,7 +282,7 @@ country_event = {
 						leader = {
 							if = {
 								limit = {
-									has_trait = subclass_commander_admiral
+									leader_class = admiral
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -320,7 +302,7 @@ country_event = {
 					leader = {
 						if = {
 							limit = {
-								has_trait = subclass_commander_admiral
+								leader_class = admiral
 								NOT = {
 									has_trait = leader_trait_admiral_est_chivalry_hero
 								}
@@ -375,7 +357,7 @@ fleet_event = {
 						leader = {
 							if = {
 								limit = {
-									has_trait = subclass_commander_admiral
+									leader_class = admiral
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -399,7 +381,7 @@ fleet_event = {
 						leader = {
 							if = {
 								limit = {
-									has_trait = subclass_commander_admiral
+									leader_class = admiral
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -423,7 +405,7 @@ fleet_event = {
 						leader = {
 							if = {
 								limit = {
-									has_trait = subclass_commander_admiral
+									leader_class = admiral
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -449,7 +431,7 @@ fleet_event = {
 						leader = {
 							if = {
 								limit = {
-									has_trait = subclass_commander_admiral
+									leader_class = admiral
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -469,7 +451,7 @@ fleet_event = {
 					leader = {
 						if = {
 							limit = {
-								has_trait = subclass_commander_admiral
+								leader_class = admiral
 								NOT = {
 									has_trait = leader_trait_admiral_est_chivalry_hero
 								}
@@ -510,6 +492,37 @@ country_event = {
 				constructor = { break = yes}
 				colonizer = { break = yes}
 				science = { break = yes}
+				
+				## NSC SHIPS #############################################
+				
+				escort = { root = { add_resource = { unity = 10 } } break = yes }
+				patrol = { root = { add_resource = { unity = 10 } } break = yes }
+				light_cruiser = { root = { add_resource = { unity = 40 } } break = yes }
+				battlecruiser = { root = { add_resource = { unity = 100 } } break = yes }
+				dreadnought = { root = { add_resource = { unity = 300 } } break = yes }
+				superdreadnought = { root = { add_resource = { unity = 500 } } break = yes }
+				carrier = { root = { add_resource = { unity = 150 } } break = yes }
+				explorer = { root = { add_resource = { unity = 80 } } break = yes }
+				juggernaut = { root = { add_resource = { unity = 800 } } break = yes }
+				flagship = { root = { add_resource = { unity = 1200 } } break = yes }
+				
+				##########################################################
+				
+				## GIGA SHIPS ############################################
+				
+				asteroid_artillery = { root = { add_resource = { unity = 100 } } break = yes }
+				moon_cracker = { root = { add_resource = { unity = 1000 } } break = yes }
+				moon_weapon = { root = { add_resource = { unity = 1000 } } break = yes }
+				planet_cracker = { root = { add_resource = { unity = 2000 } } break = yes }
+				system_cracker = { root = { add_resource = { unity = 5000 } } break = yes }
+				superweapon = { root = { add_resource = { unity = 4000 } } break = yes }
+				birthing_star = { root = { add_resource = { unity = 5000 } } break = yes }
+				world_spear = { root = { add_resource = { unity = 4000 } } break = yes }
+				stellar_gun = { root = { add_resource = { unity = 4000 } } break = yes }
+				planet_station = { root = { add_resource = { unity = 800 } } break = yes }
+				planetary_cannon = { root = { add_resource = { unity = 1000 } } break = yes }
+				
+				##########################################################
 				
 				military_station_small = { root = {add_resource = { unity = 20 } } break = yes}
 				military_station_medium = { root = {add_resource = { unity = 60 } } break = yes}

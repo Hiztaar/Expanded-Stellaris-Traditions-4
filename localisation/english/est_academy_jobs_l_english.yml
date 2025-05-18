@@ -1,0 +1,4 @@
+﻿l_english:
+ job_est_research_director:0 "Research Director"
+ job_est_research_director_desc:0 "A senior elite scientist supervising planetary research divisions. Their contribution marginally boosts national research progress across all fields."
+ job_est_research_director_effect_desc:0 "£physics_research£ +0.11 £society_research£ +0.11 £engineering_research£ +0.11, £consumer_goods£ -0.03"

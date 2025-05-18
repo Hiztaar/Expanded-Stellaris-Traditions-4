@@ -3,34 +3,34 @@
 ################################################################
 # ACADEMY
 ################################################################
-tradition_est_academy:0 "Academy"
-tradition_est_academy_desc:0 "Academies, schools, and universities are spread across our empire and those that wish to reach the top do so through their intricate hierarchies."
+tradition_est_academy:0 "Akademia"
+tradition_est_academy_desc:0 "Akademie, szkoły i uniwersytety są rozsiane po całym naszym imperium. Ci, którzy pragną sięgnąć szczytu, muszą pokonać skomplikowane hierarchie tych instytucji."
 
-tr_est_academy_adopt:0 "Academy Traditions"
-tr_est_academy_adopt_desc:0 "We may select §Y2§! research categories in which our §YResearch Speed§! is increased by §G+15%§!."
+tr_est_academy_adopt:0 "Tradycje Akademii"
+tr_est_academy_adopt_desc:0 "Możemy wybrać §Y2§! dziedziny badań, w których nasza §YSzybkość Badań§! zostanie zwiększona o §G+15%§!."
 
-tr_est_academy_1:0 "Public Education"
-tr_est_academy_1_desc:0 "§YEmpire Leader Pool Size§! increased by §Y3§!."
-tr_est_academy_1_delayed:0 "Education is a right which belongs to all. Through public education, all citizens are ensured the foundational knowledge needed to live prosperous lives."
+tr_est_academy_1:0 "Edukacja Publiczna"
+tr_est_academy_1_desc:0 "§YWielkość puli liderów imperium§! zwiększona o §Y3§!."
+tr_est_academy_1_delayed:0 "Edukacja jest prawem przysługującym każdemu. Dzięki edukacji publicznej wszyscy obywatele mają zapewniony dostęp do podstawowej wiedzy potrzebnej do prowadzenia dostatniego życia."
 
-tr_est_academy_2:0 "Mandatory Higher Education"
-tr_est_academy_2_desc:0 "Increase the §YStarting Level§! of all leaders by §Y1§!."
-tr_est_academy_2_delayed:0 "By mandating a higher education for all citizens, we can ensure that our leaders are capable of executing their roles with deft precision."
+tr_est_academy_2:0 "Obowiązkowe Szkolnictwo Wyższe"
+tr_est_academy_2_desc:0 "Zwiększa §YPoziom Startowy§! wszystkich liderów o §Y1§!."
+tr_est_academy_2_delayed:0 "Wprowadzając obowiązkowe wykształcenie wyższe dla wszystkich obywateli, zapewniamy, że nasi liderzy będą w stanie wykonywać swoje obowiązki z najwyższą precyzją i skutecznością."
 
-tr_est_academy_3:0 "Learn, Unlearn, and Relearn"
-tr_est_academy_3_desc:0 "§YLeader Experience Gain§! increased by §G+33%§!."
-tr_est_academy_3_delayed:0 "We value learning. Not just for the knowledge itself, but also for the process by which we learn. A true leader learns as much from failure as they do from success."
+tr_est_academy_3:0 "Uczyć się, Oduczać i Uczyć ponownie"
+tr_est_academy_3_desc:0 "§YWzrost Doświadczenia Liderów§! zwiększony o §G+33%§!."
+tr_est_academy_3_delayed:0 "Cenimy sobie proces nauki — nie tylko ze względu na samą wiedzę, ale także na sposób, w jaki ją zdobywamy. Prawdziwy lider uczy się równie wiele z porażek, co z sukcesów."
 
-tr_est_academy_4:0 "Towers of Ivory"
-tr_est_academy_4_desc:0 "Provide §Y1§! additional £job_researcher£ §Y$job_researcher$ Job§! on each planet."
-tr_est_academy_4_delayed:0 "Cutting-edge research is best left to the experts. In their ivory towers, our scientists are free to study, experiment, and develop without outside interference."
+tr_est_academy_4:0 "Wieże z Kości Słoniowej"
+tr_est_academy_4_desc:0 "Odblokowuje stanowisko §YDyrektora Badań§!, elitarną pozycję nadzorującą badania planetarne."
+tr_est_academy_4_delayed:0 "Badania na najwyższym poziomie powierzane są najznamienitszym umysłom. Nasi Dyrektorzy Badań koordynują wysiłki naukowe na planetach posiadających znaczące centra badawcze, zapewniając najwyższy poziom akademickiej doskonałości."
 
-tr_est_academy_5:0 "Military Schools"
-tr_est_academy_5_desc:0 "§YArmy Starting Experiance§! and §YShip Starting Experiance§! increased by §G+200§!. In addition, §YAdmirals§! and §YGenerals§! maximum §YSkill Levels§! increased by §Y1§!."
-tr_est_academy_5_delayed:0 "Our empire firmly believes that only an educated military can truly operate at maximum efficency."
+tr_est_academy_5:0 "Akademie Wojskowe"
+tr_est_academy_5_desc:0 "§YPoczątkowe Doświadczenie Armii§! i §YPoczątkowe Doświadczenie Okrętów§! zwiększone o §G+200§!. Dodatkowo maksymalny §YPoziom Umiejętności§! §YAdmirałów§! i §YGenerałów§! zwiększony o §Y1§!."
+tr_est_academy_5_delayed:0 "Aby opanować chaos pola bitwy, dyscyplina musi być absolutna. Nasze Akademie Wojskowe kształcą nową generację dowódców poprzez nieustępliwy trening, taktyczne doktryny oraz nieugiętą dążność do doskonałości. Od mostków statków gwiezdnych po pola bitew planetarnych — nikt nie opuszcza akademii bez sprawdzianu."
 
-tr_est_academy_finish:0 "Academy Traditions finished"
-tr_est_academy_finish_desc:0 "Allow leaders to upgrade one of their traits whenever they reach skill level §Y5§!. The upgraded trait is twice as good as the normal one.\nAscension Perks Unlocked: §G+1§!"
+tr_est_academy_finish:0 "Tradycje Akademii Ukończone"
+tr_est_academy_finish_desc:0 "Wszyscy obecni i przyszli liderzy otrzymują cechę Akademika, zapewniającą 2 × punkty badań za poziom lidera we wszystkich dziedzinach badań.\nOdblokowane miejsca na Atuty Wstąpienia: §G+1§!"
 
 
 ################################################################
@@ -106,27 +106,33 @@ tr_est_hacking_finish:0 "Hacking Traditions Finished"
 ################################################################
 
 tradition_est_administratum:0 "Administratum"
-tradition_est_administratum_desc:0 "A legion of clerks and bureaucrats oversee the empire, executing the will of our leaders with dutiful persistence."
+tradition_est_administratum_desc:0 "Legion urzędników i biurokratów nadzoruje imperium, realizując wolę naszych przywódców z pełnym oddaniem."
 
-tr_est_administratum_adopt:0 "Administratum Traditions"
+tr_est_administratum_adopt:0 "Tradycje Administratum"
+tr_est_administratum_desc:0 "Zmniejsza Rozmiar Imperium z systemów, kolonii, dystryktów i populacji o 10%. Odblokowuje specjalną agendę Administratum w celu dalszej optymalizacji aparatu imperialnego."
 
-tr_est_administratum_1:0 "Streamlined Recruitment Processes"
-tr_est_administratum_1_delayed:0 "A series of standardised aptitude tests, questionnaires, and interviews are implemented to reduce the overhead necessary to find the best candidate for leadership roles in service to the empire."
+tr_est_administratum_1:0 "Usprawnione Procesy Rekrutacji"
+tr_est_administratum_1_desc:0 "Koszt rekrutacji liderów zmniejszony o §Y25%§!."
+tr_est_administratum_1_delayed:0 "Wdrożono serię standaryzowanych testów predyspozycji, kwestionariuszy i rozmów kwalifikacyjnych w celu zmniejszenia wysiłku potrzebnego do znalezienia najlepszego kandydata na stanowiska przywódcze w służbie imperium."
 
-tr_est_administratum_2:0 "Merit-Based Promotions"
-tr_est_administratum_2_desc:0 "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! increased by §Y1§!. In addition, all §YGovernors§! start with an additional trait."
-tr_est_administratum_2_delayed:0 "Politics, intrigue, and petty quarrels greatly affected past promotion decisions. New strict guidelines and decentralized promotion decisions ensure that this is no longer the case."
+tr_est_administratum_2:0 "Awans Oparty na Zasługach"
+tr_est_administratum_2_desc:0 "§Y$mod_official_initial_skill$§! zwiększone o §Y1§!. Dodatkowo wszyscy §YUrzędnicy§! rozpoczynają z dodatkową cechą."
+tr_est_administratum_2_delayed:0 "Polityka, intrygi i drobne spory często wpływały na decyzje awansowe. Nowe ścisłe wytyczne i zdecentralizowane decyzje awansowe gwarantują, że tak się już nie stanie."
 
-tr_est_administratum_3:0 "Efficient Bureaucracy"
-tr_est_administratum_3_delayed:0 "As any empire grows, so too does its bureaucracy. New methods are implemented to reduce paperwork and bureaucratic response times, enabling projects to be completed more quickly."
+tr_est_administratum_3:0 "Efektywna Biurokracja"
+tr_est_administratum_3_desc:0 "Prędkość budowy stoczni gwiezdnych zwiększona o §Y10%§!, prędkość budowy budynków planetarnych zwiększona o §Y25%§!, a czas usuwania przeszkód planetarnych zmniejszony o §Y25%§!."
+tr_est_administratum_3_delayed:0 "Wraz z rozwojem imperium rośnie jego biurokracja. Wdrożono nowe metody redukujące biurokrację i czas reakcji administracji, umożliwiając szybsze realizowanie projektów."
 
-tr_est_administratum_4:0 "Standardized Planetary Administration"
-tr_est_administratum_4_delayed:0 "As we gain control of more planets, their local administrations are at risk of diverging. By instituting a standard template of planetary administration, we ensure similar governance on all our worlds."
+tr_est_administratum_4:0 "Standaryzowana Administracja Planetarna"
+tr_est_administratum_4_desc:0 "Koszt budowy dystryktów planetarnych zmniejszony o §Y10%§!, a ich utrzymanie zmniejszone o §Y10%§!."
+tr_est_administratum_4_delayed:0 "Wraz z przejmowaniem kolejnych planet istnieje ryzyko rozbieżności lokalnych administracji. Wprowadzenie jednolitych standardów zapewnia spójne zarządzanie na wszystkich światach."
 
-tr_est_administratum_5:0 "Bureau of Oversight"
-tr_est_administratum_5_delayed:0 "The Bureau of Oversight is an independent organization. Its Overseers travel throughout the empire, inspecting policies and practices of local administrations. A written remark from a Bureau Overseer is the nightmare of any ambitious administrator."
+tr_est_administratum_5:0 "Biuro Nadzoru"
+tr_est_administratum_5_desc:0 "§YFundusz Edyktów§! zwiększony o §Y30§!."
+tr_est_administratum_5_delayed:0 "Biuro Nadzoru to niezależna organizacja. Jego inspektorzy podróżują po imperium, kontrolując politykę i działania lokalnych administracji. Raport sporządzony przez inspektora jest koszmarem każdego ambitnego urzędnika."
 
-tr_est_administratum_finish:0 "Administratum Traditions Finished"
+tr_est_administratum_finish:0 "Tradycje Administratum Zakończone"
+
 
 ################################################################
 # Omnipresence
@@ -162,44 +168,47 @@ tr_est_omnipresence_finish:0 "Omnipresence Traditions Finished"
 # Aesthetics
 ################################################################
 
-tradition_est_aesthetics:0 "Aesthetics"
-tradition_est_aesthetics_desc:0 "Beauty can be perceived but not explained. Without beauty, our existence would be hollow."
+tradition_est_aesthetics:0 "Estetyka"
+tradition_est_aesthetics_desc:0 "Piękno można dostrzec, ale nie da się go wytłumaczyć. Bez piękna nasze istnienie byłoby puste."
 
-tr_est_aesthetics_adopt:0 "Aesthetics Traditions"
-tr_est_aesthetics_adopt_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+15%§! on planets with the £building  §Y$building_autochthon_monument$§! building chain."
+tr_est_aesthetics_adopt:0 "Tradycje Estetyki"
+tr_est_aesthetics_adopt_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! zwiększone o §G+15%§! na planetach z łańcuchem budynków £building §Y$building_autochthon_monument$§!."
 
-tr_est_aesthetics_adopt_spiritualist:0 "Aesthetics Traditions"
-tr_est_aesthetics_adopt_spiritualist_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+15%§! on planets with the £building  §Y$building_temple$§! building chain."
+tr_est_aesthetics_adopt_spiritualist:0 "Tradycje Estetyki"
+tr_est_aesthetics_adopt_spiritualist_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! zwiększone o §G+15%§! na planetach z łańcuchem budynków £building §Y$building_temple$§!."
 
-tr_est_aesthetics_adopt_megacorp:0 "Aesthetics Traditions"
-tr_est_aesthetics_adopt_megacorp_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+15%§! on planets with the £building  §Y$building_corporate_monument$§! building chain."
+tr_est_aesthetics_adopt_megacorp:0 "Tradycje Estetyki"
+tr_est_aesthetics_adopt_megacorp_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! zwiększone o §G+15%§! na planetach z łańcuchem budynków £building §Y$building_corporate_monument$§!."
 
-tr_est_aesthetics_1:0 "Works of Literature"
-tr_est_aesthetics_1_delayed:0 "The works of our writers and poets will enlighten billions of souls over thousands of years. Once a piece is finished, it will last an eternity, it will make the galaxy a better place everyday."
+tr_est_aesthetics_1:0 "Dzieła literackie"
+tr_est_aesthetics_1_desc:0 "§Y$PLANET_AMENITIES_MULT$§! zwiększone o §G+15%§!."
+tr_est_aesthetics_1_delayed:0 "Dzieła naszych pisarzy i poetów będą inspirować miliardy dusz przez tysiąclecia. Po ukończeniu będą trwały wiecznie, czyniąc galaktykę lepszym miejscem każdego dnia."
 
-tr_est_aesthetics_2:0 "Guild of Artists"
-tr_est_aesthetics_2_delayed:0 "The esteemed guild of artists hosts public cultural and creative events on a regular basis, bringing joy and wonder to all citizens."
+tr_est_aesthetics_2:0 "Gildia Artystów"
+tr_est_aesthetics_2_desc:0 "Dodaje §YMiejsca pracy Pracowników Kultury§! w zależności od całkowitej populacji."
+tr_est_aesthetics_2_delayed:0 "Prestiżowa gildia artystów wspiera tworzenie wielkich centrów kulturalnych, promując rosnącą klasę zawodowych pracowników kultury w całym naszym państwie."
 
-tr_est_aesthetics_3:0 "Inspiration of Awe"
-tr_est_aesthetics_3_desc:0 "Foreign Empire £opinion  §YOpinion§! is increased by §G+15§! and  §Y$MOD_ENVOY_IMPROVE_RELATIONS_MULT$§! is increased by §G+20%§!."
-tr_est_aesthetics_3_delayed:0 "Visiting diplomats are awestruck by our ability to elegantly weave the arts into even the most mundane aspects of our civilization. They marvel at the beauty that covers every hall they walk through. They then bring the tales of the glory of our civilization back to their own empires."
+tr_est_aesthetics_3:0 "Inspiracja podziwu"
+tr_est_aesthetics_3_desc:0 "£opinion£ §YOpinia§! innych państw zwiększona o §G+15§! oraz §Y$MOD_ENVOY_IMPROVE_RELATIONS_MULT$§! zwiększone o §G+20%§!."
+tr_est_aesthetics_3_delayed:0 "Odwiedzający dyplomaci są pod wrażeniem naszej umiejętności eleganckiego wplatania sztuki w każdy aspekt życia cywilizacyjnego. Zachwycają się pięknem naszych budowli i głoszą naszą chwałę w swoich ojczyznach."
 
-tr_est_aesthetics_3_xenophobe:0 "The Art of War"
-tr_est_aesthetics_3_xenophobe_desc:0 "Our £unity  §YUnity§! output is increased by §G+20%§! while we are at war."
-tr_est_aesthetics_3_xenophobe_delayed:0 "Our citizens recognize our Admirals and Generals as masters in the art of war, applying their talents to the battlefield as a sculptor would to unformed clay."
+tr_est_aesthetics_3_xenophobe:0 "Sztuka wojny"
+tr_est_aesthetics_3_xenophobe_desc:0 "Nasza produkcja £unity£ §YZjednoczenia§! zwiększona o §G+20%§! podczas prowadzenia wojny."
+tr_est_aesthetics_3_xenophobe_delayed:0 "Nasi obywatele uznają naszych admirałów i generałów za mistrzów sztuki wojennej, którzy kształtują pole bitwy niczym rzeźbiarz glinę."
 
-tr_est_aesthetics_3_IP:0 "Pursuit of Perfection"
-tr_est_aesthetics_3_IP_delayed:0 "We care little for petty squabbles of other empires. In the tranquility of our isolation, we dedicate our lives to the pursuit of a singular goal; perfection of artistic beauty."
+tr_est_aesthetics_3_IP:0 "Dążenie do perfekcji"
+tr_est_aesthetics_3_IP_desc:0 "Nasza produkcja £unity£ §YZjednoczenia§! zwiększona o §G+10%§!, gdy koncentrujemy się na sobie."
+tr_est_aesthetics_3_IP_delayed:0 "Niewiele nas obchodzą drobne spory innych państw. W ciszy naszego odosobnienia poświęcamy się dążeniu do jednego celu – perfekcji artystycznego piękna."
 
-tr_est_aesthetics_4:0 "Grand Architecture"
-tr_est_aesthetics_4_desc:0 "Each §YCity District§! produces §G0.5§! £unity£ §YUnity§!."
-tr_est_aesthetics_4_delayed:0 "Our buildings will be our greatest legacy, they will speak of our glory long after we are gone."
+tr_est_aesthetics_4:0 "Wielka Architektura"
+tr_est_aesthetics_4_desc:0 "Każdy £job_clerk£ §YUrzędnik§! produkuje §G+2§! £unity£ §YZjednoczenia§!, a nasze państwo zyskuje §G+1§! £influence£ §YWpływów§! miesięcznie."
+tr_est_aesthetics_4_delayed:0 "Nasze budowle będą naszym największym dziedzictwem. Będą świadczyć o naszej chwale długo po naszym odejściu."
 
-tr_est_aesthetics_5:0 "Galactic Wonders"
-tr_est_aesthetics_5_desc:0 "Enables §Y5§! expensive empire unique wonder buildings, each providing planet and empire wide bonuses. To build a wonder a £building  §Y$building_major_capital$§! is required. No more than one wonder can be built on each planet."
-tr_est_aesthetics_5_delayed:0 "Our empire is home to some of the greatest wonders in the galaxy. Their grandness is known even to those on the most remote of worlds in this galaxy."
+tr_est_aesthetics_5:0 "Galaktyczne Cuda"
+tr_est_aesthetics_5_desc:0 "Odblokowuje §Y5§! unikalnych budynków-cudów imperium. Każdy cud zapewnia §Y400§! £job_culture_worker£ miejsc pracy Pracowników Kultury. Wymaga £building£ §Y$building_major_capital$§!. Na jednej planecie można zbudować tylko jeden cud."
+tr_est_aesthetics_5_delayed:0 "Nasze państwo jest domem dla jednych z największych cudów galaktyki. Ich wspaniałość jest znana nawet na najbardziej odległych światach."
 
-tr_est_aesthetics_finish:0 "Aesthetics Traditions Finished"
+tr_est_aesthetics_finish:0 "Tradycje Estetyki ukończone"
 
 
 ################################################################
@@ -248,43 +257,45 @@ tr_est_venerability_finish:0 "Venerability Traditions Finished"
 # Archivist
 ################################################################
 
-tradition_est_archivist:0 "Archivist"
-tradition_est_archivist_desc:0 "An event, unrecorded, may as well not have occurred once it passes out of living memory. We have taken it upon ourselves to catalogue every data point of the galaxy, preserving the past to enrich the lives of the future."
-tradition_est_archivist_GC_desc:0 "No event shall pass unrecorded. Each event, data point, and thought we observe will be preserved to ensure our collective's journey into eternity."
+tradition_est_archivist:0 "Archiwiści"
+tradition_est_archivist_desc:0 "Wydarzenie, które nie zostało zapisane, może równie dobrze nie mieć miejsca, gdy przeminie z pamięci. Naszym celem jest katalogowanie każdego elementu danych w galaktyce, aby zachować przeszłość i wzbogacić przyszłość."
+tradition_est_archivist_GC_desc:0 "Żadne wydarzenie nie zostanie pominięte. Każde zdarzenie, każda dana i każda myśl, które zaobserwujemy, zostaną zachowane dla zapewnienia wiecznej drogi naszego kolektywu."
 
-tr_est_archivist_adopt:0 "Archivist Traditions"
+tr_est_archivist_adopt:0 "Tradycje Archiwistów"
 
-tr_est_archivist_1:0 "Primitive Lifeforms Study"
-tr_est_archivist_1_desc:0 "We have a §Y10%§! chance to generate a §Y$d_alien_pets_deposit$ Deposit§! on all of our planets (also includes new planets we acquire, a planet can only be affected once). §YObservation Stations§! produces §Y5§! £unity  §YUnity§! and their missions' £society£ §YSociety Research§! output is increased by §G+50%§!."
-tr_est_archivist_1_delayed:0 "The number of planets in the galaxy far outstrips the incidence of life. As preciously rare as they are, each lifeform has a unique lesson to teach us."
+tr_est_archivist_1:0 "Badania Prymitywnych Form Życia"
+tr_est_archivist_1_desc:0 "Mamy §Y10%§! szans na wygenerowanie §Y$d_alien_pets_deposit$ Złoża§! na wszystkich naszych planetach (również nowych; planeta może zostać objęta tylko raz). §YStacje obserwacyjne§! produkują dodatkowo §Y5§! £unity  §YZjednoczenia§!, a ich misje zapewniają £society£ §YBadania społeczne§! zwiększone o §G+50%§!."
+tr_est_archivist_1_delayed:0 "Liczba planet przewyższa liczbę zamieszkanych światów. Każda forma życia, tak rzadka, niesie ze sobą unikalną lekcję."
 
-tr_est_archivist_1_purifier:0 "The Universal Armory"
-tr_est_archivist_1_purifier_delayed:0 "All instruments of war that make contact with the empire must pass through the attentive fingers of the archivists at The Universal Armory. Each weapon is tested for unique destructive capability before being catalogued."
+tr_est_archivist_1_purifier:0 "Uniwersalny Arsenał"
+tr_est_archivist_1_purifier_delayed:0 "Wszystkie bronie, które trafią do imperium, są starannie testowane i katalogowane przez archiwistów w Uniwersalnym Arsenału."
 
-tr_est_archivist_2:0 "The Librarians"
-tr_est_archivist_2_desc:0 "Leaders have a §Y25%§! chance to receive the §YLibrarian§! trait, reducing their §YResearch Speed§! by §R-5%§! and §YSurvey Speed§! by §R-15%§! and increasing their §YCost§! and §YUpkeep§! by §R+50%§!. Such a leader will increase either our §YPhysics§!, §YSociety§! or §YEngineering§! §YResearch Speed§! by §G+10%§!, whether or not the leader is leading research in any field."
-tr_est_archivist_2_delayed:0 "The esteemed order of librarians is tasked with both the maintenance and accessibilty of the data in our archives. They are the keepers of the knowledge we have gathered through generations."
+tr_est_archivist_2:0 "Bibliotekarze"
+tr_est_archivist_2_desc:0 "Naukowcy mają §Y25%§! szans na uzyskanie cechy §YBibliotekarz§!, zmniejszającej ich §YSzybkość badań§! o §R-5%§! i §YSzybkość badania planet§! o §R-15%§!, oraz zwiększającej §YKoszt§! i §YUtrzymanie§! o §R+50%§!. Tacy naukowcy zwiększają §YSzybkość badań§! w zakresie §YFizyki§!, §YSocjologii§! lub §YInżynierii§! o §G+10%§!, niezależnie od kierunku badań."
+tr_est_archivist_2_delayed:0 "Szacowny zakon bibliotekarzy odpowiada za przechowywanie i dostęp do danych zgromadzonych przez pokolenia."
 
-tr_est_archivist_2_GC:0 "Information Keepers"
-tr_est_archivist_2_GC_desc:0 "Leaders have a §Y25%§! chance to receive the §YKeeper§! trait, reducing their §YResearch Speed§! by §R-5%§! and §YSurvey Speed§! by §R-15%§! and increasing their §YCost§! and §YUpkeep§! by §R+50%§!. Such a leader will increase either our £physics  §YPhysics§!, £society  §YSociety§! or £engineering  §YEngineering§! §YResearch Speed§! by §G+10%§!, whether or not the leader is leading research in any field."
-tr_est_archivist_2_GC_delayed:0 "Archival drones are built to ingest, catalogue, and search our empire's colossal databanks. The need for these drones to specialize in this role has resulted in several standard parts being left out of their design. They are not useful for much else."
+tr_est_archivist_2_GC:0 "Strażnicy Informacji"
+tr_est_archivist_2_GC_desc:0 "Przywódcy mają §Y25%§! szans na uzyskanie cechy §YStrażnik§!, zmniejszającej ich §YSzybkość badań§! o §R-5%§! i §YSzybkość badania planet§! o §R-15%§!, oraz zwiększającej §YKoszt§! i §YUtrzymanie§! o §R+50%§!. Tacy przywódcy zwiększają §YSzybkość badań§! w £physics  §YFizyce§!, £society  §YSocjologii§! lub £engineering  §YInżynierii§! o §G+10%§!."
+tr_est_archivist_2_GC_delayed:0 "Drony archiwalne są stworzone do pochłaniania, katalogowania i przeszukiwania ogromnych zbiorów danych imperium."
 
-tr_est_archivist_3:0 "Historical Records"
-tr_est_archivist_3_delayed:0 "We keep a meticulous recording of the history of our empire, every event and individual is recorded, so is every action we take. Through this knowledge of our common history we are held more tightly together."
+tr_est_archivist_3:0 "Rejestry Historyczne"
+tr_est_archivist_3_desc:0 "Produkcja £unity  §YZjednoczenia§! wzrasta o §G5%§!, a §YPrzyciąganie etyki rządowej§! wzrasta o §G10%§!."
+tr_est_archivist_3_delayed:0 "Każde wydarzenie i każda decyzja w naszym imperium są skrupulatnie rejestrowane, aby poprzez wspólną historię wzmacniać naszą jedność."
 
-tr_est_archivist_3_GC:0 "Redundant Physical Backups"
-tr_est_archivist_3_GC_delayed:0 "Despite the efficiency of a digitally-indexed archive, our empire's sum-total of collected knowledge should not reside solely on a single medium. Complete archival backups will be stored on several physical mediums to ensure full restoration after any catastrophe."
+tr_est_archivist_3_GC:0 "Zapasowe Kopie Fizyczne"
+tr_est_archivist_3_GC_desc:0 "Produkcja £unity  §YZjednoczenia§! wzrasta o §G10%§!."
+tr_est_archivist_3_GC_delayed:0 "Nasze zbiory wiedzy nie mogą opierać się wyłącznie na nośnikach cyfrowych. Pełne fizyczne kopie umożliwią odtworzenie danych po każdej katastrofie."
 
-tr_est_archivist_4:0 "Galactic Records"
-tr_est_archivist_4_desc:0 "Gain §G10§! £influence  §YInfluence§! whenever we fully survey a system."
-tr_est_archivist_4_delayed:0 "We will make records of this galaxy, mapping every planet, recording every system and every celestial body it contains."
+tr_est_archivist_4:0 "Rejestry Galaktyczne"
+tr_est_archivist_4_desc:0 "Zyskaj §G10§! £influence  §YWpływów§! po całkowitym zbadaniu systemu."
+tr_est_archivist_4_delayed:0 "Udokumentujemy każdy świat, system i ciało niebieskie w galaktyce."
 
-tr_est_archivist_5:0 "Preservation of Knowledge"
-tr_est_archivist_5_desc:0 "Increases £unity  §YUnity§! output by §Y1§! for every §Y4§! technologies that we have researched."
-tr_est_archivist_5_delayed:0 "Every result of our research, every piece of technology shall be added to our archives, preserved so that may benefit those that will succeed us."
+tr_est_archivist_5:0 "Zachowanie Wiedzy"
+tr_est_archivist_5_desc:0 "Zwiększa produkcję £unity  §YZjednoczenia§! o §Y1§! za każde §Y4§! opracowane technologie."
+tr_est_archivist_5_delayed:0 "Każde odkrycie i każda technologia zostanie zachowana w archiwach ku pożytkowi przyszłych pokoleń."
 
-tr_est_archivist_finish:0 "Archivist Traditions Finished"
-tr_est_archivist_finish_desc:0 "§HUnlocks Building:§! £building  §Y$building_est_archivist_finish_archive$§!\n§EThis is a building that produces Unity and also improves the Research output of the planet.§!\nAscension Perks Unlocked: §G+1§!"
+tr_est_archivist_finish:0 "Zakończenie Tradycji Archiwistów"
+tr_est_archivist_finish_desc:0 "§HOdblokowuje Budynek:§! £building  §Y$building_est_archivist_finish_archive$§!\n§EBudynek ten zapewnia produkcję Zjednoczenia oraz zwiększa wydajność badań planety.§!\nOdblokowane miejsca na Perki Wstąpienia: §G+1§!"
 
 
 ################################################################
@@ -354,128 +365,149 @@ tr_est_swarm_finish:0 "Swarm Traditions Finished"
 # Commerce
 ################################################################
 
-tradition_est_commerce:0 "Commerce"
-tradition_est_commerce_desc:0 "Where there is trade there is a profit to be made. Trade is the lifeblood of the galaxy and from it we can draw vast fortunes."
+tradition_est_commerce:0 "Handel"
+tradition_est_commerce_desc:0 "Tam, gdzie jest handel, tam jest zysk. Handel to życiodajna siła galaktyki, z której możemy czerpać ogromne fortuny."
 
-tr_est_commerce_adopt:0 "Commerce Traditions"
+tr_est_commerce_adopt:0 "Tradycje Handlowe"
+tr_est_commerce_adopt_desc:0 "Odblokowuje §YAgendę Handlową§!.\nZawody typu §YUrzędnik§! generują §G+0.015§! £unity §YJedności§!."
 
-tr_est_commerce_1:0 "Economic Boom"
-tr_est_commerce_1_desc:0 "Our £energy  §YEnergy Credit§! output is increased by §G+15%§! while £energy  §YEnergy Credit§! gain is positive."
-tr_est_commerce_1_delayed:0 "Thanks to our successful fiscal policies, our economy is booming. Both our citizens and our businesses have increased power to buy, consume, and produce. These favourable conditions will allow our empire to increase its spending on infrastructure and the military."
+tr_est_commerce_1:0 "Boom Gospodarczy"
+tr_est_commerce_1_desc:0 "Gdy nasze dochody w £energy §YKredytach Energetycznych§! są dodatnie, zyskujemy §G+15%§! produkcji energii."
+tr_est_commerce_1_delayed:0 "Dzięki skutecznej polityce fiskalnej nasza gospodarka kwitnie. Obywatele i przedsiębiorcy dysponują większą siłą nabywczą i produkcyjną, co przekłada się na inwestycje w infrastrukturę i wojsko."
 
-tr_est_commerce_2:0 "Encourage Local Economies"
-tr_est_commerce_2_desc:0 "Unlocks three planetary decisions, increasing planet £energy  §YEnergy Credit§!, £food  §YFood§!, or £minerals  §YMineral§! output by §G+20%§!, while reducing the output of the other two by §R-15%§!."
-tr_est_commerce_2_delayed:0 "We should encourage each one of our planets to develop their local economies in their own distinct way. Thus, relaxing certain imperial regulations, we can allow planets to better adapt to their local conditions and thereby increase their productive output."
+tr_est_commerce_2:0 "Wspierać Gospodarki Lokalne"
+tr_est_commerce_2_desc:0 "Odblokowuje trzy decyzje planetarne, które zwiększają produkcję £energy §YEnergii§!, £food §YŻywności§! lub £minerals §YMinerałów§! o §G+20%§!, zmniejszając pozostałe dwie o §R-15%§!."
+tr_est_commerce_2_delayed:0 "Pozwalając planetom rozwijać własne gospodarki według ich unikalnych warunków, zwiększamy całkowitą produktywność naszego imperium."
 
-tr_est_commerce_3:0 "Financial Reforms"
-tr_est_commerce_3_delayed:0 "Soon after our empire met its first galactic neighbors, it became clear that our financial system was not compatible with the wider galactic market. Our ancient system of finance must be brought in line with the rest of the galaxy."
+tr_est_commerce_3:0 "Reformy Finansowe"
+tr_est_commerce_3_desc:0 "§YWartość Handlowa§! zwiększona o §G+10%§!."
+tr_est_commerce_3_delayed:0 "Nasze finanse muszą zostać zreformowane, by sprostać wymaganiom galaktycznego rynku."
 
-tr_est_commerce_4:0 "Trade Convoys"
-tr_est_commerce_4_desc:0 "§YTrade Protection§! increased by §G5§! throughout our empire."
-tr_est_commerce_4_delayed:0 "We have organised a system of trade convoys throughout our empire. These allow for efficient and safe transportation of goods throughout our empire."
+tr_est_commerce_4:0 "Centra Handlowe"
+tr_est_commerce_4_desc:0 "§YWartość Oddziałów§! i §YWartość dla Właściciela§! zwiększona o §G+25%§!."
+tr_est_commerce_4_delayed:0 "Nasze imperium stało się galaktycznym centrum handlu. Niezależnie czy posiadamy, czy goszczymy oddziały – zyskujemy wszyscy."
 
-tr_est_commerce_5:0 "Master Merchants"
-tr_est_commerce_5_delayed:0 "If trade is an art, we are its masters. There is nothing in the galaxy that we have not, at some point, bought or sold. Always at a profit."
+tr_est_commerce_5:0 "Mistrzowie Handlu"
+tr_est_commerce_5_desc:0 "§YAttrakcyjność Handlowa§! zwiększona o §G+5%§!.\nOpłaty Rynkowe zmniejszone o §G-5%§!."
+tr_est_commerce_5_delayed:0 "Jeśli handel to sztuka, to jesteśmy jej mistrzami. Nie ma niczego, czego nie kupiliśmy ani nie sprzedaliśmy – zawsze z zyskiem."
 
-tr_est_commerce_5_no_dip:0 "Fluid Economy"
-tr_est_commerce_5_no_dip_delayed:0 "In our empire, goods are exchanged so frequently that they can scarcely be tracked."
+tr_est_commerce_5_no_dip:0 "Płynna Gospodarka"
+tr_est_commerce_5_no_dip_desc:0 "Opłaty Rynkowe zmniejszone o §G-10%§!."
+tr_est_commerce_5_no_dip_delayed:0 "W naszym imperium wymiana dóbr jest tak szybka, że trudno ją śledzić."
 
-tr_est_commerce_finish:0 "Commerce Traditions Finished"
+tr_est_commerce_finish:0 "Tradycje Handlowe Zakończone"
+tr_est_commerce_finish_desc:0 "Zapewnia §Y1 stanowisko Dyrektora§! na §Y100 Popów§! dla §YKorporacyjnych§!, lub §Y1 Kupca§! w przeciwnym wypadku.\nOdblokowane Przywileje Wzniosłości: §G+1§!"
+
 
 
 ################################################################
 # Benevolence
 ################################################################
 
-tradition_est_benevolence:0 "Benevolence"
-tradition_est_benevolence_desc:0 "No unjust harm should befall our galactic neighbors by our hands. They have a place in this galaxy, just as we do."
+tradition_est_benevolence:0 "Życzliwość"
+tradition_est_benevolence_desc:0 "Żaden niesprawiedliwy czyn nie powinien spotkać naszych galaktycznych sąsiadów z naszej ręki. Mają swoje miejsce w galaktyce, tak jak my."
 
-tr_est_benevolence_adopt:0 "Benevolence Traditions"
+tr_est_benevolence_adopt:0 "Tradycje Życzliwości"
+tr_est_benevolence_adopt_desc:0 "Zapewnia §Y+1 Wysłannika§! i odblokowuje §Y$agenda_est_benevolence$§! Agendę Rady."
 
-tr_est_benevolence_1:0 "Trade Deals"
-tr_est_benevolence_1_desc:0 "§Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§! increased by §G+10%§! and £energy  §YEnergy Credit§! output is increased by §G+5%§!."
-tr_est_benevolence_1_delayed:0 "While we have no concept of possession, it is essential to many other beings in the galaxy. Through trade deals with other civilizations we may acquire goods that are hard to find on our own planets."
+tr_est_benevolence_1:0 "Umowy Handlowe"
+tr_est_benevolence_1_desc:0 "§Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§! zwiększone o §G+10%§! oraz produkcja £energy §YKredytów Energetycznych§! zwiększona o §G+5%§!."
+tr_est_benevolence_1_delayed:0 "Choć nie znamy pojęcia własności, inne gatunki je posiadają. Handel umożliwia nam zdobycie trudno dostępnych dóbr."
 
-tr_est_benevolence_2:0 "Peaceful Contacts"
-tr_est_benevolence_2_delayed:0 "Contact with other empires necessitates no aggression. We have no need of arms when amongst those we trust."
+tr_est_benevolence_2:0 "Pokojowe Kontakty"
+tr_est_benevolence_2_desc:0 "§Y$MOD_COUNTRY_BORDER_FRICTION_MULT$§! zmniejszone o §G50%§! oraz §Y$MOD_COUNTRY_TRUST_GROWTH$§! zwiększone o §G+20%§!."
+tr_est_benevolence_2_delayed:0 "Kontakt z innymi imperiami nie wymaga agresji. Nie potrzebujemy broni wśród sojuszników."
 
-tr_est_benevolence_3:0 "Foreign Embassies"
-tr_est_benevolence_3_desc:0 "Foreign Empire £opinion£ §YOpinion§! is increased by §G+30§!."
-tr_est_benevolence_3_delayed:0 "We will send out representation drones to other empires through which we will be able to contact directly with their rulers. This way we can promote good relations with other inhabitants of the galaxy and prevent misunderstandings."
+tr_est_benevolence_3:0 "Ambasady Zagraniczne"
+tr_est_benevolence_3_desc:0 "£opinion£ §YOpinia§! innych imperiów zwiększona o §G+30§!."
+tr_est_benevolence_3_delayed:0 "Wysłane zostaną drony reprezentacyjne, by nawiązać bezpośrednie kontakty z przywódcami innych imperiów i unikać nieporozumień."
 
-tr_est_benevolence_4:0 "Gentle Ways"
-tr_est_benevolence_4_delayed:0 "Our mind, never affected by temper nor impulses, will always remain as calm as a gentle breeze."
+tr_est_benevolence_4:0 "Łagodne Drogi"
+tr_est_benevolence_4_desc:0 "§YStabilność Planety§! zwiększona o §G+5§!."
+tr_est_benevolence_4_delayed:0 "Nasz umysł, wolny od gniewu i impulsów, pozostaje spokojny niczym łagodna bryza."
 
-tr_est_benevolence_5:0 "Sharing of Ideas"
-tr_est_benevolence_5_delayed:0 "While the mortals minds of this galaxy are inferior, they might have come up with a few interesting ideas. By studying their technology and culture we might find something that could be of use to our own research projects."
+tr_est_benevolence_5:0 "Dzielenie się Pomysłami"
+tr_est_benevolence_5_desc:0 "§YPrędkość Badań§! zwiększona o §G+5%§!."
+tr_est_benevolence_5_delayed:0 "Choć umysły śmiertelnych mogą być ograniczone, ich koncepcje mogą wzbogacić nasze badania."
 
-tr_est_benevolence_finish:0 "Benevolence Traditions Finished"
-tr_est_benevolence_finish_desc:0 "Increases our §YWeapon Damage§! to §YFallen Empires§!, §YAwakened Empires§! and §End-Game Crises§! by §G+15%§! and increase §Y$MOD_DIPLO_WEIGHT_MULT$§! by §G+15%§!.\nAscension Perks Unlocked: §G+1§!"
+tr_est_benevolence_finish:0 "Tradycje Życzliwości Ukończone"
+tr_est_benevolence_finish_desc:0 "Zwiększa §YSzkody Broni§! przeciwko §YUpadłym Imperiom§!, §YPrzebudzonym Imperiom§! i §Kryzysom Końcowym§! o §G+15%§! oraz §Y$MOD_DIPLO_WEIGHT_MULT$§! o §G+15%§!.\nOdblokowane Korzyści Wniebowstąpienia: §G+1§!"
 
 
 ################################################################
 # Cybernetics
 ################################################################
 
-tradition_est_cybernetics:0 "Cybernetics"
-tradition_est_cybernetics_desc:0 "Why do something ourselves, when a machine can do it for us?"
+tradition_est_cybernetics:0 "Automaty"
+tradition_est_cybernetics_desc:0 "Po co robić coś samemu, skoro maszyna może zrobić to za nas?"
 
-tr_est_cybernetics_adopt:0 "Cybernetics Traditions"
+tr_est_cybernetics_adopt:0 "Tradycje Automatów"
+tr_est_cybernetics_adopt_desc:0 "Odblokowuje §YAgendę Cybernetyki§!. Zwiększa §YPrędkość badań nad informatyką§! o §G+25%§!."
 
-tr_est_cybernetics_1:0 "Deep Neural Networks"
-tr_est_cybernetics_1_robots_desc:0 "£energy  §YEnergy Credit§! output from §YRobots§! is increased by §G+15%§!."
-tr_est_cybernetics_1_delayed:0 "Advanced neural network technologies have allowed machines to perform tasks previously only sentients could manage."
+tr_est_cybernetics_1:0 "Głębokie Sieci Neuronowe"
+tr_est_cybernetics_1_robots_desc:0 "Produkcja £energy  §YKredytów Energetycznych§! przez §YRoboty§! zwiększona o §G+15%§!."
+tr_est_cybernetics_1_delayed:0 "Zaawansowane technologie sieci neuronowych pozwalają maszynom wykonywać zadania, które wcześniej były możliwe tylko dla istot rozumnych."
 
-tr_est_cybernetics_2:0 "Unsupervised AI Researchers"
-tr_est_cybernetics_2_delayed:0 "Advances in AI technology have increasingly allowed AIs access to most advanced of tasks. Several research topics have shown to be especially suited for AI researchers. With unorthodox thinking and immense processing capacity, they are set on specific problems. Researchers will occasionally check on their progress, and figure out how it can be incorporated in our current scientific theories."
+tr_est_cybernetics_2:0 "Nadzorowani Badacze SI"
+tr_est_cybernetics_2_desc:0 "Produkcja badań z §YFizyki§!, §YInżynierii§! i §YSpołeczeństwa§! zwiększona o §G+5%§!."
+tr_est_cybernetics_2_delayed:0 "Postępy w technologii sztucznej inteligencji umożliwiły SI podejmowanie się coraz bardziej zaawansowanych zadań. Wiele tematów badawczych okazało się szczególnie odpowiednich dla automatycznego przetwarzania. Dzięki nieszablonowemu podejściu i ogromnej mocy obliczeniowej skupiają się one na konkretnych problemach, a badacze nadzorują ich postępy i integrują wyniki z aktualnymi teoriami naukowymi."
 
-tr_est_cybernetics_3:0 "Combat Simulations"
-tr_est_cybernetics_3_desc:0 "§YShip Accuracy§! increased by §G+10%§!."
-tr_est_cybernetics_3_delayed:0 "With increased computing capacities, we can perform increasingly accurate simulations. These can be utilized by our ships to continuously simulate possible developments during combat. These data can then be given to the ship commander which can utilize it in the decision-making process."
+tr_est_cybernetics_3:0 "Symulacje Bojowe"
+tr_est_cybernetics_3_desc:0 "§YCelność okrętów§! zwiększona o §G+10%§!."
+tr_est_cybernetics_3_delayed:0 "Dzięki zwiększonej mocy obliczeniowej możemy przeprowadzać bardzo dokładne symulacje. Okręty korzystają z nich do ciągłego analizowania możliwych scenariuszy walki i przekazują dane dowódcy w celu lepszego podejmowania decyzji."
 
-tr_est_cybernetics_4:0 "AI Controlled Ships"
-tr_est_cybernetics_4_desc:0 "§Y$MOD_SHIP_FIRE_RATE_MULT$§! increased by §G+20%§! and §YEvasion§! increased by §G+20%§! for all fleets without an §YAdmiral§!."
-tr_est_cybernetics_4_AI_desc:0 "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! increased by §Y1§! and §Y$MOD_SHIP_FIRE_RATE_MULT$§! increased by §G+5%§!."
-tr_est_cybernetics_4_delayed:0 "It seems only foolish to let sentients with their limited sensory input and processing power be at the command of our fleets. We shall instead use an AI commander which can simultaneously control all ships in the fleet. They can have a complete perception of the battle all the time, ensuring that all ships act in unison."
+tr_est_cybernetics_4:0 "Okręty Sterowane SI"
+tr_est_cybernetics_4_desc:0 "§Y$MOD_SHIP_FIRE_RATE_MULT$§! zwiększony o §G+20%§! i §YUnik§! zwiększony o §G+20%§! dla wszystkich flot bez §YAdmirała§!."
+tr_est_cybernetics_4_AI_desc:0 "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! zwiększony o §Y1§! oraz §Y$MOD_SHIP_FIRE_RATE_MULT$§! zwiększony o §G+5%§!."
+tr_est_cybernetics_4_delayed:0 "Pozostawienie floty pod dowództwem istot o ograniczonej percepcji i zdolnościach obliczeniowych to czyste szaleństwo. Zamiast tego należy wykorzystać sztuczną inteligencję, która może jednocześnie sterować wszystkimi jednostkami i analizować przebieg bitwy w czasie rzeczywistym, zapewniając maksymalną koordynację."
 
-tr_est_cybernetics_5:0 "Simulated Reality"
-tr_est_cybernetics_5_slaves_desc:0 "The £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pops  §YPops§! is increased by §G+5%§!, the £happiness  §Y$MOD_POP_HAPPINESS$§! of all §YSlaves§! is increased by and additional §G+5%§!."
-tr_est_cybernetics_5_delayed:0 "Why should be spend our lives in this world, when we can create a world of our liking? Our citizens have increasingly started to spend time in alternative realities, which they can shape as they wish."
+tr_est_cybernetics_5:0 "Symulowana Rzeczywistość"
+tr_est_cybernetics_5_slaves_desc:0 "£happiness  §Y$MOD_POP_HAPPINESS$§! wszystkich £pops  §YPopów§! zwiększone o §G+5%§!, a §YNiewolników§! dodatkowo o §G+5%§!."
+tr_est_cybernetics_5_delayed:0 "Po co żyć w tym świecie, skoro możemy stworzyć taki, który odpowiada naszym pragnieniom? Coraz więcej obywateli spędza czas w alternatywnych rzeczywistościach, które mogą kształtować według własnej woli."
 
-tr_est_cybernetics_finish:0 "Cybernetics Traditions Finished"
-tr_est_cybernetics_finish_desc:0 "§HUnlocks Buildings:§! £building  $building_est_cybernetics_finish_automated_farm$, $building_est_cybernetics_finish_automated_power_plant$ and $building_est_cybernetics_finish_automated_mine$\n§EThey produce §G6§! £energy  §YEnergy Credits§!/§G10§! £food  §YFood§!/§G6§! £minerals  §YMinerals§! respectively, while reducing §Y$mod_district_generator_max$§!/§Y$mod_district_farming_max$§!/§Y$mod_district_mining_max$§! by §Y1§! on the planet. Each planet can, at maximum, contain three of each building.§!\nAscension Perks Unlocked: §G+1§!"
-tr_est_cybernetics_finish_AI_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_est_cybernetics_adopt$ Increases §YBuilding Speed§! by §G+25%§! and reduces §YBuilding Upkeep§! by §G-10%§!.\nAscension Perks Unlocked: §G+1§!"
+tr_est_cybernetics_finish:0 "Tradycje Automatów Zakończone"
+tr_est_cybernetics_finish_desc:0 "§HOdblokowuje Budynki:§! £building  $building_est_cybernetics_finish_automated_farm$, $building_est_cybernetics_finish_automated_power_plant$ i $building_est_cybernetics_finish_automated_mine$\n§EProdukują odpowiednio §G50§! £energy  §YKredytów Energetycznych§!, §G60§! £food  §YŻywności§! i §G50§! £minerals  §YMinerałów§!, a jednocześnie zmniejszają §Y$mod_district_generator_max$§!, §Y$mod_district_farming_max$§! i §Y$mod_district_mining_max$§! o §Y1§! na planecie. Na każdej planecie można zbudować maksymalnie po trzy z każdego typu tych budynków.§!\nOdblokowane Miejsca na Atuty: §G+1§!"
+
+tr_est_cybernetics_finish_AI_effect:0 "§E$TRADITIONS_FINISH$:§!\nZakończenie wszystkich $tr_est_cybernetics_adopt$ zwiększa §YPrędkość Budowy Budynków§! o §G+25%§! i zmniejsza §YUtrzymanie Budynków§! o §G-10%§!.\nOdblokowane Miejsca na Atuty: §G+1§!"
 
 
 ################################################################
 # Biogenesis
 ################################################################
 
-tradition_est_biogenesis:0 "Biogenesis"
-tradition_est_biogenesis_desc:0 "Our civilization is not built, but grown. We are one single great organism, spreading through the galaxy."
+tradition_est_biogenesis:0 "Biogeneza"
+tradition_est_biogenesis_desc:0 "Nasza cywilizacja nie została zbudowana, lecz wyhodowana. Jesteśmy jednym wielkim organizmem rozprzestrzeniającym się po galaktyce."
 
-tr_est_biogenesis_adopt:0 "Biogenesis Traditions"
+tr_est_biogenesis_adopt:0 "Tradycje Biogenezy"
+tr_est_biogenesis_adopt_desc:0 "Zapewnia §Y+10% tolerancji środowiskowej populacji§! oraz §Y+25% szybkości rozwoju kolonii§!. Odblokowuje §YAgendę Biogenezy§! Rady."
 
-tr_est_biogenesis_1:0 "Bio Construction"
-tr_est_biogenesis_1_delayed:0 "Our buildings are not built with stones and concrete. Rather we grow them from organic tissue. The blueprints exist not on paper or in computers, but are encoded into the DNA of the structure itself."
+tr_est_biogenesis_1:0 "Biologiczna Konstrukcja"
+tr_est_biogenesis_1_desc:0 "Zmniejsza koszt budowy i utrzymania budynków planetarnych o §G10%§!."
+tr_est_biogenesis_1_delayed:0 "Nasze budynki nie są wznoszone z kamienia i betonu. Zamiast tego są hodowane z organicznej tkanki według wzorów zakodowanych w ich DNA."
 
-tr_est_biogenesis_2:0 "Living Ships"
-tr_est_biogenesis_2_delayed:0 "Our ships are alive, crafted from organic tissue, grown from our designs."
+tr_est_biogenesis_2:0 "Żywe Statki"
+tr_est_biogenesis_2_desc:0 "Nasze statki regenerują §G2%§! kadłuba każdego miesiąca."
+tr_est_biogenesis_2_delayed:0 "Nasze statki to żywe organizmy wyhodowane z organicznej tkanki według naszych projektów."
 
-tr_est_biogenesis_3:0 "Omnivores"
-tr_est_biogenesis_3_delayed:0 "All types of organic matter can be consumed and turned to energy or be used to grow new tissue."
+tr_est_biogenesis_3:0 "Wszystkożerność"
+tr_est_biogenesis_3_desc:0 "Zwiększa produkcję żywności imperium o §G20%§!."
+tr_est_biogenesis_3_delayed:0 "Każdy rodzaj materii organicznej może zostać przekształcony w energię lub użyty do wzrostu nowych tkanek."
 
-tr_est_biogenesis_4:0 "Spawning Pools"
-tr_est_biogenesis_4_delayed:0 "Drones are spawned at a continuous rate from designated spawning pools. Each spawning pool produces a specified type of drones. This allows us to produce drones at a much higher rate than before."
+tr_est_biogenesis_4:0 "Baseny Rozrodcze"
+tr_est_biogenesis_4_desc:0 "Zwiększa szybkość wzrostu populacji o §G10%§! (do §G20%§! z §YMistrzostwem Ewolucji§!)."
+tr_est_biogenesis_4_delayed:0 "Drony są nieustannie produkowane w wyznaczonych basenach, co pozwala nam na znacznie szybszą produkcję niż dotychczas."
 
 tr_est_biogenesis_4_ap:0 "$tr_est_biogenesis_4$"
-tr_est_biogenesis_4_ap_delayed:0 "No longer using conventional means of reproduction, we can use spawning pools to create new individuals at a higher pace than ever before."
+tr_est_biogenesis_4_ap_desc:0 "$tr_est_biogenesis_4_desc$"
+tr_est_biogenesis_4_ap_delayed:0 "Porzucając konwencjonalne metody rozmnażania, możemy teraz tworzyć nowe jednostki w niespotykanym dotąd tempie."
 
-tr_est_biogenesis_5:0 "Constant Evolution"
-tr_est_biogenesis_5_pre_gene_mod_desc:0 "§Y$MOD_COUNTRY_SOCIETY_TECH_RESEARCH_SPEED$§! increased by §G+10%§! and §YResearch Speed (Biology)§! increased by §G+10%§!."
-tr_est_biogenesis_5_delayed:0 "Evolution is a process without a goal. While the mind is constant, our form is always changing as we expand throughout the galaxy."
+tr_est_biogenesis_5:0 "Nieustanna Ewolucja"
+tr_est_biogenesis_5_desc:0 "Dodaje §G+1§! punkt modyfikacji cech biologicznych i zmniejsza koszt modyfikacji gatunku o §G5%§!.\nImperium Roju bez §YInżynierii Genetycznej§! otrzymuje zamiast tego §G+10%§! szybkości badań społeczeństwa oraz §G+10%§! szybkości badań biologicznych."
+tr_est_biogenesis_5_delayed:0 "Ewolucja jest procesem bez określonego celu. Podczas gdy umysł pozostaje stały, nasza forma nieustannie zmienia się w miarę ekspansji w galaktyce."
 
-tr_est_biogenesis_finish:0 "Biogenesis Traditions Finished"
+tr_est_biogenesis_finish:0 "Zakończenie Tradycji Biogenezy"
+tr_est_biogenesis_finish_desc:0 "Rolnicy wytwarzają §G+1§! minerałów, a ty otrzymujesz dodatkowy slot na Korzyść Wstąpienia."
+
 
 
 ################################################################
@@ -596,34 +628,39 @@ tr_est_foundation_finish:0 "Foundation Traditions Finished"
 # Confederacy
 ################################################################
 
-tradition_est_confederacy:0 "Confederacy"
-tradition_est_confederacy_desc:0 "Each part of our empire wields a great degree of autonomy. But towards the galaxy we show a united front."
+tradition_est_confederacy:0 "Konfederacja"
+tradition_est_confederacy_desc:0 "Każda część naszego imperium cieszy się dużą autonomią. Jednak wobec galaktyki prezentujemy wspólny front."
 
-tr_est_confederacy_adopt:0 "Confederacy Traditions"
+tr_est_confederacy_adopt:0 "Tradycje Konfederacyjne"
+tr_est_confederacy_adopt_desc:0 "Odblokowuje §YAgendę Konfederacyjną§!. Zmniejsza §YRozmiar Imperium od Populacji§! o §G25%§!."
 
-tr_est_confederacy_1:0 "Local Command Structures"
-tr_est_confederacy_1_delayed:0 "Rather than centralizing the assignments of important positions we will let each local government use their own command structures."
+tr_est_confederacy_1:0 "Lokalne Struktury Dowodzenia"
+tr_est_confederacy_1_desc:0 "§YUtrzymanie Przywódców§! zmniejszone o §G15%§!, a §YKoszt Rekrutacji§! §Urzędników§! zmniejszony o §G33%§!."
+tr_est_confederacy_1_delayed:0 "Zamiast centralizować przydzielanie kluczowych stanowisk, pozwolimy lokalnym władzom na korzystanie z własnych struktur dowodzenia. Zmniejszy to biurokrację i uszanuje lokalną niezależność."
 
-tr_est_confederacy_2:0 "Restrict Federal Power"
-tr_est_confederacy_2_desc:0 "All §YGovernors§! gain the §Y$leader_trait_governor_est_confederacy_2$§! trait, increasing their §YExperience Gain§! by §G+20%§! and reducing §Y$MOD_PLANET_CRIME_ADD$§! by §G-15§! in their §YSector§!."
-tr_est_confederacy_2_delayed:0 "To centralize power is to steal it from where it belongs. To guarantee the sovereignty of our numerous states, we will enforce strict restrictions on what power the federal government might wield."
+tr_est_confederacy_2:0 "Ograniczenie Władzy Federalnej"
+tr_est_confederacy_2_desc:0 "Wszyscy §YUrzędnicy§! otrzymują cechę §Y$leader_trait_official_est_confederacy$§!, która zwiększa ich §YZdobywanie Doświadczenia§! o §G20%§! i zmniejsza §Y$MOD_PLANET_CRIME_MULT$§! o §G10%§! na §Yplanecie§!, oraz o §G5%§! w §Ysektorze§! (jeśli stacjonują w stolicy sektora)."
+tr_est_confederacy_2_delayed:0 "Centralizacja władzy to jej odbieranie tam, gdzie powinna pozostać. By zachować suwerenność naszych licznych państw, musimy ograniczyć uprawnienia rządu federalnego."
 
-tr_est_confederacy_3:0 "National Assembly"
-tr_est_confederacy_3_delayed:0 "The National Assembly is an important part of our government. Here, local representations from all over our empire meet to discuss and vote upon important matters of state."
+tr_est_confederacy_3:0 "Zgromadzenie Narodowe"
+tr_est_confederacy_3_desc:0 "§YJedność z Frakcji§! zwiększona o §G15%§!."
+tr_est_confederacy_3_delayed:0 "Zgromadzenie Narodowe stanowi podstawę naszego modelu federacyjnego. Przedstawiciele z całego imperium debatują i tworzą prawo, gwarantując słyszalność każdej opinii."
 
-tr_est_confederacy_4:0 "Autonomous States"
-tr_est_confederacy_4_desc:0 "Our §YSubjects§! receive §G+10%§! £happiness  §Y$MOD_POP_HAPPINESS$§! and §G+20%§! §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§!, in addition their £opinion  §YOpinion§! of us is increased by §G+50§!."
-tr_est_confederacy_4_delayed:0 "Our empire is composed of an intricate structure of states, local governments, independent planets, federal space, and other denominations, each with varying degree of autonomy. Many of these are allowed to govern themselves to a great extent."
+tr_est_confederacy_4:0 "Autonomiczne Państwa"
+tr_est_confederacy_4_desc:0 "Nasi §YPoddani§! otrzymują §G+10%§! £happiness §Y$MOD_POP_HAPPINESS$§!, §G+20%§! §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! oraz §G+1§! miesięcznej §YLojalności§!."
+tr_est_confederacy_4_delayed:0 "Nasze imperium tworzy złożona struktura państw, władz lokalnych i niezależnych światów, z których wiele posiada znaczną autonomię."
 
-tr_est_confederacy_4_no_subj:0 "Loyalty"
-tr_est_confederacy_4_no_subj_desc:0 "§YGovernment Ethics Attraction§! increased by §G+15%§!."
-tr_est_confederacy_4_no_subj_delayed:0 "Our empire contains many faction and most planets and sectors wield an unusual amount of autonomy. While we may disagree on many topics, we are all loyal to our united empire and common cause."
+tr_est_confederacy_4_no_subj:0 "Lojalność"
+tr_est_confederacy_4_no_subj_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! zwiększone o §G15%§!."
+tr_est_confederacy_4_no_subj_delayed:0 "W naszym imperium istnieje wiele frakcji, a większość planet i sektorów cieszy się dużą niezależnością. Mimo różnic wszyscy pozostajemy lojalni wobec wspólnej sprawy."
 
-tr_est_confederacy_5:0 "The Endless Realm"
-tr_est_confederacy_5_desc:0 "§YOutpost Upkeep§! reduced by §G-50%§!."
-tr_est_confederacy_5_delayed:0 "So large is our realm that one can travel for a lifetime, and still only see a fraction of it."
+tr_est_confederacy_5:0 "Bezgraniczne Królestwo"
+tr_est_confederacy_5_desc:0 "§YUtrzymanie Baz Gwiezdnych§! i §YKoszt Budowy Posterunków§! zmniejszone o §G10%§!."
+tr_est_confederacy_5_delayed:0 "Nasze władztwo jest tak rozległe, że można podróżować przez całe życie i zobaczyć tylko jego część. Musimy zadbać o trwałość jego infrastruktury."
 
-tr_est_confederacy_finish:0 "Confederacy Traditions Finished"
+tr_est_confederacy_finish:0 "Zakończono Tradycje Konfederacji"
+tr_est_confederacy_finish_desc:0 "Zmniejsza §YCałkowity Rozmiar Imperium§! o §G10%§! i zapewnia dodatkowy §YMiejsce na Perk Ascendencji§!."
+
 
 
 ################################################################
@@ -1382,33 +1419,41 @@ tr_est_order_finish:0 "Order Traditions Finished"
 # Cooperativity
 ################################################################
 
-tradition_est_cooperativity:0 "Cooperativity"
-tradition_est_cooperativity_desc:0 "While each drone lacks advanced cognition, through cognitive cooperativity their intellectual abilities are amplified greatly. In this way large numbers of drones can complete advanced tasks without input from the mind."
+tradition_est_cooperativity:0 "Kooperatywność"
 
-tr_est_cooperativity_adopt:0 "Cooperativity Traditions"
-tr_est_cooperativity_adopt_desc:0 "Increases §YResource Output§! by §G+3/6/10%§! on planets with at least §Y25/50/100§! £pop£ §YPops§!."
+tr_est_cooperativity_adopt:0 "Tradycje Kooperatywności"
+tr_est_cooperativity_adopt_desc:0 "Zwiększa §YProdukcję Zasobów§! o §G+3/6/10%§! na planetach posiadających co najmniej §Y500/2000/5000§! £pop£ §YPopów§!."
 
-tr_est_cooperativity_1:0 "Warrior Clusters"
-tr_est_cooperativity_1_delayed:0 "Warriors are grouped into small clusters to ensure that warrior drones are not isolated. As long as they are fighting in groups they can utilize cooperativity to enhance their tactical sense and improve combat performance."
+tr_est_cooperativity_1:0 "Klastery Wojowników"
+tr_est_cooperativity_1_desc:0 "Zwiększa §YObrażenia Armii§! o §G+20%§! oraz zmniejsza §YUtrzymanie Armii§! o §G10%§!."
+tr_est_cooperativity_1_delayed:0 "Wojownicy są organizowani w małe grupy, aby uniknąć ich izolacji. Walcząc razem, mogą wykorzystywać kooperatywność, by zwiększyć swoje zdolności taktyczne i skuteczność bojową."
 
-tr_est_cooperativity_2:0 "Worker Teams"
-tr_est_cooperativity_2_delayed:0 "Work drones are grouped into carefully designed teams were each individual drone can contribute with complementary mental capacities to the local mind network. This will increase work efficiency."
+tr_est_cooperativity_2:0 "Zespoły Pracownicze"
+tr_est_cooperativity_2_desc:0 "Zwiększa produkcję §YProstych Dronów§! o §G+10%§! w zależności od typu imperium."
+tr_est_cooperativity_2_delayed:0 "Drony pracujące są organizowane w zespoły tak, by ich umiejętności poznawcze uzupełniały się nawzajem w ramach lokalnej sieci umysłowej. Zwiększa to wydajność pracy."
 
-tr_est_cooperativity_3:0 "Input Sharing"
-tr_est_cooperativity_3_delayed:0 "Autonomous drones may integrate themselves into local drone networks, taking part in and learning from their stored sensory inputs."
+tr_est_cooperativity_3:0 "Współdzielenie Wejścia"
+tr_est_cooperativity_3_desc:0 "Zwiększa §YWzrost Doświadczenia Liderów§! o §G+25%§! dla wszystkich gatunków."
+tr_est_cooperativity_3_delayed:0 "Autonomiczne drony mogą integrować się z lokalnymi sieciami, ucząc się i korzystając z przechowywanych danych sensorycznych."
 
-tr_est_cooperativity_4:0 "Cognition Centrals"
-tr_est_cooperativity_4_desc:0 "All leaders gain the §YCognition Central§! trait which provides minor bonuses."
-tr_est_cooperativity_4_delayed:0 "Autonomous drones have much higher cognitive capacity than normal drones. By integrating themselves into local drone networks they may amplify their capabilities greatly."
+tr_est_cooperativity_4:0 "Centra Kognicji"
+tr_est_cooperativity_4_desc:0 "Wszyscy liderzy otrzymują cechę §YCentrum Kognicji§!, która zapewnia drobne premie."
+tr_est_cooperativity_4_delayed:0 "Drony autonomiczne posiadają znacznie większe zdolności poznawcze niż standardowe jednostki. Poprzez integrację z lokalnymi sieciami mogą znacząco zwiększyć swoje możliwości."
 
-tr_est_cooperativity_5:0 "Growth Phases"
-tr_est_cooperativity_5_desc:0 "Enables the §YGrowth Phase§! planetary decision, which increases §YGrowth Speed§! by §G+50%§! while reducing §YPop Resource Output§! by §R-25%§! and increasing §YPop Food Consumption§! by §R+50%§!."
-tr_est_cooperativity_5_machines_desc:0 "Enables the §YRobot Build Phase§! planetary decision, which increases §YPop Assembly Speed§! by §G+50%§! while reducing §YPop Resource Output§! by §R-25%§! and increasing §YPop Energy Consumption§! by §R+50%§!."
-tr_est_cooperativity_5_AI_desc:0 "Increase §YGrowth Speed§! by §G+15%§!."
-tr_est_cooperativity_5_AI_machines_desc:0 "Increase §YPop Assembly Speed§! by §G+15%§!."
-tr_est_cooperativity_5_delayed:0 "To reduce the disadvantages of low drone numbers a colony can enter a special growth phase, increasing drone growth rates but greatly reducing production."
+tr_est_cooperativity_5:0 "Fazy Wzrostu"
+tr_est_cooperativity_5_desc:0 "Umożliwia decyzję planetarną §YFaza Wzrostu§!, zwiększającą §YTempo Wzrostu§! o §G+50%§!, zmniejszającą §YProdukcję Zasobów przez Popów§! o §R-25%§! i zwiększającą §YZużycie Żywności§! o §R+50%§!."
+tr_est_cooperativity_5_delayed:0 "Aby ograniczyć problemy wynikające z małej liczby dronów, kolonia może przejść w specjalną fazę wzrostu, która przyspiesza rozwój kosztem wydajności."
 
-tr_est_cooperativity_finish:0 "Cooperativity Traditions Finished"
+tr_est_cooperativity_5_machines:0 "Przeciążenie Replikacji"
+tr_est_cooperativity_5_machines_desc:0 "Umożliwia decyzję §YFaza Budowy Robotów§!, która zwiększa §YTempo Montażu Popów§! o §G+50%§!, zmniejsza §YProdukcję Zasobów§! o §R-25%§! i zwiększa §YZużycie Energii§! o §R+50%§!."
+tr_est_cooperativity_5_machines_delayed:0 "Jeśli liczba dronów jest niewystarczająca do realizacji zadań, kolonia może zmienić swój priorytet na produkcję nowych jednostek kosztem funkcji podstawowych."
+
+tr_est_cooperativity_5_AI_desc:0 "Zwiększa §YTempo Wzrostu§! o §G+15%§!."
+tr_est_cooperativity_5_AI_machines_desc:0 "Zwiększa §YTempo Montażu Popów§! o §G+15%§!."
+
+tr_est_cooperativity_finish:0 "Tradycje Kooperatywności Zakończone"
+tr_est_cooperativity_finish_desc:0 "Zyskujesz §G+2§! £pop£ §YPopów§! przy zakładaniu kolonii oraz §G+1§! §YMiejsce na Przywilej Wstąpienia§!. Odblokowuje §YAgendę Kooperatywności§!, która zmniejsza §YKoszt Utrzymania Dyplomatycznego§! o §G20%§!."
+
 
 ################################################################
 # Piracy
@@ -1507,29 +1552,35 @@ tr_est_spaceborn_finish:0 "Spaceborn Traditions Finished"
 # Collectivism
 ################################################################
 
-tradition_est_collectivism:0 "Collectivism"
-tradition_est_collectivism_desc:0 "The sum is more than its parts. It is time for every individual to set their own interests aside, for only together can they achieve true greatness."
+tradition_est_collectivism:0 "Kolektywizm"
+tradition_est_collectivism_desc:0 "Całość to więcej niż suma jej części. Nadszedł czas, by jednostki porzuciły własne interesy – tylko razem możemy osiągnąć prawdziwą wielkość."
 
-tr_est_collectivism_adopt:0 "Collectivism Traditions"
+tr_est_collectivism_adopt:0 "Tradycje Kolektywizmu"
+tr_est_collectivism_adopt_desc:0 "Przyjęcie tradycji Kolektywizmu zwiększa §YMieszkalnictwo planetarne§! o §G+15%§! i odblokowuje unikalną Agendę."
 
-tr_est_collectivism_1:0 "Part of the Puzzle"
-tr_est_collectivism_1_delayed:0 "Everyone is merely a piece. While the role they play is small, it is important that each and one, without hesitation, do their part in the greater scheme of things."
+tr_est_collectivism_1:0 "Część Układanki"
+tr_est_collectivism_1_desc:0 "Zmniejsza §YUtrzymanie dóbr konsumpcyjnych§! o §G10%§! i §YKoszt przesiedlenia§! o §G15%§!."
+tr_est_collectivism_1_delayed:0 "Każdy jest tylko jednym elementem. Choć jego rola jest mała, to niezwykle ważne, by wszyscy wykonywali swoją część większego planu."
 
-tr_est_collectivism_2:0 "United We Stand"
-tr_est_collectivism_2_delayed:0 "United we stand, divided we fall. Only together can we face challenges of this galaxy."
+tr_est_collectivism_2:0 "Zjednoczeni Przetrwamy"
+tr_est_collectivism_2_desc:0 "Zwiększa §YProdukcję jedności§! o §G5%§! oraz §YPoparcie dla etyki rządowej§! o §G10%§!."
+tr_est_collectivism_2_delayed:0 "Zjednoczeni przetrwamy, podzieleni zginiemy. Tylko razem stawimy czoła galaktycznym wyzwaniom."
 
-tr_est_collectivism_3:0 "Cooperation"
-tr_est_collectivism_3_desc:0 "§YResource Output§! is increased by §G+5%§! on planets without any §YCrime§!."
-tr_est_collectivism_3_delayed:0 "Where there is division and competition there cannot be true cooperation. Only by working together can we achieve our true potential."
+tr_est_collectivism_3:0 "Współpraca"
+tr_est_collectivism_3_desc:0 "§YProdukcja zasobów§! zwiększona o §G+5%§! na planetach bez §YPrzestępczości§!."
+tr_est_collectivism_3_delayed:0 "Tam gdzie panuje rywalizacja i podziały, nie ma miejsca na prawdziwą współpracę. Tylko wspólnym wysiłkiem osiągniemy pełnię możliwości."
 
-tr_est_collectivism_4:0 "Ready to Serve"
-tr_est_collectivism_4_delayed:0 "To serve in our military is one of the best way to serve our empire. Throughout our realm there is not a soul who would not come when the empire calls for their service."
+tr_est_collectivism_4:0 "Gotowi do Służby"
+tr_est_collectivism_4_desc:0 "Zwiększa §YPojemność marynarki§! o §G15%§! i zmniejsza §YKoszt tworzenia armii§! o §G15%§!."
+tr_est_collectivism_4_delayed:0 "Służba w armii to jedna z najwyższych form oddania imperium. Nikt nie zawaha się odpowiedzieć na jego wezwanie."
 
-tr_est_collectivism_5:0 "Self Sacrifice"
-tr_est_collectivism_5_desc:0 "§Y$MOD_ARMY_MORALE$§! increased by §G+20%§! and the £happiness  §YHappiness§! of £pop_cat_worker  §YWorker Pops§! is increased by §G+5%§!."
-tr_est_collectivism_5_delayed:0 "The need of the many outweigh the needs of the few."
+tr_est_collectivism_5:0 "Poświęcenie"
+tr_est_collectivism_5_desc:0 "Zwiększa §YMoralę armii§! o §G20%§! oraz §YSzczęście pracowników§! o §G5%§!."
+tr_est_collectivism_5_delayed:0 "Potrzeby wielu przewyższają potrzeby jednostki."
 
-tr_est_collectivism_finish:0 "Collectivism Traditions Finished"
+tr_est_collectivism_finish:0 "Tradycje Kolektywizmu Ukończone"
+tr_est_collectivism_finish_desc:0 "Ukończenie tradycji Kolektywizmu zapewnia §G+30§! §YFunduszy edyktów§! oraz dodatkowe miejsce na §YWyjątkową Perkę§!."
+
 
 
 ################################################################

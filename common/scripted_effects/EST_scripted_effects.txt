@@ -27,3 +27,4 @@ create_EST_situation_handler = {
 		set_global_flag = EST_situation_handler_created
 	}
 }
+

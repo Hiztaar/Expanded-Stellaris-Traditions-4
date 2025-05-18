@@ -1,7 +1,10 @@
 tr_est_administratum_adopt = {
 	unlocks_agenda = agenda_est_administratum
 	modifier = {
-		empire_size_districts_mult =  -0.20
+		country_empire_size_systems_mult = -0.10
+		country_empire_size_colonies_mult = -0.10
+		country_empire_size_districts_mult = -0.10
+		country_empire_size_pops_mult = -0.10
 	}
 }
 
@@ -12,24 +15,19 @@ tr_est_administratum_finish = {
 	}
 }
 
-
 tr_est_administratum_1 = {
 	modifier = {
 		leaders_cost_mult = -0.25
 	}
-
 	ai_weight = { factor = 5000 }
 }
 
 tr_est_administratum_2 = {
 	custom_tooltip = tr_est_administratum_2_desc
-	
 	possible = { has_tradition = tr_est_administratum_1 }
-	
 	modifier = {
-		official_initial_skill = 1 #(Ben_D): no longer valid # (Metallichydra): Changed to governor starting levels
+		official_initial_skill = 1
 	}
-	
 	on_enabled = {
 		every_pool_leader = {
 			owner = {
@@ -52,7 +50,6 @@ tr_est_administratum_2 = {
 			}
 		}
 	}
-
 	ai_weight = { factor = 5000 }
 }
 
@@ -62,7 +59,6 @@ tr_est_administratum_3 = {
 		planet_building_build_speed_mult = 0.25
 		planet_clear_blocker_time_mult = -0.25
 	}
-
 	ai_weight = { factor = 5000 }
 }
 
@@ -71,7 +67,6 @@ tr_est_administratum_4 = {
 		planet_districts_cost_mult = -0.10
 		planet_districts_upkeep_mult = -0.10
 	}
-
 	ai_weight = { factor = 5000 }
 }
 
@@ -81,10 +76,8 @@ tr_est_administratum_5 = {
 		has_tradition = tr_est_administratum_3
 		has_tradition = tr_est_administratum_4
 	}
-	
 	modifier = {
 		country_edict_fund_add = 30
 	}
-
 	ai_weight = { factor = 5000 }
 }

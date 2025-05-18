@@ -18,16 +18,19 @@ tr_est_academy_2_desc:0 "Increase the §YStarting Level§! of all leaders by §Y
 tr_est_academy_2_delayed:0 "By mandating a higher education for all citizens, we can ensure that our leaders are capable of executing their roles with deft precision."
 
 tr_est_academy_3:0 "Learn, Unlearn, and Relearn"
+tr_est_academy_3_desc:0 "§YLeader Experience Gain§! increased by §G+33%§!."
 tr_est_academy_3_delayed:0 "We value learning. Not just for the knowledge itself, but also for the process by which we learn. A true leader learns as much from failure as they do from success."
 
 tr_est_academy_4:0 "Towers of Ivory"
-tr_est_academy_4_delayed:0 "Cutting-edge research is best left to the experts. In their ivory towers, our scientists are free to study, experiment, and develop without outside interference."
+tr_est_academy_4_desc:0 "Unlocks the §YResearch Director§! job, an elite position overseeing planetary research."
+tr_est_academy_4_delayed:0 "Cutting-edge research is entrusted to the finest minds. Our Research Directors coordinate scientific efforts on planets with significant research centers, ensuring academic excellence."
 
-tr_est_academy_5:0 "Military Schools"
-tr_est_academy_5_delayed:0 "Our empire firmly believes that only an educated military can truly operate at maximum efficency."
+tr_est_academy_5:0 "Military Academies"
+tr_est_academy_5_desc:0 "§YArmy Starting Experience§! and §YShip Starting Experience§! increased by §G+200§!. In addition, §YAdmirals§! and §YGenerals§! maximum §YSkill Levels§! increased by §Y1§!."
+tr_est_academy_5_delayed:0 "To master the chaos of battle, discipline must be absolute. Our Military Academies shape the next generation of commanders through relentless training, tactical doctrine, and the unyielding pursuit of excellence. From the decks of starships to the fields of planetary warfare, none leave untested."
 
 tr_est_academy_finish:0 "Academy Traditions finished"
-tr_est_academy_finish_desc:0 "Allow leaders to upgrade certain traits to level 3.\nAscension Perks Unlocked: §G+1§!"
+tr_est_academy_finish_desc:0 "All current and future leaders gain the Academician trait, providing 2 × Leader Level research points to all research categories.\nAscension Perks Unlocked: §G+1§!"
 
 
 ################################################################
@@ -47,29 +50,32 @@ tr_est_aesthetics_adopt_megacorp:0 "Aesthetics Traditions"
 tr_est_aesthetics_adopt_megacorp_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+15%§! on planets with the £building  §Y$building_corporate_monument$§! building chain."
 
 tr_est_aesthetics_1:0 "Works of Literature"
+tr_est_aesthetics_1_desc:0 "§Y$PLANET_AMENITIES_MULT$§! increased by §G+15%§!."
 tr_est_aesthetics_1_delayed:0 "The works of our writers and poets will enlighten billions of souls over thousands of years. Once a piece is finished, it will last an eternity, it will make the galaxy a better place everyday."
 
 tr_est_aesthetics_2:0 "Guild of Artists"
-tr_est_aesthetics_2_delayed:0 "The esteemed guild of artists hosts public cultural and creative events on a regular basis, bringing joy and wonder to all citizens."
+tr_est_aesthetics_2_desc:0 "Adds §YCulture Worker Jobs§! scaling with total population."
+tr_est_aesthetics_2_delayed:0 "The esteemed guild of artists sponsors the creation of vast cultural centers, supporting a growing class of professional culture workers across our nation."
 
 tr_est_aesthetics_3:0 "Inspiration of Awe"
-tr_est_aesthetics_3_desc:0 "Foreign Empire £opinion£  §YOpinion§! is increased by §G+15§! and  §Y$MOD_ENVOY_IMPROVE_RELATIONS_MULT$§! is increased by §G+20%§!."
+tr_est_aesthetics_3_desc:0 "Foreign nation £opinion£  §YOpinion§! is increased by §G+15§! and  §Y$MOD_ENVOY_IMPROVE_RELATIONS_MULT$§! is increased by §G+20%§!."
 tr_est_aesthetics_3_delayed:0 "Visiting diplomats are awestruck by our ability to elegantly weave the arts into even the most mundane aspects of our civilization. They marvel at the beauty that covers every hall they walk through. They then bring the tales of the glory of our civilization back to their own empires."
 
 tr_est_aesthetics_3_xenophobe:0 "The Art of War"
-tr_est_aesthetics_3_xenophobe_desc:0 "Our £unity  §YUnity§! output is increased by §G+20%§! while we are at war."
+tr_est_aesthetics_3_xenophobe_desc:0 "Our £unity£ §YUnity§! output is increased by §G+20%§! while we are at war."
 tr_est_aesthetics_3_xenophobe_delayed:0 "Our citizens recognize our Admirals and Generals as masters in the art of war, applying their talents to the battlefield as a sculptor would to unformed clay."
 
 tr_est_aesthetics_3_IP:0 "Pursuit of Perfection"
-tr_est_aesthetics_3_IP_delayed:0 "We care little for petty squabbles of other empires. In the tranquility of our isolation, we dedicate our lives to the pursuit of a singular goal; perfection of artistic beauty."
+tr_est_aesthetics_3_IP_desc:0 "Our £unity£ §YUnity§! output is increased by §G+10%§! as we focus inward."
+tr_est_aesthetics_3_IP_delayed:0 "We care little for petty squabbles of other nations. In the tranquility of our isolation, we dedicate our lives to the pursuit of a singular goal; perfection of artistic beauty."
 
 tr_est_aesthetics_4:0 "Grand Architecture"
-tr_est_aesthetics_4_desc:0 "Each §YCity District§! produces §G0.5§! £unity£ §YUnity§!."
+tr_est_aesthetics_4_desc:0 "Each £job_clerk£ §YClerk§! produces §G+2§! £unity£ §YUnity§!, and our nation gains §G+1§! £influence£ §YInfluence§! monthly."
 tr_est_aesthetics_4_delayed:0 "Our buildings will be our greatest legacy, they will speak of our glory long after we are gone."
 
 tr_est_aesthetics_5:0 "Galactic Wonders"
-tr_est_aesthetics_5_desc:0 "Enables §Y5§! expensive empire unique wonder buildings, each providing planet and empire wide bonuses. To build a wonder a £building  §Y$building_major_capital$§! is required. No more than one wonder can be built on each planet."
-tr_est_aesthetics_5_delayed:0 "Our empire is home to some of the greatest wonders in the galaxy. Their grandness is known even to those on the most remote of worlds in this galaxy."
+tr_est_aesthetics_5_desc:0 "Enables §Y5§! unique empire-scale wonder buildings. Each wonder provides §Y400§! £job_culture_worker£ Culture Worker jobs. Requires a £building£ §Y$building_major_capital$§!. Only one wonder may be built per planet."
+tr_est_aesthetics_5_delayed:0 "Our nation is home to some of the greatest wonders in the galaxy. Their grandness is known even to those on the most remote of worlds in this galaxy."
 
 tr_est_aesthetics_finish:0 "Aesthetics Traditions Finished"
 
@@ -82,8 +88,10 @@ tradition_est_administratum:0 "Administratum"
 tradition_est_administratum_desc:0 "A legion of clerks and bureaucrats oversee the empire, executing the will of our leaders with dutiful persistence."
 
 tr_est_administratum_adopt:0 "Administratum Traditions"
+tr_est_administratum_desc:0 "Reduces Empire Size from systems, colonies, districts, and pops by 10%. Unlocks a special Administratum agenda to further optimize the imperial apparatus."
 
 tr_est_administratum_1:0 "Streamlined Recruitment Processes"
+tr_est_administratum_1_desc:0 "Leader recruitment cost reduced by §Y25%§§!."
 tr_est_administratum_1_delayed:0 "A series of standardised aptitude tests, questionnaires, and interviews are implemented to reduce the overhead necessary to find the best candidate for leadership roles in service to the empire."
 
 tr_est_administratum_2:0 "Merit-Based Promotions"
@@ -91,12 +99,15 @@ tr_est_administratum_2_desc:0 "§Y$mod_official_initial_skill$§! increased by �
 tr_est_administratum_2_delayed:0 "Politics, intrigue, and petty quarrels greatly affected past promotion decisions. New strict guidelines and decentralized promotion decisions ensure that this is no longer the case."
 
 tr_est_administratum_3:0 "Efficient Bureaucracy"
+tr_est_administratum_3_desc:0 "Starbase shipyard build speed increased by §Y10%§!, planet building construction speed increased by §Y25%§!, and planetary blocker clearing time reduced by §Y25%§!."
 tr_est_administratum_3_delayed:0 "As any empire grows, so too does its bureaucracy. New methods are implemented to reduce paperwork and bureaucratic response times, enabling projects to be completed more quickly."
 
 tr_est_administratum_4:0 "Standardized Planetary Administration"
+tr_est_administratum_4_desc:0 "Planetary districts build cost reduced by §Y10%§! and districts upkeep reduced by §Y10%§!."
 tr_est_administratum_4_delayed:0 "As we gain control of more planets, their local administrations are at risk of diverging. By instituting a standard template of planetary administration, we ensure similar governance on all our worlds."
 
 tr_est_administratum_5:0 "Bureau of Oversight"
+tr_est_administratum_5_desc:0 "§YEdict Fund§! increased by §Y30§!."
 tr_est_administratum_5_delayed:0 "The Bureau of Oversight is an independent organization. Its Overseers travel throughout the empire, inspecting policies and practices of local administrations. A written remark from a Bureau Overseer is the nightmare of any ambitious administrator."
 
 tr_est_administratum_finish:0 "Administratum Traditions Finished"
@@ -128,9 +139,11 @@ tr_est_archivist_2_GC_desc:0 "Leaders have a §Y25%§! chance to receive the §Y
 tr_est_archivist_2_GC_delayed:0 "Archival drones are built to ingest, catalogue, and search our empire's colossal databanks. The need for these drones to specialize in this role has resulted in several standard parts being left out of their design. They are not useful for much else."
 
 tr_est_archivist_3:0 "Historical Records"
+tr_est_archivist_3_desc:0 "Unity output is increased by §G5%§! and §YGovernment Ethic Attraction§! is increased by §G10%§!."
 tr_est_archivist_3_delayed:0 "We keep a meticulous recording of the history of our empire, every event and individual is recorded, so is every action we take. Through this knowledge of our common history we are held more tightly together."
 
 tr_est_archivist_3_GC:0 "Redundant Physical Backups"
+tr_est_archivist_3_GC_desc:0 "Unity output is increased by §G10%§!."
 tr_est_archivist_3_GC_delayed:0 "Despite the efficiency of a digitally-indexed archive, our empire's sum-total of collected knowledge should not reside solely on a single medium. Complete archival backups will be stored on several physical mediums to ensure full restoration after any catastrophe."
 
 tr_est_archivist_4:0 "Galactic Records"
@@ -153,11 +166,14 @@ tradition_est_benevolence:0 "Benevolence"
 tradition_est_benevolence_desc:0 "No unjust harm should befall our galactic neighbors by our hands. They have a place in this galaxy, just as we do."
 
 tr_est_benevolence_adopt:0 "Benevolence Traditions"
+tr_est_benevolence_adopt_desc:0 "Grants §Y+1 Envoy§! and unlocks the §Y$agenda_est_benevolence$§! Council Agenda."
 
 tr_est_benevolence_1:0 "Trade Deals"
+tr_est_benevolence_1_desc:0 "§Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§! increased by §G+10%§! and £energy  §YEnergy Credit§! output is increased by §G+5%§!."
 tr_est_benevolence_1_delayed:0 "While we have no concept of possession, it is essential to many other beings in the galaxy. Through trade deals with other civilizations we may acquire goods that are hard to find on our own planets."
 
 tr_est_benevolence_2:0 "Peaceful Contacts"
+tr_est_benevolence_2_desc:0 "§Y$MOD_COUNTRY_BORDER_FRICTION_MULT$§! reduced by §G50%§! and §Y$MOD_COUNTRY_TRUST_GROWTH$§! increased by §G+20%§!."
 tr_est_benevolence_2_delayed:0 "Contact with other empires necessitates no aggression. We have no need of arms when amongst those we trust."
 
 tr_est_benevolence_3:0 "Foreign Embassies"
@@ -165,13 +181,15 @@ tr_est_benevolence_3_desc:0 "Foreign Empire £opinion£ §YOpinion§! is increas
 tr_est_benevolence_3_delayed:0 "We will send out representation drones to other empires through which we will be able to contact directly with their rulers. This way we can promote good relations with other inhabitants of the galaxy and prevent misunderstandings."
 
 tr_est_benevolence_4:0 "Gentle Ways"
+tr_est_benevolence_4_desc:0 "§YPlanet Stability§! increased by §G+5§!."
 tr_est_benevolence_4_delayed:0 "Our mind, never affected by temper nor impulses, will always remain as calm as a gentle breeze."
 
 tr_est_benevolence_5:0 "Sharing of Ideas"
+tr_est_benevolence_5_desc:0 "§YAll Research Speed§! increased by §G+5%§!."
 tr_est_benevolence_5_delayed:0 "While the mortals minds of this galaxy are inferior, they might have come up with a few interesting ideas. By studying their technology and culture we might find something that could be of use to our own research projects."
 
 tr_est_benevolence_finish:0 "Benevolence Traditions Finished"
-tr_est_benevolence_finish_desc:0 "Increases our §YWeapon Damage§! to §YFallen Empires§!, §YAwakened Empires§! and §YEnd-Game Crises§! by §G+15%§! and increase §Y$MOD_DIPLO_WEIGHT_MULT$§! by §G+15%§!.\nAscension Perks Unlocked: §G+1§!"
+tr_est_benevolence_finish_desc:0 "Increases our §YWeapon Damage§! to §YFallen Empires§!, §YAwakened Empires§! and §End-Game Crises§! by §G+15%§! and increase §Y$MOD_DIPLO_WEIGHT_MULT$§! by §G+15%§!.\nAscension Perks Unlocked: §G+1§!"
 
 
 ################################################################
@@ -182,26 +200,35 @@ tradition_est_biogenesis:0 "Biogenesis"
 tradition_est_biogenesis_desc:0 "Our civilization is not built, but grown. We are one single great organism, spreading through the galaxy."
 
 tr_est_biogenesis_adopt:0 "Biogenesis Traditions"
+tr_est_biogenesis_adopt_desc:0 "Grants §Y+10% Pop Environment Tolerance§! and §Y+25% Colony Development Speed§!. Unlocks the §YBiogenesis§! Council Agenda."
 
 tr_est_biogenesis_1:0 "Bio Construction"
+tr_est_biogenesis_1_desc:0 "Reduces planetary building costs and upkeep by §G10%§!."
 tr_est_biogenesis_1_delayed:0 "Our buildings are not built with stones and concrete. Rather we grow them from organic tissue. The blueprints exist not on paper or in computers, but are encoded into the DNA of the structure itself."
 
 tr_est_biogenesis_2:0 "Living Ships"
+tr_est_biogenesis_2_desc:0 "Our ships passively regenerate §G2%§! of their hull each month."
 tr_est_biogenesis_2_delayed:0 "Our ships are alive, crafted from organic tissue, grown from our designs."
 
 tr_est_biogenesis_3:0 "Omnivores"
+tr_est_biogenesis_3_desc:0 "Empire Food production increased by §G20%§!."
 tr_est_biogenesis_3_delayed:0 "All types of organic matter can be consumed and turned to energy or be used to grow new tissue."
 
 tr_est_biogenesis_4:0 "Spawning Pools"
+tr_est_biogenesis_4_desc:0 "Increases Pop Growth Speed by §G10%§! (upgraded to §G20%§! with §YEvolutionary Mastery§!)."
 tr_est_biogenesis_4_delayed:0 "Drones are spawned at a continuous rate from designated spawning pools. Each spawning pool produces a specified type of drones. This allows us to produce drones at a much higher rate than before."
 
 tr_est_biogenesis_4_ap:0 "$tr_est_biogenesis_4$"
+tr_est_biogenesis_4_ap_desc:0 "$tr_est_biogenesis_4_desc$"
 tr_est_biogenesis_4_ap_delayed:0 "No longer using conventional means of reproduction, we can use spawning pools to create new individuals at a higher pace than ever before."
 
 tr_est_biogenesis_5:0 "Constant Evolution"
+tr_est_biogenesis_5_desc:0 "Adds §G+1§! Biological Species Trait Point and reduces species modification cost by §G5%§!.\nHive Empires without §YGene Tailoring§! gain §G+10%§! Society Research and §G+10%§! Biology Research Speed instead."
 tr_est_biogenesis_5_delayed:0 "Evolution is a process without a goal. While the mind is constant, our form is always changing as we expand throughout the galaxy."
 
 tr_est_biogenesis_finish:0 "Biogenesis Traditions Finished"
+tr_est_biogenesis_finish_desc:0 "Farmers produce §G+1§! Minerals and you gain an additional Ascension Perk Slot."
+
 
 
 ################################################################
@@ -243,11 +270,14 @@ tradition_est_collectivism:0 "Collectivism"
 tradition_est_collectivism_desc:0 "The sum is more than its parts. It is time for every individual to set their own interests aside, for only together can they achieve true greatness."
 
 tr_est_collectivism_adopt:0 "Collectivism Traditions"
+tr_est_collectivism_adopt_desc:0 "Adopting the Collectivism traditions increases §YPlanet Housing§! by §G+15%§! and unlocks a unique Agenda."
 
 tr_est_collectivism_1:0 "Part of the Puzzle"
+tr_est_collectivism_1_desc:0 "Reduces §YConsumer Goods upkeep§! by §G10%§! and §YResettlement Cost§! by §G15%§!."
 tr_est_collectivism_1_delayed:0 "Everyone is merely a piece. While the role they play is small, it is important that each and one, without hesitation, do their part in the greater scheme of things."
 
 tr_est_collectivism_2:0 "United We Stand"
+tr_est_collectivism_2_desc:0 "Increases §YUnity output§! by §G5%§! and §YGoverning Ethics Attraction§! by §G10%§!."
 tr_est_collectivism_2_delayed:0 "United we stand, divided we fall. Only together can we face challenges of this galaxy."
 
 tr_est_collectivism_3:0 "Cooperation"
@@ -255,12 +285,16 @@ tr_est_collectivism_3_desc:0 "§YResource Output§! is increased by §G+5%§! on
 tr_est_collectivism_3_delayed:0 "Where there is division and competition there cannot be true cooperation. Only by working together can we achieve our true potential."
 
 tr_est_collectivism_4:0 "Ready to Serve"
-tr_est_collectivism_4_delayed:0 "To serve in our military is one of the best way to serve our empire. Throughout our realm there is not a soul who would not come when the empire calls for their service."
+tr_est_collectivism_4_desc:0 "Increases §YNaval Capacity§! by §G15%§! and reduces §YArmy Cost§! by §G15%§!."
+tr_est_collectivism_4_delayed:0 "To serve in our military is one of the best ways to serve our empire. Throughout our realm there is not a soul who would not come when the empire calls for their service."
 
 tr_est_collectivism_5:0 "Self Sacrifice"
+tr_est_collectivism_5_desc:0 "Increases §YArmy Morale§! by §G20%§! and §YWorker Happiness§! by §G5%§!."
 tr_est_collectivism_5_delayed:0 "The need of the many outweigh the needs of the few."
 
 tr_est_collectivism_finish:0 "Collectivism Traditions Finished"
+tr_est_collectivism_finish_desc:0 "Finishing the Collectivism traditions grants §G+30§! §YEdict Fund§! and unlocks an additional §YAscension Perk§! slot."
+
 
 
 
@@ -272,28 +306,34 @@ tradition_est_commerce:0 "Commerce"
 tradition_est_commerce_desc:0 "Where there is trade there is a profit to be made. Trade is the lifeblood of the galaxy and from it we can draw vast fortunes."
 
 tr_est_commerce_adopt:0 "Commerce Traditions"
+tr_est_commerce_adopt_desc:0 "Unlocks the §YCommercial Agenda§!. §YClerk§! jobs produce §G+0.015§! £unity §YUnity§!."
 
 tr_est_commerce_1:0 "Economic Boom"
-tr_est_commerce_1_desc:0 "Our £energy  §YEnergy Credit§! output is increased by §G+15%§! while £energy  §YEnergy Credit§! gain is positive."
+tr_est_commerce_1_desc:0 "While our £energy §YEnergy Credit§! income is positive, our empire gains §G+15%§! £energy §YEnergy Credit§! production."
 tr_est_commerce_1_delayed:0 "Thanks to our successful fiscal policies, our economy is booming. Both our citizens and our businesses have increased power to buy, consume, and produce. These favourable conditions will allow our empire to increase its spending on infrastructure and the military."
 
 tr_est_commerce_2:0 "Encourage Local Economies"
-tr_est_commerce_2_desc:0 "Unlocks three planetary decisions, increasing planet £energy  §YEnergy Credit§!, £food  §YFood§!, or £minerals  §YMineral§! output by §G+20%§!, while reducing the output of the other two by §R-15%§!."
+tr_est_commerce_2_desc:0 "Unlocks three planetary decisions that boost either £energy §YEnergy Credits§!, £food §YFood§!, or £minerals §YMinerals§! by §G+20%§!, while reducing the other two by §R-15%§!."
 tr_est_commerce_2_delayed:0 "We should encourage each one of our planets to develop their local economies in their own distinct way. Thus, relaxing certain imperial regulations, we can allow planets to better adapt to their local conditions and thereby increase their productive output."
 
 tr_est_commerce_3:0 "Financial Reforms"
+tr_est_commerce_3_desc:0 "§YTrade Value§! increased by §G+10%§!."
 tr_est_commerce_3_delayed:0 "Soon after our empire met its first galactic neighbors, it became clear that our financial system was not compatible with the wider galactic market. Our ancient system of finance must be brought in line with the rest of the galaxy."
 
-tr_est_commerce_4:0 "Trade Convoys"
-tr_est_commerce_4_delayed:0 "We have organised a system of trade convoys throughout our empire. These allow for efficient and safe transportation of goods throughout our empire."
+tr_est_commerce_4:0 "Trade Hubs"
+tr_est_commerce_4_desc:0 "§YBranch Office Value§! and §YBranch Office Owner Value§! increased by §G+25%§!."
+tr_est_commerce_4_delayed:0 "Our empire has grown into a galactic trade hub. Whether we own the branches or host them, all commercial activity flourishes within our borders."
 
 tr_est_commerce_5:0 "Master Merchants"
+tr_est_commerce_5_desc:0 "§YTrade Attractiveness§! increased by §G+5%§!. §YGalactic Market Fee§! reduced by §G-5%§!."
 tr_est_commerce_5_delayed:0 "If trade is an art, we are its masters. There is nothing in the galaxy that we have not, at some point, bought or sold. Always at a profit."
 
 tr_est_commerce_5_no_dip:0 "Fluid Economy"
+tr_est_commerce_5_no_dip_desc:0 "§YGalactic Market Fee§! reduced by §G-10%§!."
 tr_est_commerce_5_no_dip_delayed:0 "In our empire, goods are exchanged so frequently that they can scarcely be tracked."
 
 tr_est_commerce_finish:0 "Commerce Traditions Finished"
+tr_est_commerce_finish_desc:0 "Grants §Y1 Executive§! job per §Y100 Pops§! if §YCorporate§!, or §Y1 Merchant§! job per §Y100 Pops§! otherwise.\nAscension Perks Unlocked: §G+1§!"
 
 
 ################################################################
@@ -304,29 +344,35 @@ tradition_est_confederacy:0 "Confederacy"
 tradition_est_confederacy_desc:0 "Each part of our empire wields a great degree of autonomy. But towards the galaxy we show a united front."
 
 tr_est_confederacy_adopt:0 "Confederacy Traditions"
+tr_est_confederacy_adopt_desc:0 "Unlocks the §YConfederacy Agenda§!. Reduces §YEmpire Size from Population§! by §G25%§!."
 
 tr_est_confederacy_1:0 "Local Command Structures"
-tr_est_confederacy_1_delayed:0 "Rather than centralizing the assignments of important positions we will let each local government use their own command structures."
+tr_est_confederacy_1_desc:0 "§YLeader Upkeep§! is reduced by §G15%§! and the §YRecruitment Cost§! of §YOfficials§! is reduced by §G33%§!."
+tr_est_confederacy_1_delayed:0 "Rather than centralizing the assignment of important positions, we will let each local government use their own command structures. This approach reduces bureaucratic overhead and respects local authority."
 
 tr_est_confederacy_2:0 "Restrict Federal Power"
-tr_est_confederacy_2_desc:0 "All §YOfficials§! gain the §Y$leader_trait_official_est_confederacy$§! trait, increasing their §YExperience Gain§! by §G+20%§! and reducing §Y$MOD_PLANET_CRIME_ADD$§! by §G-10%§! on the §YPlanet§! they're stationed on and §G-5%§! in their §YSector§! if they're on the sector's capital."
+tr_est_confederacy_2_desc:0 "All §YOfficials§! gain the §Y$leader_trait_official_est_confederacy$§! trait, increasing their §YExperience Gain§! by §G+20%§!, and reducing §Y$MOD_PLANET_CRIME_MULT$§! by §G-10%§! on the §YPlanet§! they govern and §G-5%§! in their §YSector§! if stationed on the sector capital."
 tr_est_confederacy_2_delayed:0 "To centralize power is to steal it from where it belongs. To guarantee the sovereignty of our numerous states, we will enforce strict restrictions on what power the federal government might wield."
 
 tr_est_confederacy_3:0 "National Assembly"
-tr_est_confederacy_3_delayed:0 "The National Assembly is an important part of our government. Here, local representations from all over our empire meet to discuss and vote upon important matters of state."
+tr_est_confederacy_3_desc:0 "§YUnity gained from Pop Factions§! is increased by §G15%§!."
+tr_est_confederacy_3_delayed:0 "The National Assembly is an essential part of our federal model. Representatives from across our empire gather to debate and legislate, ensuring that every voice is heard and respected."
 
 tr_est_confederacy_4:0 "Autonomous States"
-tr_est_confederacy_4_desc:0 "Our §YSubjects§! receive §G+10%§! £happiness  §Y$MOD_POP_HAPPINESS$§! and §G+20%§! §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§!, in addition their £opinion  §YOpinion§! of us is increased by §G+50§!."
-tr_est_confederacy_4_delayed:0 "Our empire is composed of an intricate structure of states, local governments, independent planets, federal space, and other denominations, each with varying degree of autonomy. Many of these are allowed to govern themselves to a great extent."
+tr_est_confederacy_4_desc:0 "Our §YSubjects§! receive §G+10%§! £happiness §Y$MOD_POP_HAPPINESS$§!, §G+20%§! §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§!, and §G+1§! monthly §YLoyalty§!."
+tr_est_confederacy_4_delayed:0 "Our empire is composed of an intricate structure of states, local governments, independent planets, and federal jurisdictions, each with varying degrees of autonomy. Many are granted wide latitude to govern themselves."
 
 tr_est_confederacy_4_no_subj:0 "Loyalty"
-tr_est_confederacy_4_no_subj_delayed:0 "Our empire contains many faction and most planets and sectors wield an unusual amount of autonomy. While we may disagree on many topics, we are all loyal to our united empire and common cause."
+tr_est_confederacy_4_no_subj_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! is increased by §G+15%§!."
+tr_est_confederacy_4_no_subj_delayed:0 "Our empire contains many factions, and most planets and sectors wield an unusual amount of autonomy. While we may disagree on many topics, we are all loyal to our united empire and common cause."
 
 tr_est_confederacy_5:0 "The Endless Realm"
-tr_est_confederacy_5_desc:0 "§YOutpost Upkeep§! reduced by §G-50%§!."
-tr_est_confederacy_5_delayed:0 "So large is our realm that one can travel for a lifetime, and still only see a fraction of it."
+tr_est_confederacy_5_desc:0 "§YStarbase Upkeep§! and §YOutpost Construction Cost§! are reduced by §G10%§!."
+tr_est_confederacy_5_delayed:0 "So vast is our realm that one could travel for a lifetime and still see only a fraction of it. Let us ensure the infrastructure holding it together remains affordable."
 
 tr_est_confederacy_finish:0 "Confederacy Traditions Finished"
+tr_est_confederacy_finish_desc:0 "Reduces total §YEmpire Size§! by §G10%§! and grants an additional §YAscension Perk Slot§!."
+
 
 
 ################################################################
@@ -334,18 +380,21 @@ tr_est_confederacy_finish:0 "Confederacy Traditions Finished"
 ################################################################
 
 tradition_est_cooperativity:0 "Cooperativity"
-tradition_est_cooperativity_desc:0 "While each drone lacks advanced cognition, through cognitive cooperativity their intellectual abilities are amplified greatly. In this way large numbers of drones can complete advanced tasks without input from the mind."
+tr_est_cooperativity_adopt_desc:0 "Increases §YResource Output§! by §G+3/6/10%§! on planets with at least §Y500/2000/5000§! £pop£ §YPops§!."
 
 tr_est_cooperativity_adopt:0 "Cooperativity Traditions"
 tr_est_cooperativity_adopt_desc:0 "Increases §YResource Output§! by §G+3/6/10%§! on planets with at least §Y25/50/100§! £pop£ §YPops§!."
 
 tr_est_cooperativity_1:0 "Warrior Clusters"
+tr_est_cooperativity_1_desc:0 "Increases §YArmy Damage§! by §G+20%§! and reduces §YArmy Upkeep§! by §G10%§!."
 tr_est_cooperativity_1_delayed:0 "Warriors are grouped into small clusters to ensure that warrior drones are not isolated. As long as they are fighting in groups they can utilize cooperativity to enhance their tactical sense and improve combat performance."
 
 tr_est_cooperativity_2:0 "Worker Teams"
+tr_est_cooperativity_2_desc:0 "Improves output from §YSimple Drones§! by §G+10%§! for relevant jobs depending on empire type."
 tr_est_cooperativity_2_delayed:0 "Work drones are grouped into carefully designed teams were each individual drone can contribute with complementary mental capacities to the local mind network. This will increase work efficiency."
 
 tr_est_cooperativity_3:0 "Input Sharing"
+tr_est_cooperativity_3_desc:0 "Increases §YLeader Experience Gain§! by §G+25%§! for all species leaders."
 tr_est_cooperativity_3_delayed:0 "Autonomous drones may integrate themselves into local drone networks, taking part in and learning from their stored sensory inputs."
 
 tr_est_cooperativity_4:0 "Cognition Centrals"
@@ -362,7 +411,7 @@ tr_est_cooperativity_5_AI_machines_desc:0 "Increase §YPop Assembly Speed§! by 
 tr_est_cooperativity_5_delayed:0 "To reduce the disadvantages of low drone numbers a colony can enter a special growth phase, increasing drone growth rates but greatly reducing production."
 
 tr_est_cooperativity_finish:0 "Cooperativity Traditions Finished"
-
+tr_est_cooperativity_finish_desc:0 "Gain §G+2§! £pop£ §YPops§! on colony foundation and §G+1§! §YAscension Perk Slot§!. Unlocks the §YCooperativity Agenda§! which reduces §YDiplomacy Upkeep§! by §G20%§!."
 
 
 
@@ -374,12 +423,14 @@ tradition_est_cybernetics:0 "Automata"
 tradition_est_cybernetics_desc:0 "Why do something ourselves, when a machine can do it for us?"
 
 tr_est_cybernetics_adopt:0 "Automata Traditions"
+tr_est_cybernetics_adopt_desc:0 "Unlocks the §YCybernetics Agenda§!. Increases §YComputing Research Speed§! by §G+25%§!."
 
 tr_est_cybernetics_1:0 "Deep Neural Networks"
 tr_est_cybernetics_1_robots_desc:0 "£energy  §YEnergy Credit§! output from §YRobots§! is increased by §G+15%§!."
 tr_est_cybernetics_1_delayed:0 "Advanced neural network technologies have allowed machines to perform tasks previously only sentients could manage."
 
 tr_est_cybernetics_2:0 "Unsupervised AI Researchers"
+tr_est_cybernetics_2_desc:0 "§YPhysics§!, §YEngineering§!, and §YSociety Research§! Output increased by §G+5%§!."
 tr_est_cybernetics_2_delayed:0 "Advances in AI technology have increasingly allowed AIs access to most advanced of tasks. Several research topics have shown to be especially suited for AI researchers. With unorthodox thinking and immense processing capacity, they are set on specific problems. Researchers will occasionally check on their progress, and figure out how it can be incorporated in our current scientific theories."
 
 tr_est_cybernetics_3:0 "Combat Simulations"
@@ -396,7 +447,7 @@ tr_est_cybernetics_5_slaves_desc:0 "The £happiness  §Y$MOD_POP_HAPPINESS$§! o
 tr_est_cybernetics_5_delayed:0 "Why should be spend our lives in this world, when we can create a world of our liking? Our citizens have increasingly started to spend time in alternative realities, which they can shape as they wish."
 
 tr_est_cybernetics_finish:0 "Automata Traditions Finished"
-tr_est_cybernetics_finish_desc:0 "§HUnlocks Buildings:§! £building  $building_est_cybernetics_finish_automated_farm$, $building_est_cybernetics_finish_automated_power_plant$ and $building_est_cybernetics_finish_automated_mine$\n§EThey produce §G6§! £energy  §YEnergy Credits§!/§G10§! £food  §YFood§!/§G6§! £minerals  §YMinerals§! respectively, while reducing §Y$mod_district_generator_max$§!/§Y$mod_district_farming_max$§!/§Y$mod_district_mining_max$§! by §Y1§! on the planet. Each planet can, at maximum, contain three of each building.§!\nAscension Perks Unlocked: §G+1§!"
+tr_est_cybernetics_finish_desc:0 "§HUnlocks Buildings:§! £building  $building_est_cybernetics_finish_automated_farm$, $building_est_cybernetics_finish_automated_power_plant$ and $building_est_cybernetics_finish_automated_mine$\n§EThey produce §G50§! £energy  §YEnergy Credits§!/§G60§! £food  §YFood§!/§G50§! £minerals  §YMinerals§! respectively, while reducing §Y$mod_district_generator_max$§!/§Y$mod_district_farming_max$§!/§Y$mod_district_mining_max$§! by §Y1§! on the planet. Each planet can, at maximum, contain three of each building.§!\nAscension Perks Unlocked: §G+1§!"
 tr_est_cybernetics_finish_AI_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_est_cybernetics_adopt$ Increases §YBuilding Speed§! by §G+25%§! and reduces §YBuilding Upkeep§! by §G-10%§!.\nAscension Perks Unlocked: §G+1§!"
 
 

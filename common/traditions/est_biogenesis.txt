@@ -48,7 +48,7 @@ tr_est_biogenesis_4 = {
 	}
 
 	modifier = {
-		pop_growth_speed = 0.20
+		pop_growth_speed = 0.10
 	}
 	
 	tradition_swap = {

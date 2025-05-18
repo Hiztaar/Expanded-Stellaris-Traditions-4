@@ -77,25 +77,15 @@ tr_est_academy_adopt = {
 }
 
 tr_est_academy_finish = {
-	custom_tooltip = tr_est_academy_finish_desc
+    custom_tooltip = tr_est_academy_finish_desc
 
-	on_enabled = {
-		## (Ben_D): Depricated
-		# every_owned_leader = {
-		# 	owner = {
-		# 		country_event = {
-		# 			id = est_academy.3
-		# 			scopes = { 
-		# 				from = prev
-		# 			}
-		# 		}
-		# 	}
-		# }
-	}
-	
-	modifier = {	
-		ascension_perks_add = 1
-	}
+    on_enabled = {
+        country_event = { id = est_academy.4 }
+    }
+
+    modifier = {    
+        ascension_perks_add = 1
+    }
 }
 
 
@@ -148,19 +138,13 @@ tr_est_academy_3 = {
 }
 
 tr_est_academy_4 = {
+    custom_tooltip = tr_est_academy_4_desc
 
-	possible = {
-		has_tradition = tr_est_academy_3
-	}
-
-	modifier = {
-		job_researcher_add = 1
-	}
-
-	ai_weight = {
-		factor = 4000
-	}
+    on_enabled = {
+        country_event = { id = est_academy.6 }
+    }
 }
+
 
 tr_est_academy_5 = {
 
