@@ -1,6 +1,5 @@
-Expanded Stellaris Traditions 2 - The Sequel
-
-Updated by MrWacko
+Expanded Stellaris Traditions 4
+Updated by Hiztaar
 
 Originally created by Girion
 
@@ -19,7 +18,7 @@ Features
 - Full compatibility with other mods.
 
 Bug Reports
-- Please report bugs on the mod's github here: https://github.com/Mr-Wacko/Expanded-Stellaris-Traditions-2/issues
+- Please report bugs on the mod's github here: https://github.com/Hiztaar/Expanded-Stellaris-Traditions-4/issues
 - Please report all bugs that you find. However, it would be very helpful if you could follow these steps to make it easier for me to fix the bug:
     - Please describe what is the problem. "X doesn't work" is not very helpful.
     - Please provide a screenshot, it is very helpful.
@@ -43,3 +42,9 @@ Maethydd
 
 Rokhmal
 - Have written a lot of very nice traditions descriptions for the mod.
+
+Mr-Wacko
+- For EST 2
+
+Ben_D⚜
+- For EST 3
