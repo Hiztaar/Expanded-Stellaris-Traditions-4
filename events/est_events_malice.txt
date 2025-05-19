@@ -234,115 +234,189 @@ country_event = {
 			switch = {
 				trigger = is_ship_size
 				
-				corvette = { root = {add_resource = { unity = 4 } } break = yes}
-				destroyer = { root = {add_resource = { unity = 16 } } break = yes}
-				cruiser = { root = {add_resource = { unity = 64 } } break = yes}
-				battleship = { root = {add_resource = { unity = 128 } } break = yes}
-				titan = { root = {add_resource = { unity = 512 } } break = yes}
-				
-				transport = { root = {add_resource = { unity = 4 } } break = yes}
-				constructor = { root = {add_resource = { unity = 8 } } break = yes}
-				colonizer = { root = {add_resource = { unity = 24 } } break = yes}
-				science = { root = {add_resource = { unity = 16 } } break = yes}
-				
-				military_station_small = { root = {add_resource = { unity = 16 } } break = yes}
-				military_station_medium = { root = {add_resource = { unity = 64 } } break = yes}
-				military_station_large = { root = {add_resource = { unity = 128 } } break = yes}
-				
-				mining_station = { root = {add_resource = { unity = 16 } } break = yes}
-				research_station = { root = {add_resource = { unity = 16 } } break = yes}				
-				observation_station = { root = {add_resource = { unity = 16 } } break = yes}
-				
-				starbase_outpost = { root = {add_resource = { unity = 16 } } break = yes}
-				starbase_starport = { root = {add_resource = { unity = 64 } } break = yes}
-				starbase_starhold = { root = {add_resource = { unity = 128 } } break = yes}
-				starbase_starfortress = { root = {add_resource = { unity = 256 } } break = yes}
-				starbase_citadel = { root = {add_resource = { unity = 512 } } break = yes}
+				# Original vanilla ships with updated values
+				corvette = { root = {add_resource = { unity = 50 } } break = yes}
+				destroyer = { root = {add_resource = { unity = 300 } } break = yes}
+				cruiser = { root = {add_resource = { unity = 1000 } } break = yes}
+				battleship = { root = {add_resource = { unity = 3000 } } break = yes}
+				titan = { root = {add_resource = { unity = 8000 } } break = yes}
 
-				starbase_swarm = { root = {add_resource = { unity = 128 } } break = yes}
-				starbase_ai = { root = {add_resource = { unity = 128 } } break = yes}
-				starbase_exd = { root = {add_resource = { unity = 128 } } break = yes}
-				starbase_marauder = { root = {add_resource = { unity = 128 } } break = yes}
-				ion_cannon = { root = {add_resource = { unity = 64 } } break = yes}
+				transport = { root = {add_resource = { unity = 100 } } break = yes}
+				constructor = { root = {add_resource = { unity = 200 } } break = yes}
+				colonizer = { root = {add_resource = { unity = 500 } } break = yes}
+				science = { root = {add_resource = { unity = 400 } } break = yes}
 
-				colossus  = { root = {add_resource = { unity = 2048 } } break = yes}
-				
-				small_ship_swarm = { root = {add_resource = { unity = 4 } } break = yes}
-				large_ship_swarm = { root = {add_resource = { unity = 16 } } break = yes}
-				large_ship_carrier_swarm = { root = {add_resource = { unity = 64 } } break = yes}
-				queen_swarm = { root = {add_resource = { unity = 128 } } break = yes}
-				construction_ship_swarm = { root = {add_resource = { unity = 8 } } break = yes}
-				colony_ship_swarm = { root = {add_resource = { unity = 24 } } break = yes}
-				transport_ship_swarm = { root = {add_resource = { unity = 4 } } break = yes}
+				military_station_small = { root = {add_resource = { unity = 400 } } break = yes}
+				military_station_medium = { root = {add_resource = { unity = 1200 } } break = yes}
+				military_station_large = { root = {add_resource = { unity = 2500 } } break = yes}
+
+				mining_station = { root = {add_resource = { unity = 100 } } break = yes}
+				research_station = { root = {add_resource = { unity = 100 } } break = yes}
+				observation_station = { root = {add_resource = { unity = 150 } } break = yes}
+
+				starbase_outpost = { root = {add_resource = { unity = 500 } } break = yes}
+				starbase_starport = { root = {add_resource = { unity = 2000 } } break = yes}
+				starbase_starhold = { root = {add_resource = { unity = 3500 } } break = yes}
+				starbase_starfortress = { root = {add_resource = { unity = 6000 } } break = yes}
+				starbase_citadel = { root = {add_resource = { unity = 8000 } } break = yes}
+
+				habitat_01 = { root = {add_resource = { unity = 15000 } } break = yes}
+
+				colossus = { root = {add_resource = { unity = 25000 } } break = yes}
+				juggernaut = { root = {add_resource = { unity = 20000 } } break = yes}
+
+				# Rest of original ships
+				starbase_swarm = { root = {add_resource = { unity = 3500 } } break = yes}
+				starbase_ai = { root = {add_resource = { unity = 3500 } } break = yes}
+				starbase_exd = { root = {add_resource = { unity = 3500 } } break = yes}
+				starbase_marauder = { root = {add_resource = { unity = 3500 } } break = yes}
+				ion_cannon = { root = {add_resource = { unity = 1500 } } break = yes}
+
+				small_ship_swarm = { root = {add_resource = { unity = 50 } } break = yes}
+				large_ship_swarm = { root = {add_resource = { unity = 1000 } } break = yes}
+				large_ship_carrier_swarm = { root = {add_resource = { unity = 2000 } } break = yes}
+				queen_swarm = { root = {add_resource = { unity = 5000 } } break = yes}
+				construction_ship_swarm = { root = {add_resource = { unity = 200 } } break = yes}
+				colony_ship_swarm = { root = {add_resource = { unity = 500 } } break = yes}
+				transport_ship_swarm = { root = {add_resource = { unity = 100 } } break = yes}
 				 
-				small_ship_fallen_empire = { root = {add_resource = { unity = 24 } } break = yes}
-				large_ship_fallen_empire = { root = {add_resource = { unity = 128 } } break = yes}
-				massive_ship_fallen_empire = { root = {add_resource = { unity = 512 } } break = yes}
-				military_station_large_fallen_empire = { root = {add_resource = { unity = 192 } } break = yes}
-				military_station_small_fallen_empire = { root = {add_resource = { unity = 24 } } break = yes}
+				small_ship_fallen_empire = { root = {add_resource = { unity = 500 } } break = yes}
+				large_ship_fallen_empire = { root = {add_resource = { unity = 5000 } } break = yes}
+				massive_ship_fallen_empire = { root = {add_resource = { unity = 15000 } } break = yes}
+				military_station_large_fallen_empire = { root = {add_resource = { unity = 5000 } } break = yes}
+				military_station_small_fallen_empire = { root = {add_resource = { unity = 1000 } } break = yes}
 				 
-				small_ship_ed = { root = {add_resource = { unity = 16 } } break = yes}
-				medium_ship_ed = { root = {add_resource = { unity = 64 } } break = yes}
-				large_ship_ed = { root = {add_resource = { unity = 128 } } break = yes}
-				construction_ship_ed = { root = {add_resource = { unity = 8 } } break = yes}
-				dimensional_portal_ed = { root = {add_resource = { unity = 1024 } } break = yes}
-	 
-				psionic_avatar = { root = {add_resource = { unity = 512 } } break = yes}
-				corrupted_avatar = { root = {add_resource = { unity = 512 } } break = yes}
-				shroud_manifestation = { root = {add_resource = { unity = 512 } } break = yes}
-				warped_consciousness = { root = {add_resource = { unity = 512 } } break = yes}
-				
-				enclave_station = { root = {add_resource = { unity = 1024 } } break = yes}
-				space_dragon_red = { root = {add_resource = { unity = 4096 } } break = yes}
-				stellarite = { root = {add_resource = { unity = 4096 } } break = yes}
-				sphere = { root = {add_resource = { unity = 4096 } } break = yes}
-				galleon = { root = {add_resource = { unity = 2048 } } break = yes}
-				station_xl = { root = {add_resource = { unity = 2048 } } break = yes}
-				station_l = { root = {add_resource = { unity = 1024 } } break = yes}
-				station_m = { root = {add_resource = { unity = 1024 } } break = yes}
-				station_s = { root = {add_resource = { unity = 124 } } break = yes}
-				station_xs = { root = {add_resource = { unity = 48 } } break = yes}
-				dimensional_horror = { root = {add_resource = { unity = 4096 } } break = yes}
-				npc_warship_01 = { root = {add_resource = { unity = 1024 } } break = yes}
-				homebase = { root = {add_resource = { unity = 1024 } } break = yes}
-				hive_asteroid = { root = {add_resource = { unity = 512 } } break = yes}
-				wraith_01_blue = { root = {add_resource = { unity = 4096 } } break = yes}
-				wraith_01_red = { root = {add_resource = { unity = 4096 } } break = yes}
-				wraith_01_yellow = { root = {add_resource = { unity = 4096 } } break = yes}
-				space_dragon_baby = { root = {add_resource = { unity = 512 } } break = yes}
-				 				 
-				pirate_corvette = { root = {add_resource = { unity = 4 } } break = yes}
-				pirate_destroyer = { root = {add_resource = { unity = 16 } } break = yes}
-				pirate_cruiser = { root = {add_resource = { unity = 64 } } break = yes}
-				pirate_station = { root = {add_resource = { unity = 32 } } break = yes}		 
+				small_ship_ed = { root = {add_resource = { unity = 500 } } break = yes}
+				medium_ship_ed = { root = {add_resource = { unity = 1500 } } break = yes}
+				large_ship_ed = { root = {add_resource = { unity = 4000 } } break = yes}
+				construction_ship_ed = { root = {add_resource = { unity = 200 } } break = yes}
+				dimensional_portal_ed = { root = {add_resource = { unity = 20000 } } break = yes}
+
+				psionic_avatar = { root = {add_resource = { unity = 10000 } } break = yes}
+				corrupted_avatar = { root = {add_resource = { unity = 10000 } } break = yes}
+				shroud_manifestation = { root = {add_resource = { unity = 10000 } } break = yes}
+				warped_consciousness = { root = {add_resource = { unity = 10000 } } break = yes}
+
+				enclave_station = { root = {add_resource = { unity = 5000 } } break = yes}
+				space_dragon_red = { root = {add_resource = { unity = 15000 } } break = yes}
+				stellarite = { root = {add_resource = { unity = 15000 } } break = yes}
+				sphere = { root = {add_resource = { unity = 15000 } } break = yes}
+				galleon = { root = {add_resource = { unity = 7500 } } break = yes}
+				station_xl = { root = {add_resource = { unity = 7500 } } break = yes}
+				station_l = { root = {add_resource = { unity = 5000 } } break = yes}
+				station_m = { root = {add_resource = { unity = 2500 } } break = yes}
+				station_s = { root = {add_resource = { unity = 1000 } } break = yes}
+				station_xs = { root = {add_resource = { unity = 400 } } break = yes}
+				dimensional_horror = { root = {add_resource = { unity = 15000 } } break = yes}
+				npc_warship_01 = { root = {add_resource = { unity = 5000 } } break = yes}
+				homebase = { root = {add_resource = { unity = 5000 } } break = yes}
+				hive_asteroid = { root = {add_resource = { unity = 2500 } } break = yes}
+				wraith_01_blue = { root = {add_resource = { unity = 12000 } } break = yes}
+				wraith_01_red = { root = {add_resource = { unity = 12000 } } break = yes}
+				wraith_01_yellow = { root = {add_resource = { unity = 12000 } } break = yes}
+				space_dragon_baby = { root = {add_resource = { unity = 5000 } } break = yes}
 				 
-				marauder_corvette = { root = {add_resource = { unity = 4 } } break = yes}
-				marauder_destroyer = { root = {add_resource = { unity = 16 } } break = yes}
-				marauder_cruiser = { root = {add_resource = { unity = 64 } } break = yes}
-				marauder_galleon = { root = {add_resource = { unity = 128 } } break = yes}
-				marauder_station = { root = {add_resource = { unity = 32 } } break = yes}
-				marauder_void_dwelling = { root = {add_resource = { unity = 256 } } break = yes}	 			
-				
-				space_cloud = { root = {add_resource = { unity = 64 } } break = yes}
-				space_amoeba = { root = {add_resource = { unity = 16 } } break = yes}
-				space_amoeba_mother = { root = {add_resource = { unity = 64 } } break = yes}
-				space_whale_1 = { root = {add_resource = { unity = 32 } } break = yes}
-				space_whale_2 = { root = {add_resource = { unity = 32 } } break = yes}
-				space_whale_3 = { root = {add_resource = { unity = 16 } } break = yes}
-				space_whale_4 = { root = {add_resource = { unity = 64 } } break = yes}
-				ancient_mining_drone = { root = {add_resource = { unity = 4 } } break = yes}
-				ancient_corvette = { root = {add_resource = { unity = 4 } } break = yes}
-				ancient_destroyer = { root = {add_resource = { unity = 16 } } break = yes}				
-				
-				small_ship_ai = { root = {add_resource = { unity = 64 } } break = yes}
-				large_ship_ai = { root = {add_resource = { unity = 6 } } break = yes}
-				military_station_large_ai = { root = {add_resource = { unity = 96 } } break = yes}
-				military_station_small_ai = { root = {add_resource = { unity = 32 } } break = yes}
-				core_ai = { root = {add_resource = { unity = 4096 } } break = yes}
-				final_core_ai = { root = {add_resource = { unity = 4096 } } break = yes}
-				construction_ship_ai = { root = {add_resource = { unity = 8 } } break = yes}
-				colony_ship_ai = { root = {add_resource = { unity = 24 } } break = yes}
-				transport_ship_ai = { root = {add_resource = { unity = 4 } } break = yes}
+				pirate_corvette = { root = {add_resource = { unity = 50 } } break = yes}
+				pirate_destroyer = { root = {add_resource = { unity = 300 } } break = yes}
+				pirate_cruiser = { root = {add_resource = { unity = 1000 } } break = yes}
+				pirate_station = { root = {add_resource = { unity = 800 } } break = yes}
+				 
+				marauder_corvette = { root = {add_resource = { unity = 100 } } break = yes}
+				marauder_destroyer = { root = {add_resource = { unity = 500 } } break = yes}
+				marauder_cruiser = { root = {add_resource = { unity = 1500 } } break = yes}
+				marauder_galleon = { root = {add_resource = { unity = 5000 } } break = yes}
+				marauder_station = { root = {add_resource = { unity = 1000 } } break = yes}
+				marauder_void_dwelling = { root = {add_resource = { unity = 7500 } } break = yes}
+
+				space_cloud = { root = {add_resource = { unity = 1200 } } break = yes}
+				space_amoeba = { root = {add_resource = { unity = 400 } } break = yes}
+				space_amoeba_mother = { root = {add_resource = { unity = 3000 } } break = yes}
+				space_whale_1 = { root = {add_resource = { unity = 800 } } break = yes}
+				space_whale_2 = { root = {add_resource = { unity = 800 } } break = yes}
+				space_whale_3 = { root = {add_resource = { unity = 400 } } break = yes}
+				space_whale_4 = { root = {add_resource = { unity = 1500 } } break = yes}
+				ancient_mining_drone = { root = {add_resource = { unity = 100 } } break = yes}
+				ancient_corvette = { root = {add_resource = { unity = 100 } } break = yes}
+				ancient_destroyer = { root = {add_resource = { unity = 500 } } break = yes}
+
+				small_ship_ai = { root = {add_resource = { unity = 500 } } break = yes}
+				large_ship_ai = { root = {add_resource = { unity = 4000 } } break = yes}
+				military_station_large_ai = { root = {add_resource = { unity = 2500 } } break = yes}
+				military_station_small_ai = { root = {add_resource = { unity = 800 } } break = yes}
+				core_ai = { root = {add_resource = { unity = 15000 } } break = yes}
+				final_core_ai = { root = {add_resource = { unity = 20000 } } break = yes}
+				construction_ship_ai = { root = {add_resource = { unity = 200 } } break = yes}
+				colony_ship_ai = { root = {add_resource = { unity = 500 } } break = yes}
+				transport_ship_ai = { root = {add_resource = { unity = 100 } } break = yes}
+
+				# NSC3 Ships
+				escort = { root = {add_resource = { unity = 50 } } break = yes}
+				frigate = { root = {add_resource = { unity = 200 } } break = yes}
+				light_cruiser = { root = {add_resource = { unity = 500 } } break = yes}
+				battlecruiser = { root = {add_resource = { unity = 2000 } } break = yes}
+				dreadnought = { root = {add_resource = { unity = 5000 } } break = yes}
+				carrier = { root = {add_resource = { unity = 3000 } } break = yes}
+				flagship = { root = {add_resource = { unity = 10000 } } break = yes}
+				super_dreadnought = { root = {add_resource = { unity = 15000 } } break = yes}
+				heavy_carrier = { root = {add_resource = { unity = 5000 } } break = yes}
+				superbattleship = { root = {add_resource = { unity = 12000 } } break = yes}
+				strike_cruiser = { root = {add_resource = { unity = 800 } } break = yes}
+				corvette_nsc = { root = {add_resource = { unity = 50 } } break = yes}
+				gunboat = { root = {add_resource = { unity = 100 } } break = yes}
+				destroyer_nsc = { root = {add_resource = { unity = 300 } } break = yes}
+				cruiser_nsc = { root = {add_resource = { unity = 1000 } } break = yes}
+				battleship_nsc = { root = {add_resource = { unity = 3000 } } break = yes}
+
+				# NSC3 Stations
+				nsc_mining_station = { root = {add_resource = { unity = 100 } } break = yes}
+				nsc_research_station = { root = {add_resource = { unity = 100 } } break = yes}
+				nsc_anchorage = { root = {add_resource = { unity = 500 } } break = yes}
+				nsc_military_station_small = { root = {add_resource = { unity = 400 } } break = yes}
+				nsc_military_station_medium = { root = {add_resource = { unity = 1000 } } break = yes}
+				nsc_military_station_large = { root = {add_resource = { unity = 2500 } } break = yes}
+				nsc_defense_platform = { root = {add_resource = { unity = 200 } } break = yes}
+				nsc_defense_station = { root = {add_resource = { unity = 800 } } break = yes}
+				nsc_fortress = { root = {add_resource = { unity = 2000 } } break = yes}
+				nsc_heavy_fortress = { root = {add_resource = { unity = 4000 } } break = yes}
+				nsc_citadel = { root = {add_resource = { unity = 8000 } } break = yes}
+				nsc_starbase = { root = {add_resource = { unity = 5000 } } break = yes}
+				nsc_starport = { root = {add_resource = { unity = 2000 } } break = yes}
+				nsc_starhold = { root = {add_resource = { unity = 3500 } } break = yes}
+				nsc_star_fortress = { root = {add_resource = { unity = 6000 } } break = yes}
+
+				# Gigastructural Engineering Ships
+				attack_moon = { root = {add_resource = { unity = 50000 } } break = yes}
+				orbital_arcology = { root = {add_resource = { unity = 20000 } } break = yes}
+				planetary_behemoth = { root = {add_resource = { unity = 60000 } } break = yes}
+				stellar_systemcraft = { root = {add_resource = { unity = 100000 } } break = yes}
+				behemoth_planetcraft = { root = {add_resource = { unity = 75000 } } break = yes}
+				gigaship = { root = {add_resource = { unity = 25000 } } break = yes}
+				gigatransport = { root = {add_resource = { unity = 5000 } } break = yes}
+				ehof_corvette = { root = {add_resource = { unity = 100 } } break = yes}
+				ehof_destroyer = { root = {add_resource = { unity = 500 } } break = yes}
+				ehof_cruiser = { root = {add_resource = { unity = 1500 } } break = yes}
+				ehof_battleship = { root = {add_resource = { unity = 3000 } } break = yes}
+				nidavellir_corvette = { root = {add_resource = { unity = 200 } } break = yes}
+				nidavellir_destroyer = { root = {add_resource = { unity = 800 } } break = yes}
+				nidavellir_cruiser = { root = {add_resource = { unity = 3000 } } break = yes}
+				nidavellir_battleship = { root = {add_resource = { unity = 6000 } } break = yes}
+				katzen_constructor = { root = {add_resource = { unity = 500 } } break = yes}
+				katzen_fleet_core = { root = {add_resource = { unity = 25000 } } break = yes}
+				katzen_colossus = { root = {add_resource = { unity = 50000 } } break = yes}
+
+				# Gigastructural Engineering Stations
+				giga_orbital_lotus = { root = {add_resource = { unity = 20000 } } break = yes}
+				giga_birch_segment = { root = {add_resource = { unity = 15000 } } break = yes}
+				giga_shipyard = { root = {add_resource = { unity = 18000 } } break = yes}
+				giga_warship_yard = { root = {add_resource = { unity = 15000 } } break = yes}
+				giga_matter_decompressor = { root = {add_resource = { unity = 12000 } } break = yes}
+				giga_dyson_sphere = { root = {add_resource = { unity = 20000 } } break = yes}
+				giga_think_tank = { root = {add_resource = { unity = 10000 } } break = yes}
+				giga_interstellar_assembly = { root = {add_resource = { unity = 15000 } } break = yes}
+				giga_star_lifter = { root = {add_resource = { unity = 12000 } } break = yes}
+				giga_psychic_beacon = { root = {add_resource = { unity = 18000 } } break = yes}
+				giga_hyperstructural_assembly = { root = {add_resource = { unity = 30000 } } break = yes}
+				ehof_core = { root = {add_resource = { unity = 15000 } } break = yes}
 			}
 			root = {
 				add_resource = { unity = 4 }

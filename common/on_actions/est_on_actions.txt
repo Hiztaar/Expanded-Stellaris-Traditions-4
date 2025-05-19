@@ -16,8 +16,6 @@ on_monthly_pulse_country = {
 
 		est_foundation.1
 
-		est_fury.10
-
 		#est_greed.1
 
 		est_hacking.1

@@ -44,7 +44,7 @@ Date: 2025-05-15
 - Added missing localization entries and updated all perk descriptions  
 - Perk 2 “Guild of Artists” now grants scaling Culture Worker jobs (0.025 per pop)  
 - Perk 4 “Grand Architecture” now adds:  
-  • +2 Unity from Clerks  
+  • +0.02 Unity from Clerks (2 unity for 100 clerks)  
   • +1 monthly Influence  
 - Perk 5 “Galactic Wonders” reworked:  
   • Each wonder provides +400 Culture Worker jobs  
@@ -236,3 +236,81 @@ Date: 2025-05-18
 
 ---------------------------------------------------------------------------
 
+Expanded Traditions - Greed Translation  
+Version: 4.0.0  
+Date: 2025-05-18
+
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Individualism Rework  
+Version: 4.0.0  
+Date: 2025-05-18
+
+- Individualism: Fully updated for Stellaris 4.x compatibility  
+- Replaced deprecated `commander_initial_skill` with valid admiral/general modifiers  
+- Added missing localization descriptions for Perk 2 and Perk 3  
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Metallurgy (ex Industry) Update  
+Version: 4.0.0  
+Date: 2025-05-18
+
+- Renamed "Industry" tradition to "Metallurgy" for better thematic focus
+- Updated Blast Furnace building for 4.x compatibility:
+  • Resource scaling: job modifiers adjusted to 0.015/0.02 (from 1/2)
+  • Category set to "manufacturing" for proper integration with new district system
+- Fixed compatibility with Heavy Industry districts and 4.x building mechanics
+- Enhanced flavor text across all perks; more immersive descriptions
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Isolation Update  
+Version: 4.0.0  
+Date: 2025-05-18
+- Rebalanced tradition effects for better gameplay:
+  • Starbase upkeep bonus reduced to 5% (from 15%)
+  • Army defense morale bonus reduced to 25% (from 50%)
+  • Border friction reduction for gestalt empires adjusted to 50% (from 80%)
+- Enhanced flavor text across all tradition descriptions for more immersive gameplay
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Stellaris Traditions - Justice Update  
+Version: 4.0.0  
+Date: 2024-05-19
+- Updated Justice tradition for Stellaris 4.0 compatibility:
+  • Removed piracy reduction from Perk 2 (Adeptus Arbites) as piracy system no longer exists
+  • Added -15% planet crime to Perk 3 (Supreme Court)
+  • Added -5% empire size from pops to Perk 3 (Supreme Court) 
+  • Added +10% faction approval to Perk 4 (Constitution)
+  • Adjusted Perk 5 (Legal Perfection) influence bonus to +15% (from +25%)
+  • Added +1 encryption level to Perk 5 (Legal Perfection)
+- Improved all descriptions to match new mechanics while maintaining thematic cohesion
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Liberty Rework  
+Version: 4.0.0  
+Date: 2025-05-19 
+- Increased colony_start_num_pops_add from 1 to 100 for 4.x colonist quantity matchup  
+- Added missing localization descriptions for adoption effect and finisher  
+- Expanded flavor text to better reflect the dramatic population boost  
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Cruelty (ex Malice) Rework
+Version: 4.0.0
+Date: 2025-05-19
+- Renamed tradition from "Malice" to "Cruelty" in localization (code remains unchanged)
+- Dramatically increased Unity rewards for destroying ships and stations
+- Added compatibility with NSC3 and Gigastructural Engineering ships and stations
+- Reframed tradition flavor text to present cruelty as a calculated, strategic tool rather than for sadistic pleasure
+- Added comprehensive localization in six languages: Brazilian Portuguese, French, German, Polish, Russian, and Spanish

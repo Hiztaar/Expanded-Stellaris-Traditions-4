@@ -612,8 +612,8 @@ building_est_industry_3_blast_furnace = {
 	}
 
 	planet_modifier = {
-		planet_metallurgists_alloys_produces_add = 1
-		planet_metallurgists_energy_upkeep_add = 2
+		planet_metallurgists_alloys_produces_add = 0.015
+		planet_metallurgists_energy_upkeep_add = 0.02
 	}
 	
 	allow = {

@@ -50,7 +50,7 @@ tr_est_isolation_finish = {
 
 tr_est_isolation_1 = {
 	modifier = {
-		starbases_upkeep_mult = -0.15
+		starbases_upkeep_mult = -0.05
 		starbase_defense_platform_capacity_add = 3
 	}
 
@@ -59,7 +59,7 @@ tr_est_isolation_1 = {
 
 tr_est_isolation_2 = {
 	modifier = {
-		army_defense_morale_mult = 0.5
+		army_defense_morale_mult = 0.25
 		ship_home_territory_fire_rate_mult = 0.2
 	}
 
@@ -93,7 +93,7 @@ tr_est_isolation_4 = {
 		name = tr_est_isolation_4_GC
 		trigger = { is_gestalt = yes }	
 		modifier = {
-			country_border_friction_mult = -0.80
+			country_border_friction_mult = -0.50
 		}
 		weight = { factor = 1 }
 	}
@@ -121,8 +121,6 @@ tr_est_isolation_5 = {
 						}
 					}
 				}	
-				#trade_income < 1
-				#trade_expenses < 1
 			}				
 			add_modifier = {
 				modifier = "mod_est_isolation_5"

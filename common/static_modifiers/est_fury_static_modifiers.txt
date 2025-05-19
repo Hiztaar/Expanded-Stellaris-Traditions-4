@@ -121,10 +121,4 @@ mod_est_fury_victory = {
   army_damage_mult = 0.10
 }
 
-mod_est_fury_opinion_0 = { }
-mod_est_fury_opinion_1 = { country_opinion_all = -10 }
-mod_est_fury_opinion_2 = { country_opinion_all = -25 }
-mod_est_fury_opinion_3 = { country_opinion_all = -45 }
-mod_est_fury_opinion_4 = { country_opinion_all = -70 }
-mod_est_fury_opinion_5 = { country_opinion_all = -100 }
 

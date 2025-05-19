@@ -72,33 +72,39 @@ tr_est_shroudborn_finish:0 "Shroudborn Traditions Finished"
 # Hacking
 ################################################################
 
-tradition_est_hacking:0 "Hacking"
-tradition_est_hacking_desc:0 "We are agile, able to enter computer systems of other empires and alter them to our liking."
+tradition_est_hacking:0 "Взлом"
+tradition_est_hacking_desc:0 "Мы гибки и способны проникать в компьютерные системы других империй, изменяя их по своему усмотрению."
 
-tr_est_hacking_adopt:0 "Hacking Traditions"
+tr_est_hacking_adopt:0 "Традиции Взлома"
+tr_est_hacking_adopt_desc:0 "Увеличивает §YСкорость исследований в области вычислений§! на §G+25%§!."
 
-tr_est_hacking_1:0 "System Manipulation"
-tr_est_hacking_1_delayed:0 "By carefully manipulating the firing solution systems of enemy ships, we can reduce their ability to successfully target our ships in battle."
+tr_est_hacking_1:0 "Манипуляция Системами"
+tr_est_hacking_1_desc:0 "§YУклонение кораблей§! увеличено на §G+10%§!."
+tr_est_hacking_1_delayed:0 "Манипулируя системами наведения противника, мы затрудняем попадание по нашим кораблям."
 
-tr_est_hacking_2:0 "Communications Disruption"
-tr_est_hacking_2_desc:0 "§YPlanet Sensor Range§! and §YShip§! §YSensor Range§! is reduced by §R1§! and §YStarbase Influence Cost§! is increased by §R+25%§! for all neighbouring mortal empires (empires which we have a federation or defensive pact with, or which are our subjects are unaffected)."
-tr_est_hacking_2_delayed:0 "We can disrupt foreign communications systems, reducing our neighbours' ability to efficiently communicate within their empire."
+tr_est_hacking_2:0 "Нарушение Связи"
+tr_est_hacking_2_desc:0 "§YДальность сенсоров планет§! и §Yкораблей§! снижена на §R1§!, а §Yстоимость влияния для баз§! увеличена на §R+25%§! для всех соседних обычных империй (союзники, федерации и вассалы исключаются)."
+tr_est_hacking_2_delayed:0 "Мы можем нарушать чужие коммуникации, подрывая управление их империями."
 
-tr_est_hacking_3:0 "Spyware"
-tr_est_hacking_3_delayed:0 "We can hijack surveillance and observation systems of other empires, using them to get a better idea of the space which surrounds our empire."
+tr_est_hacking_3:0 "Шпионское ПО"
+tr_est_hacking_3_desc:0 "§YДальность сенсоров планет§! увеличена на §G+2§!."
+tr_est_hacking_3_delayed:0 "Мы используем чужие системы наблюдения для сбора разведданных о ближайшем космосе."
 
-tr_est_hacking_4:0 "Malware"
-tr_est_hacking_4_desc:0 "§Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§! is reduced by §R-10%§! and §YBuilding Upkeep§! is increased by §R+15%§! for all rival empires."
-tr_est_hacking_4_delayed:0 "Our specially-crafted software infects our rivals' computer systems, harming the efficiency with which they run their empires."
+tr_est_hacking_4:0 "Вредоносное ПО"
+tr_est_hacking_4_desc:0 "§Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§! снижен на §R-10%§!, а §Yсодержание зданий§! увеличено на §R+15%§! для всех враждебных империй."
+tr_est_hacking_4_delayed:0 "Наш вредоносный код заражает системы противников, снижая их эффективность."
 
 tr_est_hacking_4_terminator:0 "$tr_est_hacking_4$"
-tr_est_hacking_4_terminator_desc:0 "§Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§! is reduced by §R-10%§! and §YBuilding Upkeep§! is increased by §R+15%§! for all other empires."
-tr_est_hacking_4_terminator_delayed:0 "Our specially-crafted software infects foreign computer systems, harming the efficiency."
+tr_est_hacking_4_terminator_desc:0 "§Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§! снижен на §R-10%§!, а §Yсодержание зданий§! увеличено на §R+15%§! для всех других империй."
+tr_est_hacking_4_terminator_delayed:0 "Наш вредоносный код заражает системы всех империй, нарушая их работу."
 
-tr_est_hacking_5:0 "Database Mining"
-tr_est_hacking_5_delayed:0 "Our own research efforts benefit greatly from scientific databases of other empires, whether they are aware of it or not."
+tr_est_hacking_5:0 "Извлечение Данных"
+tr_est_hacking_5_desc:0 "§Y$MOD_COUNTRY_ALL_TECH_RESEARCH_SPEED$§! увеличен на §G+10%§!."
+tr_est_hacking_5_delayed:0 "Наши исследования ускоряются за счёт использования научных баз других империй — с их ведома или без."
 
-tr_est_hacking_finish:0 "Hacking Traditions Finished"
+tr_est_hacking_finish:0 "Завершение Традиции Взлома"
+tr_est_hacking_finish_desc:0 "Открывает §YАгенду Взлома§!, дающую §YРасшифровку§! +§G5§! и §YСкорость сбора разведданных§! +§G25%§!."
+
 
 
 ################################################################
@@ -768,53 +774,64 @@ tr_est_friendship_finish_desc:0 "Увеличивает £energy£ §Yэнерг
 
 
 ################################################################
-# Malice
+# Cruelty (ex Malice)
 ################################################################
 
-tradition_est_malice:0 "Malice"
-tradition_est_malice_desc:0 "The suffering of others is our joy. Only through the destruction of other civilizations can we prove the greatness of ours."
+tradition_est_cruelty:0 "Жестокость"
+tradition_est_cruelty_desc:0 "Расчетливая суровость необходима для установления господства. Посредством стратегических демонстраций силы и готовности причинять страдания мы обеспечиваем свое положение в галактике."
 
-tr_est_malice_adopt:0 "Malice Traditions"
-tr_est_malice_adopt_desc:0 "Reduces the £happiness  §YHappiness§! of empires we have §YInsulted§! by §R-10%§!."
+tr_est_cruelty_adopt:0 "Традиции Жестокости"
+tr_est_cruelty_adopt_desc:0 "Снижает £happiness §YСчастье§! империй, которых мы §YОскорбили§!, на §R-10%§!, ослабляя их производительность и сопротивление."
 
-tr_est_malice_1:0 "Bread and Water"
-tr_est_malice_1_desc:0 "§YSlave Upkeep Cost§! is reduced by §G-50%§!."
-tr_est_malice_1_delayed:0 "Our slaves are given no more support than what they need to live. Not the tiniest amount of effort would be spent to give them any comfort what so ever. Their existence is truly a miserable one."
+tr_est_cruelty_adopt_alt: "tr_est_cruelty_adopt"
+tr_est_cruelty_adopt_alt_desc: "$tr_est_cruelty_adopt_desc"
 
-tr_est_malice_1_no_slaves:0 "Sadist"
-tr_est_malice_1_no_slaves_desc:0 "The §YStability§! of a planet we successfully invade is reduced by §R20§! for §Y20§! years (the modifier is removed if we conquer it)."
-tr_est_malice_1_no_slaves_delayed:0 "Unfortunate are those souls caught on a planet we have captured. Even after we leave the planet, citizens will forever be haunted by nightmares from the horrors they endured."
+tr_est_cruelty_1:0 "Хлеб и Вода"
+tr_est_cruelty_1_desc:0 "§YСтоимость содержания рабов§! снижена на §G-50%§!."
+tr_est_cruelty_1_delayed:0 "Рабам требуется лишь минимум необходимого для функционирования. Любые дополнительные ресурсы, затраченные на их комфорт, были бы неэффективны. Благодаря тщательной оптимизации ресурсов мы максимизируем экономическую полезность нашей подневольной рабочей силы."
 
-tr_est_malice_1_no_slaves_passive_AI:0 "$tr_est_malice_1_no_slaves$"
-tr_est_malice_1_no_slaves_passive_AI_desc:0 "§YArmy Damage§! increased by §G+25%§!"
-tr_est_malice_1_no_slaves_passive_AI_delayed:0 "$tr_est_malice_1_no_slaves_delayed$"
+tr_est_cruelty_1_no_slaves:0 "Расчетливый Террор"
+tr_est_cruelty_1_no_slaves_desc:0 "§YСтабильность§! планеты, которую мы успешно захватили, снижается на §R20§! на §Y20§! лет (модификатор снимается, если мы завоюем её)."
+tr_est_cruelty_1_no_slaves_delayed:0 "Целенаправленные акты расчетливой жестокости во время вторжений создают длительные психологические последствия для планетарного населения. Этот стратегический подход нарушает восстановительные работы и движения сопротивления долго после ухода наших сил."
 
-tr_est_malice_2:0 "Eradication of Hope"
-tr_est_malice_2_desc:0 "§YSlave Political Power§! is reduced by §G-50%§! and their §YResettlement Cost§! is reduced by §G-25%§!."
-tr_est_malice_2_delayed:0 "Those poor souls that work as slaves in our society have long abandoned all hope of escaping with their life. They have accepted their fate and continue their sad existence knowing that it is everything they will ever get."
+tr_est_cruelty_1_no_slaves_passive_AI:0 "$tr_est_cruelty_1_no_slaves$"
+tr_est_cruelty_1_no_slaves_passive_AI_desc:0 "§YУрон армии§! увеличен на §G+25%§!"
+tr_est_cruelty_1_no_slaves_passive_AI_delayed:0 "$tr_est_cruelty_1_no_slaves_delayed$"
 
-tr_est_malice_2_no_slaves:0 "Shroud of Terror"
-tr_est_malice_2_no_slaves_desc:0 "Whenever we declare a war, reduces our opponents' §YGrowth Speed§! by §R-20%§!, §YNaval Capacity§! by §R-10%§! and £happiness  §YHappiness§! by §R-10%§! for §Y10§! years."
-tr_est_malice_2_no_slaves_delayed:0 "We are the embodiment of others' fears, the harbinger of their horrors. Many are those that flee when they hear the slightest whisper that we might be approaching."
+tr_est_cruelty_2:0 "Систематическое Подчинение"
+tr_est_cruelty_2_desc:0 "§YПолитическая сила рабов§! снижена на §G-50%§!, а их §YСтоимость переселения§! снижена на §G-25%§!."
+tr_est_cruelty_2_delayed:0 "Путем методичного психологического кондиционирования мы ломаем волю наших подчиненных популяций. Это устраняет сопротивление, делая при этом перераспределение рабочей силы более эффективным, что позволяет оптимально распределять трудовые ресурсы во всей нашей империи."
 
-tr_est_malice_2_various_AI:0 "$tr_est_malice_2_no_slaves$"
-tr_est_malice_2_various_AI_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! increased by §G+5%§!"
-tr_est_malice_2_various_AI_delayed:0 "$tr_est_malice_2_no_slaves_delayed$"
+tr_est_cruelty_2_no_slaves:0 "Стратегическое Запугивание"
+tr_est_cruelty_2_no_slaves_desc:0 "Каждый раз, когда мы объявляем войну, снижает §YСкорость роста§! наших противников на §R-20%§!, §YМорской потенциал§! на §R-10%§! и £happiness §YСчастье§! на §R-10%§! на §Y10§! лет."
+tr_est_cruelty_2_no_slaves_delayed:0 "Наша репутация безжалостного противника создает измеримые преимущества в войне. Вражеское население, парализованное страхом, производит меньше ресурсов и кораблей, в то время как их руководство борется за поддержание порядка и морального духа."
 
-tr_est_malice_3:0 "No one's Friend"
-tr_est_malice_3_delayed:0 "None would consider us their friend. It is of no concern of ours. We do not need any friends."
+tr_est_cruelty_2_various_AI:0 "$tr_est_cruelty_2_no_slaves$"
+tr_est_cruelty_2_various_AI_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! увеличен на §G+5%§!"
+tr_est_cruelty_2_various_AI_delayed:0 "$tr_est_cruelty_2_no_slaves_delayed$"
 
-tr_est_malice_3_no_rivals:0 "Devastation"
-tr_est_malice_3_no_rivals_delayed:0 "As our armies move through the galaxy they leave litte but devastation in their wake."
+tr_est_cruelty_3:0 "Стратегический Антагонизм"
+tr_est_cruelty_3_desc:0 "§YМаксимальное количество соперников§! увеличено на §G+3§!."
+tr_est_cruelty_3_delayed:0 "Дипломатические союзы порождают самоуспокоенность. Поддерживая множественные стратегические соперничества, мы сохраняем бдительность и сосредоточенность на наших целях, одновременно создавая напряженность среди потенциальных вражеских коалиций."
 
-tr_est_malice_4:0 "Antagonists"
-tr_est_malice_4_delayed:0 "We are considered true antagonists of every civilization in the galaxy. A threat to everyone's existence. Indeed, this is what we are."
+tr_est_cruelty_3_no_rivals:0 "Систематическое Опустошение"
+tr_est_cruelty_3_no_rivals_desc:0 "§YУрон армии§! увеличен на §G+20%§! и §YСопутствующий ущерб армии§! увеличен на §G+33%§!."
+tr_est_cruelty_3_no_rivals_delayed:0 "Наши сухопутные войска применяют расчетливое разрушение инфраструктуры и ресурсов. Эта практика лишает наших противников активов и создает психологическое сдерживание, охватывающее поколения, против будущего сопротивления."
 
-tr_est_malice_5:0 "The Joy of Destruction"
-tr_est_malice_5_desc:0 "Destroying enemy ships and stations provides £unity£ §YUnity§!. Amount increases with ship or station size."
-tr_est_malice_5_delayed:0 "We draw immense pleasure from the misery of others. To destroy what they have created is our purpose."
+tr_est_cruelty_4:0 "Рычаги Враждебности"
+tr_est_cruelty_4_desc:0 "§YПрирост влияния от соперничества§! увеличен на §G+30%§!."
+tr_est_cruelty_4_delayed:0 "Наша репутация расчетливой жестокости служит более высокой цели. Стратегически поддерживая врагов, мы генерируем политический капитал, который продвигает наши интересы по всей галактике."
 
-tr_est_malice_finish:0 "Malice Traditions Finished"
+tr_est_cruelty_4_no_rivals:0 "Боевая Эффективность"
+tr_est_cruelty_4_no_rivals_desc:0 "§YСкорострельность кораблей§! увеличена на §G+5%§!."
+tr_est_cruelty_4_no_rivals_delayed:0 "Наши силы действуют с холодной отстраненностью и механической точностью. Наше вооружение откалибровано для максимизации ущерба, а не для соответствия произвольным этическим ограничениям, которые сдерживают другие виды."
+
+tr_est_cruelty_5:0 "Тактическое Уничтожение"
+tr_est_cruelty_5_desc:0 "Уничтожение вражеских кораблей и станций приносит £unity §YЕдинство§!. Количество увеличивается с размером корабля или станции."
+tr_est_cruelty_5_delayed:0 "Систематическое уничтожение вражеских активов служит множеству стратегических целей. Помимо очевидного военного преимущества, такие демонстрации сокрушительной силы укрепляют нашу внутреннюю сплоченность и препятствуют будущему сопротивлению."
+
+tr_est_cruelty_finish:0 "Традиции Жестокости Завершены"
+tr_est_cruelty_finish_desc:0 "§YУрон оружия кораблей§! увеличен на §G+10%§!. Разблокирует дополнительный слот §YПреимущества восхождения§!."
 
 
 ################################################################
@@ -851,37 +868,41 @@ tr_est_perseverance_finish:0 "Perseverance Traditions Finished"
 # Greed
 ################################################################
 
-tradition_est_greed:0 "Greed"
-tradition_est_greed_desc:0 "Our value is limited only by the value of what we own."
+tradition_est_greed:0 "Жадность"
+tradition_est_greed_desc:0 "Наша ценность ограничивается лишь стоимостью того, чем мы владеем."
 
-tr_est_greed_adopt:0 "Greed Traditions"
+tr_est_greed_adopt:0 "Традиции Жадности"
+tr_est_greed_adopt_desc:0 "§YДобыча минералов§! увеличена на §G+10%§!. Открывает §YПовестку Жадности§!."
 
-tr_est_greed_1:0 "Hoarders"
-tr_est_greed_1_desc:0 "£influence£ §Y$mod_country_influence_produces_add$§! is increased by §Y0.5§!/§Y1§!/§Y1.5§!/§Y2§! if we have at least §Y500§!/§Y6000§!/§Y25000§!/§Y80000§! stored £energy  §YEnergy Credits§!."
-tr_est_greed_1_AI_desc:0 "§YMonthly Influence§! is increased by §G1§!."
-tr_est_greed_1_delayed:0 "Collection and accumulation, it speaks to our very soul. We are what we have and we will have it all."
+tr_est_greed_1:0 "Плюшкины"
+tr_est_greed_1_desc:0 "£influence£ §Y$mod_country_influence_produces_add$§! увеличена на §Y0.5§!/§Y1§!/§Y1.5§!/§Y2§!, если накоплено минимум §Y500§!/§Y6000§!/§Y25000§!/§Y80000§! £energy  §YЭнергокредитов§!."
+tr_est_greed_1_AI_desc:0 "§YЕжемесячное влияние§! увеличено на §G1§!."
+tr_est_greed_1_delayed:0 "Собирательство и накопление — в самой сути нашего бытия. Мы — это то, что у нас есть. И у нас будет всё."
 
-tr_est_greed_2:0 "Ruthless Negotiators"
-tr_est_greed_2_desc:0 "§YMarket Fee§! reduced by §G-5%§!. Unlocks the §YRuthless Negotiations§! policy which increases §Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§! by §G5%§!/§G10%§!/§G15%§! while reducing Foreign Empire £opinion  §YOpinion§!  by §R-15§!/§R-30§!/§R-45§!."
-tr_est_greed_2_AI_desc:0 "§YMarket Fee§! reduced by §G-5%§! and §Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§! increased by §G+5%§!."
-tr_est_greed_2_delayed:0 "We will use all means to get what we want. Others might not like us for it, but that is none of our concern."
+tr_est_greed_2:0 "Безжалостные Переговорщики"
+tr_est_greed_2_desc:0 "§YРыночная комиссия§! снижена на §G-5%§!. Открывает политику §YБезжалостные Переговоры§!, которая увеличивает §Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§! на §G5%§!/§G10%§!/§G15%§! и снижает £opinion §YМнение§! чужих империй на §R-15§!/§R-30§!/§R-45§!."
+tr_est_greed_2_AI_desc:0 "§YРыночная комиссия§! снижена на §G-5%§!, §Y$MOD_COUNTRY_TRADE_ATTRACTIVENESS$§! увеличена на §G+5%§!."
+tr_est_greed_2_delayed:0 "Мы добьемся своего любой ценой. Недовольство других — не наша забота."
 
-tr_est_greed_2_no_dip:0 "Land Grab"
-tr_est_greed_2_no_dip_delayed:0 "The galaxy is filled with empty planets, for now. If we do not claim them, someone else will. We must seize what we can before it is to late."
+tr_est_greed_2_no_dip:0 "Захват Земель"
+tr_est_greed_2_no_dip_delayed:0 "Галактика полна пустующих планет — пока что. Если мы их не займём, это сделает кто-то другой. Мы должны захватить всё, пока есть шанс."
 
-tr_est_greed_3:0 "Tight Fisted"
-tr_est_greed_3_delayed:0 "Every credit spent is a credit lost. Let us not waste any resources on those who could do with less."
+tr_est_greed_3:0 "Скряги"
+tr_est_greed_3_desc:0 "§Y$MOD_POP_CONSUMER_GOODS_UPKEEP$§! увеличено на §R+10%§!. §Y$MOD_POP_HAPPINESS$§! увеличено на §G+5%§!."
+tr_est_greed_3_delayed:0 "Каждый потраченный кредит — потерянный кредит. Не стоит тратить ресурсы на тех, кто может обойтись меньшим."
 
-tr_est_greed_4:0 "Extortion"
-tr_est_greed_4_desc:0 "Unlocks the §Y$policy_est_greed_4_extortion$§! policy, allowing us to increase our £energy  §YEnergy Credit§! output by §G15%§!/§G30%§!/§G45%§!, while reducing the £happiness  §YHappiness§! of all £pop  §YPops§! by §R10%§!/§R20%§!/§R30%§!."
-tr_est_greed_4_delayed:0 "We will claim everything we think we can get, draining our citizens of whatever possession we can coerce them of."
+tr_est_greed_4:0 "Вымогательство"
+tr_est_greed_4_desc:0 "Открывает политику §Y$policy_est_greed_4_extortion$§!, позволяющую увеличить производство £energy  §YЭнергокредитов§! на §G15%§!/§G30%§!/§G45%§!, снижая при этом £happiness  §YСчастье§! всех £pop  §YПопов§! на §R10%§!/§R20%§!/§R30%§!."
+tr_est_greed_4_delayed:0 "Мы присвоим всё, что сможем, выкачивая из наших граждан любые ресурсы, которые сумеем отнять."
 
-tr_est_greed_5:0 "Bribery"
-tr_est_greed_5_desc:0 "Enables a §YEmpire Edict§! which lets you pay £energy  §YEnergy Credits§! to increase the £happiness  §YHappiness§! of a selected §YFaction§! by §G+5%§!."
-tr_est_greed_5_AI_desc:0 "Increases the £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pops  Pops by §G+5%§!."
-tr_est_greed_5_delayed:0 "The leaders of the various factions in our empires are greedy and susceptible to bribes. Why should we aim to please the population in general when it is much simpler to please those who claim to represent them?"
+tr_est_greed_5:0 "Взятки"
+tr_est_greed_5_desc:0 "Активирует §YИмперский Эдикт§!, позволяющий платить £energy  §YЭнергокредиты§! за увеличение £happiness  §YСчастья§! выбранной §YФракции§! на §G+5%§!."
+tr_est_greed_5_AI_desc:0 "Увеличивает £happiness  §Y$MOD_POP_HAPPINESS$§! всех £pop  Попов на §G+5%§!."
+tr_est_greed_5_delayed:0 "Лидеры фракций в нашей империи жадны и подкупны. Зачем пытаться угодить народу, если можно просто купить его представителей?"
 
-tr_est_greed_finish:0 "Greed Traditions Finished"
+tr_est_greed_finish:0 "Традиции Жадности Завершены"
+tr_est_greed_finish_desc:0 "§Y$MOD_PLANET_JOBS_PRODUCES_MULT$§! увеличено на §G+10%§!. §Y$MOD_POP_CAT_RULER_POLITICAL_POWER$§! увеличено на §G+10%§!.\n§Y$MOD_POP_HAPPINESS$§! снижено на §R-20%§!. §Y$MOD_COUNTRY_STARBASE_INFLUENCE_COST_DISTANCE_MULT$§! снижено на §G20%§!_
+
 
 ################################################################
 # Desires
@@ -923,96 +944,109 @@ tr_est_desires_finish_desc:0 "Производство §YЭнергокреди
 
 
 ################################################################
-# Industry
+# Metallurgy (ex Industry)
 ################################################################
 
-tradition_est_industry:0 "Industry"
-tradition_est_industry_desc:0 "Our worlds, covered by smoke and filled with factories, can produce whatever we, or indeed the galaxy, may need."
+tradition_est_industry:0 "Металлургия"
+tradition_est_industry_desc:0 "Расплавленный металл течет по венам нашей империи. От дымящихся литейных цехов до титанических кузниц, освещающих ночное небо, наше мастерство металлургии формирует само будущее галактики."
 
-tr_est_industry_adopt:0 "Industry Traditions"
-tr_est_industry_adopt_robots_desc:0 "Increases the number of possible §YMining Districts§! on all our planets by §Y2§!. In addition, enables the §Y$trait_robot_est_industry_adopt$§! trait when modifying robotic pops."
-tr_est_industry_adopt_machines_desc:0 "Increases the number of possible §YMining Districts§! on all our planets by §Y2§!. In addition, enables the §Y$trait_robot_est_industry_adopt$§! trait when modifying robotic pops."
+tr_est_industry_adopt:0 "Традиции Металлургии"
+tr_est_industry_adopt_robots_desc:0 "Увеличивает количество возможных §YШахтерских Районов§! на всех наших планетах на §Y2§!. Кроме того, позволяет использовать черту §Y$trait_robot_est_industry_adopt$§! при модификации роботизированного населения."
+tr_est_industry_adopt_machines_desc:0 "Увеличивает количество возможных §YШахтерских Районов§! на всех наших планетах на §Y2§!. Кроме того, позволяет использовать черту §Y$trait_robot_est_industry_adopt$§! при модификации роботизированного населения."
 
-tr_est_industry_1:0 "New Prospecting Techniques"
-tr_est_industry_1_desc:0 "£minerals  §YMineral§! output from §YMining Stations§! increased by §G+20%§!."
-tr_est_industry_1_delayed:0 "We have developed new prospecting techniques. These let us pinpoint mineral deposits previously unknown which can now be mined."
+tr_est_industry_1:0 "Новые Методы Разведки"
+tr_est_industry_1_desc:0 "§YДобыча Минералов§! с §YДобывающих Станций§! увеличена на §G+20%§!."
+tr_est_industry_1_delayed:0 "Сами звезды скрывают сокровища под слоями космической пыли и гравитационных тонкостей. Наши разведчики, вооруженные передовыми датчиками и геологической интуицией, теперь обнаруживают рудные жилы, которые навсегда остались бы скрытыми от менее проницательных глаз."
 
-tr_est_industry_2:0 "An Industrial Revolution"
-tr_est_industry_2_desc:0 "§YResearch Speed (Industry)§! increased by §G+15%§!. In addition, several new rare technologies will be added to the technology deck."
-tr_est_industry_2_delayed:0 "An industrial revolution sweeps across our realm, unveiling technologies we previously wouldn't even dare think of. Soon we will possess an industry that few of our competitors can match."
+tr_est_industry_2:0 "Промышленная Революция"
+tr_est_industry_2_desc:0 "§YСкорость Исследований (Промышленность)§! увеличена на §G+15%§!. Кроме того, несколько новых редких технологий будут добавлены в колоду технологий."
+tr_est_industry_2_delayed:0 "Рев машин и ритмичный стук кузнечных молотов знаменуют наше восхождение в новую промышленную эру. Когда доменные печи пылают день и ночь по всем нашим мирам, мы создаем революционные металлургические техники, превращающие сырой потенциал в несравненную технологическую мощь."
 
-tr_est_industry_3:0 "Grand Forgeries"
-tr_est_industry_3_desc:0 "§HUnlocks Building:§! $building_est_industry_3_blast_furnace$\n§EThis building increases £job_foundry£ §Y$job_foundry$s§! £alloys  §YAlloy§! output by §G1§! and their £energy  §YEnergy§! consumption by §R2§!§!"
-tr_est_industry_3_GC_desc:0 "§HUnlocks Building:§! $building_est_industry_3_blast_furnace$\n§EThis building increase £job_alloy_drone£ §Y$job_alloy_drone$s§! £alloys  §YAlloy§! output by §G1§! and their £energy  §YEnergy§! consumption by §R2§!§!"
-tr_est_industry_3_delayed:0 "Our Blast Furnaces are larger than any other in the galaxy. They are able to refine immense quantities of metal ore and produce good, high quality, metal."
+tr_est_industry_3:0 "Великие Кузницы"
+tr_est_industry_3_desc:0 "§HОткрывает Здание:§! $building_est_industry_3_blast_furnace$\n§EЭто здание увеличивает производство £alloys §YСплавов§! у £job_metallurgist£ §Y$job_metallurgist$ов§! на §G0.015§! и их потребление £energy §YЭнергии§! на §R0.02§!§!"
+tr_est_industry_3_GC_desc:0 "§HОткрывает Здание:§! $building_est_industry_3_blast_furnace$\n§EЭто здание увеличивает производство £alloys §YСплавов§! у £job_alloy_drone£ §Y$job_alloy_drone$ов§! на §G0.015§! и их потребление £energy §YЭнергии§! на §R0.02§!§!"
+tr_est_industry_3_delayed:0 "Наши Доменные Печи возвышаются над городскими пейзажами как монолитные соборы, посвященные искусству металлургии. В их раскаленных камерах армии кузнецов танцуют с жидким металлом, превращая обыденные руды в сплавы такой чистоты и прочности, что соперничающие империи могут лишь мечтать об их составе."
 
-tr_est_industry_4:0 "Mass Production"
-tr_est_industry_4_robots:0 "Mass Production"
-tr_est_industry_4_desc:0 "§YShip Build Speed§! increased by §G+25%§!."
-tr_est_industry_4_robots_desc:0 "§YPop Assembly Speed§! increased by §G+20%§!."
-tr_est_industry_4_delayed:0 "Our factories are able to mass produce standardized components at a high pace, which then can be used to build the ships needed by our fleet."
-tr_est_industry_4_robots_delayed:0 "Our factories are able to mass produce standardized components at a high pace, which then can be used to build the robots needed by our nation."
+tr_est_industry_4:0 "Массовое Производство"
+tr_est_industry_4_robots:0 "Массовое Производство"
+tr_est_industry_4_delayed:0 "Секреты точности кроются в совершенной репликации. Наши кузницы теперь производят идентичные компоненты в ошеломляющих количествах, каждый с микроскопическим совершенством. Там, где когда-то мастер-металлург мог провести дни, создавая единственный критически важный компонент, теперь тысячи стекают с наших производственных линий ежечасно."
+tr_est_industry_4_robots_delayed:0 "Сборочные линии никогда не спят, производя волну за волной роботизированных единиц с абсолютной точностью. Каждый механический слуга несет знак нашего металлургического мастерства—идентичный до последнего микрометра, но бесконечно адаптируемый к растущим потребностям нашей империи."
 
-tr_est_industry_5:0 "Forge Worlds"
-tr_est_industry_5_desc:0 "Enables the §Y$decision_est_industry_5_activate$§! decision, increasing planet £minerals  §YMinerals§!, £alloys  §YAlloy§!, and £consumer_goods  §YConsumer Goods§! output by §G+20%§!, while reducing planet £food  §YFood§! output, £mod_pop_growth_speed  §Y$MOD_POP_GROWTH_SPEED$§!, and §Y$MOD_PLANET_IMMIGRATION_PULL_MULT$§! by §R-20%§!, in addition £happiness §YHappiness§! is reduced by §R-10%§!."
-tr_est_industry_5_delayed:0 "We have since long learnt the art of establishing special forge worlds. These are worlds dedicated to our mines and industries. They are able to out-produce almost any other planet in the galaxy."
+tr_est_industry_5:0 "Миры-Кузницы"
+tr_est_industry_5_desc:0 "Позволяет принять решение §Y$decision_est_industry_5_activate$§!, увеличивающее планетарное производство £minerals §YМинералов§!, £alloys §YСплавов§! и £consumer_goods §YПотребительских Товаров§! на §G+20%§!, одновременно уменьшая планетарное производство £food §YПищи§!, §Y$MOD_POP_GROWTH_SPEED$§! и §Y$MOD_PLANET_IMMIGRATION_PULL_MULT$§! на §R-20%§!, дополнительно снижая §YСчастье§! на §R-10%§!."
+tr_est_industry_5_delayed:0 "С орбиты эти миры выглядят как созвездия искусственного света, их континенты превращены в обширные промышленные комплексы, которые никогда не спят. Реки расплавленного металла текут между кузницами размером с горы, пока сама земля дрожит от производственной ярости. Жизнь здесь трудна и беспощадна, но необходима—ибо в горниле этих миров-кузниц выковывается будущее нашей империи."
 
 tr_est_industry_5_GC:0 "$tr_est_industry_5$"
-tr_est_industry_5_GC_desc:0 "Enables the §Y$decision_est_industry_5_GC_activate$§! decision, increasing planet £minerals  §YMineral§! and £alloys  §YAlloy§! output by §G+20%§!, while reducing planet £food  §YFood§! output and £mod_pop_growth_speed  §Y$MOD_POP_GROWTH_SPEED$§! by §R-25%§!."
+tr_est_industry_5_GC_desc:0 "Позволяет принять решение §Y$decision_est_industry_5_GC_activate$§!, увеличивающее планетарное производство £minerals §YМинералов§! и £alloys §YСплавов§! на §G+20%§!, одновременно уменьшая планетарное производство £food §YПищи§! и §Y$MOD_POP_GROWTH_SPEED$§! на §R-25%§!."
+tr_est_industry_5_GC_delayed:0 "Улей преобразует целые миры в продолжения своей металлургической воли. Миллионы дронов работают в идеальной синхронизации, их движения так же текучи, как расплавленные сплавы, которыми они манипулируют. Биологические потребности вторичны по отношению к производственным квотам, поскольку питательные вещества перенаправляются от роста для поддержания неустанного труда, который питает коллективный голод металла и мощи."
 
 tr_est_industry_5_machines:0 "$tr_est_industry_5$"
-tr_est_industry_5_machines_desc:0 "Enables the §Y$decision_est_industry_5_machines_activate$§! decision, increasing planet £minerals  §YMineral§! and £alloys  §YAlloy§! output by §G+20%§!, while reducing planet £energy  §YEnergy§! output and £MOD_PLANET_POP_ASSEMBLY_MULT §Y$MOD_planet_pop_assembly_mult$§! by §R-20%§!."
+tr_est_industry_5_machines_desc:0 "Позволяет принять решение §Y$decision_est_industry_5_machines_activate$§!, увеличивающее планетарное производство £minerals §YМинералов§! и £alloys §YСплавов§! на §G+20%§!, одновременно уменьшая планетарное производство £energy §YЭнергии§! и §Y$MOD_PLANET_POP_ASSEMBLY_MULT$§! на §R-20%§!."
+tr_est_industry_5_machines_delayed:0 "Оптимальная металлургическая эффективность требует оптимальной планетарной конфигурации. На специально обозначенных мирах-кузницах наши единицы работают с 97,3% мощностью, превращая сырье в рафинированные сплавы с математической точностью. Энергетический расход и сниженные возможности сборки не являются жертвами, но расчетными параметрами в уравнении, которое дает максимальный металлический выход—жизненную силу нашей экспансии."
 
-tr_est_industry_5_esap:0 "Advanced Industries"
-tr_est_industry_5_esap_desc:0 "Reduce £job_chemist£ §Y$job_chemist$§!, £job_translucer£ §Y$job_translucer$§!, and £job_gas_refiner£ §Y$job_gas_refiner$§! £minerals£ §YMineral§! upkeep by §G-50%§!."
-tr_est_industry_5_esap_delayed:0 "Our industries utilize the most cutting edge technologies, producing materials unheard of in other empires."
+tr_est_industry_5_esap:0 "Передовые Промышленности"
+tr_est_industry_5_esap_desc:0 "Снижает потребление £minerals §YМинералов§! у £job_chemist£ §Y$job_chemist$ов§!, £job_translucer£ §Y$job_translucer$ов§! и £job_gas_refiner£ §Y$job_gas_refiner$ов§! на §G-50%§!."
+tr_est_industry_5_esap_delayed:0 "На вершине металлургической науки находятся процессы настолько продвинутые, что для непосвященных они кажутся сверхъестественными. Наши очистительные заводы извлекают экзотические элементы атом за атомом, наши кузницы манипулируют молекулярными связями с квантовой точностью, а наши сплавы обладают свойствами, которые бросают вызов обычной физике—и все это потребляя лишь долю ресурсов, необходимых низшим цивилизациям."
 tr_est_industry_5_esap_GC:0 "$tr_est_industry_5_esap$"
-tr_est_industry_5_esap_GC_desc:0 "Reduce £job_chemist_drone£ §Y$job_chemist_drone$§!, £job_translucer_drone£ §Y$job_translucer_drone$§!, and £job_gas_refiner_drone£ §Y$job_gas_refiner_drone$§! £minerals£ §YMineral§! upkeep by §G-50%§!."
-tr_est_industry_5_esap_GC_delayed:0 "$tr_est_industry_5_esap_delayed$"
+tr_est_industry_5_esap_GC_desc:0 "Снижает потребление £minerals §YМинералов§! у £job_chemist_drone£ §Y$job_chemist_drone$ов§!, £job_translucer_drone£ §Y$job_translucer_drone$ов§! и £job_gas_refiner_drone£ §Y$job_gas_refiner_drone$ов§! на §G-50%§!."
+tr_est_industry_5_esap_GC_delayed:0 "Улей достиг совершенного металлургического симбиоза. Специализированные дроны манипулируют материей на атомном уровне через биологические адаптации, превосходящие механическую точность. Отходы—понятие неизвестное, поскольку каждая частица собирается, каждая молекула переиспользуется на службе великого коллективного проекта металлического превосходства."
 
-tr_est_industry_finish:0 "Industry Traditions Finished"
+tr_est_industry_finish:0 "Традиции Металлургии Завершены"
+tr_est_industry_finish_desc:0 "Уменьшает §YСтоимость Содержания Металлургов§! и §YРемесленников§! на §G-25%§! и дает дополнительный §YСлот Преимущества Возвышения§!."
 
 
 ################################################################
 # Isolation
 ################################################################
 
-tradition_est_isolation:0 "Isolation"
-tradition_est_isolation_desc:0 "Our way of life will only be preserved by eschewing outside influences."
-tradition_est_isolation_GC_desc:0 "Nothing good can come from contact with the mortals of this galaxy."
+# Tradition Category
+tradition_est_isolation:0 "Изоляция"
+tradition_est_isolation_desc:0 "Наш образ жизни будет сохранен только если мы избегаем внешних влияний."
+tradition_est_isolation_GC_desc:0 "Ничего хорошего не может прийти от контакта со смертными этой галактики."
 
-tr_est_isolation_adopt:0 "Isolation Traditions"
+# Adoption
+tr_est_isolation_adopt:0 "Традиции Изоляции"
+tr_est_isolation_adopt_desc:0 "Уменьшает Размер Империи от населения на §G10%§!."
 
-tr_est_isolation_1:0 "Fortified Borders"
-tr_est_isolation_1_delayed:0 "We do not trust the outsiders to keep their distance. Our borders must be fortified to deter from any form of aggression."
+# Tradition 1
+tr_est_isolation_1:0 "Укрепленные Границы"
+tr_est_isolation_1_desc:0 "§YСодержание Звездных Баз§! снижено на §G5%§! и §YВместимость Оборонительных Платформ§! увеличена на §G+3§!."
+tr_est_isolation_1_delayed:0 "Пока звездные пути темнеют от угроз извне, мы укрепляем наши границы. Каждая звездная база стоит как безмолвный часовой, ощетинившись оборонительными платформами — суровое предупреждение тем, кто осмелится вторгнуться туда, где им не рады."
 
-tr_est_isolation_2:0 "Fierce Defenders"
-tr_est_isolation_2_delayed:0 "We are prepared to defend our way of life at any cost. Any intrusion must be stopped."
+# Tradition 2
+tr_est_isolation_2:0 "Свирепые Защитники"
+tr_est_isolation_2_desc:0 "§YМораль Обороны Армии§! увеличена на §G25%§! и §YСкорострельность Кораблей§! на родной территории увеличена на §G20%§!."
+tr_est_isolation_2_delayed:0 "Спокойствие изоляции поддерживается готовностью. Наши солдаты готовы отдать свои жизни, наши корабли настроены на уничтожение вторгшихся. Те, кто воспринимает наше одиночество как слабость, найдут лишь собственное уничтожение."
 
-tr_est_isolation_3:0 "Buffer Zones"
-tr_est_isolation_3_desc:0 "§YOutpost Influence Cost§! is reduced by §G-10%§! and §YOutpost Alloy Cost§! is reduced by §G-20%§!."
-tr_est_isolation_3_delayed:0 "We will institute buffer zones between our worlds and that of others. These vast stretches of empty space ensure that we can live our lives at safe distance from their influence."
+# Tradition 3
+tr_est_isolation_3:0 "Буферные Зоны"
+tr_est_isolation_3_desc:0 "§YСтоимость Влияния Форпостов§! снижена на §G10%§! и §YСтоимость Сплавов Форпостов§! снижена на §G20%§!."
+tr_est_isolation_3_delayed:0 "Наши территории окружены тщательно размещенными форпостами в пустом пространстве — не для расширения нашего охвата, а для увеличения расстояния между нами и остальной галактикой. В этих безмолвных сферах пустоты заключается наша безопасность."
 
-tr_est_isolation_4:0 "Guarding Against Foreign Influences"
-tr_est_isolation_4_delayed:0 "Outside influences may take any form. We must guard against anything that might change our way of life."
+# Tradition 4 (Regular)
+tr_est_isolation_4:0 "Защита от Внешних Влияний"
+tr_est_isolation_4_desc:0 "§YПривлекательность Правительственной Этики§! увеличена на §G15%§!."
+tr_est_isolation_4_delayed:0 "Чужие идеи проникают как тонкий яд, разлагая наше общество изнутри. Мы должны укреплять нашу культурную идентичность, усиливать наши ценности и отвергать искушения, предлагаемые внешними философиями. Наш образ жизни должен оставаться чистым, незапятнанным вселенной за пределами."
 
-tr_est_isolation_4_GC:0 "Eternal Silence"
-tr_est_isolation_4_GC_delayed:0 "From our space there is only silence. Our impact on the galaxy, as a whole, is negligible. Our neighbours know of our existence, but have little reason to worry of our presence."
+# Tradition 4 (Gestalt)
+tr_est_isolation_4_GC:0 "Вечная Тишина"
+tr_est_isolation_4_GC_desc:0 "§YПограничное Трение§! снижено на §G50%§!."
+tr_est_isolation_4_GC_delayed:0 "Из нашего пространства исходит только тишина. Мы не стремимся провоцировать, угрожать или вовлекаться. Мы — тень в сознании галактики — признанная, но едва запоминаемая, редко учитываемая и еще реже оспариваемая."
 
-tr_est_isolation_5:0 "Hermit Realm"
-tr_est_isolation_5_desc:0 "Our £unity  §YUnity§! output is increased by §G+20%§! while we have no diplomatic relations with the exception of §YNon-Aggression Pacts§!."
-tr_est_isolation_5_delayed:0 "In isolation, we shall remain. On our worlds, we will toil for our own ends, uncaring of the events in the great void outside."
+# Tradition 5 (Regular)
+tr_est_isolation_5:0 "Отшельническая Держава"
+tr_est_isolation_5_desc:0 "Наша выработка £unity §YЕдинства§! увеличена на §G+20%§!, пока у нас нет дипломатических отношений, за исключением §YПактов о Ненападении§!."
+tr_est_isolation_5_delayed:0 "Мы разорвали все, кроме самых необходимых, связи с внешней галактикой. В этом добровольном одиночестве наше общество обращается внутрь, находя силу и цель в самодостаточности. Космос за пределами наших границ — лишь фоновый шум для симфонии нашей изолированной цивилизации."
 
-tr_est_isolation_5_GC:0 "Tranquillity"
-tr_est_isolation_5_GC_desc:0 "Our £unity  §YUnity§! output is increased by §G+20%§! while we have no diplomatic relations with the exception of §YNon-Aggression Pacts§!."
-tr_est_isolation_5_GC_delayed:0 "There is only us, and the void. The void greets us with cherished silence, and in this, our thoughts echo through eternity."
+# Tradition 5 (Gestalt)
+tr_est_isolation_5_GC:0 "Безмятежность"
+tr_est_isolation_5_GC_desc:0 "Наша выработка £unity §YЕдинства§! увеличена на §G+20%§!, пока у нас нет дипломатических отношений, за исключением §YПактов о Ненападении§!."
+tr_est_isolation_5_GC_delayed:0 "Есть только мы и пустота. Пустота приветствует нас драгоценной тишиной, и в этой тишине наше сознание расширяется через вечность. Бессмысленная болтовня отдельных разумов исчезает, оставляя лишь совершенную гармонию нашей объединенной мысли."
 
-tr_est_isolation_finish:0 "Isolation Traditions finished"
-tr_est_isolation_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_est_isolation_adopt$ increases the £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pops  Pops by §G+10%§! while we are not at war."
-
-tr_est_isolation_finish:0 "Isolation Traditions Finished"
-tr_est_isolation_finish_desc:0 "Increase the £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pops  Pops by §G+10%§! while we are not at war.\nAscension Perks Unlocked: §G+1§!"
-tr_est_isolation_finish_GC_desc:0 "Increases £influence£ §Y$mod_country_influence_produces_add$§! by §G1§! while we are not at war.\nAscension Perks Unlocked: §G+1§!"
+# Finisher
+tr_est_isolation_finish:0 "Традиции Изоляции Завершены"
+tr_est_isolation_finish_desc:0 "Увеличивает £happiness §Y$MOD_POP_HAPPINESS$§! всех £pops §YНаселения§! на §G+10%§!, пока мы не находимся в состоянии войны.\nРазблокированные Перки Вознесения: §G+1§!"
+tr_est_isolation_finish_GC_desc:0 "Увеличивает £influence §Y$mod_country_influence_produces_add$§! на §G1§!, пока мы не находимся в состоянии войны.\nРазблокированные Перки Вознесения: §G+1§!"
  
 
 ################################################################
@@ -1051,29 +1085,34 @@ tr_est_proselytism_finish:0 "Proselytism Traditions Finished"
 # Justice
 ################################################################
 
-tradition_est_justice:0 "Justice"
-tradition_est_justice_desc:0 "Everyone shall unconditionally answer to the law, for it stands above everything else."
+tradition_est_justice:0 "Правосудие"
+tradition_est_justice_desc:0 "Каждый должен безоговорочно отвечать перед законом, ибо он превыше всего."
 
-tr_est_justice_adopt:0 "Justice Traditions"
+tr_est_justice_adopt:0 "Традиции Правосудия"
+tr_est_justice_adopt_desc:0 "Снижает планетарную преступность на §G25§!."
 
-tr_est_justice_1:0 "Equals in front of the Law"
-tr_est_justice_1_delayed:0 "The law stands above all. Everyone, whoever they might or might not be, will answer to it. To their class, standing or wealth, the law is blind."
+tr_est_justice_1:0 "Равенство Перед Законом"
+tr_est_justice_1_desc:0 "§YСчастье Населения§! увеличено на §G+5%§! и §YПроизводство Единства§! увеличено на §G+5%§!."
+tr_est_justice_1_delayed:0 "Закон превыше всего. Каждый, кем бы он ни был, ответит перед ним. К классу, положению или богатству закон слеп."
 
-tr_est_justice_2:0 "Adeptus Arbites"
-tr_est_justice_2_desc:0 "§YPiracy Growth§! reduced by §G-33%§! and §Y$MOD_EMPIRE_SIZE_COLONIES_MULT$§! reduced by §G-20%§!."
-tr_est_justice_2_delayed:0 "Representatives of the order of the Adeptus Arbites travel through our empire. These representatives of the law have full right to deliver full justice on the worlds at the fringe of our empire, where it might otherwise have been absent."
+tr_est_justice_2:0 "Адептус Арбитес"
+tr_est_justice_2_desc:0 "§YСложность Шпионских Операций§! увеличена на §G+1§! и §YРазмер Империи от Колоний§! уменьшен на §G-15%§!."
+tr_est_justice_2_delayed:0 "Представители ордена Адептус Арбитес путешествуют по всей нашей империи. Эти стражи закона уполномочены вершить скорое правосудие на дальних мирах, где имперская власть может ослабнуть. Само их присутствие сдерживает тех, кто замышляет против империи."
 
-tr_est_justice_3:0 "Supreme Court"
-tr_est_justice_3_delayed:0 "The Supreme Court regulates the activities of our government to ensure that their actions does not go against that of the laws we work under."
+tr_est_justice_3:0 "Верховный Суд"
+tr_est_justice_3_desc:0 "§YПланетарная Преступность§! снижена на §G-15%§! и §YРазмер Империи от Населения§! уменьшен на §G-5%§!."
+tr_est_justice_3_delayed:0 "Верховный Суд служит окончательным арбитром наших законов. Его решения формируют наше общество и устанавливают прецеденты, отголоски которых звучат сквозь поколения. Постановления Суда гарантируют, что власть остается подотчетной, снижая гражданские беспорядки и создавая более сплоченную империю."
 
-tr_est_justice_4:0 "Constitution"
-tr_est_justice_4_delayed:0 "Our constitution contains the most fundamental principles of our justice system. It regulates the ruling of our empire as well as the rights and responsibilities of its citizens."
+tr_est_justice_4:0 "Конституция"
+tr_est_justice_4_desc:0 "§YПланетарная Стабильность§! увеличена на §G+5§! и §YОдобрение Фракций§! увеличено на §G+10%§!."
+tr_est_justice_4_delayed:0 "Наша конституция воплощает самые фундаментальные принципы нашей системы правосудия. Она формулирует не только структуру управления, но и священные права и обязанности каждого гражданина. Когда политические фракции видят, что их основные свободы защищены, даже их самые страстные разногласия остаются цивилизованными."
 
-tr_est_justice_5:0 "Legal Perfection"
-tr_est_justice_5_delayed:0 "Through centuries we have perfected our legal codes. Now finally, the letter of the law and the spirit of the law is the same."
+tr_est_justice_5:0 "Правовое Совершенство"
+tr_est_justice_5_desc:0 "§YПроизводство Влияния§! увеличено на §G+15%§! и §YУровень Шифрования§! увеличен на §G+1§!."
+tr_est_justice_5_delayed:0 "Через века совершенствования мы довели наши правовые кодексы до совершенства. Буква и дух закона стали единым целым, создав систему, которая вызывает уважение во всей галактике. Наше законодательное великолепие укрепляет наше дипломатическое положение, в то время как наши юридические архивы остаются непроницаемыми для иностранных разведывательных служб."
 
-tr_est_justice_finish:0 "Justice Traditions Finished"
-tr_est_justice_finish_desc:0 "£unity£ §YUnity§! output is increased by §G+10%§!/§G20%§! while we have at least §Y750§!/§Y1000§! stored £influence  §YInfluence§!.\nAscension Perks Unlocked: §G+1§!"
+tr_est_justice_finish:0 "Традиции Правосудия Завершены"
+tr_est_justice_finish_desc:0 "§YПроизводство Единства§! увеличено на §G+10%§! при наличии не менее §Y750§! накопленного §YВлияния§!, увеличено до §G+20%§! с §Y1000+§! накопленного §YВлияния§!.\nРазблокированные Перки Возвышения: §G+1§!"
 
 
 ################################################################
@@ -1116,42 +1155,47 @@ tr_est_destruction_finish_desc:0 "Увеличивает §YПрирост Бо�
 # Liberty
 ################################################################
 
-tradition_est_liberty:0 "Liberty"
-tradition_est_liberty_desc:0 "Those who deny freedom to others, deserve it not for themselves."
-tradition_est_liberty_slavery_desc:0 "In one way or another, liberty reaches all of us. Although not everyone has taken it, they have all had the chance to reach greatness in their existence."
+tradition_est_liberty:0 "Свобода"
+tradition_est_liberty_desc:0 "Те, кто отказывает в свободе другим, не заслуживают её для себя."
+tradition_est_liberty_slavery_desc:0 "Так или иначе, свобода достигает всех нас. Хотя не все её приняли, у всех была возможность достичь величия в своём существовании."
 
-tr_est_liberty_adopt:0 "Liberty Traditions"
+tr_est_liberty_adopt:0 "Традиции Свободы"
+tr_est_liberty_adopt_desc:0 "Увеличивает §YПривлекательность для Иммиграции§! на §G+25%§!, поощряя граждан со всей галактики искать лучшей жизни в наших границах."
 
-tr_est_liberty_1:0 "Universal Rights"
-tr_est_liberty_1_delayed:0 "We declare that universal rights are for all of us, all the time. Whoever we are and wherever we are from."
+tr_est_liberty_1:0 "Всеобщие Права"
+tr_est_liberty_1_desc:0 "Увеличивает §YЕжемесячное Влияние§! на §G+1§!, поскольку наши демократические ценности получают признание по всей галактике."
+tr_est_liberty_1_delayed:0 "Мы заявляем, что всеобщие права принадлежат всем нам, всегда. Кем бы мы ни были и откуда бы мы ни пришли, достоинство и свобода — наше право по рождению среди звёзд."
 
-tr_est_liberty_1_slavery:0 "Justified Rule"
-tr_est_liberty_1_slavery_desc:0 "The £happiness  §YHappiness§! of all §YSlaves§! is increased by §G+20%§!."
-tr_est_liberty_1_slavery_delayed:0 "There is no question that our rules and laws are based on truest and most virtuous of principles. Whatever harshness and troubles an individual experiences in life can only be explained by tough luck and personal shortcomings."
+tr_est_liberty_1_slavery:0 "Обоснованное Правление"
+tr_est_liberty_1_slavery_desc:0 "£happiness §YСчастье§! всех §YРабов§! увеличивается на §G+20%§!."
+tr_est_liberty_1_slavery_delayed:0 "Нет никаких сомнений в том, что наши правила и законы основаны на самых истинных и добродетельных принципах. Какие бы трудности и невзгоды ни испытывал человек в жизни, их можно объяснить только неудачей и личными недостатками."
 
-tr_est_liberty_2:0 "Freedom of Speech"
-tr_est_liberty_2_desc:0 "The £happiness  §YHappines§! of all §YFactions§! is increased by §G+5%§! while no §YFaction§! is suppressed."
-tr_est_liberty_2_AI_desc:0 "The £happiness  §YHappines§! of all §YFactions§! is increased by §G+3%§!."
-tr_est_liberty_2_delayed:0 "It is important that everyone has the right to voice their opinions and ideas, without repercussion from the law. This is our citizens' right."
+tr_est_liberty_2:0 "Свобода Слова"
+tr_est_liberty_2_desc:0 "£happiness §YСчастье§! всех §YФракций§! увеличивается на §G+5%§!, пока ни одна §YФракция§! не подавляется."
+tr_est_liberty_2_delayed:0 "Важно, чтобы каждый имел право высказывать свои мнения и идеи без последствий со стороны закона. Какофония разнообразных голосов — это не хаос, а прекрасная музыка свободного общества, находящего свою гармонию."
 
-tr_est_liberty_3:0 "Frontier Spirit"
-tr_est_liberty_3_desc:0 "New colonies start with §Y1§! additional £pops  Pop. In addition, increase the £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pops  Pops  on a planet by §G+20%§! during the first §Y20§! years after it is colonised."
-tr_est_liberty_3_delayed:0 "Filled with optimism our citizens flock to our new colonies. For them they offer great opportunities and are a promise good fortune."
+tr_est_liberty_3:0 "Дух Первопроходцев"
+tr_est_liberty_3_desc:0 "Новые колонии начинаются с §Y100§! дополнительными £pops §YПопуляциями§!. Кроме того, увеличивает £happiness §Y$MOD_POP_HAPPINESS$§! всех £pops §YПопуляций§! на планете на §G+20%§! в течение первых §Y20§! лет после её колонизации."
+tr_est_liberty_3_delayed:0 "Наш призыв к первопроходцам эхом разносится по всей империи, вызывая беспрецедентную волну миграции. Сотни тысяч отвечают на этот призыв, поднимаясь на борт массивных колониальных кораблей с мечтами о создании новых судеб среди звёзд. Эти массовые миграционные флоты мгновенно превращают пустынные миры в процветающие общества, объединённые общим видением свободы и возможностей."
 
-tr_est_liberty_3_slavery:0 "Manifest Destiny"
-tr_est_liberty_3_slavery_delayed:0 "As we gaze at galaxy we see a shining sea of stars. We must reach out and claim those stars, for it is our destiny to rule them."
+tr_est_liberty_3_slavery:0 "Явное Предназначение"
+tr_est_liberty_3_slavery_desc:0 "Новые колонии начинаются с §Y100§! дополнительными £pops §YПопуляциями§!, и мы получаем §G-10%§! к §YСтоимости Влияния за Претензии§!."
+tr_est_liberty_3_slavery_delayed:0 "Глядя на галактику, мы видим сияющее море звёзд, ожидающих нашего господства. Мы должны протянуть руку и заявить права на эти небесные тела, ибо наша судьба — править ими. Наш народ перемещается в больших количествах, чтобы обеспечить наше законное наследие."
 
-tr_est_liberty_4:0 "Dreams of Possibilities"
-tr_est_liberty_4_delayed:0 "Ones future success should not be decided on birth. Rather everyone should have the opportunity to succeed and rise to greatness."
+tr_est_liberty_4:0 "Мечты о Возможностях"
+tr_est_liberty_4_desc:0 "Снижает §YСтоимость Найма Лидеров§! на §G15%§! и увеличивает §YРазмер Пула Лидеров§! на §G+2§!."
+tr_est_liberty_4_delayed:0 "Будущий успех человека не должен определяться его рождением, а лишь заслугами и преданностью. В нашем обществе даже те, кто родился в самых скромных обстоятельствах, могут подняться до командования нашими величайшими кораблями или управления нашими самыми процветающими мирами. Каждый ребёнок, рождённый под нашим знаменем, смотрит на звёзды и знает, что мог бы достичь их."
 
-tr_est_liberty_5:0 "A Righteous Cause"
-tr_est_liberty_5_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! increased by §G+15%§! and §Y$MOD_ARMY_DAMAGE_MULT$§! increased by §G+25%§! while we are at war with a war leader which permits slavery or purging."
-tr_est_liberty_5_delayed:0 "We will always stand against oppression of any kind. We are ready to stand up for those not strong enough to stand up for themselves."
+tr_est_liberty_5:0 "Праведное Дело"
+tr_est_liberty_5_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! увеличен на §G+15%§! и §Y$MOD_ARMY_DAMAGE_MULT$§! увеличен на §G+25%§! во время войны с лидером войны, который разрешает рабство или чистки."
+tr_est_liberty_5_delayed:0 "Мы всегда будем выступать против угнетения любого рода. Когда наши силы сталкиваются с теми, кто хотел бы поработить или уничтожить невинных существ, они сражаются с праведной яростью. Каждый выпущенный залп, каждая проведённая атака несёт в себе вес нашего убеждения, что всякая разумная жизнь заслуживает свободы."
 
-tr_est_liberty_5_less_nice:0 "Conviction"
-tr_est_liberty_5_less_nice_delayed:0 "Our ideals represent everything that is right and good in this galaxy. There are those that claim otherwise, but their attempts to disgrace us arise from jealousy and malice."
+tr_est_liberty_5_less_nice:0 "Убеждение"
+tr_est_liberty_5_less_nice_desc:0 "Увеличивает §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! на §G+20%§!."
+tr_est_liberty_5_less_nice_delayed:0 "Наши идеалы представляют всё, что правильно и хорошо в этой галактике. Есть те, кто утверждает иное, но их попытки опорочить нас проистекают из зависти и злобы. Наш путь ясен, наша цель божественна, и история оправдает наш выбор."
 
-tr_est_liberty_finish:0 "Liberty Traditions Finished"
+tr_est_liberty_finish:0 "Традиции Свободы Завершены"
+tr_est_liberty_finish_desc:0 "Увеличивает §YПроизводительность Работы Специалистов§! на §G+5%§!, поскольку наши граждане стремятся к совершенству с пристрастием, а не по обязанности.\nРазблокировано Перков Вознесения: §G+1§!"
 
 
 ################################################################
@@ -1629,29 +1673,31 @@ tr_est_collectivism_finish_desc:0 "Завершение традиций Кол�
 # Individualism
 ################################################################
 
-tradition_est_individualism:0 "Individualism"
-tradition_est_individualism_desc:0 "Our empire have no value in itself, only the individuals who constitute it does."
+tradition_est_individualism:0 "Индивидуализм"
+tradition_est_individualism_desc:0 "Империя не имеет собственной ценности — только личности, которые её составляют, имеют значение."
 
-tr_est_individualism_adopt:0 "Individualism Traditions"
-tr_est_individualism_adopt_desc:0 "Whenever a leader levels up, gain §Y10§! £influence  §YInfluence§!."
+tr_est_individualism_adopt:0 "Традиции Индивидуализма"
+tr_est_individualism_adopt_desc:0 "Каждый раз при повышении уровня лидера вы получаете §Y10§! £influence §YВлияния§!."
 
-tr_est_individualism_1:0 "Cult of Ingenuity"
-tr_est_individualism_1_desc:0 "§YScientist Starting Level§! increased by §Y1§!. In addition, whenever a scientist have surveyed 300 planets they gain a §YResearch Expertise§! trait."
-tr_est_individualism_1_delayed:0 "The trait of Ingenuity is revered within our scientific community. Those that possess it is respected and receive full support in their pursuit of knowledge."
+tr_est_individualism_1:0 "Культ Изобретательности"
+tr_est_individualism_1_desc:0 "§YНачальный уровень учёных§! увеличен на §Y1§!. Учёные, исследовавшие 300 планет, получают черту §YИсследовательская специализация§!."
+tr_est_individualism_1_delayed:0 "Изобретательность почитается в научном сообществе. Обладатели этой черты уважаемы и получают полную поддержку."
 
-tr_est_individualism_2:0 "Promotion of the Talented"
-tr_est_individualism_2_desc:0 "§YAdmiral Starting Level§! increased by §Y1§!. In addition, §YShip experience Gain§! is increased by §G+25%§!."
-tr_est_individualism_2_delayed:0 "We will promote the most talented of individuals to positions of power within the military. As high ranking officers they can use their unique skills to aid our empire."
+tr_est_individualism_2:0 "Продвижение Талантливых"
+tr_est_individualism_2_desc:0 "§YНачальный уровень адмиралов и генералов§! увеличен на §Y1§!. §YПрирост опыта кораблей§! увеличен на §G+25%§!."
+tr_est_individualism_2_delayed:0 "Мы продвигаем самых талантливых людей в военной иерархии, чтобы они использовали свои способности на благо империи."
 
-tr_est_individualism_3:0 "Rule of the Accomplished"
-tr_est_individualism_3_desc:0 "§Y$MOD_LEADER_RULER_SKILL_LEVELS$§! increased by §Y1§!. In addition, the §YPolitical Power§! and §YResource Output§! of £pop_cat_ruler  §YRuler Pops§! is increased by §G+50%§!."
-tr_est_individualism_3_delayed:0 "Only the most accomplished of individuals can be allowed to rule our empire. Only those most skilled would be selected for this noble task."
+tr_est_individualism_3:0 "Власть Заслуженных"
+tr_est_individualism_3_desc:0 "§Y$MOD_RULER_SKILL_ADDS$§! увеличен на §Y1§!. £pop_cat_ruler §YПопы Правителей§! получают §G+50%§! §Yполитической власти§! и §Yпроизводительности§!."
+tr_est_individualism_3_delayed:0 "Править могут только наиболее достойные и способные. Компетентность — это основа легитимности."
 
-tr_est_individualism_4:0 "Career Pursuit"
-tr_est_individualism_4_delayed:0 "Our empire is full of individuals seeking to pursue their careers. They dream to reach the top of their professions and will do what it takes to get there."
+tr_est_individualism_4:0 "Карьерный Подъём"
+tr_est_individualism_4_desc:0 "§YСодержание лидеров§! снижено на §G20%§!. Все новые лидеры начинают с §Y+1§! уровня."
+tr_est_individualism_4_delayed:0 "В нашей империи много личностей, стремящихся к карьерным вершинам. Они сделают всё, чтобы достичь их."
 
-tr_est_individualism_5:0 "Personal Ambitions"
-tr_est_individualism_5_delayed:0 "Every individual have their own ambitions as well as the drive to try and fulfil them."
+tr_est_individualism_5:0 "Личные Амбиции"
+tr_est_individualism_5_desc:0 "§YРост населения через иммиграцию§! увеличен на §G+25%§!. §YПрирост опыта лидеров§! (основной вид) увеличен на §G+25%§!."
+tr_est_individualism_5_delayed:0 "Каждый человек имеет мечту и стремление к её реализации."
 
-tr_est_individualism_finish:0 "Individualism Traditions Finished"
-tr_est_individualism_finish_desc:0 "Increase the £happiness£ §YHappiness§! of £pop_cat_specialist  §YSpecialist Pops§! by §G+10%§!.\nAscension Perks Unlocked: §G+1§!"
+tr_est_individualism_finish:0 "Традиции Индивидуализма Завершены"
+tr_est_individualism_finish_desc:0 "Увеличивает £happiness£ §YСчастье§! £pop_cat_specialist §YСпециалистов§! на §G+10%§!.\nДополнительный слот Перка Возвышения: §G+1§!"

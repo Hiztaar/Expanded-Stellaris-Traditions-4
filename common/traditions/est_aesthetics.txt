@@ -95,7 +95,7 @@ tr_est_aesthetics_finish = {
 			}
 		}	
 		modifier = {
-			planet_entertainers_unity_produces_add = 2
+			planet_entertainers_unity_produces_add = 0.02
 			ascension_perks_add = 1
 		}
 		weight = { factor = 1 }
@@ -191,7 +191,7 @@ tr_est_aesthetics_4 = {
 	custom_tooltip = tr_est_aesthetics_4_desc
 	
 	modifier ={
-		planet_clerks_unity_produces_add = 2 #(Ben_D): Added closest equivalent
+		planet_clerks_unity_produces_add = 0.02 #(Ben_D): Added closest equivalent
 	}
 
 	modifier = {

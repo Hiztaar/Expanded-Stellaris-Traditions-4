@@ -41,8 +41,7 @@ tr_est_justice_2 = {
 
 	possible = { has_tradition = tr_est_justice_1 }
 
-	modifier = {
-		piracy_growth_mult = -0.33		
+	modifier = {	
 		espionage_hostile_operation_difficulty_add = 1
 		empire_size_colonies_mult = -0.15
 	}
@@ -56,8 +55,8 @@ tr_est_justice_3 = {
 	possible = { has_tradition = tr_est_justice_1 }
 
 	modifier = {
-		edicts_upkeep_mult = -0.10
-		country_edict_fund_add = 15
+		planet_crime_mult = -0.15	
+        empire_size_pops_mult = -0.05
 	}
 
 	ai_weight = {
@@ -70,6 +69,7 @@ tr_est_justice_4 = {
 
 	modifier = {
 		planet_stability_add = 5
+		faction_approval = 0.10
 	}
 
 	ai_weight = {
@@ -83,8 +83,8 @@ tr_est_justice_5 = {
 	possible = { has_tradition = tr_est_justice_4 }
 
 	modifier = {
-		country_influence_produces_mult = 0.25
-		
+		country_influence_produces_mult = 0.15
+		intel_encryption_add = 1
 	}
 
 	ai_weight = {

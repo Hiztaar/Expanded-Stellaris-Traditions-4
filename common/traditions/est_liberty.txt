@@ -1,7 +1,7 @@
 tr_est_liberty_adopt = {
 	unlocks_agenda = agenda_est_liberty
 	modifier = {
-		pop_growth_from_immigration = 0.25
+		planet_immigration_pull_mult = 0.25
 	}
 
 	tradition_swap = {
@@ -9,8 +9,8 @@ tr_est_liberty_adopt = {
 		inherit_icon = yes
 		inherit_name = yes
 		trigger = {
-			Not = { has_policy_flag = slavery_allowed }
-			has_policy_flag = population_controls_allowed
+            NOT = { has_policy_flag = slavery_allowed }  
+            has_policy_flag = population_controls_allowed 
 		}	
 		modifier = {
 			trade_value_mult = 0.10
@@ -26,7 +26,7 @@ tr_est_liberty_adopt = {
 			has_policy_flag = slavery_allowed
 		}	
 		modifier = {
-			pop_growth_from_immigration = 0.25
+			planet_immigration_pull_mult = 0.25
 		}
 		weight = {factor = 1 }
 	}	
@@ -94,51 +94,6 @@ tr_est_liberty_2 = {
 		}
 		faction_approval = 0.05
 	}
-	
-	# (Metallichydra): Replaced with triggered_modifier
-	#on_enabled = {
-	#	if = {
-	#		limit = {
-	#			count_pop_faction = {
-	#				limit = {
-	#					has_modifier = suppressed_faction
-	#				} 
-	#				count < 1 
-	#			}
-	#		}
-	#		every_pop_faction = {
-	#			limit = {
-	#				Not = {
-	#					has_modifier = mod_est_liberty_2
-	#				}
-	#			}
-	#			add_modifier = {
-	#				modifier = "mod_est_liberty_2"
-	#				days = -1
-	#			}
-	#		}
-	#	}
-	#}
-
-	# (Metallichydra): AI's don't suppress factions
-	#tradition_swap = {
-	#	name = tr_est_liberty_2_AI
-	#	inherit_icon = yes
-	#	inherit_name = yes
-	#	trigger = {
-	#		is_ai = yes
-	#	}	
-	#	on_enabled = {
-	#		every_pop_faction = {
-	#			add_modifier = {
-	#				modifier = "mod_est_liberty_2_AI"
-	#				days = -1
-	#			}
-	#		}
-	#	}
-	#	weight = {factor = 1 }
-	#}
-
 	ai_weight = { factor = 5000 }
 }
 
@@ -146,7 +101,7 @@ tr_est_liberty_3 = {
 	custom_tooltip = tr_est_liberty_3_desc
 
 	modifier = {
-		colony_start_num_pops_add = 1	
+		colony_start_num_pops_add = 100	
 	}
 
 	tradition_swap = {
@@ -160,7 +115,7 @@ tr_est_liberty_3 = {
 			}
 		}	
 		modifier = {
-			colony_start_num_pops_add = 1
+			colony_start_num_pops_add = 100
 			country_claim_influence_cost_mult = -0.10
 		}
 		weight = { factor = 1 }
