@@ -1,4 +1,4 @@
-Expanded Stellaris Traditions 4
+Expanded Stellaris Traditions 4 - Hiztaar Rework
 Updated by Hiztaar
 
 Originally created by Girion
