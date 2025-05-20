@@ -97,37 +97,34 @@ tr_est_cooperativity_4 = {
 					has_trait =	leader_trait_general_est_cognition_central
 					has_trait =	leader_trait_official_est_cognition_central
 					has_trait =	leader_trait_scientist_est_cognition_central
-#					has_ruler_trait = leader_trait_ruler_est_cognition_central #(Ben_D): "ruler" is irrelevant now
 				}
 			}
 			if = {
-				limit = {
-					has_trait = subclass_commander_admiral
+				limit = { 
+					AND = { 
+						leader_class = commander 
+						has_trait = subclass_commander_admiral			
+					}
 				}
 				add_trait = leader_trait_admiral_est_cognition_central
-#				add_ruler_trait = leader_trait_ruler_est_cognition_central
 			}
 			if = {
-				limit = {
-					has_trait = subclass_commander_general
+				limit = { 
+					AND = { 
+						leader_class = commander 
+						has_trait = subclass_commander_general			
+					}
 				}
 				add_trait = leader_trait_general_est_cognition_central
-#				add_trait = leader_trait_ruler_est_cognition_central
 			}
 			if = {
 				limit = { leader_class = official }
 				add_trait = leader_trait_official_est_cognition_central
-#				add_ruler_trait = leader_trait_ruler_est_cognition_central
 			}
 			if = {
 				limit = { leader_class = scientist }
 				add_trait = leader_trait_scientist_est_cognition_central
-#				add_trait = leader_trait_ruler_est_cognition_central
 			}
-#			if = {
-#				limit = { leader_class = ruler }
-#				add_ruler_trait = leader_trait_ruler_est_cognition_central
-#			}
 		}
 		every_pool_leader = {
 			limit = {
@@ -136,32 +133,34 @@ tr_est_cooperativity_4 = {
 					has_trait = leader_trait_general_est_cognition_central
 					has_trait = leader_trait_official_est_cognition_central
 					has_trait = leader_trait_scientist_est_cognition_central
-#					has_trait = leader_trait_ruler_est_cognition_central
 				}
 			}
-#			if = { #Shouldn't give traits before sub class is determined
-#				limit = {leader_class = commander }
-#				add_trait = leader_trait_admiral_est_cognition_central
-#				add_ruler_trait = leader_trait_ruler_est_cognition_central
-#			}
 			if = {
-				limit = { leader_class = commander }
+				limit = { 
+					AND = { 
+						leader_class = commander 
+						has_trait = subclass_commander_admiral			
+					}
+				}
 				add_trait = leader_trait_admiral_est_cognition_central
+			}
+			if = {
+				limit = { 
+					AND = { 
+						leader_class = commander 
+						has_trait = subclass_commander_general			
+					}
+				}
+				add_trait = leader_trait_general_est_cognition_central
 			}
 			if = {
 				limit = { leader_class = official }
 				add_trait = leader_trait_official_est_cognition_central
-#				add_ruler_trait = leader_trait_ruler_est_cognition_central
 			}
 			if = {
 				limit = { leader_class = scientist }
 				add_trait = leader_trait_scientist_est_cognition_central
-#				add_ruler_trait = leader_trait_ruler_est_cognition_central
 			}
-#			if = {
-#				limit = { leader_class = ruler }
-#				add_trait = leader_trait_ruler_est_cognition_central
-#			}
 		}	
 	}
 

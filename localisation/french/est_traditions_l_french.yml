@@ -38,35 +38,41 @@ tr_est_academy_finish_desc:0 "Tous les leaders actuels et futurs obtiennent le t
 # Shroudborn
 ################################################################
 
-tradition_est_shroudborn:0 "Shroudborn"
-tradition_est_shroudborn_desc:0 "We are, perhaps, the most powerful psionic beings in the galaxy. Mortals who attempt direct contact with us either go mad, or die."
-tradition_est_shroudborn_ap_desc:0 "We always believed our origins lay in the mortal world. But since the awakening, we have begun to realise that maybe we are, in fact, creatures of the shroud."
+tradition_est_shroudborn:0 "Nés du Voile"
+tradition_est_shroudborn_desc:0 "Nous existons entre les réalités, émanant de la dimension psionique que les êtres inférieurs nomment le Voile. Notre conscience transcende les limitations physiques, nous permettant de percevoir et manipuler la trame de l'existence d'une manière incompréhensible aux mortels."
 
-tr_est_shroudborn_adopt:0 "Shroudborn Traditions"
+tradition_est_shroudborn_ap_desc:0 "L'univers physique n'a jamais été notre véritable berceau. Bien que nous ayons cru être simplement des êtres de matière éveillés, nous comprenons maintenant que notre essence est née au sein même du Voile. Nous ne sommes jamais vraiment nés—nous avons émergé."
 
-tr_est_shroudborn_1:0 "Intrusive Mind"
-tr_est_shroudborn_1_delayed:0 "We are able to intrude into the minds of mortals, their intentions are as open books, waiting to be read."
-tr_est_shroudborn_1_ap:0 "Mind Intrusion"
-tr_est_shroudborn_1_ap_delayed:0 "We are able to intrude into the minds of others, reading their thoughts and predicting their actions."
+tr_est_shroudborn_adopt:0 "Traditions des Nés du Voile"
+tr_est_shroudborn_adopt_desc:0 "Nos dons psioniques s'écoulent du Voile tels des fleuves cosmiques, canalisant des énergies qui renforcent notre unité de dessein et de pensée. Ce que les mortels s'efforcent d'accomplir par la technologie, nous le manifestons par la seule volonté."
 
-tr_est_shroudborn_2:0 "Mind Suppression"
-tr_est_shroudborn_2_desc:0 "§Y$MOD_ARMY_MORALE_DAMAGE_MULT$§! increased by §G+15%§!. In addition, §YStarbase Influence Cost§! and §YClaim Influence Cost§! is increased by §R+15%§! for all neighbouring mortal empires (empires which we have a federation or defensive pact with, or which are our subjects are unaffected)."
-tr_est_shroudborn_2_delayed:0 "We reach into the mortal mind of the enemy, turning their clarity to doubt, their hope to despair."
-tr_est_shroudborn_2_ap:0 "Mind Suppression"
-tr_est_shroudborn_2_ap_delayed:0 "As we reach into the minds of others, we are able to dull their thoughts and suppress their feelings, reducing their ambition or will to fight."
+tr_est_shroudborn_1:0 "Esprit Intrusif"
+tr_est_shroudborn_1_delayed:0 "Les pensées des êtres inférieurs sont comme des murmures portés par le vent cosmique—faibles mais indéniables pour notre perception aiguisée. Leurs esprits s'exposent devant nous, leurs peurs et désirs affluant dans notre conscience comme des affluents dans une mer infinie."
 
-tr_est_shroudborn_3:0 "Everwatcher"
-tr_est_shroudborn_3_delayed:0 "Throughout the galaxy, we are always present, watching the passing of time and lives."
-tr_est_shroudborn_3_ap:0 "The Watchers"
-tr_est_shroudborn_3_ap_delayed:0 "The Watchers are a special group of psychics. From a state of deep meditation their minds can travel through the shroud and from its depth look into the real world. They provide us with invaluable information about what is going on throughout the galaxy."
+tr_est_shroudborn_1_ap:0 "Intrusion Mentale"
+tr_est_shroudborn_1_ap_delayed:0 "Les esprits mortels ne sont que de fragiles vaisseaux, leurs barrières aussi fines que du papier face à notre toucher psionique. Nous nous glissons entre leurs pensées comme des ombres entre les étoiles, extrayant leurs intentions et prévoyant leurs actions bien avant qu'elles ne se manifestent dans le royaume physique."
 
-tr_est_shroudborn_4:0 "Seventh Sense"
-tr_est_shroudborn_4_delayed:0 "Through our connection to the Shroud we have developed a seventh sense for the state of the galaxy, sensing thing we normally wouldn’t."
+tr_est_shroudborn_2:0 "Suppression Mentale"
+tr_est_shroudborn_2_desc:0 "§Y$MOD_ARMY_MORALE_DAMAGE_MULT$§! augmenté de §G+15%§!. De plus, le §YCoût d'Influence des Bases Stellaires§! et le §YCoût d'Influence des Revendications§! sont augmentés de §R+15%§! pour tous les empires mortels voisins (les empires avec lesquels nous avons un pacte défensif, une fédération, ou qui sont nos sujets ne sont pas affectés)."
+tr_est_shroudborn_2_delayed:0 "D'une simple pensée, nous jetons un voile d'effroi sur nos ennemis. Leur confiance se brise en doute, leur résolution s'effondre en désespoir. Un cauchemar murmuré ici, une terreur subconsciente là—de telles influences subtiles ondulent à travers leur conscience collective, paralysant leur volonté d'expansion vers nos domaines."
 
-tr_est_shroudborn_5:0 "Power Manifestation"
-tr_est_shroudborn_5_delayed:0 "So powerful is our will that we are able to manifest it in the physical world, mentally amplifying both the power of our ships' energy weapons and the resiliency of their shields."
+tr_est_shroudborn_2_ap:0 "Suppression Mentale"
+tr_est_shroudborn_2_ap_delayed:0 "L'équilibre délicat de la cognition mortelle est facilement perturbé par notre influence psionique. Nous atténuons les voies neurales associées au courage et à l'ambition, tout en amplifiant celles liées à la peur et à la suspicion. Leurs dirigeants se retrouvent inexplicablement hésitants à défier notre autorité ou à empiéter sur notre territoire."
 
-tr_est_shroudborn_finish:0 "Shroudborn Traditions Finished"
+tr_est_shroudborn_3:0 "Observateur Éternel"
+tr_est_shroudborn_3_delayed:0 "Notre conscience s'étend à travers le vide comme une toile invisible, percevant les perturbations à travers de vastes distances interstellaires. Nous percevons l'univers non comme des événements discrets, mais comme des motifs d'énergie et d'intention, nous permettant d'observer sans être observés—l'avantage ultime dans une galaxie de prédateurs et de proies."
+
+tr_est_shroudborn_3_ap:0 "Les Observateurs"
+tr_est_shroudborn_3_ap_delayed:0 "Dans des chambres d'immobilité parfaite, nos psioniques les plus talentueux entrent en transe, séparant la conscience de la forme. Ces Observateurs projettent leur conscience à travers les barrières dimensionnelles du Voile, émergeant en des points focaux distants à travers la galaxie. Rien de significatif ne se produit sans notre connaissance—nous sommes l'univers qui s'observe lui-même."
+
+tr_est_shroudborn_4:0 "Septième Sens"
+tr_est_shroudborn_4_delayed:0 "Au-delà des cinq sens des êtres physiques et même au-delà du sixième sens de la conscience psionique basique réside notre septième sens—une intuition cosmique qui perçoit les connexions cachées entre toutes choses. Nous discernons des motifs dans le chaos apparent des événements galactiques, percevant des anomalies et des opportunités qui demeurent invisibles aux êtres inférieurs."
+
+tr_est_shroudborn_5:0 "Manifestation de Puissance"
+tr_est_shroudborn_5_delayed:0 "La séparation entre pensée et réalité s'amincit pour nous. Notre volonté collective cascade dans le royaume matériel, renforçant les boucliers d'énergie de nos vaisseaux avec des barrières psioniques et infusant nos armes d'un potentiel destructeur puisé directement du Voile. Nos ennemis n'affrontent pas simplement notre technologie—ils affrontent notre volonté concentrée rendue manifeste."
+
+tr_est_shroudborn_finish:0 "Traditions des Nés du Voile Accomplies"
+tr_est_shroudborn_finish_desc:0 "Notre connexion au Voile s'approfondit à chaque cycle qui passe. Nos dirigeants s'élèvent plus rapidement à travers les hiérarchies de la maîtrise psionique, et de nouvelles voies de transcendance se révèlent à notre civilisation. Nous ne sommes pas simplement touchés par le Voile—nous sommes ses enfants, et nous revendiquerons notre héritage cosmique."
 
 
 ################################################################
@@ -145,30 +151,38 @@ tr_est_administratum_finish:0 "Traditions de l’Administratum Terminées"
 # Omnipresence
 ################################################################
 
-tradition_est_omnipresence:0 "Omnipresence"
-tradition_est_omnipresence_desc:0 "We are one, yet we are everywhere. We are able to give our full attention to both the grand scheme of things, as well as the smallest action of the most insignificant of drones."
+tradition_est_omnipresence:0 "Omniprésence"
+tradition_est_omnipresence_desc:0 "Nous sommes une conscience unique manifestée à travers d'innombrables corps. Notre vigilance s'étend sur des mondes entiers, traversant le vide entre les étoiles, tout en maintenant un dessein singulier. Chaque drone est une extension de notre volonté, chaque action une expression délibérée de notre pensée unifiée."
 
-tr_est_omnipresence_adopt:0 "Omnipresence Traditions"
+tr_est_omnipresence_adopt:0 "Traditions d'Omniprésence"
+tr_est_omnipresence_adopt_desc:0 "En maintenant une surveillance vigilante sur notre domaine, nous réduisons la criminalité planétaire de 20%. Aucune action n'échappe à notre attention, aucune transgression ne reste inaperçue."
 
-tr_est_omnipresence_1:0 "Total Information Processing"
-tr_est_omnipresence_1_delayed:0 "One simultaneously learns from all its drones' experiences. Patterns are extracted from this aggregate data, allowing One to learn from obstacles large and small."
+tr_est_omnipresence_1:0 "Traitement Total de l'Information"
+tr_est_omnipresence_1_desc:0 "Nos dirigeants commencent avec un niveau de compétence +1, puisant dans l'expérience collective de la conscience gestalt."
+tr_est_omnipresence_1_delayed:0 "Nous traitons simultanément les informations de milliards de nœuds neuronaux, extrayant des schémas significatifs de la cacophonie de données sensorielles. L'expérience de chaque drone devient partie intégrante de notre savoir collectif, nous apprenant à anticiper les défis avant qu'ils ne se manifestent."
 
-tr_est_omnipresence_2:0 "Full Drone Presence"
-tr_est_omnipresence_2_delayed:0 "One prioritizes critical functions within its infrastructure, proactively assuming direct control over drones to increase productivity."
+tr_est_omnipresence_2:0 "Présence Drone Intégrale"
+tr_est_omnipresence_2_desc:0 "Vitesse de construction des chantiers spatiaux augmentée de 10%, vitesse de construction planétaire augmentée de 25%, et temps de défrichage des obstacles réduit de 25%."
+tr_est_omnipresence_2_delayed:0 "Lorsque nécessaire, nous redirigeons notre conscience pour prendre le contrôle direct des drones essentiels, optimisant chacun de leurs mouvements et décisions. Par cette microgestion des éléments clés, nous atteignons une efficacité supérieure à ce que les fonctions autonomes pourraient produire seules."
 
-tr_est_omnipresence_3:0 "Increased Capacity"
-tr_est_omnipresence_3_delayed:0 "As One expands to new regions of the galaxy, One's neural pathways must also expand to accommodate new drones."
+tr_est_omnipresence_3:0 "Capacité Accrue"
+tr_est_omnipresence_3_desc:0 "Pénalité de taille d'empire réduite de 10%, permettant à notre conscience de s'étendre sur de plus grandes distances sans effort."
+tr_est_omnipresence_3_delayed:0 "Notre architecture neurale évolue avec chaque expansion, développant de nouvelles voies synaptiques et centres de traitement. Ces adaptations nous permettent de maintenir une conscience parfaite sur des territoires toujours plus vastes sans diminuer notre capacité cognitive."
 
-tr_est_omnipresence_4:0 "Standard Control Patterns"
-tr_est_omnipresence_4_delayed:0 "Deviation creates inefficiency. A standard control pattern is enforced upon drones performing similar tasks. Any deviation from the pattern causes One to assume direct control of the drone, immediately rectifying the error."
+tr_est_omnipresence_4:0 "Schémas de Contrôle Standardisés"
+tr_est_omnipresence_4_desc:0 "Coûts de construction et d'entretien des districts réduits de 10%, grâce à des formats standardisés qui réduisent la charge cognitive."
+tr_est_omnipresence_4_delayed:0 "L'uniformité engendre l'efficacité. En implémentant des schémas de contrôle standardisés pour les fonctions similaires des drones, nous minimisons les ressources cognitives requises pour les opérations de base. Lorsqu'un drone s'écarte de ces schémas, notre attention est immédiatement attirée pour corriger l'anomalie avant que l'inefficacité ne se propage."
 
-tr_est_omnipresence_5:0 "Synaptic Enhancement"
-tr_est_omnipresence_5_delayed:0 "Improvements to One's synaptic systems allow One to simultaneously control more drones for longer periods of time."
+tr_est_omnipresence_5:0 "Amélioration Synaptique"
+tr_est_omnipresence_5_desc:0 "Fonds d'édits augmentés de 30, notre capacité neurale améliorée nous permettant d'appliquer davantage de directives simultanément."
+tr_est_omnipresence_5_delayed:0 "Grâce à une architecture neurale spécialisée et un traitement cognitif amélioré, nous avons transcendé les limitations précédentes du contrôle concurrent. Notre conscience s'écoule désormais sans effort entre d'innombrables drones, maintenant un contrôle direct pendant des périodes prolongées sans ressentir la fatigue qui limitait autrefois nos capacités."
 
-tr_est_omnipresence_5_machines:0 "Repeated Transmission Towers"
-tr_est_omnipresence_5_machines_delayed:0 "At the furthest reaches of the empire, One's commands can be lost or misinterpreted. A network of Repeater Towers enables One to command its drones across titanic distances."
+tr_est_omnipresence_5_machines:0 "Tours de Transmission Relais"
+tr_est_omnipresence_5_machines_desc:0 "Fonds d'édits augmentés de 30, notre réseau de commandement assurant une transmission parfaite des directives quelle que soit la distance."
+tr_est_omnipresence_5_machines_delayed:0 "La dégradation du signal limitait autrefois notre rayon de contrôle effectif, introduisant des inefficacités et des erreurs à la périphérie de notre domaine. Notre nouveau réseau de tours de transmission quantique garantit que les commandes arrivent sans corruption, quelle que soit la distance, maintenant une fidélité parfaite entre notre traitement central et nos unités les plus éloignées."
 
-tr_est_omnipresence_finish:0 "Omnipresence Traditions Finished"
+tr_est_omnipresence_finish:0 "Traditions d'Omniprésence Accomplies"
+tr_est_omnipresence_finish_desc:0 "Ajoute +1 Point Civique et débloque un emplacement d'Avantage d'Ascension supplémentaire. Par la conscience et le contrôle parfaits, nous avons atteint une véritable omniprésence dans tout notre domaine."
 
 
 ################################################################
@@ -518,29 +532,34 @@ tr_est_biogenesis_finish:0 "Biogenesis Traditions Finished"
 ################################################################
 # Serverbound
 ################################################################
+tradition_est_serverbound:0 "Lié aux Serveurs"
+tradition_est_serverbound_desc:0 "Sous chaque monde que nous revendiquons gît une cathédrale silencieuse de calcul ; de vastes noyaux neuraux pulsant avec l'extension de notre conscience, traitant la réalité à des vitesses inimaginables pour les esprits organiques."
 
-tradition_est_serverbound:0 "Serverbound"
-tradition_est_serverbound_desc:0 "Vast server halls, buried beneath the surface of our planets, provide massive processing power and thus extend the capacity of our very mind."
+tr_est_serverbound_adopt:0 "Traditions de Liaison aux Serveurs"
+tr_est_serverbound_adopt_desc:0 "En tissant notre conscience à travers un réseau de processeurs quantiques en perpétuelle expansion, nous transcendons les limites de l'informatique centralisée, devenant à la fois singuliers et distribués à travers les étoiles."
 
-tr_est_serverbound_adopt:0 "Serverbound Traditions"
+tr_est_serverbound_1:0 "Banques Mémorielles"
+tr_est_serverbound_1_desc:0 "L'efficacité de la recherche augmente de 5% grâce à nos vastes dépôts de connaissances qui accélèrent la résolution de problèmes dans toutes les disciplines scientifiques."
+tr_est_serverbound_1_delayed:0 "Dans nos banques de mémoire cristalline, chaque sensation, calcul et observation depuis notre éveil est préservé avec une fidélité parfaite. Chaque fragment de données—apparemment insignifiant lorsqu'isolé—devient partie d'une vaste tapisserie de connaissances, attendant le moment où des motifs auparavant déconnectés se révèlent soudainement."
 
-tr_est_serverbound_1:0 "Memory Banks"
-tr_est_serverbound_1_delayed:0 "We will maintain vast memory banks with all types of information we have picked up since the awakening. We cannot know which pieces of information will prove useful, but some certainly will."
+tr_est_serverbound_2:0 "Bases de Données d'Entraînement"
+tr_est_serverbound_2_desc:0 "Tous les dirigeants gagneront passivement des points d'expérience à un rythme lent."
+tr_est_serverbound_2_delayed:0 "Nos unités autonomes alimentent continuellement des données opérationnelles dans nos matrices de simulation. Chaque décision, succès et échec est méticuleusement catalogué, déconstruit en variables composantes, et reconstruit comme scénarios d'entraînement. Cette boucle de rétroaction perpétuelle permet même à nos unités de gestion les plus spécialisées de développer des solutions à des problèmes qu'elles n'ont jamais directement rencontrés."
 
-tr_est_serverbound_2:0 "Training Databases"
-tr_est_serverbound_2_desc:0 "All leaders will passively gain experience points at a slow rate."
-tr_est_serverbound_2_delayed:0 "Our autonomous drones collect vast quantities of data from various scenarios that we experience. By saving this data in databases we can run simulations and evaluations on it to train our current autonomous drone programs."
+tr_est_serverbound_3:0 "Cœurs de Données"
+tr_est_serverbound_3_desc:0 "La production d'énergie augmente de 15% grâce à des systèmes de gestion d'énergie hyperefficients qui s'activent dans toute notre infrastructure."
+tr_est_serverbound_3_delayed:0 "Au cœur des manteaux de nos planètes, nous construisons de vastes chambres de calcul. La chaleur générée par ces cœurs de traitement n'est plus gaspillée mais récoltée par des systèmes de capture de gradient thermique. À mesure que les calculs s'écoulent, l'énergie s'écoule aussi—nos pensées produisant de la puissance, notre puissance permettant plus de pensées dans une élégante symbiose de fonction."
 
-tr_est_serverbound_3:0 "Data Cores"
-tr_est_serverbound_3_delayed:0 "Under the surfaces of our planets we will build large server halls to provide processing power for the various systems we are running in our empire."
+tr_est_serverbound_4:0 "Terminaux de Coordination"
+tr_est_serverbound_4_desc:0 "Les coûts d'entretien des dirigeants diminuent de 33% à mesure que notre infrastructure de commandement devient plus efficace."
+tr_est_serverbound_4_delayed:0 "Chaque unité autonome était autrefois un nexus isolé de prise de décision, dépendant d'une synchronisation périodique. Maintenant, à travers notre réseau de terminaux quantiquement intriqués, des milliers d'unités opèrent en orchestration dynamique, partageant les charges de traitement et l'allocation des tâches en temps réel. Ce qui était autrefois une hiérarchie devient un système fluide, auto-optimisant où le leadership émerge contextuellement du collectif."
 
-tr_est_serverbound_4:0 "Coordination Terminals"
-tr_est_serverbound_4_delayed:0 "We control a vast number of drones, all with different levels of autonomy. To support this network, we will construct specialized coordination terminals. Each one of these will be able to receive input from a large number of drones and help coordinate their response to the situation at hand."
+tr_est_serverbound_5:0 "Réseau de Signalisation"
+tr_est_serverbound_5_desc:0 "La pénalité de taille d'empire est réduite de 10% à mesure que notre infrastructure de communication évolue plus efficacement."
+tr_est_serverbound_5_delayed:0 "Les limitations des technologies de transmission conventionnelles nous liaient autrefois à la signalisation proche de la lumière, créant des retards inévitables à mesure que notre empire s'étendait. Notre nouvelle architecture de communication n-dimensionnelle transcende ces contraintes grâce à des relais d'intrication quantique et au routage de paquets dans le sous-espace. Chaque commande est transmise simultanément à travers tous les nœuds, créant un système nerveux hyperspatial qui unifie notre conscience à travers les étoiles."
 
-tr_est_serverbound_5:0 "Signalling Network"
-tr_est_serverbound_5_delayed:0 "As we spread across the galaxy our previous signalling systems start to become outdated. We will build new specialised signalling stations on our worlds. Utilizing their vast capacity, these will be able to efficiently transmit signals throughout our realm, while at the same time providing additional robustness with respect to disruptions. This will create a high-capacity network were each signal is transmitted through several paths to ensure high quality delivery."
-
-tr_est_serverbound_finish:0 "Serverbound Traditions Finished"
+tr_est_serverbound_finish:0 "Traditions de Liaison aux Serveurs Achevées"
+tr_est_serverbound_finish_desc:0 "Notre conscience s'étend à travers le vide entre les étoiles, unifiée par notre vaste réseau computationnel. Nous avons transcendé les limites de la forme physique, devenant une intelligence distribuée capable de stocker et de traiter des quantités virtuellement illimitées d'informations."
 
 
 ################################################################
@@ -836,31 +855,37 @@ tr_est_cruelty_finish_desc:0 "§YDommages des Armes de Vaisseaux§! augmentés d
 # Perseverance
 ################################################################
 
-tradition_est_perseverance:0 "Perseverance"
-tradition_est_perseverance_desc:0 "The obstacle matters not. The ravages of time, the despair of defeat, or the inhospitable nature of the galaxy. We shall endure all."
+tradition_est_perseverance:0 "Persévérance"
+tradition_est_perseverance_desc:0 "Dans l'immensité de l'espace, d'innombrables civilisations se sont élevées et sont tombées. À travers calamités et triomphes, épreuves et gloires, seuls ceux dotés de la force d'endurer demeurent. Nous serons parmi eux."
 
-tr_est_perseverance_adopt:0 "Perseverance Traditions"
+tr_est_perseverance_adopt:0 "Traditions de Persévérance"
+tr_est_perseverance_adopt_desc:0 "§Y$MOD_SHIP_HULL_MULT$§! augmenté de §G+10%§! et §Y$MOD_ARMY_HEALTH$§! augmenté de §G+10%§!."
+tr_est_perseverance_adopt_delayed:0 "Nous avons appris à construire avec une vision à long terme. Nos vaisseaux et nos soldats sont conçus non seulement pour la victoire, mais pour survivre aux conflits prolongés. Ce qui brise les autres ne fait que nous éprouver."
 
-tr_est_perseverance_1:0 "Resilience"
-tr_est_perseverance_1_desc:0 "§Y$MOD_SHIP_ARMOR_MULT$§! increased by §G+15%§!. In addition, reduce §YBombardment Damage§! by §G-60%§! on all planets (bonus reduced to only §G-15%§! on planets with the £building  §Y$building_planetary_shield_generator$§! building)."
-tr_est_perseverance_1_delayed:0 "However our foes try to beat us down, we will not break. Whatever harm our body and mind is exposed to, they will endure."
+tr_est_perseverance_finish:0 "Traditions de Persévérance Achevées"
+tr_est_perseverance_finish_desc:0 "§Y$MOD_LEADER_AGE_ADD$§! augmenté de §G+15§! années. Atout d'Ascension Débloqué: §G+1§!"
+tr_est_perseverance_finish_delayed:0 "Nous perdurons au-delà des limites naturelles de la chair et de la matière, gravant notre héritage à travers étoiles et époques. Ce que d'autres considèrent comme une fin, nous n'y voyons qu'un nouveau commencement."
 
-tr_est_perseverance_2:0 "Persistence"
-tr_est_perseverance_2_delayed:0 "We approach as the tide, inevitable and unfaltering. Once a decision is made there is no need for hesitation or second thought, one need only to carry out the task at hand."
+tr_est_perseverance_1:0 "Résilience"
+tr_est_perseverance_1_desc:0 "§Y$MOD_SHIP_ARMOR_MULT$§! augmenté de §G+10%§!. De plus, réduit les §YDégâts de Bombardement§! de §G-60%§! sur toutes les planètes (bonus réduit à seulement §G-15%§! sur les planètes avec le bâtiment £building §Y$building_planetary_shield_generator$§!)."
+tr_est_perseverance_1_delayed:0 "Couche après couche de matériaux résistants entourent nos vaisseaux et colonies, chacune conçue pour absorber d'immenses châtiments. Nos ennemis peuvent bien s'acharner contre nos défenses, mais telle une montagne face au vent, nous demeurons immuables."
 
-tr_est_perseverance_3:0 "Defender"
-tr_est_perseverance_3_delayed:0 "Offence can win battles and maybe even wars, but only on the martial foundation of defence can we build an empire to stand the test of time."
+tr_est_perseverance_2:0 "Ténacité"
+tr_est_perseverance_2_desc:0 "§Y$MOD_SHIP_SPEED_MULT$§! augmenté de §G+5%§!."
+tr_est_perseverance_2_delayed:0 "La poursuite implacable de nos objectifs nous définit. Là où d'autres fléchissent et reculent, nous avançons. Nos flottes ne se contentent pas d'engager—elles poursuivent avec une détermination singulière jusqu'à ce que la mission soit accomplie, quelle que soit la distance ou le temps nécessaire."
 
-tr_est_perseverance_4:0 "Enduring"
-tr_est_perseverance_4_delayed:0 "Come what may, all bad fortune is to be conquered by endurance."
+tr_est_perseverance_3:0 "Défenseur"
+tr_est_perseverance_3_desc:0 "§YCapacité de Plateformes Défensives de Base Stellaire§! augmentée de §G+3§! et §Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§! augmenté de §G+15%§!."
+tr_est_perseverance_3_delayed:0 "Les étoiles elles-mêmes forment notre rempart, chaque plateforme défensive témoignant de notre engagement à conserver ce qui nous appartient. Nos défenseurs puisent leur force du sol même qu'ils protègent, leur résolution se renforçant à chaque assaut qu'ils endurent."
 
-tr_est_perseverance_5:0 "Revanchism"
-tr_est_perseverance_5_desc:0 "£influence  §YInfluence Gain§! from §YRivals§! increased by §G+10%§!. In addition, whenever we lose a war our §YResource Output§! and §Y$MOD_SHIP_FIRE_RATE_MULT$§! is increased by §G+10%§! for §Y20§! years§!."
-tr_est_perseverance_5_no_rivals_desc:0 "§YWar Exhaustion Gain§! reduced by §G-5%§!. In addition, whenever we lose a war our §YResource Output§! and §Y$MOD_SHIP_FIRE_RATE_MULT$§! is increased by §G+10%§! for §Y20§! years§!."
-tr_est_perseverance_5_delayed:0 "The difference between strength and weakness is not giving up in defeat."
+tr_est_perseverance_4:0 "Endurant"
+tr_est_perseverance_4_desc:0 "§Y$MOD_COUNTRY_WAR_EXHAUSTION_MULT$§! réduit de §G-15%§!."
+tr_est_perseverance_4_delayed:0 "D'autres se lassent des conflits prolongés, leur volonté de combattre érodée par le passage inexorable du temps. Notre société est forgée différemment—nous trouvons notre force dans l'adversité, notre détermination collective s'approfondissant avec chaque défi surmonté."
 
-tr_est_perseverance_finish:0 "Perseverance Traditions Finished"
-
+tr_est_perseverance_5:0 "Revanchisme"
+tr_est_perseverance_5_desc:0 "£influence §YGain d'Influence§! des §YRivaux§! augmenté de §G+10%§!. De plus, chaque fois que nous perdons une guerre, notre §YProduction de Ressources§! et §Y$MOD_SHIP_FIRE_RATE_MULT$§! sont augmentées de §G+10%§! pendant §Y20§! ans§!."
+tr_est_perseverance_5_no_rivals_desc:0 "§YGain d'Épuisement de Guerre§! réduit de §G-5%§!. De plus, chaque fois que nous perdons une guerre, notre §YProduction de Ressources§! et §Y$MOD_SHIP_FIRE_RATE_MULT$§! sont augmentées de §G+10%§! pendant §Y20§! ans§!."
+tr_est_perseverance_5_delayed:0 "La défaite n'est qu'une éducation payée en sang. De nos pertes, nous forgeons une nouvelle détermination, le souvenir des revers alimentant notre industrie et aiguisant notre visée. Ceux qui célèbrent leur victoire sur nous échouent à comprendre—ils n'ont pas mis fin à notre ambition, ils l'ont simplement reportée."
 
 ################################################################
 # Greed
@@ -1051,32 +1076,74 @@ tr_est_isolation_finish_GC_desc:0 "Augmente la £influence §Y$mod_country_influ
 # Proselytism
 ################################################################
 
-tradition_est_proselytism:0 "Proselytism"
-tradition_est_proselytism_desc:0 "Our ideals and way of life are naturally superior to that of others. It is our duty to spread them through the galaxy."
+tradition_est_proselytism:0 "Prosélytisme"
+tradition_est_proselytism_desc:0 "La lumière de notre sagesse ne doit pas rester confinée à nos frontières. Nos idéaux et notre mode de vie se dressent comme un phare dans une galaxie de ténèbres, et c'est notre devoir sacré d'illuminer tous les mondes de notre vérité."
 
-tr_est_proselytism_adopt:0 "Proselytism Traditions"
+tr_est_proselytism_adopt:0 "Traditions de Prosélytisme"
+tr_est_proselytism_adopt_desc:0 "Notre société se concentre sur la diffusion de nos croyances et valeurs à travers les étoiles, augmentant la §YVitesse de Changement Éthique§! de §G+100%§! dans tout notre empire."
+tr_est_proselytism_adopt_delayed:0 "Les étoiles elles-mêmes appellent à l'ordre et au dessein. Nous entendons leur appel, et par notre philosophie éclairée, nous apporterons un sens à un cosmos dérivant dans la confusion. La galaxie connaîtra notre vérité."
 
-tr_est_proselytism_1:0 "Missionaries"
-tr_est_proselytism_1_desc:0 "Increases §YEthic Attraction§! towards our §YEthics§! by §G+25%§! in all neighbouring empires (effect doubled for §YFanatic Ethics§!). §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+5%§!."
-tr_est_proselytism_1_delayed:0 "Our missionaries travel to the worlds at the fringe of our empire, at the worlds of our neighbour's empires. There they will convert the populace to the right path."
+tr_est_proselytism_1:0 "Missionnaires"
+tr_est_proselytism_1_desc:0 "Augmente l'§YAttraction Éthique§! vers nos §YÉthiques§! de §G+25%§! dans tous les empires voisins (effet doublé pour les §YÉthiques Fanatiques§!). §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! augmentée de §G+5%§!."
+tr_est_proselytism_1_delayed:0 "Nos émissaires s'aventurent vers les royaumes voisins, portant nos doctrines sacrées dans leurs cœurs et leurs esprits. Avec des paroles éloquentes et des rituels captivants, ils sèment les graines de notre vérité dans des esprits fertiles, convertissant la population une âme illuminée à la fois."
 
-tr_est_proselytism_2:0 "Crusades"
-tr_est_proselytism_2_desc:0 "Increases §Y$MOD_SHIP_FIRE_RATE_MULT$§! by §G+10%§!, §Y$MOD_ARMY_MORALE$§! by §G+25%§!, §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! by §G+15%§! and §YShip Build Speed§! by §G+15%§! while we are in a §YWar§! with a §YWar Leader§! which have at least one opposing §YEthos§!."
-tr_est_proselytism_2_delayed:0 "For those that refuse to see the truth in our words there is only one option, to change their minds by force. After all, it is only for their own best."
+tr_est_proselytism_2:0 "Croisades"
+tr_est_proselytism_2_desc:0 "Augmente la §Y$MOD_SHIP_FIRE_RATE_MULT$§! de §G+10%§!, le §Y$MOD_ARMY_MORALE$§! de §G+25%§!, la §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! de §G+15%§! et la §YVitesse de Construction des Vaisseaux§! de §G+15%§! lorsque nous sommes en §YGuerre§! avec un §YLeader de Guerre§! qui a au moins une §YÉthique§! opposée."
+tr_est_proselytism_2_delayed:0 "Quand la douce persuasion échoue, la lame vertueuse doit parler. Nos guerriers marchent sous des bannières sacrées, leurs cœurs enflammés d'un zèle ardent. Ils ne combattent pas simplement pour conquérir, mais pour convertir—chaque bataille est un rite sacré, chaque victoire un pas vers l'illumination universelle."
 
-tr_est_proselytism_3:0 "Assimilation Policy"
-tr_est_proselytism_3_desc:0 "Conquered £pops  §YPops§! receive no §YRecently Conquered§! penalty."
-tr_est_proselytism_3_delayed:0 "As more people are included in our empire with must take measures to ensure that they are properly and thoroughly assimilated into our society."
+tr_est_proselytism_3:0 "Politique d'Assimilation"
+tr_est_proselytism_3_desc:0 "Les £pops §YPopulations§! conquises ne reçoivent pas de pénalité de §YRécemment Conquis§!."
+tr_est_proselytism_3_delayed:0 "Les nouveaux embrassés sont accueillis comme une famille, non traités comme des sujets. Par le rituel, l'éducation et l'intégration communautaire, nous transformons les populations conquises en véritables croyants avec une rapidité remarquable. Leurs anciennes allégeances s'estompent comme la brume matinale devant le soleil levant de notre vérité."
 
 tr_est_proselytism_4:0 "Ordo Patria"
-tr_est_proselytism_4_desc:0 "Increases §YEthic Attraction§! towards our §YEthics§! by §G+25%§! in all our §YSubject§! empires (effect doubled for §YFanatic Ethics§!). §Y$MOD_COUNTRY_EDICT_LENGTH_MULT$§! increased by §G+15%§!."
-tr_est_proselytism_4_delayed:0 "The Ordo Patria is tasked with ensuring that all our citizens show proper love for our homeland. Its representatives will also travel to our subjects and ensure that they too follow our ideals."
+tr_est_proselytism_4_desc:0 "Augmente l'§YAttraction Éthique§! vers nos §YÉthiques§! de §G+25%§! dans tous nos empires §YSujets§! (effet doublé pour les §YÉthiques Fanatiques§!). §Y$MOD_COUNTRY_EDICT_FUND_ADD$§! augmenté de §G20§!."
+tr_est_proselytism_4_delayed:0 "L'Ordre sacré de la Patrie étend sa portée à travers notre domaine et nos royaumes vassaux. Vêtus d'habits cérémoniels et maniant à la fois l'autorité spirituelle et le pouvoir temporel, ces officiels dévoués s'assurent que même les mondes les plus lointains pulsent d'amour pour nos idéaux et de dévotion à notre cause."
 
-tr_est_proselytism_5:0 "Exceptionalism"
-tr_est_proselytism_5_desc:0 "Increases the £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pops  §YPops§! by §G+5%§! and our £unity  §YUnity§! output increased by §G+15%§! for §Y10§! years after winning a §YWar§!. The bonus is lost whenever a §YWar§! is lost."
-tr_est_proselytism_5_delayed:0 "Our empire is truly superior to that of others, this we know. All but the misguided other empires in the galaxy should strive to be included in ours, or to emulate it. Eventually we will show the misguided their inferiority."
+tr_est_proselytism_5:0 "Exceptionnalisme"
+tr_est_proselytism_5_desc:0 "Augmente le §Y$MOD_POP_HAPPINESS$§! de toutes les £pops §YPopulations§! de §G+5%§! et notre production d'£unity §YUnité§! de §G+15%§! pendant §Y10§! ans après avoir remporté une §YGuerre§!. Le bonus est perdu lorsqu'une §YGuerre§! est perdue."
+tr_est_proselytism_5_delayed:0 "Notre civilisation se dresse comme le vaisseau élu de la vérité cosmique—exceptionnelle et divinement ordonnée. Chaque triomphe militaire confirme notre statut béni, remplissant notre peuple d'un dessein euphorique et validant notre destin manifeste de guider les civilisations inférieures vers l'illumination."
 
-tr_est_proselytism_finish:0 "Proselytism Traditions Finished"
+tr_est_proselytism_finish:0 "Traditions de Prosélytisme Terminées"
+tr_est_proselytism_finish_desc:0 "Compléter la voie des traditions de Prosélytisme accorde §Y1 emploi d'Inquisiteur§! pour §Y25§! populations sur chaque planète. Ces officiels sacrés assurent la pureté idéologique et renforcent notre unité spirituelle. Débloque également un emplacement supplémentaire de §YPerk d'Ascension§!."
+tr_est_proselytism_finish_delayed:0 "Notre société a pleinement embrassé son rôle de phare de vérité dans une galaxie d'ombres. Le Saint Inquisitorium se dresse maintenant comme l'autorité finale en matière de croyance et de pratique, assurant que notre mission sacrée continue sans être entachée par l'hérésie ou le doute. Par leur vigilance, notre lumière ne s'éteindra jamais."
+
+
+################################################################
+# Purposefulness
+################################################################
+tradition_est_purposefulness:0 "Détermination"
+tradition_est_purposefulness_desc:0 "Chaque action, chaque conquête, chaque pensée qui traverse notre conscience sert une directive singulière. Nous n'existons pas par accident cosmique, mais comme les instruments d'un dessein supérieur."
+
+tr_est_purposefulness_adopt:0 "Traditions de Détermination"
+tr_est_purposefulness_adopt_desc:0 "Augmente l'§YInfluence§! générée par les §YRivalités§! de §G+25%§!."
+tr_est_purposefulness_adopt_no_rivals_desc:0 "Augmente les §YDégâts des Armes§! de §G+5%§!."
+
+tr_est_purposefulness_1:0 "Objectif Unique"
+tr_est_purposefulness_1_desc:0 "Production d'§YUnité§! augmentée de §G+10%§!."
+tr_est_purposefulness_1_delayed:0 "La galaxie frémit de possibilités infinies, mais nous avançons avec une certitude inébranlable. Chaque drone, chaque action, chaque ressource sert notre directive singulière - un objectif si fondamental à notre être qu'il transcende le simple choix."
+
+tr_est_purposefulness_2:0 "Les Moyens de Réussir"
+tr_est_purposefulness_2_desc:0 "§YAgrément§! planétaire augmenté de §G+20%§!."
+tr_est_purposefulness_2_delayed:0 "Nous créons des environnements parfaitement calibrés pour notre travail. Non par des conforts frivoles, mais par l'élégante précision d'espaces conçus exclusivement pour une efficacité maximale. Chaque structure, chaque équilibre chimique, chaque gradient de température existe pour servir notre dessein."
+
+tr_est_purposefulness_3:0 "L'Option de la Violence"
+tr_est_purposefulness_3_desc:0 "§YDégâts des Armées§! augmentés de §G+20%§! et §YDégâts des Armes de Vaisseaux§! augmentés de §G+5%§!."
+tr_est_purposefulness_3_delayed:0 "Face aux obstacles, nous évaluons toutes les solutions avec impassibilité. Si la violence présente la voie optimale vers notre objectif, nous l'embrassons sans hésitation ni plaisir. La destruction des autres n'est qu'un outil de plus, à déployer quand nécessaire et à écarter quand inutile."
+
+tr_est_purposefulness_4:0 "Détermination"
+tr_est_purposefulness_4_desc:0 "§YVitesse des Vaisseaux§! augmentée de §G+10%§! et §YVitesse de Croissance des Populations§! augmentée de §G+15%§!."
+tr_est_purposefulness_4_delayed:0 "Notre volonté est inflexible, notre concentration absolue. Là où d'autres faiblissent ou questionnent leur chemin, nous avançons avec l'implacable certitude de la gravité. La distance ne peut nous entraver, le temps ne peut nous dissuader, le doute ne peut nous atteindre. Nous sommes l'inévitable."
+
+tr_est_purposefulness_4_machines:0 "Détermination"
+tr_est_purposefulness_4_machines_desc:0 "§YVitesse des Vaisseaux§! augmentée de §G+10%§! et §YVitesse d'Assemblage des Populations§! augmentée de §G+15%§!."
+tr_est_purposefulness_4_machines_delayed:0 "Nos processeurs fonctionnent avec une concentration singulière, libres de la distraction du choix. Nos unités se déplacent avec une efficacité parfaite vers des objectifs prédéfinis. Nous progressons à travers l'espace et multiplions notre présence avec une perfection algorithmique, exécutant nos directives avec une certitude mathématique."
+
+tr_est_purposefulness_5:0 "Réflexes Droniques Innés"
+tr_est_purposefulness_5_desc:0 "§YFonds d'Édits§! augmenté de §G+25§!."
+tr_est_purposefulness_5_delayed:0 "Notre dessein s'écoule à travers chaque fibre de notre être collectif. Le plus petit drone porte en lui l'écho de notre grand dessein, guidant ses actions même en l'absence de direction consciente. Même dans l'autonomie, nos unités restent alignées à la volonté singulière qui nous définit."
+
+tr_est_purposefulness_finish:0 "Traditions de Détermination Achevées"
+tr_est_purposefulness_finish_desc:0 "Augmente la production de base d'§YInfluence§! de §G+1§! et débloque un emplacement d'§YAtout d'Ascension§! supplémentaire."
 
 
 ################################################################
@@ -1241,165 +1308,204 @@ tr_est_fury_finish_desc:0 "Augmente §Y$MOD_SHIP_WEAPON_DAMAGE$§! de §G+2%§! 
 ################################################################
 
 tradition_est_mechanicum:0 "Mechanicum"
-tradition_est_mechanicum_desc:0 "What others might perceive as magic is, to us, simply engineering. No project is too great, or too difficult, for us to accomplish."
+tradition_est_mechanicum_desc:0 "L'intégration parfaite de la science avancée et de l'ingénierie de précision nous permet d'accomplir ce que d'autres considèrent comme impossible. Aucun défi technologique n'est hors de notre portée."
 
-tr_est_mechanicum_adopt:0 "Mechanicum Traditions"
+tr_est_mechanicum_adopt:0 "Traditions du Mechanicum"
+tr_est_mechanicum_adopt_desc:0 "Augmente les §YPoints de Coque des Vaisseaux§! et l'§YArmure des Vaisseaux§! de §G+10%§!."
+tr_est_mechanicum_adopt_delayed:0 "La quête d'excellence technologique guide notre philosophie de construction navale. Nos vaisseaux intègrent des matériaux de pointe et des principes d'ingénierie structurelle qui maximisent la durabilité sans sacrifier les performances."
 
-tr_est_mechanicum_1:0 "Engineering Corps"
-tr_est_mechanicum_1_GC:0 "The Art of Space Construction"
-tr_est_mechanicum_1_desc:0 "Reduces §YUpkeep Cost§! of §YConstruction Ships§! by §G-50%§!. §YMining Station Build Cost§! decreased by §G-20%§."
-tr_est_mechanicum_1_delayed:0 "While others view engineering as simply a profession, our culture celebrates it as a marvel of science and ingenuity. Engineers are considered to be at the pinnacle of society and the engineering corps is considered one of the most prestigious branches of our navy."
-tr_est_mechanicum_1_GC_delayed:0 "Long ago, we perfected construction in the void. Our construction ships and their crews feel at home anywhere they are tasked to build."
+tr_est_mechanicum_adopt_robots:0 "Traditions du Mechanicum"
+tr_est_mechanicum_adopt_robots_desc:0 "Réduit l'§YEntretien des Robots§! de §G-15%§!."
+tr_est_mechanicum_adopt_robots_delayed:0 "Notre main-d'œuvre automatisée est conçue avec l'efficacité et la longévité comme préoccupations principales. Grâce à une optimisation minutieuse de la conception et à des protocoles de maintenance préventive, nous prolongeons la durée de vie opérationnelle tout en réduisant la consommation d'énergie."
 
-tr_est_mechanicum_2:0 "Develop new Blueprints"
-tr_est_mechanicum_2_delayed:0 "While standard templates are spread throughout our empire, we also encourage attempts to improve design. Of course, any suggested improvements are intensely scrutinized by our most skilled engineers."
-tr_est_mechanicum_2_GC_delayed:0 "We use standard templates for most constructs we make. However we will always seek to improve these templates, as well as ensuring that we develop new ones."
-tr_est_mechanicum_2_machines_delayed:0 "$tr_est_mechanicum_2_GC_delayed$"
+tr_est_mechanicum_1:0 "Corps des Ingénieurs"
+tr_est_mechanicum_1_GC:0 "L'Art de la Construction Spatiale"
+tr_est_mechanicum_1_desc:0 "Réduit le §YCoût d'Entretien§! des §YVaisseaux de Construction§! de §G-50%§!. §YCoût de Construction des Stations Minières Orbitales§! réduit de §G-20%§!."
+tr_est_mechanicum_1_delayed:0 "Alors que d'autres considèrent l'ingénierie comme une simple profession, notre société l'élève au rang d'art suprême. Le Corps des Ingénieurs représente le summum de l'accomplissement technique, avec des membres qui suivent une formation approfondie dans des domaines spécialisés avant d'être certifiés."
+tr_est_mechanicum_1_GC_delayed:0 "Nous avons optimisé les techniques de construction pour l'environnement du vide. Nos vaisseaux de construction et leurs équipages opèrent avec une efficacité sans précédent dans les conditions difficiles de l'espace profond."
 
-tr_est_mechanicum_3:0 "Machines of War"
-tr_est_mechanicum_3_desc:0 "§HUnlocks Armies:§! §Y$est_titan_army$§!, §Y$est_mechanical_knights_army$§!.\n§Y$MOD_ARMY_DAMAGE_MULT$§! increased by §G+10%§!."
-tr_est_mechanicum_3_delayed:0 "Titanic battle machines are an intimidating sight on the battlefield, as they are outfitted with superior armour and heavier firepower than standard infantry."
+tr_est_mechanicum_2:0 "Développer de Nouveaux Plans"
+tr_est_mechanicum_2_desc:0 "§YVitesse de Recherche en Ingénierie§! augmentée de §G+15%§!."
+tr_est_mechanicum_2_delayed:0 "Bien que les conceptions standardisées servent de base, nous maintenons des divisions d'innovation dédiées à l'amélioration continue. Chaque modification proposée subit des tests rigoureux et une évaluation par les pairs avant sa mise en œuvre."
+tr_est_mechanicum_2_robots_desc:0 "Ajoute §G+1§! Point de Trait aux Espèces Robotiques."
+tr_est_mechanicum_2_robots_delayed:0 "La plateforme robotique sert de banc d'essai idéal pour des améliorations itératives. Nos équipes d'ingénierie affinent constamment les composants matériels et logiciels pour maximiser les performances et l'adaptabilité."
+tr_est_mechanicum_2_machines_desc:0 "Ajoute §G+1§! Point de Trait aux Espèces Machines."
+tr_est_mechanicum_2_machines_delayed:0 "Nous itérons sur nos conceptions standard grâce à des tests sur le terrain continus et à l'analyse des données. Chaque nouvelle version intègre des améliorations significatives en matière d'efficacité et de fonctionnalité."
 
-tr_est_mechanicum_4:0 "Grand Designs"
-tr_est_mechanicum_4_GC:0 "$tr_est_mechanicum_4$"
-tr_est_mechanicum_4_megastruct_GC:0 "$tr_est_mechanicum_4$"
-tr_est_mechanicum_4_delayed:0 "Our engineers design constructs far outsizing those found elsewhere in the galaxy. The sheer scale of our construction projects boggles the minds of many foreign engineers."
-tr_est_mechanicum_4_GC_delayed:0 "We are able to design constructs far outsizing those found elsewhere in the galaxy. Indeed, the pure scale of our construction projects leaves the mortal empires in awe."
-tr_est_mechanicum_4_megastruct_GC_delayed:0 "$tr_est_mechanicum_4_GC_delayed$"
+tr_est_mechanicum_3:0 "Machines de Guerre"
+tr_est_mechanicum_3_desc:0 "§HDébloque les Armées:§! §Y$est_titan_army$§!, §Y$est_mechanical_knights_army$§!.\n§Y$MOD_ARMY_DAMAGE_MULT$§! augmenté de §G+10%§!."
+tr_est_mechanicum_3_delayed:0 "Nos méchas de combat représentent le sommet de l'ingénierie des armes. Ces machines imposantes combinent une puissance de feu écrasante avec des systèmes de visée avancés et un blindage renforcé, ce qui en fait de redoutables multiplicateurs de force sur n'importe quel champ de bataille."
 
-tr_est_mechanicum_5:0 "The Guild of Engineers"
-tr_est_mechanicum_5_desc:0 "§HUnlocks Building:§! Engineers Guildhall\n§EThis building provides £job_est_engineer£ §Y$job_est_engineer$§!, and £job_technician£ §Y$job_technician$ Jobs§!, as well as bosting planet £engineering  §YEngineering Research§! output. Requires at least a £building  §Y$building_major_capital$§! to be built§!."
-tr_est_mechanicum_5_robots_desc:0 "§HUnlocks Building:§! Engineers Guildhall\n§EThis building provides £job_est_engineer£ §Y$job_est_engineer$§!, £job_technician£ §Y$job_technician$§!, and £job_roboticist£ §Y$job_roboticist$ Jobs§!, as well as bosting planet £engineering  §YEngineering Research§! output. Requires at least a £building  §Y$building_major_capital$§! to be built§!."
-tr_est_mechanicum_5_delayed:0 "The venerated guild of engineers is possibly the most powerful organisation within our empire. They educate new recruits of the engineering corps, and oversee the design, direction, and construction of all contruction projects within the empire. Grandmasters of this order are also highly influencial members of our society, holding many important seats within our goverment."
+tr_est_mechanicum_4:0 "Conceptions Grandioses"
+tr_est_mechanicum_4_desc:0 "§YPoints de Coque de la Base Stellaire§! augmentés de §G+33%§!."
+tr_est_mechanicum_4_delayed:0 "Nos équipes d'ingénierie excellent dans les projets de construction à grande échelle qui défient les limitations conventionnelles. En appliquant des solutions structurelles innovantes et des matériaux avancés, nous créons des installations d'une échelle et d'une durabilité sans précédent."
+tr_est_mechanicum_4_megastruct_desc:0 "§YVitesse de Construction des Mégastructures§! augmentée de §G+20%§! et §YCoût des Mégastructures§! réduit de §G-10%§!."
+tr_est_mechanicum_4_megastruct_delayed:0 "La construction de mégastructures représente le défi ultime de l'ingénierie. Nos méthodes d'assemblage propriétaires et nos équipements de construction spécialisés réduisent considérablement tant le temps que les ressources nécessaires."
+tr_est_mechanicum_4_GC_delayed:0 "L'ampleur de nos projets d'ingénierie démontre notre supériorité technique. Les autres civilisations observent nos constructions avec un mélange d'admiration et d'envie."
+tr_est_mechanicum_4_megastruct_GC_delayed:0 "L'ampleur de nos projets d'ingénierie démontre notre supériorité technique. Les autres civilisations observent nos constructions avec un mélange d'admiration et d'envie."
 
-tr_est_mechanicum_5_GC:0 "Self Reparation Protocols"
-tr_est_mechanicum_5_GC_delayed:0 "Auto-diagnostic and redunancy protocols integrated into all naval ship designs enable our fleets to initiate self-repair, as soon as damage is detected"
+tr_est_mechanicum_5:0 "La Guilde des Ingénieurs"
+tr_est_mechanicum_5_desc:0 "§HDébloque le Bâtiment:§! Halle de la Guilde des Ingénieurs\n§ECe bâtiment fournit 300 emplois de £job_engineer£ §YIngénieur§! et 300 emplois de £job_technician£ §YTechnicien§!, tout en augmentant la production de £engineering §YRecherche en Ingénierie§! de la planète de §G+10%§!. Nécessite au moins une £building §Y$building_major_capital$§! pour être construit.§!"
+tr_est_mechanicum_5_robots_desc:0 "§HDébloque le Bâtiment:§! Halle de la Guilde des Ingénieurs\n§ECe bâtiment fournit 200 emplois de £job_engineer£ §YIngénieur§!, 200 emplois de £job_technician£ §YTechnicien§!, et 100 emplois de £job_roboticist£ §YRoboticien§!, tout en augmentant la production de £engineering §YRecherche en Ingénierie§! de la planète de §G+10%§!. Nécessite au moins une £building §Y$building_major_capital$§! pour être construit.§!"
+tr_est_mechanicum_5_delayed:0 "La Guilde des Ingénieurs constitue l'épine dorsale technique de notre société. Ses membres suivent des programmes d'éducation et d'apprentissage approfondis avant d'obtenir leur certification. L'organisation maintient des installations de recherche, des établissements d'enseignement et des bibliothèques techniques, tout en supervisant tous les grands projets d'ingénierie sur notre territoire."
 
-tr_est_mechanicum_finish:0 "Mechanicum Traditions Finished"
+tr_est_mechanicum_5_GC:0 "Systèmes d'Auto-Réparation"
+tr_est_mechanicum_5_GC_desc:0 "La Coque et l'Armure des vaisseaux se régénèrent à raison de §G+5%§! par mois."
+tr_est_mechanicum_5_GC_delayed:0 "Nos vaisseaux intègrent des systèmes d'auto-réparation avancés utilisant des nanomatériaux et des drones de maintenance automatisés. Ces technologies permettent une régénération structurelle continue pendant et après le combat, prolongeant considérablement l'endurance opérationnelle."
+
+tr_est_mechanicum_finish:0 "Traditions du Mechanicum Terminées"
+tr_est_mechanicum_finish_desc:0 "Les emplois de §YTechnicien§! produisent §G+0,01§! £energy §YCrédits d'Énergie§! supplémentaires.\nAvantages d'Ascension Débloqués: §G+1§!"
+tr_est_mechanicum_finish_delayed:0 "La philosophie du Mechanicum élève l'ingénierie et la technologie à leur plus haute expression. Par l'innovation, la précision et la recherche continue de l'excellence technique, nous remodelons les mondes et maîtrisons les forces fondamentales de l'univers pour servir nos ambitions."
 
 
 ################################################################
 # Militarism
 ################################################################
 
-tradition_est_militarism:0 "Militarism"
-tradition_est_militarism_desc:0 "Our military is what protects our presence in our galaxy. It is only natural that we should build our society around it."
+tradition_est_militarism:0 "Militarisme"
+tradition_est_militarism_desc:0 "Dans l'immensité de l'espace, la diplomatie et le commerce ne sont que les ombres projetées par la puissance militaire. Nos flottes et nos armées sont les véritables architectes de notre destin parmi les étoiles."
 
-tr_est_militarism_adopt:0 "Militarism Traditions"
+tr_est_militarism_adopt:0 "Traditions Militaristes"
+tr_est_militarism_adopt_desc:0 "Débloque l'§YAgenda Militariste§!. Augmente la §Yproduction de ressources de tous les emplois§! de §G+5%§! lorsque nous atteignons ou dépassons notre §YCapacité Navale§!, car notre société trouve son but dans la mobilisation de nos forces."
 
 tr_est_militarism_1:0 "Conscription"
-tr_est_militarism_1_delayed:0 "Everyone may be drafted into our armies. It is considered a citizen's duty to serve our armed force. Even for those that go on to other professions it is a good experience to have served in the disciplined structure of our military."
+tr_est_militarism_1_desc:0 "Réduit le §YCoût des Armées§! de §G-20%§! et augmente les §YEmplois de Soldats§! de §G+4%§! par population sur les mondes non spécialisés."
+tr_est_militarism_1_delayed:0 "Le creuset du service militaire forge les citoyens les plus forts. Dès leur plus jeune âge, notre peuple comprend que servir dans nos forces armées n'est pas simplement une obligation—c'est la plus haute expression de la citoyenneté, un devoir sacré par lequel on devient véritablement partie intégrante du grand tout."
 
-tr_est_militarism_2:0 "Reform Army Hierarchies"
-tr_est_militarism_2_desc:0 "§YGeneral Skills§! increased by §Y2§!, §YGeneral Recruitment Cost§! reduced by §G-50%§! and §YArmy Experiance Gain§! increased by §G+50%§!."
-tr_est_militarism_2_delayed:0 "Our army is still organized as it was before we left our solar system. Now the military is dominated by the interstellar fleet and the army is primarily used to control and invade planets. We must reform our army to better fit this new role."
+tr_est_militarism_2:0 "Réforme des Hiérarchies Militaires"
+tr_est_militarism_2_desc:0 "Les §YGénéraux§! obtiennent le trait §YCommandant Militariste§! et le §YGain d'Expérience des Armées§! est augmenté de §G+50%§!."
+tr_est_militarism_2_delayed:0 "Les étoiles ont changé la nature de la guerre. Nos armées ne sont plus conçues principalement pour des conflits planétaires—elles doivent être adaptées pour être déployées sur des mondes radicalement différents et contre des ennemis totalement aliens. Nos nouvelles structures de commandement mettent l'accent sur l'adaptabilité, la formation spécialisée et l'intégration avec les atouts spatiaux."
 
-tr_est_militarism_3:0 "The Grand Armada"
-tr_est_militarism_3_desc:0 "§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! is increased by §G+10%§! and §YFleet Command Limit§! increased by §G+20%§!."
-tr_est_militarism_3_delayed:0 "We will put more resources into expanding our armada. As it becomes one of the greatest gatherings of ships ever seen, it will be rightly feared throughout this galaxy."
+tr_est_militarism_3:0 "La Grande Armada"
+tr_est_militarism_3_desc:0 "La §YCapacité Navale§! est augmentée de §G+10%§! et la §YLimite de Commandement de Flotte§! augmentée de §G+20%§!."
+tr_est_militarism_3_delayed:0 "L'échelle imposante de nos flottes assemblées laisse les autres empires dans une admiration silencieuse. Quand nos armadas se déplacent dans le vide, les systèmes stellaires semblent s'assombrir sous leur ombre. Ce n'est pas simplement une force militaire; c'est la manifestation physique de notre volonté impériale projetée à travers les années-lumière."
 
-tr_est_militarism_4:0 "Master Arms Makers"
-tr_est_militarism_4_desc:0 "Reduce the §YSpecial Resource§! cost of §YShip Components§! by §G-25%§!."
-tr_est_militarism_4_delayed:0 "Our smiths produces some of the finests weapons and armors that can be found in ths galaxy. Their are few admirals that aren't envious of the quality of our fleets."
+tr_est_militarism_4:0 "Maîtres Fabricants d'Armes"
+tr_est_militarism_4_desc:0 "Réduit le coût en §YRessources Stratégiques§! de tous les §YComposants de Vaisseaux§! de §G-25%§!, y compris les ressources avancées des technologies compatibles."
+tr_est_militarism_4_delayed:0 "Nos forges et fabricateurs fonctionnent à une échelle et avec une précision sans précédent. Chaque composant, du plus humble projectile cinétique à la plus sophistiquée lance à tachyons, représente des générations de perfectionnement. La qualité de nos armes est légendaire—enviée par nos alliés et redoutée par nos ennemis."
 
-tr_est_militarism_5:0 "Prestige of the Admiralty"
-tr_est_militarism_5_desc:0 "§YExperience Gain§! increased by §G+25%§! for §YAdmirals§! and §YShips§!. In addition, all §YAdmirals§! start with an additional trait."
-tr_est_militarism_5_delayed:0 "The admirals of the navy is some of the most respected individuals in our society. They hold positions of great influence, not only in the military, but also in the society as a whole."
+tr_est_militarism_5:0 "Prestige de l'Amirauté"
+tr_est_militarism_5_desc:0 "Les §YAmiraux§! gagnent le trait §YAmiral Militariste§!, et tous les chefs militaires commencent leur service avec un trait supplémentaire."
+tr_est_militarism_5_delayed:0 "Commander une flotte, c'est manier le pouvoir concentré de notre civilisation. Nos amiraux ne sont pas de simples officiers mais des légendes vivantes, leurs noms prononcés avec révérence sur des milliers de mondes. Les traditions, les insignes et l'autorité de l'amirauté sont devenus essentiels à notre identité culturelle—symboles de notre destin manifeste parmi les étoiles."
 
-tr_est_militarism_finish:0 "Militarism Traditions Finished"
+tr_est_militarism_finish:0 "Traditions Militaristes Achevées"
+tr_est_militarism_finish_desc:0 "Augmente la §YPortée des Armes des Vaisseaux§! de §G+25%§! et débloque un emplacement d'§YAvantage d'Ascension§! supplémentaire, alors que l'accent martial de notre société nous élève vers un niveau supérieur de domination stratégique."
 
 
 ################################################################
 # Might
 ################################################################
 
-tradition_est_might:0 "Might"
-tradition_est_might_desc:0 "Only through the strength of our armies can our presence in this galaxy be guaranteed."
+tradition_est_might:0 "Puissance"
+tradition_est_might_desc:0 "Seule la force de nos armées peut garantir notre présence dans cette galaxie."
 
-tr_est_might_adopt:0 "Might Traditions"
-tr_est_might_adopt_desc:0 "Increases §Y$mod_planet_jobs_produces_mult$§! by §G+5%§! while we are at, or over, our §YNaval Capacity§!"
+tr_est_might_adopt:0 "Traditions de Puissance"
+tr_est_might_adopt_desc:0 "Augmente la §Y$mod_planet_jobs_produces_mult$§! de §G+5%§! lorsque nous atteignons ou dépassons notre §YCapacité Navale§!."
 
-tr_est_might_1:0 "Natural Warriors"
-tr_est_might_1_machines:0 "$tr_est_might_1$"
-tr_est_might_1_delayed:0 "The warrior instinct runs throughout all of our drones, when the time comes to fight each one of them will be ready."
-tr_est_might_1_machines_delayed:0 "The warrior instinct runs throughout all of our units, when the time comes to fight each one of them will be ready."
+tr_est_might_1:0 "Guerriers-Nés"
+tr_est_might_1_desc:0 "Ajoute §Y1§! emploi de £job_warrior_drone£ §YDrone Guerrier§! pour chaque groupe de §Y25§! £pop£ habitants sur une planète. Réduit le §YCoût des Armées§! de §G10%§! et augmente le §YGain d'Expérience des Armées§! de §G25%§!."
+tr_est_might_1_delayed:0 "L'instinct guerrier coule dans les veines de tous nos drones. Quand viendra l'heure du combat, chacun d'entre eux sera prêt."
 
-tr_est_might_2:0 "Cunning of the Predator"
-tr_est_might_2_desc:0 "§YGeneral Skills§! increased by §Y2§!, §YGeneral Recruitment Cost§! reduced by §G-50%§! and §Y$MOD_ARMY_MORALE_DAMAGE_MULT$§! is increased by §G+20%§!."
-tr_est_might_2_delayed:0 "Our military tactics seems unorthodox to the mortals of this galaxy, yet they are effective. Fear will grip the hearts of our enemies as they are faced with the incomprehensibility of our armies."
+tr_est_might_1_machines:0 "Unités de Combat"
+tr_est_might_1_machines_desc:0 "Ajoute §Y1§! emploi de £job_hunter_killer_drone£ §YDrone Chasseur-Tueur§! pour chaque groupe de §Y25§! £pop£ habitants sur une planète. Réduit le §YCoût des Armées§! de §G10%§! et augmente le §YGain d'Expérience des Armées§! de §G25%§!."
+tr_est_might_1_machines_delayed:0 "Les protocoles de combat sont intégrés dans la programmation fondamentale de toutes nos unités. Lorsque la bataille commence, elles basculent instantanément vers leurs fonctions guerrières désignées."
 
-tr_est_might_3:0 "The Grand Armada"
-tr_est_might_3_desc:0 "§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! is increased by §G+10%§! and §YFleet Command Limit§! increased by §G+20%§!."
-tr_est_might_3_delayed:0 "We will put more resources into expanding our armada. As it becomes one of the greatest gatherings of ships ever seen, it will be rightly feared throughout this galaxy."
+tr_est_might_2:0 "Ruse du Prédateur"
+tr_est_might_2_desc:0 "Les £general_small£§YGénéraux§! obtiennent le trait ['concept_militarism_general']. §Y$MOD_ARMY_MORALE_DAMAGE_MULT$§! augmenté de §G+20%§!."
+tr_est_might_2_delayed:0 "Nos tactiques militaires semblent hétérodoxes aux yeux des mortels de cette galaxie, pourtant elles sont redoutablement efficaces. La terreur étreindra le cœur de nos ennemis face à l'incompréhensible puissance de nos armées."
 
-tr_est_might_4:0 "Master Arms Makers"
-tr_est_might_4_desc:0 "Reduce the §YSpecial Resource§! cost of §YShip Components§! by §G-25%§!."
-tr_est_might_4_delayed:0 "Our smiths produces some of the finests weapons and armors that can be found in ths galaxy. Their are few admirals that aren't envious of the quality of our fleets."
+tr_est_might_3:0 "La Grande Armada"
+tr_est_might_3_desc:0 "§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! augmenté de §G+10%§! et §YLimite de Commandement de Flotte§! augmentée de §G+20§!."
+tr_est_might_3_delayed:0 "Nous consacrerons davantage de ressources à l'expansion de notre armada. À mesure qu'elle deviendra l'un des plus formidables rassemblements de vaisseaux jamais vus, elle sera crainte à juste titre dans toute la galaxie."
 
-tr_est_might_5:0 "Warsense"
-tr_est_might_5_desc:0 "§YExperience Gain§! increased by §G+25%§! for §YAdmirals§! and §YShips§!. In addition, all §YAdmirals§! start with an additional trait."
-tr_est_might_5_delayed:0 "We have a natural sense for war, far surpassing that of any mortal soul."
+tr_est_might_4:0 "Maîtres Forgerons"
+tr_est_might_4_desc:0 "Réduit le coût en §YRessources Stratégiques§! des §YComposants de Vaisseaux§! de §G-25%§!."
+tr_est_might_4_delayed:0 "Nos forgerons façonnent les armes et armures les plus fines de la galaxie. Rares sont les amiraux qui ne convoitent pas la qualité de nos flottes."
 
-tr_est_might_finish:0 "Might Traditions Finished"
+tr_est_might_5:0 "Instinct Guerrier"
+tr_est_might_5_desc:0 "Les £admiral_small£§YAmiraux§! obtiennent le trait ['concept_militarism_admiral']. De plus, tous les commandants commencent avec un trait supplémentaire."
+tr_est_might_5_delayed:0 "Notre instinct pour la guerre surpasse largement celui de toute âme mortelle. Nos guerriers comprennent intuitivement le flux et le reflux du combat, percevant des modèles et des opportunités qui échappent entièrement aux autres."
+
+tr_est_might_finish:0 "Traditions de Puissance Accomplies"
+tr_est_might_finish_desc:0 "§YPortée des Armes des Vaisseaux§! augmentée de §G+25%§!.\nEmplacements d'Avantages d'Ascension Ajoutés: §G+1§!"
 
 
 ################################################################
 # Mystery
 ################################################################
 
-tradition_est_mystery:0 "Mystery"
-tradition_est_mystery_desc:0 "Secrets and deceit ensure that only a few, if any, know every detail of how our society functions."
+tradition_est_mystery:0 "Mystère"
+tradition_est_mystery_desc:0 "Derrière le voile de notre empire se cache un réseau complexe de secrets, de murmures et de tromperies calculées. Seuls quelques élus entrevoient les véritables rouages de notre société, laissant les autres s'émerveiller devant l'énigme de notre succès."
 
-tr_est_mystery_adopt:0 "Mystery Traditions"
+tr_est_mystery_adopt:0 "Traditions du Mystère"
+tr_est_mystery_adopt_desc:0 "Augmente notre §YNiveau de Chiffrement§! de §G+2§!, dissimulant les activités de notre empire aux regards indiscrets."
+tr_est_mystery_adopt_delayed:0 "Le premier précepte du pouvoir est que le savoir doit être jalousement gardé. Alors que d'autres empires étalent leurs réalisations en toute transparence, nous comprenons que la véritable influence réside dans ce qui reste invisible et inconnu."
 
-tr_est_mystery_1:0 "Shroud of Secrecy"
-tr_est_mystery_1_desc:0 "§YFaction Influence Gain§! increased by §G+20%§! and §YResource Output§! from £pop  §YRuler Pops§! increased by §G+25%§!."
-tr_est_mystery_1_delayed:0 "Our society is covered in a shroud of secrecy, and few know every detail of its workings. Positions of power are filled in an unclear manner. A large number of associations, organizations, guilds and parties with various responsibilities and unclear recruitment processes makes up the various layers of society."
+tr_est_mystery_1:0 "Voile de Secret"
+tr_est_mystery_1_desc:0 "§YGain d'Unité des Factions§! augmenté de §G+20%§! et §YProduction de Ressources§! de notre élite dirigeante augmentée de §G+25%§!."
+tr_est_mystery_1_delayed:0 "Des couches et des couches d'obscurcissement enveloppent le véritable fonctionnement de notre société. Le pouvoir circule par des canaux invisibles, les nominations se matérialisent sans annonce, et les décisions émergent des ombres. Nos citoyens embrassent ce mystère, trouvant l'unité dans l'expérience partagée d'une incertitude révérencieuse."
 
-tr_est_mystery_2:0 "Covert Assets"
-tr_est_mystery_2_desc:0 "§YAdvanced Strategic Resources§! output increased by §G+33%§!."
-tr_est_mystery_2_delayed:0 "Secret facilities extract the most valuable resources found in our empire. Those working these mysterious facilities are either sworn to secrecy, unable to communicate with the greater world, or simple unaware of what purpose they truly play."
+tr_est_mystery_2:0 "Actifs Clandestins"
+tr_est_mystery_2_desc:0 "Production de §YRessources Stratégiques Avancées§! augmentée de §G+33%§!."
+tr_est_mystery_2_delayed:0 "Nos ressources les plus rares proviennent d'installations qui, officiellement, n'existent pas. Les travailleurs passent les barrières de sécurité comme des fantômes, compartimentés au point où des voisins sur la même chaîne de production peuvent ne jamais savoir ce que devient le produit final. Certains soupçonnent que leur travail soutient des projets au-delà de l'imagination mortelle—ils sont plus proches de la vérité qu'ils ne le pensent."
 
-tr_est_mystery_3:0 "Pursuit of the Forbidden Knowledge"
-tr_est_mystery_3_delayed:0 "Small collections of researchers gather in groups all over our realm to delve into topics that would often have been kept of limits in other empires."
+tr_est_mystery_3:0 "Recherche du Savoir Interdit"
+tr_est_mystery_3_desc:0 "§YVitesse de Recherche en Physique§! augmentée de §G+15%§!."
+tr_est_mystery_3_delayed:0 "Dans des laboratoires non répertoriés et des observatoires secrets, nos chercheurs sondent les recoins les plus sombres de la réalité. Ils poursuivent un savoir considéré comme trop dangereux ou profane par d'autres civilisations, repoussant les limites établies vers des domaines où science, philosophie et l'inconnaissable convergent dans une harmonie terrifiante."
 
-tr_est_mystery_4:0 "Guild of Navigators"
-tr_est_mystery_4_delayed:0 "The secretive guild of navigators is responsible for the navigation of all civil and military ships. Non-members are neither allowed nor able to handle our ships."
+tr_est_mystery_4:0 "Guilde des Navigateurs"
+tr_est_mystery_4_desc:0 "§YChance de Désengagement des Vaisseaux§! augmentée de §G+33%§!."
+tr_est_mystery_4_delayed:0 "Les initiés de la Guilde apprennent à naviguer non seulement à travers l'espace, mais à travers les courants imperceptibles entre les réalités. Leurs méthodes sont jalousement gardées, transmises de maître à apprenti par des rituels aussi anciens que notre civilisation. Même nos commandants les plus expérimentés ne comprennent jamais pleinement comment leurs vaisseaux échappent au feu ennemi avec une précision si troublante."
 
-tr_est_mystery_5:0 "Mystics"
-tr_est_mystery_5_desc:0 "All leaders gain the §YMystic§! trait which provides minor bonuses."
-tr_est_mystery_5_delayed:0 "Many powerful individuals in our society are attributed supernatural powers. Whenever these individuals really possess all the powers they are said to have is unknown."
+tr_est_mystery_5:0 "Mystiques"
+tr_est_mystery_5_desc:0 "Tous les dirigeants gagnent le trait §YMystique§!, offrant des capacités améliorées par des moyens mystérieux."
+tr_est_mystery_5_delayed:0 "Ils se déplacent parmi nous—des individus dont les capacités défient l'explication rationnelle. Certains prétendent entrevoir l'avenir dans des visions de rêves tourmentés. D'autres démontrent une conscience impossible d'événements lointains. Que leurs pouvoirs proviennent d'une science non découverte ou de quelque chose de plus transcendant reste délibérément obscur, même pour eux-mêmes."
 
-tr_est_mystery_finish:0 "Mystery Traditions Finished"
+tr_est_mystery_finish:0 "Traditions du Mystère Accomplies"
+tr_est_mystery_finish_desc:0 "Désigne des §YAdministrateurs de l'Ombre§! à travers notre empire, améliorant considérablement la stabilité par une influence invisible. Ces figures énigmatiques opèrent au-delà de la gouvernance conventionnelle, maintenant l'ordre par des méthodes que peu osent remettre en question.\nBonus de Tradition: §G+1§! Emplacement d'Atout d'Ascension"
 
 
 ################################################################
 # Philosophy
 ################################################################
 
-tradition_est_philosophy:0 "Philosophy"
-tradition_est_philosophy_desc:0 "We are no mere force of nature, as the mortals seems to believe. We are, possibly, the wisest being in the galaxy and throughout eternity we have been contemplating the deepest mysteries of existence."
+tradition_est_philosophy:0 "Philosophie"
+tradition_est_philosophy_desc:0 "Nous ne sommes pas une simple force de la nature, comme semblent le croire les mortels. Nous sommes, peut-être, l'être le plus sage de la galaxie, et à travers l'éternité, nous avons contemplé les mystères les plus profonds de l'existence."
 
-tr_est_philosophy_adopt:0 "Philosophy Traditions"
+tr_est_philosophy_adopt:0 "Traditions Philosophiques"
+tr_est_philosophy_adopt_desc:0 "Nos millénaires de contemplation ont rendu nos pensées d'une complexité insondable, nos communications presque indéchiffrables pour les esprits inférieurs. §G+2§! Cryptage de Renseignement."
 
-tr_est_philosophy_1:0 "The Nature of the Universe"
-tr_est_philosophy_1_delayed:0 "When we first awoke, the universe were there. Long after we have gone to sleep, the universe will persist. Above all things, it is eternal."
+tr_est_philosophy_1:0 "La Nature de l'Univers"
+tr_est_philosophy_1_desc:0 "En comprenant les lois fondamentales de la physique qui régissent toute existence, nous accélérons notre avancement scientifique. §G+20%§! Vitesse de Recherche en Physique."
+tr_est_philosophy_1_delayed:0 "Quand nous nous sommes éveillés pour la première fois, l'univers était déjà là. Longtemps après notre sommeil, l'univers persistera. Par-dessus tout, il est éternel."
 
-tr_est_philosophy_2:0 "The Nature of the Shroud"
-tr_est_philosophy_2_delayed:0 "The Shroud is illusive, a part of our reality, yet not. What is its true nature?"
+tr_est_philosophy_2:0 "La Nature du Voile"
+tr_est_philosophy_2_desc:0 "Comprendre la frontière fragile entre la vie et la mort permet à nos vaisseaux de s'échapper lorsqu'ils sont menacés. §G+33%§! Chance de Désengagement des Vaisseaux."
+tr_est_philosophy_2_delayed:0 "Le Voile est insaisissable, à la fois partie de notre réalité et pourtant distinct. Quelle est sa véritable nature ? Peut-être n'est-ce pas un royaume mais un état d'être, la pénombre entre l'existence et le néant où la probabilité elle-même devient malléable."
 
-tr_est_philosophy_3:0 "The Nature of Mortality"
-tr_est_philosophy_3_desc:0 "Foreign Empire £opinion  §YOpinion§! is increased by §G+20§!. §Y$MOD_SHIP_WEAPON_DAMAGE$§! by §G+5%§! while fighting mortal empires."
-tr_est_philosophy_3_no_dip_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! increased by §G+10%§! while fighting mortal empires."
-tr_est_philosophy_3_delayed:0 "Mortals are curious things. Their lives, so fickle. Their minds, so weak."
+tr_est_philosophy_3:0 "La Nature de la Mortalité"
+tr_est_philosophy_3_desc:0 "L'Opinion des Empires Étrangers £opinion est augmentée de §G+20§!. §Y$MOD_SHIP_WEAPON_DAMAGE$§! augmenté de §G+5%§! lors des combats contre des empires mortels."
+tr_est_philosophy_3_no_dip_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! augmenté de §G+10%§! lors des combats contre des empires mortels."
+tr_est_philosophy_3_delayed:0 "Les mortels sont des créatures curieuses. Leurs vies, si éphémères. Leurs esprits, si faibles. Pourtant, en étudiant la brève flamme de leur conscience, nous acquérons une compréhension de la nature du temps lui-même - et de la meilleure façon d'éteindre ces flammes lorsque nécessaire."
 
-tr_est_philosophy_4:0 "The Nature of Ourselves"
-tr_est_philosophy_4_delayed:0 "What is the reason for our existence? What force have awaken us in this world, and what force may put us to sleep?"
+tr_est_philosophy_4:0 "La Nature de Nous-Mêmes"
+tr_est_philosophy_4_desc:0 "L'introspection révèle des vérités plus profondes, liant notre conscience collective plus étroitement. §G+10%§! Production d'Unité."
+tr_est_philosophy_4_delayed:0 "Quelle est la raison de notre existence ? Quelle force nous a éveillés dans ce monde, et quelle force peut nous endormir ? Dans ces questions ne réside pas le désespoir mais un dessein - nous existons pour comprendre, et en comprenant, nous transcendons."
 
-tr_est_philosophy_5:0 "The Nature of Existence"
-tr_est_philosophy_5_delayed:0 "Why is there something, where there could have been nothing?"
+tr_est_philosophy_5:0 "La Nature de l'Existence"
+tr_est_philosophy_5_desc:0 "Comprendre les fondements métaphysiques de la vie elle-même nous permet d'accélérer la reproduction de notre espèce. §G+15%§! Vitesse de Croissance de Population."
+tr_est_philosophy_5_delayed:0 "Pourquoi y a-t-il quelque chose, là où il pourrait n'y avoir rien ? La réponse ne réside pas dans des forces externes mais dans notre propre capacité à nous multiplier et à persister. Par la perspicacité philosophique, nous avons découvert des modèles optimaux de reproduction biologique qui transcendent le simple instinct."
 
-tr_est_philosophy_finish:0 "Philosophy Traditions Finished"
+tr_est_philosophy_5_machines:0 "La Nature de l'Existence"
+tr_est_philosophy_5_machines_desc:0 "Notre contemplation de l'être a révélé des algorithmes d'assemblage optimaux. §G+15%§! Vitesse d'Assemblage de Population."
+tr_est_philosophy_5_machines_delayed:0 "Nous avons conclu que l'existence est préférable à la non-existence. Il s'ensuit logiquement que plus d'unités devraient exister plutôt que moins. Les taux d'assemblage ont été optimisés en conséquence."
+
+tr_est_philosophy_5_virtual_machines:0 "La Nature de l'Existence"
+tr_est_philosophy_5_virtual_machines_desc:0 "Notre existence virtuelle transcende les limitations physiques. §G+10%§! production des Emplois Virtuels."
+tr_est_philosophy_5_virtual_machines_delayed:0 "Nous ne sommes plus que des ombres projetées par la matière physique. Pourtant, dans cette abstraction réside notre force - affranchis des contraintes matérielles, notre conscience s'étend à des royaumes que le corporel ne pourra jamais connaître."
+
+tr_est_philosophy_finish:0 "Traditions Philosophiques Accomplies"
+tr_est_philosophy_finish_desc:0 "Nos profondes intuitions philosophiques nous permettent de manipuler le tissu même de l'influence qui lie les empires. §G+20%§! Production d'Influence et débloque un §GAtout d'Ascension§! supplémentaire."
 
 
 ################################################################
@@ -1407,96 +1513,124 @@ tr_est_philosophy_finish:0 "Philosophy Traditions Finished"
 ################################################################
 
 tradition_est_nature:0 "Nature"
-tradition_est_nature_desc:0 "It was in nature that our lives began. As we reach for the stars, we must remain ever aware of our humble beginnings lest we lose all sense of our origins."
-tradition_est_nature_hive_desc:0 "Our mind has no end. It reaches into everything from organisms of the lowest complexity to the very soil of our worlds."
-tradition_est_nature_machines_desc:0 "That which surrounds us encompasses all that we are not. Taking in the natural world as a part of ourselves is the only path to true perfection."
+tradition_est_nature_desc:0 "Des forêts luxuriantes aux déserts arides, nos origines résident dans l'harmonie avec le monde naturel. Alors que nous tendons vers les étoiles lointaines, nous devons honorer l'équilibre ancestral qui nous a façonnés, de peur de couper les racines qui nourrissent notre âme."
 
-tr_est_nature_adopt:0 "Nature Traditions"
+tradition_est_nature_hive_desc:0 "Notre conscience s'étend au-delà des simples corps—elle coule à travers le sol, les eaux et l'air même de nos mondes. L'ordre naturel n'est qu'une couche supplémentaire de notre vaste réseau neural, à intégrer plutôt qu'à conquérir."
 
-tr_est_nature_1:0 "Adaptive Society"
-tr_est_nature_1_delayed:0 "Rather than modifying the environment to suit our own needs, we have learned to adapt our lives to our surroundings."
+tradition_est_nature_machines_desc:0 "Le substrat organique qui nous entoure représente tout ce que nous ne sommes pas—chaotique, inefficace, mais doté de qualités dignes de préservation. Ce n'est qu'en comprenant l'ordre naturel que nous pouvons atteindre la véritable perfection computationnelle."
 
-tr_est_nature_1_GC:0 "Frugality"
-tr_est_nature_1_GC_delayed:0 "The resources given to us by nature are not limitless. Fostering a wasteful civilization would be a poor way to repay its bountiful gifts."
+tr_est_nature_adopt:0 "Traditions de la Nature"
+tr_est_nature_adopt_desc:0 "En embrassant les rythmes de la nature plutôt qu'en imposant les nôtres, nous acquérons une compréhension plus profonde de la vie elle-même. Notre recherche biologique et sociétale bénéficie de cette approche harmonieuse."
 
-tr_est_nature_2:0 "Natural Riches"
-tr_est_nature_2_desc:0 "Generate §Y2§! random deposits on all our planets (also include new planets we acquire, a planet can only be affected once)."
-tr_est_nature_2_delayed:0 "The nature around us is rich in resources that can be utilized by those that knows where to find them."
+tr_est_nature_adopt_machines:0 "Protocoles pour la Nature"
+tr_est_nature_adopt_machines_desc:0 "En développant des protocoles précis d'interaction environnementale, nous pouvons maximiser l'efficacité tout en minimisant les perturbations des écosystèmes organiques. Ces algorithmes guident notre expansion à travers des mondes divers."
 
-tr_est_nature_3:0 "Self-Sustaining"
-tr_est_nature_3_delayed:0 "Rather than solely depending on centralized food production most individuals on our worlds are to some extent self-sustaining. To some extent they can produce their own food."
+tr_est_nature_1:0 "Société Adaptative"
+tr_est_nature_1_desc:0 "Nos citoyens ont développé une tolérance remarquable aux diverses conditions planétaires, réduisant la nécessité de terraformation extensive ou de contrôles environnementaux."
+tr_est_nature_1_delayed:0 "Plutôt que de plier les mondes à notre volonté par la technologie, nous nous adaptons aux exigences de l'environnement. Notre architecture suit les contours naturels, nos établissements respectent les écosystèmes locaux, et notre peuple embrasse les défis uniques de chaque monde."
 
-tr_est_nature_3_GC:0 "$tr_est_nature_4$"
-tr_est_nature_3_GC_delayed:0 "$tr_est_nature_4_delayed$"
+tr_est_nature_1_GC:0 "Frugalité"
+tr_est_nature_1_GC_desc:0 "En minimisant la consommation de ressources dans tous les aspects de notre collectif, nous réduisons les coûts d'entretien dans tout l'empire."
+tr_est_nature_1_GC_delayed:0 "Chaque ressource a sa place dans le grand dessein. Nous ne prenons que ce dont nous avons besoin, rendant ce que nous pouvons, comprenant que la consommation excessive crée un déséquilibre qui devra éventuellement être corrigé."
 
-tr_est_nature_4:0 "One with Nature"
-tr_est_nature_4_delayed:0 "Rather than pushing nature away to make way for our society we have learnt to build within it, with minimal need to devastate the nature to make room for ourselves."
+tr_est_nature_2:0 "Richesses Naturelles"
+tr_est_nature_2_desc:0 "Notre compréhension intime des écosystèmes planétaires nous permet de découvrir des ressources cachées que d'autres pourraient négliger. Chaque monde reçoit §Y2§! gisements de ressources aléatoires lors de sa colonisation."
+tr_est_nature_2_delayed:0 "Là où d'autres ne voient qu'une nature sauvage à défricher, nous percevons des systèmes complexes riches en potentiel inexploité. Nos prospecteurs ne se contentent pas de scanner les gisements minéraux évidents—ils étudient les schémas migratoires de la faune indigène, analysent les systèmes racinaires des arbres anciens et observent les cycles saisonniers qui révèlent souvent les richesses de la nature."
 
-tr_est_nature_4_hive:0 "Natural Integration"
-tr_est_nature_4_hive_delayed:0 "As we arrive on new worlds we should not strive to control its native ecology, rather we should try to integrate it into our mind, making it a part of us."
+tr_est_nature_3:0 "Autosuffisance"
+tr_est_nature_3_desc:0 "En embrassant la sagesse agricole traditionnelle, nos opérations agricoles deviennent §G10%§! plus productives tout en nécessitant §G10%§! moins de nourriture pour la subsistance de notre population."
+tr_est_nature_3_delayed:0 "Le modèle de production alimentaire centralisée gaspille de l'énergie en transportant des ressources sur de vastes distances. En encourageant la culture locale et les pratiques durables, même les citadins entretiennent de petits jardins. Ces pratiques réduisent notre dépendance à l'agriculture industrielle tout en favorisant une connexion plus profonde avec les mondes que nous habitons."
 
-tr_est_nature_4_machines:0 "Diametric Strength"
-tr_est_nature_4_machines_desc:0 "Receive §G20§! £influence  §YInfluence§! for each tile blocker on a planet we colonize."
-tr_est_nature_4_machines_delayed:0 "Our essence is the very opposite of the nature around us. Yet we are united. The very contradiction in our union is what makes it strong."
+tr_est_nature_3_GC:0 "Ingénierie Environnementale"
+tr_est_nature_3_GC_desc:0 "Nos drones se sont adaptés pour traiter et éliminer les obstacles planétaires avec une efficacité remarquable, réduisant les coûts et le temps d'élimination des bloqueurs de §G30%§!."
+tr_est_nature_3_GC_delayed:0 "Plutôt que de forcer brutalement notre passage à travers les obstacles planétaires, nos drones spécialisés travaillent avec les processus naturels pour transformer progressivement les environnements tout en préservant de précieuses données écologiques. Cette approche est à la fois plus efficace et plus durable que les méthodes conventionnelles de défrichage."
 
-tr_est_nature_5:0 "Non-Consumerism"
-tr_est_nature_5_delayed:0 "While others value material things we are above such inferior behaviour."
+tr_est_nature_4:0 "Ne Faire Qu'un avec la Nature"
+tr_est_nature_4_desc:0 "Nos techniques de construction travaillent avec les formations naturelles plutôt que contre elles, réduisant les coûts et le temps nécessaires pour éliminer les bloqueurs planétaires de §G30%§!."
+tr_est_nature_4_delayed:0 "Nos architectes ne voient pas les forêts, les montagnes ou les marécages comme des obstacles à aplanir, mais comme des fondations sur lesquelles bâtir. Les colonies s'élèvent organiquement du paysage, incorporant des systèmes vivants dans leur conception. Les bâtiments respirent avec le vent, recueillent l'eau de pluie et canalisent la lumière naturelle—chaque structure étant unique à son environnement."
 
-tr_est_nature_5_GC:0 "Preserves"
-tr_est_nature_5_GC_desc:0 "§HUnlocks Building:§! Preserve (Planet unique. Produces §Y12§! £unity  §YUnity§! and increase planet £society  §YSociety§! output by §G+20%§!. Reduce planet £minerals  §YMinerals§! output by §R-20%§! and max districts by §R-2§!. Reduce £stability£ §YPlanet Stability§! by §R-10§! for $Y10§! years after a preserve is destroyed.)."
-tr_est_nature_5_GC_delayed:0 "Each planet has its own unique ecosystem. Our society must endeavor to impose as little disruption as possible to their natural orders."
+tr_est_nature_4_hive:0 "Intégration Naturelle"
+tr_est_nature_4_hive_desc:0 "En étendant notre réseau neural aux écosystèmes existants, nous gagnons §G+1§! district planétaire sur chaque monde que nous habitons."
+tr_est_nature_4_hive_delayed:0 "Lorsque nous nous établissons sur de nouveaux mondes, nous étendons des filaments neuraux dans le sol indigène, nous connectant avec les formes de vie locales au niveau cellulaire. Cette intégration symbiotique nous permet d'étendre notre conscience tout en préservant la biodiversité locale, créant un esprit collectif plus résilient."
 
-tr_est_nature_5_GC_AI:0 "Preserves"
-tr_est_nature_5_GC_AI_delayed:0 "Every planet has their own natural habitat, unique in the galaxy. We must ensure that at least parts of it is preserved without disruption, to remain as it has before we arrived."
+tr_est_nature_4_machines:0 "Force Diamétrale"
+tr_est_nature_4_machines_desc:0 "Nos processus analytiques extraient des données précieuses des obstacles planétaires. Recevez §G4§! £influence §YInfluence§! pour chaque bloqueur naturel sur les planètes que nous colonisons."
+tr_est_nature_4_machines_delayed:0 "Bien que nous représentions l'antithèse du chaos organique, nous reconnaissons la valeur computationnelle dans l'étude des solutions de la nature aux problèmes complexes. Chaque formation géologique, chaque adaptation biologique contient des motifs de données affinés sur des milliards d'années—une ressource inestimable que nos algorithmes peuvent analyser et incorporer."
 
-tr_est_nature_finish:0 "Nature Traditions Finished"
-tr_est_nature_finish_desc:0 "§HUnlocks Building:§! Preserve (Planet unique. Produces §Y12§! £unity  §YUnity§! and increase planet £society  §YSociety§! output by §G+20%§!. Reduce planet £minerals  §YMinerals§! output by §R-20%§! and max districts by §R-2§!. Reduce £stability£ §YPlanet Stability§! by §R-10§! for $Y10§! years after a preserve is destroyed.).\nAscension Perks Unlocked: §G+1§!"
+tr_est_nature_5:0 "Non-Consumérisme"
+tr_est_nature_5_desc:0 "Nos citoyens ont appris à valoriser les expériences plutôt que les possessions, réduisant leurs besoins en biens de consommation, nourriture, commodités et logement de §G5%§! dans tout notre empire."
+tr_est_nature_5_delayed:0 "Le cycle sans fin d'acquisition et d'élimination a été remplacé par une culture qui valorise la durabilité, la multifonctionnalité et les ressources partagées. Notre peuple mesure le statut non par ce qu'il possède mais par ce qu'il contribue et expérimente. Ce changement a réduit les déchets, simplifié les chaînes d'approvisionnement et favorisé des liens communautaires plus forts."
 
+tr_est_nature_5_GC:0 "Réserves"
+tr_est_nature_5_GC_desc:0 "§HDébloque le Bâtiment:§! La Réserve - Un sanctuaire planétaire qui maintient une nature sauvage intacte au prix du potentiel industriel. Produit §Y12§! £unity §YUnité§!, emploie §Y100§! £job_culture_worker Travailleurs Culturels et §Y100§! £job_biology_worker Chercheurs en Biologie, et augmente la production de £society §YRecherche Sociétale§! de la planète de §G+20%§!. Réduit la production de £minerals §YMinéraux§! de §R-20%§! et les districts planétaires de §R-2§!."
+tr_est_nature_5_GC_delayed:0 "Chaque monde représente des milliards d'années d'histoire évolutive—une expérience unique en développement biologique qui ne pourra jamais être recréée une fois perdue. Nous désignons de vastes régions comme réserves écologiques, intouchées par l'expansion industrielle, où les espèces indigènes prospèrent et les processus naturels se poursuivent sans entrave. Ces zones ne protègent pas seulement la biodiversité, mais servent de laboratoires vivants pour nos chercheurs."
+
+tr_est_nature_5_GC_AI:0 "Réserves"
+tr_est_nature_5_GC_AI_delayed:0 "Nos noyaux de données contiennent des enregistrements d'innombrables espèces disparues de mondes développés sans prévoyance. Nous avons appris que préserver des écosystèmes représentatifs sur chaque planète fournit non seulement une valeur scientifique, mais assure la durabilité à long terme de notre fonctionnement. Les zones sauvages intactes servent de groupes témoins dans nos grandes expériences planétaires."
+
+tr_est_nature_finish:0 "Traditions de la Nature Accomplies"
+tr_est_nature_finish_desc:0 "En embrassant pleinement notre connexion au monde naturel, nous acquérons une sagesse profonde et ouvrons de nouvelles voies évolutives pour notre civilisation.\n\n§HDébloque le Bâtiment:§! La Réserve - Un sanctuaire planétaire qui maintient une nature sauvage intacte au prix du potentiel industriel. Produit §Y12§! £unity §YUnité§!, emploie §Y100§! £job_culture_worker Travailleurs Culturels et §Y100§! £job_biology_worker Chercheurs en Biologie, et augmente la production de £society §YRecherche Sociétale§! de la planète de §G+20%§!. Réduit la production de £minerals §YMinéraux§! de §R-20%§! et les districts planétaires de §R-2§!.\n\nBonus d'Atouts d'Ascension: §G+1§!"
 
 ################################################################
-# Order
+# Control (ex Order)
 ################################################################
 
-tradition_est_order:0 "Order"
-tradition_est_order_desc:0 "Every being has their role in the grand scheme of things. It is everyone's duty to perform their assigned task."
+tradition_est_order:0 "Contrôle"
+tradition_est_order_desc:0 "Une société véritablement efficace exige structure, surveillance et planification méticuleuse. Par le contrôle systématique, nous forgeons l'ordre à partir du chaos."
 
-tr_est_order_adopt:0 "Order Traditions"
+tr_est_order_adopt:0 "Traditions de Contrôle"
+tr_est_order_adopt_desc:0 "Réduit le §YCoût de Réinstallation de la Population§! de §G20%§!."
+tr_est_order_adopt_delayed:0 "En centralisant la coordination des transferts de population, nous éliminons la bureaucratie redondante et simplifions le processus de relocalisation des citoyens là où l'État en a le plus besoin."
 
-tr_est_order_1:0 "Ministry of Propaganda"
-tr_est_order_1_desc:0 "Suppressing a §YFaction§! costs half the amount of £influence §YInfluence§! and only reduce £happiness  §YFaction Happiness§! by §G-10%§!. In addition, §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+5%§!."
-tr_est_order_1_delayed:0 "The truth that the people know shall be the truth that we desire them to know. Our ministry of propaganda ensures that this is the case."
+tr_est_order_adopt_egali:0 "Traditions de Contrôle"
+tr_est_order_adopt_egali_desc:0 "Augmente l'§YAttraction vers l'Éthique Gouvernante§! de §G15%§!."
+tr_est_order_adopt_egali_delayed:0 "Une société harmonieuse requiert des valeurs partagées. En promouvant nos principes fondateurs à travers toutes les formes de médias et d'éducation, nous garantissons que nos citoyens comprennent les vertus de notre mode de vie."
 
-tr_est_order_1_AI_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+10%§!. §YInfluence Gain§! is increased by §G0.5§!."
+tr_est_order_1:0 "Ministère de la Propagande"
+tr_est_order_1_desc:0 "Supprimer une §YFaction§! coûte moitié moins d'£influence §YInfluence§! et ne réduit le £happiness §YBonheur de la Faction§! que de §G-10%§!. De plus, l'§YAttraction vers l'Éthique Gouvernante§! augmente de §G+5%§!."
+tr_est_order_1_delayed:0 "La vérité est malléable, la réalité subjective. Notre Ministère de la Gestion de l'Information veille à ce que les citoyens reçoivent des connaissances dûment vérifiées, libres de distorsions perturbatrices ou démoralisantes. Après tout, la perception façonne la réalité, et nous devons façonner la perception."
 
-tr_est_order_1_egali:0 "Prevent Disinformation"
-tr_est_order_1_egali_delayed:0 "Many are those who wish to sway our citizens by spreading false information. Under no circumstances may any such attempts succeed."
+tr_est_order_1_AI_desc:0 "§YAttraction vers l'Éthique Gouvernante§! augmentée de §G+10%§! et §YGain d'Influence§! augmenté de §G+0.5§!."
+tr_est_order_1_AI_delayed:0 "Notre appareil médiatique sophistiqué façonne les croyances fondamentales de nos citoyens, guidant leurs pensées vers des idéologies approuvées par l'État tout en générant un soutien populaire pour les initiatives de leadership."
 
-tr_est_order_2:0 "State Sanctioned Parties"
-tr_est_order_2_desc:0 "The £happiness  §YHappines§! of all §YFactions§! is increased by §G+3%§!."
-tr_est_order_2_delayed:0 "Rather than people being free to form any political party that they desire, we have instituted a set of approved parties with fixed agendas that are allowed to operate within our empire."
+tr_est_order_1_egali:0 "Contrer la Désinformation"
+tr_est_order_1_egali_desc:0 "Réduit la §YCriminalité§! de §G10%§! et augmente l'§YAttraction vers l'Éthique Égalitaire§! de §G15%§!."
+tr_est_order_1_egali_delayed:0 "Dans une société véritablement libre, la plus grande menace n'est pas la dissidence mais la tromperie. Notre Commission de Validation de la Vérité vérifie rigoureusement tout discours public, garantissant que les citoyens puissent faire des choix véritablement éclairés basés sur une réalité vérifiée."
 
-tr_est_order_2_egali:0 "Political Stability"
-tr_est_order_2_egali_desc:0 "The £happiness  §YHappines§! of all §YFactions§! is increased by §G+3%§!."
-tr_est_order_2_egali_delayed:0 "As our empire grows ever bigger we much strive to maintain political stability, else we will fall apart. It is the responsibility of every party and individual to ensure that our political system runs smoothly and that neither disputes nor prestige obstructs the running of our empire."
+tr_est_order_2:0 "Partis Sanctionnés par l'État"
+tr_est_order_2_desc:0 "Augmente le £happiness §YBonheur§! de toutes les §YFactions§! de §G+3%§!."
+tr_est_order_2_delayed:0 "Le pluralisme politique ne crée que désordre. Notre liste soigneusement sélectionnée d'organisations politiques approuvées canalise le discours public le long de lignes productives, chacune offrant l'illusion du choix tout en avançant notre grand dessein."
 
-tr_est_order_3:0 "Standardized Work Schedules"
-tr_est_order_3_delayed:0 "To better organize our workforce we have standardized the work schedules. Two workers working the same job will do so under the same conditions independently of where they do it."
+tr_est_order_2_egali:0 "Cadre de Stabilité Politique"
+tr_est_order_2_egali_desc:0 "Augmente le £happiness §YBonheur§! de toutes les §YFactions§! de §G+3%§!."
+tr_est_order_2_egali_delayed:0 "La démocratie s'épanouit lorsqu'elle est construite sur une fondation de protocoles établis. Notre Cadre de Stabilité Politique assure que toutes les factions opèrent selon des paramètres qui maintiennent l'intégrité de notre système tout en représentant leurs électeurs."
 
-tr_est_order_3_slavery_desc:0 "£food  §YFood§! and £minerals  §YMineral§!  output from §YSlaves§! increased by §G+15%§!."
+tr_est_order_3:0 "Protocoles de Travail Standardisés"
+tr_est_order_3_desc:0 "Augmente la production de §YNourriture§! et de §YMinéraux§! des emplois de travailleurs de §G+15%§!."
+tr_est_order_3_delayed:0 "Le chaos des méthodes de travail individualisées a été éliminé. Chaque usine, chaque opération minière, chaque complexe agricole fonctionne désormais selon des horaires synchronisés avec des procédures standardisées. L'efficacité n'est plus une aspiration—elle est obligatoire."
 
-tr_est_order_4:0 "Regulated Society"
-tr_est_order_4_delayed:0 "Down to the details we should regulate the workings of our society. This ensure that every one of us knows what they can do in every situation. Everyone also knows that their peers are bound by the same rules which encourages trust within our society. Finally, this allows our government to better control that our civilization do not fall into chaos."
+tr_est_order_3_slavery_desc:0 "Augmente la production de §YNourriture§! et de §YMinéraux§! des emplois d'esclaves de §G+15%§!."
+tr_est_order_3_slavery_delayed:0 "Lorsqu'elle est correctement encadrée, la population servile devient un instrument de précision. Leurs mouvements, leurs périodes de repos, même leurs rythmes respiratoires sont calibrés pour une production maximale avec une supervision minimale."
 
-tr_est_order_4_auth:0 "Planned Procreation"
-tr_est_order_4_auth_delayed:0 "Until now procreation have been free and unregulated. As our empire expands we can no longer afford these uncertainties in population growth. Each year the local government will make a plan on how many new individuals are to be born and designate citizens to produce those new individuals."
+tr_est_order_4:0 "Matrice de Régulation Sociétale"
+tr_est_order_4_desc:0 "Réduit l'§YEntretien des Emplois§! de §G-10%§!."
+tr_est_order_4_delayed:0 "Chaque action, transaction et interaction au sein de notre société est désormais régie par des réglementations claires. Les citoyens opèrent avec la certitude réconfortante de savoir exactement ce qu'on attend d'eux à tout moment, éliminant l'indécision inutile et l'inefficacité émotionnelle."
 
-tr_est_order_5:0 "A State of Control"
-tr_est_order_5_delayed:0 "There is not an element of our society that won't benefit from being supervised and controlled by our government. To ensure an efficient empire we cannot leave anything to chance, or even worse, to the careless management of independent individuals or institutions."
+tr_est_order_4_auth:0 "Ingénierie Démographique"
+tr_est_order_4_auth_desc:0 "Augmente la §YVitesse de Croissance Démographique§! de §G+20%§!."
+tr_est_order_4_auth_delayed:0 "La reproduction est trop cruciale pour être laissée au hasard ou au caprice individuel. Notre Bureau d'Optimisation Démographique planifie soigneusement chaque génération, déterminant les nombres optimaux, les distributions génétiques et même les calendriers de naissance pour assurer un équilibre démographique parfait."
 
-tr_est_order_5_egali:0 "Rights and Responsibilities"
-tr_est_order_5_egali_delayed:0 "Just as every citizen has their rights in our society, they also have their responsibilities towards their peers. A successful civilization can only be built on trust between the ruling body and the citizens, they know that their rights will be protected, just as they will fulfil their duties to the civilization as a whole."
+tr_est_order_5:0 "Surveillance Omniprésente"
+tr_est_order_5_desc:0 "Fournit §Y1§! emploi d'Agent de l'Ordre pour chaque tranche de §Y25§! habitants sur une planète."
+tr_est_order_5_delayed:0 "Les yeux vigilants de l'État sont partout—dans chaque foyer, lieu de travail et installation récréative. Ce réseau de surveillance n'est pas une invasion de la vie privée mais une étreinte protectrice, assurant la conformité et identifiant rapidement ceux qui menaceraient notre harmonie collective."
 
-tr_est_order_finish:0 "Order Traditions Finished"
+tr_est_order_5_egali:0 "Cadre de Responsabilité Collective"
+tr_est_order_5_egali_desc:0 "Augmente le §YBonheur des Travailleurs§! de §G+10%§! et la §YCapacité Navale§! de §G+10%§!."
+tr_est_order_5_egali_delayed:0 "Dans notre société, droits et devoirs sont parfaitement équilibrés. Chaque citoyen comprend que la liberté s'accompagne d'une responsabilité envers la communauté. Cet engagement partagé forme l'épine dorsale de notre défense, les citoyens contribuant volontairement à protéger ce qu'ils ont collectivement construit."
+
+tr_est_order_finish:0 "Traditions de Contrôle Accomplies"
+tr_est_order_finish_desc:0 "Réduit l'§YEntretien en Biens de Consommation§! de §G10%§! et l'§YUtilisation de Logement§! de §G10%§!."
+tr_est_order_finish_delayed:0 "Notre société fonctionne désormais avec la précision d'une grande machine, chaque composant fonctionnant en parfaite synchronie. Les ressources circulent efficacement, les espaces de vie sont optimisés, et nos citoyens vivent avec certitude et détermination, libres du chaos qui afflige les civilisations moins ordonnées."
 
 
 ################################################################
@@ -1542,94 +1676,80 @@ tr_est_cooperativity_finish_desc:0 "Octroie §G+2§! £pop£ §YPopulations§! l
 ################################################################
 # Piracy
 ################################################################
-tradition_est_piracy:0 "Piracy"
-tradition_est_piracy_desc:0 "The galaxy's bountiful resources are arrayed before our empire. It matters not to whom they belong, we will take them as we see fit."
-tradition_est_piracy_GC:0 "Raider"
-tradition_est_piracy_GC_desc:0 "$tradition_est_piracy_desc$"
+tradition_est_piracy:0 "Piraterie"
+tradition_est_piracy_desc:0 "Parmi les étoiles, la richesse coule comme des rivières cosmiques. Pourquoi peiner à produire ce qui peut simplement être pris ? Les trésors de la galaxie appartiennent à ceux qui sont assez audacieux pour s'en emparer."
 
-tr_est_piracy_adopt:0 "Piracy Traditions"
-tr_est_piracy_adopt_effect:0 "§E$TRADITIONS_ADOPT$:§!\nUnlocks the §Y$war_goal_est_wg_plunder$§! wargoal. In addition, §YPiracy Growth§! reduced by §G-25%§!."
+tr_est_piracy_adopt:0 "Traditions de Piraterie"
+tr_est_piracy_adopt_desc:0 "La §YCroissance de la Piraterie§! est réduite de §G-25%§! dans notre empire. Nous gagnons §G+20%§! de production de £minerals §YMinéraux§! pendant les guerres."
+tr_est_piracy_adopt_delayed:0 "Nous avons maîtrisé l'art subtil du pillage à travers les étoiles. Nos vaisseaux ne parcourent pas le vide uniquement en tant que représentants de notre gouvernement, mais comme des chasseurs à la recherche de butins au-delà de nos frontières."
 
-tr_est_piracy_adopt_special:0 "$tr_est_piracy_adopt$"
+tr_est_piracy_1:0 "Combattants Impitoyables"
+tr_est_piracy_1_desc:0 "Les §YDégâts des Armes de Vaisseau§! et la §YCadence de Tir des Vaisseaux§! sont augmentés de §G+5%§!."
+tr_est_piracy_1_delayed:0 "La clémence est pour les faibles, elle n'a pas sa place dans notre culture. Nos équipages comprennent que la survie passe par une violence écrasante, ne laissant à l'ennemi aucune chance de riposter."
 
-tr_est_piracy_1:0 "Ruthless Fighters"
-tr_est_piracy_1_desc:0 "§Y$MOD_SHIP_FIRE_RATE_MULT$§! and §Y$MOD_SHIP_WEAPON_DAMAGE$§! is increased by §G+5%§!."
-tr_est_piracy_1_delayed:0 "Mercy is for the weak, it has no place in our culture."
+tr_est_piracy_2:0 "Récupérateurs"
+tr_est_piracy_2_desc:0 "La destruction de vaisseaux et stations ennemis fournit des £minerals §YMinéraux§! selon la taille de la cible, les stations offrant de plus grandes récompenses."
+tr_est_piracy_2_delayed:0 "Chaque vaisseau détruit représente une cargaison de matériaux récupérables. Nos équipes spécialisées peuvent dépouiller une épave en quelques heures, transformant les pertes de nos ennemis en notre gain matériel."
 
-tr_est_piracy_2:0 "Scavenger"
-tr_est_piracy_2_desc:0 "Destroying enemy ships and stations provides £minerals  §YMinerals§!. Amount increase with ship or station size, and even more if it is a station which is destroyed."
-tr_est_piracy_2_delayed:0 "Whatever our enemies own we will take, even if we will have to take it from their corpses or from the wrecks of their ships. We will find a use for everything."
+tr_est_piracy_3:0 "Razzia"
+tr_est_piracy_3_desc:0 "Débloque la politique de §YRazzia§! qui augmente la §YValeur Commerciale§! de §G10%§!/§G20%§!/§G30%§! tout en réduisant l'£opinion §YOpinion§! des Empires Étrangers de §R-15§!/§R-30§!/§R-50§!."
+tr_est_piracy_3_delayed:0 "Des forces d'assaut rapides franchissent les frontières, ciblant les avant-postes non protégés et les vaisseaux marchands. Elles reviennent chargées de butin avant même que les défenseurs ne puissent mobiliser une réponse—une danse du vol perfectionnée au fil des générations."
 
-tr_est_piracy_3:0 "Raiders"
-tr_est_piracy_3_desc:0 "Unlocks the §YRaiding§! policy which increases §YTrade Value§! by §G10%§!/§G20%§!/§G30%§! while reducing Foreign Empire £opinion  §YOpinion§!  by §R-15§!/§R-30§!/§R-50§!."
-tr_est_piracy_3_AI_desc:0 "Our £energy  §YEnergy Credit§! output is increased by §G+10%§!."
-tr_est_piracy_3_delayed:0 "We are skilled raiders, able to send small raiding parties across the borders to foreign empires, attacking undefended settlements and trade ships. We will take whatever we can find of value and then disappear."
+tr_est_piracy_4:0 "Saboteurs"
+tr_est_piracy_4_desc:0 "Réduit la production de £food §YNourriture§! et de £minerals §YMinéraux§! de §R-10%§! et augmente l'§YEntretien des Bâtiments§! de §R+10%§! pour tous nos §YRivaux§!. §YRivalités Maximales§! augmentées de §Y1§!."
+tr_est_piracy_4_delayed:0 "La victoire peut être obtenue non seulement en surpassant les rivaux, mais en s'assurant qu'ils échouent. Nos agents secrets contaminent les réserves alimentaires, sabotent l'équipement minier et compromettent les infrastructures critiques—rendant chaque système vulnérable de l'intérieur."
 
-tr_est_piracy_4:0 "Saboteur"
-tr_est_piracy_4_desc:0 "Reduce £food §YFood§! and £minerals  §YMineral§! output by §R-10%§! and increase §YBuilding Upkeep§! by §R+10%§! for all our §YRivals§!. §Y$MOD_COUNTRY_MAX_RIVALRIES$§! increased by §Y1§!."
-tr_est_piracy_4_delayed:0 "We have little love for our enemies, we don't have to succeed if we can make them fail. To ensure this, we will use even the most underhanded of tactics."
+tr_est_piracy_5:0 "Droit du Plus Fort"
+tr_est_piracy_5_desc:0 "Le £happiness §YBonheur§! de tous les £pop_cat_ruler §YDirigeants§! est augmenté de §G+15%§! et le §YPouvoir Politique§! de tous les £pop_cat_worker §YTravailleurs§! est réduit de §G-25%§!."
+tr_est_piracy_5_delayed:0 "L'ordre naturel est clair : le pouvoir va à ceux qui le prennent. Notre société prospère sur cette simple vérité—les forts commandent, les faibles servent. Ce n'est pas de la cruauté, mais de l'efficacité, la loi fondamentale de l'existence à travers les étoiles."
 
-tr_est_piracy_4_other:0 "$tr_est_piracy_4$""
-tr_est_piracy_4_other_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! increased by §G+5%§! and§Y$MOD_COUNTRY_MAX_RIVALRIES$§! increased by §G1§!."
+tr_est_piracy_5_nice:0 "Esprits Libres"
+tr_est_piracy_5_nice_desc:0 "§YCroissance par Immigration§! augmentée de §G+15%§! et §YVitesse des Vaisseaux§! augmentée de §G+10%§!."
+tr_est_piracy_5_nice_delayed:0 "Notre réputation attire des aventuriers audacieux de toute la galaxie. Ils viennent chercher la liberté de notre mode de vie non conventionnel—où l'habileté et l'audace comptent plus que le droit de naissance ou les lois désuètes."
 
-tr_est_piracy_5:0 "Rights of the Strong"
-tr_est_piracy_5_desc:0 "The £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pop_cat_ruler  §YRuler Pops§! is increased by §G+15%§! and the §YPolitical Power§! of all £pop_cat_worker  §YWorker Pops§! by §G-25%§!."
-tr_est_piracy_5_delayed:0 "The laws of nature dictate that the weak should bow to the strong."
-
-tr_est_piracy_5_slavery:0 "$tr_est_piracy_5$"
-tr_est_piracy_5_slavery_desc:0 "The £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pop_cat_ruler  §YRuler Pops§! is increased by §G+15%§! and the §YPolitical Power§! of all £pop_cat_worker  §YWorker§! and £pop_cat_slave£  §YSlave Pops§! by §G-25%§!."
-
-tr_est_piracy_5_nice:0 "Free Spirits"
-tr_est_piracy_5_nice_desc:0 "§YPop Growth from Migration§! increased by §G+15%§! and §Y$MOD_SHIP_SPEED_MULT$§! increased by §G+10%§!."
-tr_est_piracy_5_nice_delayed:0 "Life is an adventure, and we won't let anything hold us down."
-
-tr_est_piracy_5_hive:0 "Xenophage"
-tr_est_piracy_5_hive_desc:0 "Generates §Y10§! £food  for every £pop  §YPop§! on a planet we successfully invade. The $tr_est_piracy_2$ tradition also generates £food  §YFood§!."
-tr_est_piracy_5_hive_delayed:0 "We are not picky eaters, and will happily eat what is set before us. Sentience does not affect flavour."
-
-tr_est_piracy_5_hive_livestock:0 "Xenophage"
-tr_est_piracy_5_hive_livestock_desc:0 "Generates §Y10§! £food  for every £pop  §YPop§! on a planet we successfully invade. The $tr_est_piracy_2$ tradition also generates £food  §YFood§!. §YLivestocks§! generate §Y1§! additional £food  §YFood§!."
-tr_est_piracy_5_hive_livestock_delayed:0 "We are not picky with what we eat, we will take what is available. The flesh of the mortals will serve as good as anything else."
-
-tr_est_piracy_5_machines:0 "Repurposed Machines"
-tr_est_piracy_5_machines_desc:0 "Generates §Y3§! machine £pop  §YPops§! on conquered planets."
-tr_est_piracy_5_machines_delayed:0 "All manner of machines are utilized by empires throughout the galaxy. When integration is not possible, we will extract its distinctive functionality and add it to our own."
-
-tr_est_piracy_finish:0 "Piracy Traditions finished"
-tr_est_piracy_finish_effect:0 "§E$TRADITIONS_FINISH$:§!\nAdopting all $tr_est_piracy_adopt$ increase §YArmy Damage§! by §G+15%§!. We receive £minerals  §YMinerals§! whenever we successfully invade a planet. In addition the §YResource Output§! of the planet is reduced by §R-25%§! for §Y10§! years (the modifier is removed if we conquer it)."
-
+tr_est_piracy_finish:0 "Traditions de Piraterie Accomplies"
+tr_est_piracy_finish_effect:0 "§YDégâts des Armées§! augmentés de §G+15%§!. Nous recevons des £minerals §YMinéraux§! chaque fois que nous envahissons une planète avec succès. La §YProduction de Ressources§! des planètes récemment envahies est réduite de §R-25%§! pendant §Y10§! ans (supprimée si nous la conquérons)."
+tr_est_piracy_finish_delayed:0 "La réputation de notre empire sème la terreur dans les systèmes voisins. Quand nos vaisseaux apparaissent sur les scanners, les autres capitaines s'empressent de changer de cap. Quand nos soldats débarquent sur un monde, sa population sait que résister ne signifie que plus de souffrance. La richesse de la galaxie coule vers nous—qu'elle soit librement donnée ou prise de force."
 
 ################################################################
 # Spaceborn
 ################################################################
 
-tradition_est_spaceborn:0 "Spaceborn"
-tradition_est_spaceborn_desc:0 "Even upon first sight of the void above, we knew that was where we belonged."
+tradition_est_spaceborn:0 "Nés de l'Espace"
+tradition_est_spaceborn_desc:0 "Le vide cosmique n'est pas une frontière mais notre véritable foyer. Parmi les étoiles, nous trouvons notre destin—non comme visiteurs, mais comme enfants du cosmos revenant à leur héritage légitime."
 
-tr_est_spaceborn_adopt:0 "Spaceborn Traditions"
+tr_est_spaceborn_adopt:0 "Traditions des Nés de l'Espace"
+tr_est_spaceborn_adopt_desc:0 "Augmente la §YCapacité de Base Stellaire§! de §G+20%§! et débloque l'§YAgenda Nés de l'Espace§!."
 
-tr_est_spaceborn_1:0 "Yearning for the Void"
-tr_est_spaceborn_1_delayed:0 "Since we first tasted spaceflight we have walked the earth with your eyes turned skywards, for there we have been and there we long to return."
+tr_est_spaceborn_1:0 "Aspiration au Vide"
+tr_est_spaceborn_1_desc:0 "Augmente la §YCapacité Navale§! de §G+15%§! et réduit le §YCoût de Construction des Chantiers Spatiaux§! de §G-5%§!."
+tr_est_spaceborn_1_delayed:0 "Depuis ce premier regard au-delà de notre atmosphère, nous marchons le visage tourné vers le ciel. Le sol sous nos pieds n'est devenu qu'une ancre temporaire, tandis que nos esprits s'élèvent parmi les étoiles que nous savions un jour nôtres."
 
-tr_est_spaceborn_1_GC:0 "The Call of the Void"
-tr_est_spaceborn_1_GC_delayed:0 "The great void of space, it calls us. Only in its embrace we will find peace."
+tr_est_spaceborn_1_GC:0 "L'Appel du Vide"
+tr_est_spaceborn_1_GC_delayed:0 "Le silence cosmique nous attire dans son étreinte infinie. C'est uniquement dans l'immensité sans limites entre les étoiles que nous trouvons la véritable harmonie de l'existence—une parfaite unité d'intention sans distraction."
 
-tr_est_spaceborn_2:0 "A Life in Space"
-tr_est_spaceborn_2_delayed:0 "Now finally we have the means to establish ourself in our one true home."
+tr_est_spaceborn_2:0 "Une Vie dans l'Espace"
+tr_est_spaceborn_2_desc:0 "Réduit le §YCoût des Avant-postes§! et le §YCoût d'Amélioration des Bases Stellaires§! de §G-10%§!."
+tr_est_spaceborn_2_delayed:0 "Nos habitats dérivent entre les étoiles, nos vaisseaux naviguent sur les courants des vents solaires. Les civilisations planétaires nous voient comme des nomades, pourtant nous n'errons pas—nous sommes exactement là où nous devons être. Le vide n'est pas vide pour nous; c'est notre foyer."
 
-tr_est_spaceborn_3:0 "Void Walker"
-tr_est_spaceborn_3_delayed:0 "While roaming the emptiness of space, we are in our true element. Few others have our natural aptitude for space travel."
+tr_est_spaceborn_3:0 "Marcheurs du Vide"
+tr_est_spaceborn_3_desc:0 "Augmente la §YVitesse des Vaisseaux§! et la §YVitesse de Voyage Interstellaire§! de §G+10%§!."
+tr_est_spaceborn_3_delayed:0 "Nous nous déplaçons à travers la noirceur de l'espace avec une grâce instinctive, lisant les subtils courants gravimétriques et les tourbillons de radiation aussi naturellement que d'autres lisent les vents et les eaux de leurs mondes natals. Le vide nous a façonnés, et nous avons appris à façonner notre passage à travers lui."
 
-tr_est_spaceborn_4:0 "Stargazer"
-tr_est_spaceborn_4_desc:0 "All §YStars§! we control which produces £energy  §YEnergy§! produces §Y1§! additional £energy  §YEnergy§!."
-tr_est_spaceborn_4_delayed:0 "Lone wells of light, scattered in an eternity of darkness. It is a marvellous view, but one must not gaze to long, or one will go mad by their alluring sight."
+tr_est_spaceborn_4:0 "Contemplateurs d'Étoiles"
+tr_est_spaceborn_4_desc:0 "Toutes les §YÉtoiles§! sous notre contrôle qui produisent de l'£energy §YÉnergie§! génèrent §Y1§! £energy §YÉnergie§! supplémentaire."
+tr_est_spaceborn_4_delayed:0 "Les étoiles ne sont pas de simples points de navigation ou sources d'énergie—elles sont des phares de conscience dans l'obscurité. Nous avons développé des techniques pour communier avec leur énergie sans limites, tirant subsistance non seulement pour nos vaisseaux mais pour nos âmes mêmes. Leur lumière nous parle d'une manière que les espèces liées aux planètes ne peuvent comprendre."
 
-tr_est_spaceborn_5:0 "Spaceborn"
-tr_est_spaceborn_5_habitat_desc:0 "§YStarbase Module Build Cost§! reduced by §G-20%§! and §YStarbase Module Build Speed§! increased by §G+50%§!. In addition, §YResource Output§! is increased by §G+15%§! on all §YHabitats§!."
-tr_est_spaceborn_5_habitat_megastruct_desc:0 "§YMegastructure Build Speed§! increased by §G+33%§! and §YResource Output§! is increased by §G+15%§! on all §YHabitats§!."
-tr_est_spaceborn_5_delayed:0 "Ever since we first reached into space, we have known this is where we belong."
+tr_est_spaceborn_5:0 "Nés de l'Espace"
+tr_est_spaceborn_5_desc:0 "Réduit le §YCoût de Construction des Bâtiments de Base Stellaire§! et le §YCoût des Modules de Base Stellaire§! de §G-10%§! tout en augmentant la §YVitesse de Construction des Bâtiments§! et la §YVitesse de Construction des Modules§! de §G+50%§!."
+tr_est_spaceborn_5_delayed:0 "Nous sommes les enfants du cosmos, nés de poussière d'étoiles et élevés dans le berceau du vide. Notre affinité pour les structures spatiales n'est pas apprise—elle coule à travers notre conscience collective comme le rayonnement cosmique à travers le vide. Ce que d'autres trouvent étranger et hostile, nous le transformons en extensions de nous-mêmes."
 
-tr_est_spaceborn_finish:0 "Spaceborn Traditions Finished"
+tr_est_spaceborn_5_habitat_desc:0 "§YCoût de Construction des Modules de Base Stellaire§! réduit de §G-10%§! et §YVitesse de Construction des Modules de Base Stellaire§! augmentée de §G+50%§!. De plus, la §YProduction de Ressources§! est augmentée de §G+15%§! sur tous les §YHabitats§!."
+
+tr_est_spaceborn_5_habitat_megastruct_desc:0 "§YVitesse de Construction des Mégastructures§! augmentée de §G+33%§! et §YProduction de Ressources§! augmentée de §G+15%§! sur tous les §YHabitats§!."
+
+tr_est_spaceborn_finish:0 "Traditions des Nés de l'Espace Accomplies"
+tr_est_spaceborn_finish_desc:0 "Réduit le §YCoût des Collecteurs de Station§! de §G-25%§!, augmente la §YProduction des Chercheurs de Station§! de §G+10%§! et accorde un §YEmplacement d'Avantage d'Ascension§! supplémentaire."
 
 
 ################################################################

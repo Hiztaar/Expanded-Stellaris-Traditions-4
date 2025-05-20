@@ -35,10 +35,9 @@ tr_est_spaceborn_1 = {
 tr_est_spaceborn_2 = {
 	possible = { has_tradition = tr_est_spaceborn_1 }
 	
-	modifier = {
-#		starbases_cost_mult = -0.02 #(Ben_D): Depricated by Paradox
-		starbase_outpost_cost_mult = -0.20 #(Ben_D): Added
-		starbase_upgrade_cost_mult = -0.20
+	modifier = 
+		starbase_outpost_cost_mult = -0.10 #(Ben_D): Added
+		starbase_upgrade_cost_mult = -0.10
 	}
 
 	ai_weight = { factor = 5000 }
@@ -48,8 +47,8 @@ tr_est_spaceborn_3 = {
 	possible = { has_tradition = tr_est_spaceborn_2 }
 	
 	modifier = {
-		ship_speed_mult = 0.25
-		ship_interstellar_speed_mult = 0.25
+		ship_speed_mult = 0.10
+		ship_interstellar_speed_mult = 0.10
 	}
 
 	ai_weight = { factor = 5000 }
@@ -96,9 +95,9 @@ tr_est_spaceborn_5 = {
 	}
 	
 	modifier = {		
-		starbase_buildings_cost_mult = -0.20
+		starbase_buildings_cost_mult = -0.10
 		starbase_building_build_speed_mult = 0.50
-		starbase_modules_cost_mult  = -0.20
+		starbase_modules_cost_mult  = -0.10
 		starbase_module_build_speed_mult = 0.50
 	}
 

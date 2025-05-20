@@ -33,7 +33,7 @@ tr_est_nature_finish = {
 	}
 	
 	tradition_swap = {
-		#Do not unlockd preservation
+		#Do not unlock preservation
 		name = tr_est_nature_finish_AI
 		inherit_effects = no
 		inherit_icon = yes
@@ -52,7 +52,7 @@ tr_est_nature_finish = {
 	}
 	
 	tradition_swap = {
-		#Do not unlockd preservation
+		#Do not unlock preservation
 		name = tr_est_nature_finish_hive
 		trigger = { is_hive_empire = yes }	
 		modifier = {	
@@ -64,7 +64,7 @@ tr_est_nature_finish = {
 	}
 	
 	tradition_swap = {
-		#Do not unlockd preservation
+		#Do not unlock preservation
 		name = tr_est_nature_finish_machines
 		trigger = { is_machine_empire = yes }	
 		modifier = {	
@@ -112,7 +112,7 @@ tr_est_nature_2 = {
 tr_est_nature_3 = {
 	modifier = {
 		planet_pops_food_upkeep_mult = -0.10
-		job_farmer_per_pop = 0.04
+		planet_jobs_food_produces_mult = 0.04
 	}
 	
 	tradition_swap = {

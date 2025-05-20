@@ -8,7 +8,7 @@ tr_est_perseverance_adopt = {
 
 tr_est_perseverance_finish = {
 	modifier = {	
-		leader_lifespan_add = 25
+		leader_lifespan_add = 15
 		ascension_perks_add = 1
 	}
 	
@@ -16,7 +16,7 @@ tr_est_perseverance_finish = {
 		name = tr_est_perseverance_finish_machines
 		trigger = { is_machine_empire = yes }	
 		modifier = {		
-			ship_hull_mult = 0.15
+			ship_hull_mult = 0.10
 			ascension_perks_add = 1
 		}
 		weight = { factor = 1 }
@@ -26,7 +26,7 @@ tr_est_perseverance_finish = {
 
 tr_est_perseverance_1 = {
 	modifier = {		
-		ship_armor_mult = 0.15
+		ship_armor_mult = 0.10
 	}
 
 	ai_weight = {
@@ -36,7 +36,7 @@ tr_est_perseverance_1 = {
 
 tr_est_perseverance_2 = {
 	modifier = {	
-		ship_speed_mult = 0.15
+		ship_speed_mult = 0.05
 	}
 
 	possible = {
@@ -52,7 +52,7 @@ tr_est_perseverance_3 = {
 
 	modifier = {	
 		starbase_defense_platform_capacity_add = 3
-		army_defense_health_mult = 0.25
+		army_defense_health_mult = 0.15
 	}
 
 	ai_weight = {
@@ -66,7 +66,7 @@ tr_est_perseverance_4 = {
 	}
 
 	modifier = {
-		country_war_exhaustion_mult = -0.25
+		country_war_exhaustion_mult = -0.15
 	}
 
 	ai_weight = {

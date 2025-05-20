@@ -1,17 +1,19 @@
-#######################################################################
-# 1. Trait Definition – common/traits/leader_traits/est_academy_traits.txt
-#######################################################################
+############################
+# ACADEMIC LEADER FINISHER #
+############################
+
 leader_trait_est_academician = {
-    icon = "gfx/interface/icons/traits/leader_trait_academics.dds"           # choose any icon you prefer
-    modification = no                                                        # trait cannot be gene-modded in
-    initial = no                                                             # not available at game start
+    icon = "gfx/interface/icons/traits/leader_trait_academics.dds"
+    modification = no
+    leader_class = scientist
+    initial = no
 
     modifier = {
-        # Scales with the leader’s level (2 × level)
-        country_physics_research_add = { value = 2 mult = leader_level }
-        country_society_research_add = { value = 2 mult = leader_level }
-        country_engineering_research_add = { value = 2 mult = leader_level }
+        country_physics_research_add = 2
+        country_society_research_add = 2
+        country_engineering_research_add = 2
+        mult = leader_level
     }
 
-    AI_weight = { weight = 0 }                                               # prevents random AI rolls
+    description = leader_trait_est_academician_desc
 }

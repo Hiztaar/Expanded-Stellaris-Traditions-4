@@ -7,7 +7,7 @@ tr_est_mystery_adopt = {
 
 tr_est_mystery_finish = {
 	modifier = {
-		job_est_shadow_administrator_per_pop = 0.02
+		planet_jobs_est_shadow_administrator_per_pop = 0.05
 		ascension_perks_add = 1
 	}
 }
@@ -105,64 +105,102 @@ tr_est_mystery_5 = {
 		has_tradition = tr_est_mystery_4
 	}
 
-	on_enabled = {	
+	on_enabled = {
 		every_owned_leader = {
 			limit = {
 				NOR = {
-#					has_trait =	leader_trait_admiral_est_mystic
-#					has_trait =	leader_trait_general_est_mystic
-					has_trait =	leader_trait_official_est_mystic
-					has_trait =	leader_trait_scientist_est_mystic
-#					has_trait =	leader_trait_ruler_est_mystic
+					has_trait = leader_trait_admiral_est_mystic
+					has_trait = leader_trait_general_est_mystic
+					has_trait = leader_trait_governor_est_mystic
+					has_trait = leader_trait_councilor_est_mystic
+					has_trait = leader_trait_official_est_mystic
+					has_trait = leader_trait_scientist_est_mystic
 				}
 			}
-#			if = { #(Ben_D): The traits shouldn't be assigned before the sub-class is determined
-#				limit = { leader_class = commander }
-#				add_trait = leader_trait_admiral_est_mystic
-#				add_trait = leader_trait_ruler_est_mystic
-#			}
+			# Handle each leader class directly
 			if = {
+				limit = { 
+					AND = { 
+						leader_class = commander 
+						has_trait = subclass_commander_admiral			
+					}
+				}
+				add_trait = leader_trait_admiral_est_mystic
+			}
+			if = {
+				limit = { 
+					AND = { 
+						leader_class = commander 
+						has_trait = subclass_commander_general			
+					}
+				}
+				add_trait = leader_trait_general_est_mystic
+			}			
+			else_if = {
+				limit = { leader_class = governor }
+				add_trait = leader_trait_governor_est_mystic
+			}
+			else_if = {
+				limit = { leader_class = councilor }
+				add_trait = leader_trait_councilor_est_mystic
+			}
+			else_if = {
 				limit = { leader_class = official }
 				add_trait = leader_trait_official_est_mystic
-#				add_trait = leader_trait_ruler_est_mystic
 			}
-			if = {
+			else_if = {
 				limit = { leader_class = scientist }
 				add_trait = leader_trait_scientist_est_mystic
-#				add_trait = leader_trait_ruler_est_mystic
 			}
-#			if = {
-#				limit = { leader_class = ruler }
-#				add_trait = leader_trait_ruler_est_mystic
-#				add_ruler_trait = leader_trait_ruler_est_mystic
-#			}
 		}
+		# Same pattern for pool leaders
 		every_pool_leader = {
 			limit = {
 				NOR = {
-#					has_trait = leader_trait_admiral_est_mystic
-#					has_trait = leader_trait_general_est_mystic
+					has_trait = leader_trait_admiral_est_mystic
+					has_trait = leader_trait_general_est_mystic
+					has_trait = leader_trait_governor_est_mystic
+					has_trait = leader_trait_councilor_est_mystic
 					has_trait = leader_trait_official_est_mystic
 					has_trait = leader_trait_scientist_est_mystic
-#					has_trait = leader_trait_ruler_est_mystic
 				}
 			}
-#			if = {
-#				limit = { leader_class = commander }
-#				add_trait = leader_trait_admiral_est_mystic
-#				add_trait = leader_trait_ruler_est_mystic
-#			}
+			# Handle each leader class directly
 			if = {
+				limit = { 
+					AND = { 
+						leader_class = commander 
+						has_trait = subclass_commander_admiral			
+					}
+				}
+				add_trait = leader_trait_admiral_est_mystic
+			}
+			if = {
+				limit = { 
+					AND = { 
+						leader_class = commander 
+						has_trait = subclass_commander_general			
+					}
+				}
+				add_trait = leader_trait_general_est_mystic
+			}	
+			else_if = {
+				limit = { leader_class = governor }
+				add_trait = leader_trait_governor_est_mystic
+			}
+			else_if = {
+				limit = { leader_class = councilor }
+				add_trait = leader_trait_councilor_est_mystic
+			}
+			else_if = {
 				limit = { leader_class = official }
 				add_trait = leader_trait_official_est_mystic
-#				add_trait = leader_trait_ruler_est_mystic
 			}
-			if = {
+			else_if = {
 				limit = { leader_class = scientist }
 				add_trait = leader_trait_scientist_est_mystic
-#				add_trait = leader_trait_ruler_est_mystic
 			}
-		}	
+		}
 	}
 
 	ai_weight = { factor = 5000 }

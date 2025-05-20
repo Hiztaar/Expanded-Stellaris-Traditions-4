@@ -10,8 +10,6 @@ country_event = {
 		has_active_tradition = tr_est_mystery_5
 		from = {
 			NOR = {
-#				has_trait = leader_trait_admiral_est_mystic
-#				has_trait = leader_trait_general_est_mystic
 				has_trait = leader_trait_official_est_mystic
 				has_trait = leader_trait_scientist_est_mystic
 			}		
@@ -20,11 +18,6 @@ country_event = {
 
 	immediate = {
 		from = {
-#			if = { #(Ben_D): Sub-class should be specified first before assigning this trait
-#				limit = { leader_class = commander }
-#				add_trait = leader_trait_admiral_est_mystic
-#				break = yes
-#			}
 			if = {
 				limit = { leader_class = official }
 				add_trait = leader_trait_official_est_mystic
@@ -59,85 +52,66 @@ country_event = {
 
 	immediate = {
 		from = {
-#			if = {
-#				limit = { leader_class = commander }
-#				add_trait = leader_trait_admiral_est_mystic
-#				add_ruler_trait = leader_trait_ruler_est_mystic #(Ben_D); "ruler" traits no longer relevant
-#				break = yes
-#			}
 			if = {
 				limit = { leader_class = official }
 				add_trait = leader_trait_official_est_mystic
-#				add_ruler_trait = leader_trait_ruler_est_mystic
 				break = yes
 			}
 			if = {
 				limit = { leader_class = scientist }
 				add_trait = leader_trait_scientist_est_mystic
-#				add_ruler_trait = leader_trait_ruler_est_mystic
 				break = yes
 			}
-#			if = {
-#				limit = { leader_class = ruler }
-#				add_ruler_trait = leader_trait_ruler_est_mystic
-#				break = yes
-#			}
 		}
 	}
 }
 
-#Mystery 5, experienced commanders can have their appropriate trait assigned
+# Mystery 5, spawned leader gets mystic trait.
 country_event = {
-	id = est_mystery.3
-	hide_window = yes
-	is_triggered_only = yes
-	
-	trigger = {
-		has_active_tradition = tr_est_mystery_5
-		from = {
-			NOR = {
-				has_trait = leader_trait_admiral_est_mystic
-				has_trait = leader_trait_general_est_mystic
-				has_trait = leader_trait_commissioner_est_mystic
-				has_trait = leader_trait_strategist_est_mystic
-			}
-		}
-	}
+    id = est_mystery.2
+    hide_window = yes
+    is_triggered_only = yes
+    
+    trigger = {
+        has_active_tradition = tr_est_mystery_5 # Important: Check if THIS country (the leader's source) has the Mystery 5 tradition
+        from = {
+            NOR = {
+                has_trait = leader_trait_admiral_est_mystic
+                has_trait = leader_trait_general_est_mystic
+                has_trait = leader_trait_governor_est_mystic
+                has_trait = leader_trait_councilor_est_mystic
+                has_trait = leader_trait_official_est_mystic
+                has_trait = leader_trait_scientist_est_mystic
+            }        
+        }
+    }
 
-	immediate = {
-		from = {
-			if = {
-				limit = {
-					leader_class = commander
-					has_trait = subclass_commander_admiral
-				}
-				add_trait = leader_trait_admiral_est_mystic
-				break = yes
-			}
-			if = {
-				limit = {
-					leader_class = commander
-					has_trait = subclass_commander_general
-				}
-				add_trait = leader_trait_general_est_mystic
-				break = yes
-			}
-			if = {
-				limit = {
-					leader_class = commander
-					has_trait = subclass_commander_governor
-				}
-				add_trait = leader_trait_commissioner_est_mystic
-				break = yes
-			}
-			if = {
-				limit = {
-					leader_class = commander
-					has_trait = subclass_commander_councilor
-				}
-				add_trait = leader_trait_strategist_est_mystic
-				break = yes
-			}
-		}
-	}
+    immediate = {
+        from = {
+            if = {
+                limit = { has_trait = subclass_commander_admiral }
+                add_trait = leader_trait_admiral_est_mystic
+            }
+            else_if = {
+                limit = { has_trait = subclass_commander_general }
+                add_trait = leader_trait_general_est_mystic
+            }
+            else_if = {
+                limit = { leader_class = governor }
+                add_trait = leader_trait_governor_est_mystic
+            }
+            else_if = {
+                limit = { leader_class = councilor }
+                add_trait = leader_trait_councilor_est_mystic
+            }
+            else_if = {
+                limit = { leader_class = official }
+                add_trait = leader_trait_official_est_mystic
+            }
+            else_if = {
+                limit = { leader_class = scientist }
+                add_trait = leader_trait_scientist_est_mystic
+            }
+        }
+    }
 }

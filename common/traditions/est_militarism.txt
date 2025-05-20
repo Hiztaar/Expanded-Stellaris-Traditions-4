@@ -6,19 +6,6 @@ tr_est_militarism_adopt = {
 		potential = { used_naval_capacity_percent > 0.99 }
 		planet_jobs_produces_mult  = 0.05
 	}
-	
-	#on_enabled = {
-	#	if = {
-	#		limit = {
-	#			Not = {
-	#				used_naval_capacity_percent < 1.0
-	#			}
-	#		}
-	#		add_modifier = {
-	#			modifier = "mod_est_militarism_adopt"
-	#		}
-	#	}
-	#}	
 }
 
 tr_est_militarism_finish = {
@@ -33,7 +20,15 @@ tr_est_militarism_finish = {
 tr_est_militarism_1 = {
 	modifier = {
 		armies_cost_mult = -0.20
-		job_soldier_per_pop = 0.04 # (Metallichydra): Interferes with lathe. To prevent this we need some way to reduce jobs from lathe. I suggest a situation that detracts the same amount of jobs, although setting up one is too much work when there's so many other things that needs to be fixed.
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			NOT = { is_planet_class = pc_cosmogenesis_world }
+		}
+		modifier = {
+			job_soldier_per_pop = 0.04
+		}
 	}
 
 	ai_weight = { factor = 5000 }
@@ -53,7 +48,7 @@ tr_est_militarism_2 = {
 		every_owned_leader = {
 			if = {
 				limit = {
-					has_trait = subclass_commander_general
+					leader_class = commander
 				}
 				owner = {
 					country_event = { 
@@ -71,7 +66,6 @@ tr_est_militarism_2 = {
 }
 
 tr_est_militarism_3 = {
-	#custom_tooltip = tr_est_militarism_3_desc # (Metallichydra): Tooltip is not needed
 
 	modifier = {
 		country_naval_cap_mult = 0.10
@@ -90,13 +84,6 @@ tr_est_militarism_4 = {
 	}
 
 	modifier = {
-#		ship_compnenents_rare_crystals_cost_mult = -0.25 #(Ben_D): Depircated by Paradox
-#		ship_compnenents_exotic_gases_cost_mult = -0.25
-#		ship_compnenents_volatile_motes_cost_mult = -0.25
-#		ship_compnenents_sr_dark_matter_cost_mult = -0.25
-#		ship_compnenents_sr_zro_cost_mult = -0.25
-#		ship_compnenents_sr_living_metal_cost_mult = -0.25
-#		ship_compnenents_nanites_cost_mult = -0.25
 		ship_military_rare_crystals_cost_mult = -0.25 #(Ben_D): Added
 		ship_military_exotic_gases_cost_mult = -0.25
 		ship_military_volatile_motes_cost_mult = -0.25
@@ -104,6 +91,16 @@ tr_est_militarism_4 = {
 		ship_military_sr_zro_cost_mult = -0.25
 		ship_military_sr_living_metal_cost_mult = -0.25
 		ship_military_nanites_cost_mult = -0.25
+		
+		# Gigastructural Engineering Resources
+		ship_military_sr_iodizium_cost_mult = -0.25
+		ship_military_sr_solar_energy_cost_mult = -0.25
+		ship_military_sr_magical_neutronium_cost_mult = -0.25
+		ship_military_sr_psionic_sublimate_cost_mult = -0.25
+		ship_military_ehof_sr_negative_mass_cost_mult = -0.25
+		ship_military_ehof_sr_sentient_metal_cost_mult = -0.25
+		ship_military_giga_sr_amb_megaconstruction_cost_mult = -0.25
+		ship_military_giga_sr_catalyst_cost_mult = -0.25
 	}
 
 	ai_weight = { factor = 5000 }
@@ -137,7 +134,7 @@ tr_est_militarism_5 = {
 			every_owned_leader = {
 				if = {
 					limit = {
-						has_trait = subclass_commander_admiral
+						leader_class = commander
 					}
 					owner = {
 						country_event = { 

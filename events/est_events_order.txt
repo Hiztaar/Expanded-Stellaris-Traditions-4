@@ -201,52 +201,37 @@ country_event = {
 	}
 }
 
-#Order 2, checks if any new factions avaiable to give happiness boost to.
-#country_event = {
-#	id = est_order.4
-#	hide_window = yes
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		has_active_tradition = tr_est_order_2
-#	}
-#	
-#	immediate = {
-#		every_pop_faction = {
-#			limit = {
-#				Not = {
-#					has_modifier = mod_est_order_2
-#				}
-#			}
-#			add_modifier = {
-#				modifier = "mod_est_order_2"
-#				days = -1
-#			}
-#		}
-#	}
-#}
-#
-##Order 2, checks if any new factions avaiable to give happiness boost to (Egalitarian version).
-#country_event = {
-#	id = est_order.5
-#	hide_window = yes
-#	is_triggered_only = yes
-#	
-#	trigger = {
-#		has_active_tradition = tr_est_order_2_egali
-#	}
-#	
-#	immediate = {
-#		every_pop_faction = {
-#			limit = {
-#				Not = {
-#					has_modifier = mod_est_order_2_egali
-#				}
-#			}
-#			add_modifier = {
-#				modifier = "mod_est_order_2_egali"
-#				days = -1
-#			}
-#		}
-#	}
-#}
+# Order Tradition 5 - Enforcer jobs based on population
+planet_event = {
+    id = est_order.6
+    hide_window = yes
+    is_triggered_only = yes  # Will be triggered via on_monthly_pulse
+    
+    trigger = {
+        exists = owner
+		
+        owner = {
+            has_active_tradition = tr_est_order_5
+			NOR = {
+                has_ethic = ethic_fanatic_egalitarian
+                has_ethic = ethic_egalitarian
+            }
+        }
+    }
+    
+    immediate = {
+        # Remove previous modifier if it exists
+        remove_modifier = est_order_5_enforcers
+        
+        # Add new modifier with enforcer jobs scaled to population
+        add_modifier = {
+            modifier = {
+                planet_jobs_enforcer_add = {
+                    value = planet_pop_count
+                    value_multiplicative = 0.04 # 1/25 = 0.04
+                }
+            }
+            days = 35  # Slightly longer than monthly pulse to prevent flickering
+        }
+    }
+}

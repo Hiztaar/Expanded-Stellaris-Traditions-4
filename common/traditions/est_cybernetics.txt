@@ -124,7 +124,7 @@ tr_est_cybernetics_4 = {
 		}
 		modifier = {
 			ship_fire_rate_mult = 0.05
-			commander_initial_skill = 1 # Metallichydra: Changed to commander_initial_skill from commander_skill_levels
+			admiral_initial_skill = 1
 		}
 		weight = { factor = 1 }
 	}

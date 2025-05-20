@@ -168,7 +168,7 @@ tr_est_academy_5 = {
 		else = {
 			every_owned_leader = {
 				limit = {
-					leader_class = commander
+					{ commander }
 				}
 				add_skill = 1
 			}

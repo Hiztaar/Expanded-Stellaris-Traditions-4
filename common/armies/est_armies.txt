@@ -1,6 +1,6 @@
 #maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
 
-#Mechanicum 3: Mechanical Knight
+#Mechanicum 3: Titan
 est_titan_army = {
 	damage = 5.0
 	health = 8.0
@@ -22,7 +22,7 @@ est_titan_army = {
 			energy = 100
 		}
 		upkeep = {
-			energy = 6.0
+			energy = 20.0
 		}
 	}
 

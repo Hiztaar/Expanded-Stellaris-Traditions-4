@@ -21,10 +21,10 @@ est_inquisitor = {
 	resources = {
 		category = planet_priests
 		produces = {
-			unity = 1
+			unity = 0.02
 		}
 		upkeep = {
-			consumer_goods = 1
+			consumer_goods = 0.01
 		}		
 	}
 
@@ -87,21 +87,21 @@ est_engineer = {
 	resources = {
 		category = planet_researchers
 		produces = {
-			engineering_research = 8
+			engineering_research = 0.08
 		}
 		produces = {
 			trigger = { 
 				owner = { has_valid_civic = civic_technocracy }
 			}
-			unity = 1
+			unity = 0.01
 		}
 		upkeep = {
-			consumer_goods = 2
+			consumer_goods = 0.02
 		}		
 	}
 
 	planet_modifier = {
-		trade_value_add = 2
+		trade_value_add = 0.02
 	}
 	
 	weight = {
@@ -171,8 +171,11 @@ est_shadow_administrator = {
 	resources = {
 		category = planet_administrators
 		produces = {
-			unity = 3
+			unity = 0.03
 		}
+		upkeep = {
+			consumer_goods = 0.02
+		}	
 	}
 	
 	planet_modifier = {

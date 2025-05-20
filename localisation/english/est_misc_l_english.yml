@@ -6,13 +6,13 @@
 
 #Mechanicum_ 3: Mechanical Knights
 tech_est_mechanical_knights:0 "Machines of War"
-tech_est_mechanical_knights_desc:0 "Our engineers have developed special battle machines to be fielded on the battlefields. These bipedal robotic walkers can be equipped with larger weapons and heavier armour that our usual troops."
+tech_est_mechanical_knights_desc:0 "Our combat engineering division has perfected two tiers of battlefield walkers: the versatile Mechanical Knights with their neural-interfaced piloting systems and modular weapon mounts, and the colossal Titan War Engines—tactical dominance platforms that tower over the battlefield like metal mountains. While Knights form our strategic backbone, each Titan represents an exponential force multiplier capable of engaging multiple armored divisions simultaneously. Together, they transform conventional battlefields into exercises in technological superiority."
 est_titan_army:0 "Titan"
 est_titan_army_plural:0 "Titans"
-est_titan_army_desc:0 "Titans are massive robotic walkers. With superior firepower and armour, these constructs can dominate any battlefield."
+est_titan_army_desc:0 "Massive bipedal weapon platforms that dominate battlefields with overwhelming firepower and exceptional durability. Their advanced weapons systems require significant energy to maintain operational capacity."
 est_mechanical_knights_army:0 "Mechanical Knight"
 est_mechanical_knights_army_plural:0 "Mechanical Knights"
-est_mechanical_knights_army_desc:0 "Every Mechanical Knight is a small and custom made walker manned by a single soldier. Due to their vast number of design were every single knight is unique they have much utility on the battle field!"
+est_mechanical_knights_army_desc:0 "Medium-sized combat walkers operated by specialized pilots. Combining mobility with formidable firepower, these versatile machines serve as the backbone of mechanized ground forces."
 
 #Militarism 1: Conscription
 est_militarism_1_militia_army:0 "Militia Army"
@@ -736,6 +736,10 @@ est_greed_4_extortion_2_desc:0 ""
 est_greed_4_extortion_3:0 "Heavy Extortion"
 est_greed_4_extortion_3_name:0 "$est_greed_4_extortion_3$"
 est_greed_4_extortion_3_desc:0 ""
+
+#Order 5; Enforcers
+est_order_5_enforcers:0 "Omnipresent Oversight"
+est_order_5_enforcers_desc:0 "Provides security forces scaled to the population, ensuring order is maintained at all levels of society."
 
 #Piracy 2, Raiding.
 policy_est_piracy_2_raiding:0 "Raiding"

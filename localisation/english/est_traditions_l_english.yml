@@ -1065,41 +1065,54 @@ tr_est_cruelty_finish_desc:0 "§YShip Weapon Damage§! increased by §G+10%§!. 
 ################################################################
 
 tradition_est_mechanicum:0 "Mechanicum"
-tradition_est_mechanicum_desc:0 "What others might perceive as magic is, to us, simply engineering. No project is too great, or too difficult, for us to accomplish."
+tradition_est_mechanicum_desc:0 "The seamless integration of advanced science and precision engineering allows us to achieve what others consider impossible. No technological challenge lies beyond our capabilities."
 
 tr_est_mechanicum_adopt:0 "Mechanicum Traditions"
+tr_est_mechanicum_adopt_desc:0 "Increases §YShip Hull Points§! and §YShip Armor§! by §G+10%§!."
+tr_est_mechanicum_adopt_delayed:0 "The pursuit of technological excellence drives our shipbuilding philosophy. Our vessels incorporate advanced materials science and structural engineering principles that maximize durability without sacrificing performance."
+
+tr_est_mechanicum_adopt_robots:0 "Mechanicum Traditions"
+tr_est_mechanicum_adopt_robots_desc:0 "Reduces §YRobot Pop Upkeep§! by §G-15%§!."
+tr_est_mechanicum_adopt_robots_delayed:0 "Our automated workforce is designed with efficiency and longevity as primary concerns. Through meticulous design optimization and preventative maintenance protocols, we extend operational lifespans while reducing energy consumption."
 
 tr_est_mechanicum_1:0 "Engineering Corps"
 tr_est_mechanicum_1_GC:0 "The Art of Space Construction"
-tr_est_mechanicum_1_desc:0 "Reduces §YUpkeep Cost§! of §YConstruction Ships§! by §G-50%§!. §YMining Station Build Cost§! decreased by §G-20%§."
-tr_est_mechanicum_1_delayed:0 "While others view engineering as simply a profession, our culture celebrates it as a marvel of science and ingenuity. Engineers are considered to be at the pinnacle of society and the engineering corps is considered one of the most prestigious branches of our navy."
-tr_est_mechanicum_1_GC_delayed:0 "Long ago, we perfected construction in the void. Our construction ships and their crews feel at home anywhere they are tasked to build."
+tr_est_mechanicum_1_desc:0 "Reduces §YUpkeep Cost§! of §YConstruction Ships§! by §G-50%§!. §YOrbital Mining Station Build Cost§! decreased by §G-20%§!."
+tr_est_mechanicum_1_delayed:0 "While others view engineering as merely a profession, our society elevates it to the highest art form. The Engineering Corps represents the pinnacle of technical achievement, with members undergoing extensive training in specialized fields before certification."
+tr_est_mechanicum_1_GC_delayed:0 "We have optimized construction techniques for the vacuum environment. Our construction ships and their crews operate with unprecedented efficiency in the challenging conditions of deep space."
 
-tr_est_mechanicum_2:0 "Develop new Blueprints"
-tr_est_mechanicum_2_delayed:0 "While standard templates are spread throughout our empire, we also encourage attempts to improve design. Of course, any suggested improvements are intensely scrutinized by our most skilled engineers."
-tr_est_mechanicum_2_GC_delayed:0 "We use standard templates for most constructs we make. However we will always seek to improve these templates, as well as ensuring that we develop new ones."
-tr_est_mechanicum_2_machines_delayed:0 "$tr_est_mechanicum_2_GC_delayed$"
+tr_est_mechanicum_2:0 "Develop New Blueprints"
+tr_est_mechanicum_2_desc:0 "§YEngineering Research Speed§! increased by §G+15%§!."
+tr_est_mechanicum_2_delayed:0 "While standardized designs serve as our foundation, we maintain dedicated innovation divisions focused on continuous improvement. Each proposed modification undergoes rigorous testing and peer review before implementation."
+tr_est_mechanicum_2_robots_desc:0 "Adds §G+1§! Trait Point to Robot Species."
+tr_est_mechanicum_2_robots_delayed:0 "The robotic platform serves as an ideal testbed for iterative improvements. Our engineering teams constantly refine both hardware and software components to maximize performance and adaptability."
+tr_est_mechanicum_2_machines_desc:0 "Adds §G+1§! Trait Point to Machine Species."
+tr_est_mechanicum_2_machines_delayed:0 "We iterate upon our standard designs through continuous field testing and data analysis. Each version release incorporates significant improvements in efficiency and functionality."
 
 tr_est_mechanicum_3:0 "Machines of War"
 tr_est_mechanicum_3_desc:0 "§HUnlocks Armies:§! §Y$est_titan_army$§!, §Y$est_mechanical_knights_army$§!.\n§Y$MOD_ARMY_DAMAGE_MULT$§! increased by §G+10%§!."
-tr_est_mechanicum_3_delayed:0 "Titanic battle machines are an intimidating sight on the battlefield, as they are outfitted with superior armour and heavier firepower than standard infantry."
+tr_est_mechanicum_3_delayed:0 "Our combat mechs represent the pinnacle of weapons engineering. These towering machines combine overwhelming firepower with advanced targeting systems and reinforced armor plating, making them formidable force multipliers on any battlefield."
 
 tr_est_mechanicum_4:0 "Grand Designs"
-tr_est_mechanicum_4_GC:0 "$tr_est_mechanicum_4$"
-tr_est_mechanicum_4_megastruct_GC:0 "$tr_est_mechanicum_4$"
-tr_est_mechanicum_4_delayed:0 "Our engineers design constructs far outsizing those found elsewhere in the galaxy. The sheer scale of our construction projects boggles the minds of many foreign engineers."
-tr_est_mechanicum_4_GC_delayed:0 "We are able to design constructs far outsizing those found elsewhere in the galaxy. Indeed, the pure scale of our construction projects leaves the mortal empires in awe."
-tr_est_mechanicum_4_megastruct_GC_delayed:0 "$tr_est_mechanicum_4_GC_delayed$"
+tr_est_mechanicum_4_desc:0 "§YStarbase Hull Points§! increased by §G+33%§!."
+tr_est_mechanicum_4_delayed:0 "Our engineering teams excel at large-scale construction projects that challenge conventional limitations. By applying innovative structural solutions and advanced materials, we create installations of unprecedented scale and durability."
+tr_est_mechanicum_4_megastruct_desc:0 "§YMegastructure Build Speed§! increased by §G+20%§! and §YMegastructure Cost§! reduced by §G-10%§!."
+tr_est_mechanicum_4_megastruct_delayed:0 "The construction of megastructures represents the ultimate engineering challenge. Our proprietary assembly methods and specialized construction equipment significantly reduce both time and resource requirements."
+tr_est_mechanicum_4_GC_delayed:0 "The scale of our engineering projects demonstrates our technical superiority. Other civilizations observe our constructions with a mixture of awe and envy."
+tr_est_mechanicum_4_megastruct_GC_delayed:0 "The scale of our engineering projects demonstrates our technical superiority. Other civilizations observe our constructions with a mixture of awe and envy."
 
 tr_est_mechanicum_5:0 "The Guild of Engineers"
-tr_est_mechanicum_5_desc:0 "§HUnlocks Building:§! Engineers Guildhall\n§EThis building provides £job_est_engineer£ §Y$job_est_engineer$§!, and £job_technician£ §Y$job_technician$ Jobs§!, as well as bosting planet £engineering  §YEngineering Research§! output. Requires at least a £building  §Y$building_major_capital$§! to be built§!."
-tr_est_mechanicum_5_robots_desc:0 "§HUnlocks Building:§! Engineers Guildhall\n§EThis building provides £job_est_engineer£ §Y$job_est_engineer$§!, £job_technician£ §Y$job_technician$§!, and £job_roboticist£ §Y$job_roboticist$ Jobs§!, as well as bosting planet £engineering  §YEngineering Research§! output. Requires at least a £building  §Y$building_major_capital$§! to be built§!."
-tr_est_mechanicum_5_delayed:0 "The venerated guild of engineers is possibly the most powerful organisation within our empire. They educate new recruits of the engineering corps, and oversee the design, direction, and construction of all contruction projects within the empire. Grandmasters of this order are also highly influencial members of our society, holding many important seats within our goverment."
+tr_est_mechanicum_5_desc:0 "§HUnlocks Building:§! Engineers Guildhall\n§EThis building provides 300 £job_engineer£ §YEngineer§! and 300 £job_technician£ §YTechnician§! Jobs, as well as boosting planet £engineering §YEngineering Research§! output by §G+10%§!. Requires at least a £building §Y$building_major_capital$§! to be built.§!"
+tr_est_mechanicum_5_robots_desc:0 "§HUnlocks Building:§! Engineers Guildhall\n§EThis building provides 200 £job_engineer£ §YEngineer§!, 200 £job_technician£ §YTechnician§!, and 100 £job_roboticist£ §YRoboticist§! Jobs, as well as boosting planet £engineering §YEngineering Research§! output by §G+10%§!. Requires at least a £building §Y$building_major_capital$§! to be built.§!"
+tr_est_mechanicum_5_delayed:0 "The Guild of Engineers functions as our society's technical backbone. Its members undergo extensive education and apprenticeship programs before receiving certification. The organization maintains research facilities, educational institutions, and technical libraries while overseeing all major engineering projects throughout our territory."
 
-tr_est_mechanicum_5_GC:0 "Self Reparation Protocols"
-tr_est_mechanicum_5_GC_delayed:0 "Auto-diagnostic and redunancy protocols integrated into all naval ship designs enable our fleets to initiate self-repair, as soon as damage is detected"
+tr_est_mechanicum_5_GC:0 "Self-Repair Systems"
+tr_est_mechanicum_5_GC_desc:0 "Ship Hull and Armor regenerate at §G+5%§! per month."
+tr_est_mechanicum_5_GC_delayed:0 "Our vessels incorporate advanced self-repair systems utilizing nanomaterials and automated maintenance drones. These technologies allow for continuous structural regeneration during and after combat, significantly extending operational endurance."
 
 tr_est_mechanicum_finish:0 "Mechanicum Traditions Finished"
+tr_est_mechanicum_finish_desc:0 "§YTechnician§! jobs produce §G+0.01§! additional £energy §YEnergy Credits§!.\nAscension Perks Unlocked: §G+1§!"
+tr_est_mechanicum_finish_delayed:0 "The Mechanicum philosophy elevates engineering and technology to their highest expression. Through innovation, precision, and the continuous pursuit of technical excellence, we reshape worlds and harness the fundamental forces of the universe to serve our ambitions."
 
 
 ################################################################
@@ -1110,31 +1123,34 @@ tradition_est_might:0 "Might"
 tradition_est_might_desc:0 "Only through the strength of our armies can our presence in this galaxy be guaranteed."
 
 tr_est_might_adopt:0 "Might Traditions"
-tr_est_might_adopt_desc:0 "Increases §Y$mod_planet_jobs_produces_mult$§! by §G+5%§! while we are at, or over, our §YNaval Capacity§!"
+tr_est_might_adopt_desc:0 "Increases §Y$mod_planet_jobs_produces_mult$§! by §G+5%§! while we are at, or over, our §YNaval Capacity§!. Unlocks the §YMight Agenda§!."
 
 tr_est_might_1:0 "Natural Warriors"
-tr_est_might_1_machines:0 "$tr_est_might_1$"
+tr_est_might_1_desc:0 "Adds §Y1§! £job_warrior_drone£ §YWarrior Drone§! job for every §Y25§! £pop£ pops on a planet. Reduces §YArmy Cost§! by §G10%§! and increases §YArmy Experience Gain§! by §G25%§!."
 tr_est_might_1_delayed:0 "The warrior instinct runs throughout all of our drones, when the time comes to fight each one of them will be ready."
-tr_est_might_1_machines_delayed:0 "The warrior instinct runs throughout all of our units, when the time comes to fight each one of them will be ready."
+
+tr_est_might_1_machines:0 "Combat-Ready Units"
+tr_est_might_1_machines_desc:0 "Adds §Y1§! £job_hunter_killer_drone£ §YHunter-Killer Drone§! job for every §Y25§! £pop£ pops on a planet. Reduces §YArmy Cost§! by §G10%§! and increases §YArmy Experience Gain§! by §G25%§!."
+tr_est_might_1_machines_delayed:0 "Combat protocols are integrated into the core programming of all our units. When battle commences, they seamlessly transition to their designated warfare functions."
 
 tr_est_might_2:0 "Cunning of the Predator"
-tr_est_might_2_desc:0 "£general_small£§YGenerals§! gain the ['concept_militarism_general'].  §Y$MOD_ARMY_MORALE_DAMAGE_MULT$§! is increased by §G+20%§!."
-tr_est_might_2_delayed:0 "Our military tactics seems unorthodox to the mortals of this galaxy, yet they are effective. Fear will grip the hearts of our enemies as they are faced with the incomprehensibility of our armies."
+tr_est_might_2_desc:0 "£general_small£§YGenerals§! gain the ['concept_militarism_general'] trait. §Y$MOD_ARMY_MORALE_DAMAGE_MULT$§! is increased by §G+20%§!."
+tr_est_might_2_delayed:0 "Our military tactics seem unorthodox to the mortals of this galaxy, yet they are effective. Fear will grip the hearts of our enemies as they are faced with the incomprehensibility of our armies."
 
 tr_est_might_3:0 "The Grand Armada"
 tr_est_might_3_desc:0 "§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! is increased by §G+10%§! and §YFleet Command Limit§! increased by §G+20%§!."
 tr_est_might_3_delayed:0 "We will put more resources into expanding our armada. As it becomes one of the greatest gatherings of ships ever seen, it will be rightly feared throughout this galaxy."
 
 tr_est_might_4:0 "Master Arms Makers"
-tr_est_might_4_desc:0 "Reduce the §YSpecial Resource§! cost of §YShip Components§! by §G-25%§!."
-tr_est_might_4_delayed:0 "Our smiths produces some of the finests weapons and armors that can be found in ths galaxy. Their are few admirals that aren't envious of the quality of our fleets."
+tr_est_might_4_desc:0 "Reduces the §YStrategic Resource§! cost of §YShip Components§! by §G-25%§!."
+tr_est_might_4_delayed:0 "Our smiths produce the finest weapons and armors found in this galaxy. There are few admirals who aren't envious of the quality of our fleets."
 
 tr_est_might_5:0 "Warsense"
-tr_est_might_5_desc:0 "£admiral_small£§YAdmirals§! gain the ['concept_militarism_admiral']. In addition, all $commander_with_icon$s start with an additional trait."
-tr_est_might_5_delayed:0 "We have a natural sense for war, far surpassing that of any mortal soul."
+tr_est_might_5_desc:0 "£admiral_small£§YAdmirals§! gain the ['concept_militarism_admiral'] trait. In addition, all commanders start with an additional trait."
+tr_est_might_5_delayed:0 "We have a natural sense for war, far surpassing that of any mortal soul. Our warriors intuitively understand the ebb and flow of battle, perceiving patterns and opportunities that others miss entirely."
 
 tr_est_might_finish:0 "Might Traditions Finished"
-tr_est_might_finish_desc:0 "£military_ship£Ship Weapon Range: §G+25%§!\nAscension Perk Slots Added: §G+1%§!"
+tr_est_might_finish_desc:0 "§YShip Weapon Range§! increased by §G+25%§!.\nAscension Perk Slots Added: §G+1§!"
 
 
 ################################################################
@@ -1142,32 +1158,33 @@ tr_est_might_finish_desc:0 "£military_ship£Ship Weapon Range: §G+25%§!\nAsce
 ################################################################
 
 tradition_est_militarism:0 "Militarism"
-tradition_est_militarism_desc:0 "Our military is what protects our presence in our galaxy. It is only natural that we should build our society around it."
+tradition_est_militarism_desc:0 "In the vastness of space, diplomacy and commerce are merely the shadows cast by military might. Our fleets and armies are the true architects of our destiny among the stars."
 
 tr_est_militarism_adopt:0 "Militarism Traditions"
-tr_est_militarism_adopt_desc:0 "Increases §Y$mod_planet_jobs_produces_mult$§! by §G+5%§! while we are at, or over, our §YNaval Capacity§!"
+tr_est_militarism_adopt_desc:0 "Unlocks the §YMilitarism Agenda§!. Increases §Yresource production from all jobs§! by §G+5%§! while we are at or above our §YNaval Capacity§!, as our society finds purpose in the mobilization of our forces."
 
 tr_est_militarism_1:0 "Conscription"
-tr_est_militarism_1_delayed:0 "Everyone may be drafted into our armies. It is considered a citizen's duty to serve our armed force. Even for those that go on to other professions it is a good experience to have served in the disciplined structure of our military."
+tr_est_militarism_1_desc:0 "Reduces §YArmy Costs§! by §G-20%§! and increases §YSoldier Jobs§! by §G+4%§! per population on non-specialized worlds."
+tr_est_militarism_1_delayed:0 "The crucible of military service forges the strongest citizens. From the youngest age, our people understand that to serve in our armed forces is not merely an obligation—it is the highest expression of citizenship, a sacred duty through which one truly becomes part of the greater whole."
 
 tr_est_militarism_2:0 "Reform Army Hierarchies"
-tr_est_militarism_2_desc:0 "£general_small£§YGenerals§! gain the ['concept_militarism_general'].  §YArmy Experiance Gain§! is increased by §G+50%§!."
-tr_est_militarism_2_delayed:0 "Our army is still organized as it was before we left our solar system. Now the military is dominated by the interstellar fleet and the army is primarily used to control and invade planets. We must reform our army to better fit this new role."
+tr_est_militarism_2_desc:0 "§YGenerals§! gain the §YMilitarist Commander§! trait and §YArmy Experience Gain§! is increased by §G+50%§!."
+tr_est_militarism_2_delayed:0 "The stars have changed the nature of warfare. No longer are our armies designed primarily for planetary conflicts—they must be adapted for deployment across vastly different worlds and against entirely alien foes. Our new command structures emphasize adaptability, specialized training, and integration with space-based assets."
 
 tr_est_militarism_3:0 "The Grand Armada"
-tr_est_militarism_3_desc:0 "§Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! is increased by §G+10%§! and §YFleet Command Limit§! increased by §G+20%§!."
-tr_est_militarism_3_delayed:0 "We will put more resources into expanding our armada. As it becomes one of the greatest gatherings of ships ever seen, it will be rightly feared throughout this galaxy."
+tr_est_militarism_3_desc:0 "§YNaval Capacity§! is increased by §G+10%§! and §YFleet Command Limit§! increased by §G+20%§!."
+tr_est_militarism_3_delayed:0 "The sheer scale of our assembled fleets leaves other empires in silent awe. When our armadas move through the void, stellar systems seem to darken under their shadow. This is not merely a military force; it is the physical manifestation of our imperial will projected across light-years."
 
 tr_est_militarism_4:0 "Master Arms Makers"
-tr_est_militarism_4_desc:0 "Reduce the §YSpecial Resource§! cost of §YShip Components§! by §G-25%§!."
-tr_est_militarism_4_delayed:0 "Our smiths produces some of the finests weapons and armors that can be found in ths galaxy. Their are few admirals that aren't envious of the quality of our fleets."
+tr_est_militarism_4_desc:0 "Reduces the §YStrategic Resource§! cost of all §YShip Components§! by §G-25%§!, including advanced resources from compatible technologies."
+tr_est_militarism_4_delayed:0 "Our forges and fabricators operate at unprecedented scale and precision. Each component, from the humblest kinetic slug to the most sophisticated tachyon lance, represents generations of refinement. The quality of our arms is legendary—envied by our allies and feared by our enemies."
 
 tr_est_militarism_5:0 "Prestige of the Admiralty"
-tr_est_militarism_5_desc:0 "£admiral_small£§YAdmirals§! gain the ['concept_militarism_admiral']. In addition, all $commander_with_icon$s start with an additional trait."
-tr_est_militarism_5_delayed:0 "The admirals of the navy is some of the most respected individuals in our society. They hold positions of great influence, not only in the military, but also in the society as a whole."
+tr_est_militarism_5_desc:0 "§YAdmirals§! gain the §YMilitarist Admiral§! trait, and all military leaders begin their service with an additional trait."
+tr_est_militarism_5_delayed:0 "To command a fleet is to wield the concentrated power of our civilization. Our admirals are not mere officers but living legends, their names spoken with reverence across a thousand worlds. The traditions, regalia, and authority of the admiralty have become central to our cultural identity—symbols of our manifest destiny among the stars."
 
 tr_est_militarism_finish:0 "Militarism Traditions Finished"
-tr_est_militarism_finish_desc:0 "£military_ship£Ship Weapon Range: §G+25%§!\nAscension Perk Slots Added: §G+1%§!"
+tr_est_militarism_finish_desc:0 "Increases §YShip Weapon Range§! by §G+25%§! and unlocks an additional §YAscension Perk§! slot, as our society's martial focus elevates us toward a higher plane of strategic dominance."
 
 
 ################################################################
@@ -1175,29 +1192,34 @@ tr_est_militarism_finish_desc:0 "£military_ship£Ship Weapon Range: §G+25%§!\
 ################################################################
 
 tradition_est_mystery:0 "Mystery"
-tradition_est_mystery_desc:0 "Secrets and deceit ensure that only a few, if any, know every detail of how our society functions."
+tradition_est_mystery_desc:0 "Behind the veil of our empire lies an intricate web of secrets, whispers, and calculated deception. Only the chosen few glimpse the true machinery of our society, leaving others to marvel at the enigma of our success."
 
 tr_est_mystery_adopt:0 "Mystery Traditions"
+tr_est_mystery_adopt_desc:0 "Increases our §YEncryption Level§! by §G+2§!, shrouding our empire's activities from prying eyes."
+tr_est_mystery_adopt_delayed:0 "The first tenet of power is that knowledge must be guarded zealously. While other empires flaunt their achievements in transparent displays, we understand that true influence lies in what remains unseen and unknown."
 
 tr_est_mystery_1:0 "Shroud of Secrecy"
-tr_est_mystery_1_desc:0 "§YFaction Unity Gain§! increased by §G+20%§! and §YResource Output§! from £pop  §YRuler Pops§! increased by §G+25%§!."
-tr_est_mystery_1_delayed:0 "Our society is covered in a shroud of secrecy, and few know every detail of its workings. Positions of power are filled in an unclear manner. A large number of associations, organizations, guilds and parties with various responsibilities and unclear recruitment processes makes up the various layers of society."
+tr_est_mystery_1_desc:0 "§YFaction Unity Gain§! increased by §G+20%§! and §YResource Output§! from our ruling elite increased by §G+25%§!."
+tr_est_mystery_1_delayed:0 "Layers upon layers of obfuscation enshroud the true workings of our society. Power shifts through unseen channels, appointments materialize without announcement, and decisions emerge from shadows. Our citizens embrace this mystery, finding unity in the shared experience of reverent uncertainty."
 
 tr_est_mystery_2:0 "Covert Assets"
 tr_est_mystery_2_desc:0 "§YAdvanced Strategic Resources§! output increased by §G+33%§!."
-tr_est_mystery_2_delayed:0 "Secret facilities extract the most valuable resources found in our empire. Those working these mysterious facilities are either sworn to secrecy, unable to communicate with the greater world, or simple unaware of what purpose they truly play."
+tr_est_mystery_2_delayed:0 "Our rarest resources flow from facilities that officially do not exist. Workers drift through security clearances like ghosts, compartmentalized to the point where neighbors on the same production line may never know what the final product becomes. Some suspect their labor supports projects beyond mortal imagining—they are closer to the truth than they realize."
 
-tr_est_mystery_3:0 "Pursuit of the Forbidden Knowledge"
-tr_est_mystery_3_delayed:0 "Small collections of researchers gather in groups all over our realm to delve into topics that would often have been kept of limits in other empires."
+tr_est_mystery_3:0 "Pursuit of Forbidden Knowledge"
+tr_est_mystery_3_desc:0 "§YPhysics Research Speed§! increased by §G+15%§!."
+tr_est_mystery_3_delayed:0 "In unmarked laboratories and secret observatories, our researchers probe the darkest corners of reality. They pursue knowledge considered too dangerous or profane by other civilizations, pushing beyond established boundaries into realms where science, philosophy, and the unknowable converge in terrifying harmony."
 
 tr_est_mystery_4:0 "Guild of Navigators"
-tr_est_mystery_4_delayed:0 "The secretive guild of navigators is responsible for the navigation of all civil and military ships. Non-members are neither allowed nor able to handle our ships."
+tr_est_mystery_4_desc:0 "§YShip Disengage Chance§! increased by §G+33%§!."
+tr_est_mystery_4_delayed:0 "The Guild's initiates learn to navigate not merely through space, but through the imperceptible currents between realities. Their methods are jealously guarded, passed from master to apprentice through rituals as old as our civilization. Even our most experienced commanders never fully understand how their vessels slip through enemy fire with such uncanny precision."
 
 tr_est_mystery_5:0 "Mystics"
-tr_est_mystery_5_desc:0 "All leaders gain the §YMystic§! trait which provides minor bonuses."
-tr_est_mystery_5_delayed:0 "Many powerful individuals in our society are attributed supernatural powers. Whenever these individuals really possess all the powers they are said to have is unknown."
+tr_est_mystery_5_desc:0 "All leaders gain the §YMystic§! trait, providing enhanced capabilities through mysterious means."
+tr_est_mystery_5_delayed:0 "They move among us: individuals whose abilities defy rational explanation. Some claim to glimpse the future in dream-wracked visions. Others demonstrate impossible awareness of distant events. Whether their powers stem from undiscovered science or something more transcendent remains deliberately obscured, even to themselves."
 
 tr_est_mystery_finish:0 "Mystery Traditions Finished"
+tr_est_mystery_finish_desc:0 "Appoints §YShadow Administrators§! throughout our empire, vastly improving stability through unseen influence. These enigmatic figures operate beyond conventional governance, maintaining order through methods few dare question.\nAscension Perks Unlocked: §G+1§!"
 
 
 ################################################################
@@ -1205,127 +1227,166 @@ tr_est_mystery_finish:0 "Mystery Traditions Finished"
 ################################################################
 
 tradition_est_nature:0 "Nature"
-tradition_est_nature_desc:0 "It was in nature that our lives began. As we reach for the stars, we must remain ever aware of our humble beginnings lest we lose all sense of our origins."
-tradition_est_nature_hive_desc:0 "Our mind has no end. It reaches into everything from organisms of the lowest complexity to the very soil of our worlds."
-tradition_est_nature_machines_desc:0 "That which surrounds us encompasses all that we are not. Taking in the natural world as a part of ourselves is the only path to true perfection."
+tradition_est_nature_desc:0 "From verdant forests to barren deserts, our origins lie in harmony with the natural world. As we reach for distant stars, we must honor the ancient balance that shaped us, lest we sever the roots that nourish our soul."
+
+tradition_est_nature_hive_desc:0 "Our consciousness extends beyond mere bodies—it flows through the soil, the waters, and the very air of our worlds. The natural order is but another layer of our vast neural network, to be integrated rather than conquered."
+
+tradition_est_nature_machines_desc:0 "The organic substrate that surrounds us represents everything we are not—chaotic, inefficient, yet possessed of qualities worthy of preservation. Only by understanding the natural order can we achieve true computational perfection."
 
 tr_est_nature_adopt:0 "Nature Traditions"
+tr_est_nature_adopt_desc:0 "By embracing the rhythms of nature rather than imposing our own, we gain deeper insight into life itself. Our biological and societal research benefits from this harmonious approach."
+
 tr_est_nature_adopt_machines:0 "Protocols for Nature"
+tr_est_nature_adopt_machines_desc:0 "By developing precise protocols for environmental interaction, we can maximize efficiency while minimizing disruption to organic ecosystems. These algorithms inform our expansion across diverse worlds."
 
 tr_est_nature_1:0 "Adaptive Society"
-tr_est_nature_1_delayed:0 "Rather than modifying the environment to suit our own needs, we have learned to adapt our lives to our surroundings."
+tr_est_nature_1_desc:0 "Our citizens have developed remarkable tolerance for diverse planetary conditions, reducing the need for extensive terraforming or environmental controls."
+tr_est_nature_1_delayed:0 "Rather than bending worlds to our will through technology, we adapt ourselves to the environment's demands. Our architecture follows natural contours, our settlements respect local ecosystems, and our people embrace the unique challenges of each world."
 
 tr_est_nature_1_GC:0 "Frugality"
-tr_est_nature_1_GC_delayed:0 "The resources given to us by nature are not limitless. Fostering a wasteful civilization would be a poor way to repay its bountiful gifts."
+tr_est_nature_1_GC_desc:0 "By minimizing resource consumption across all aspects of our collective, we reduce maintenance costs throughout our empire."
+tr_est_nature_1_GC_delayed:0 "Every resource has its place in the grand design. We take only what we require, returning what we can, understanding that wasteful consumption creates imbalance that must eventually be corrected."
 
 tr_est_nature_2:0 "Natural Riches"
-tr_est_nature_2_desc:0 "Generate §Y2§! random deposits on all our planets (also include new planets we acquire, a planet can only be affected once)."
-tr_est_nature_2_delayed:0 "The nature around us is rich in resources that can be utilized by those that knows where to find them."
+tr_est_nature_2_desc:0 "Our intimate understanding of planetary ecosystems allows us to discover hidden resources that others might overlook. Each world receives §Y2§! random resource deposits when colonized."
+tr_est_nature_2_delayed:0 "Where others see only wilderness to be cleared, we perceive complex systems rich with untapped potential. Our surveyors don't just scan for obvious mineral deposits—they study migratory patterns of native fauna, analyze root systems of ancient trees, and observe the seasonal cycles that often reveal nature's bounty."
 
 tr_est_nature_3:0 "Self-Sustaining"
-tr_est_nature_3_delayed:0 "Rather than solely depending on centralized food production most individuals on our worlds are to some extent self-sustaining. To some extent they can produce their own food."
+tr_est_nature_3_desc:0 "By embracing traditional agricultural wisdom, our farming operations become §G10%§! more productive while requiring §G10%§! less food for our population's sustenance."
+tr_est_nature_3_delayed:0 "The centralized food production model wastes energy transporting resources across vast distances. By encouraging local cultivation and sustainable practices, even urban dwellers maintain small gardens. These practices reduce our dependence on industrial agriculture while fostering a deeper connection to the worlds we inhabit."
 
-tr_est_nature_3_GC:0 "$tr_est_nature_4$"
-tr_est_nature_3_GC_delayed:0 "$tr_est_nature_4_delayed$"
+tr_est_nature_3_GC:0 "Environmental Engineering"
+tr_est_nature_3_GC_desc:0 "Our drones have adapted to process and remove planetary obstacles with remarkable efficiency, reducing blocker removal costs and time by §G30%§!."
+tr_est_nature_3_GC_delayed:0 "Rather than brute-forcing our way through planetary obstacles, our specialized drones work with natural processes to gradually transform environments while preserving valuable ecological data. This approach is both more efficient and more sustainable than conventional clearing methods."
 
 tr_est_nature_4:0 "One with Nature"
-tr_est_nature_4_delayed:0 "Rather than pushing nature away to make way for our society we have learnt to build within it, with minimal need to devastate the nature to make room for ourselves."
+tr_est_nature_4_desc:0 "Our construction techniques work with rather than against natural formations, reducing the costs and time required to clear planetary blockers by §G30%§!."
+tr_est_nature_4_delayed:0 "Our architects don't see forests, mountains, or marshlands as obstacles to be flattened, but as foundations upon which to build. Settlements rise organically from the landscape, incorporating living systems in their design. Buildings breathe with the wind, collect rainwater, and channel natural light—each structure unique to its environment."
 
 tr_est_nature_4_hive:0 "Natural Integration"
-tr_est_nature_4_hive_delayed:0 "As we arrive on new worlds we should not strive to control its native ecology, rather we should try to integrate it into our mind, making it a part of us."
+tr_est_nature_4_hive_desc:0 "By extending our neural network into existing ecosystems, we gain §G+1§! planetary district on each world we inhabit."
+tr_est_nature_4_hive_delayed:0 "As we establish ourselves on new worlds, we extend neural filaments into native soil, connecting with indigenous life forms at a cellular level. This symbiotic integration allows us to expand our consciousness while preserving local biodiversity, creating a more resilient collective mind."
 
 tr_est_nature_4_machines:0 "Diametric Strength"
-tr_est_nature_4_machines_desc:0 "Receive §G4§! £influence  §YInfluence§! for each tile blocker on a planet we colonize."
-tr_est_nature_4_machines_delayed:0 "Our essence is the very opposite of the nature around us. Yet we are united. The very contradiction in our union is what makes it strong."
+tr_est_nature_4_machines_desc:0 "Our analytical processes extract valuable data from planetary obstacles. Receive §G4§! £influence §YInfluence§! for each natural blocker on planets we colonize."
+tr_est_nature_4_machines_delayed:0 "Though we represent the antithesis of organic chaos, we recognize the computational value in studying nature's solutions to complex problems. Each geological formation, each biological adaptation, contains data patterns billions of years in refinement—an invaluable resource our algorithms can analyze and incorporate."
 
 tr_est_nature_5:0 "Non-Consumerism"
-tr_est_nature_5_delayed:0 "While others value material things we are above such inferior behaviour."
+tr_est_nature_5_desc:0 "Our citizens have learned to value experiences over possessions, reducing their needs for consumer goods, food, amenities, and housing by §G5%§! across our empire."
+tr_est_nature_5_delayed:0 "The endless cycle of acquisition and disposal has been replaced by a culture that values durability, multi-functionality, and shared resources. Our people measure status not by what they own but by what they contribute and experience. This shift has reduced waste, simplified supply chains, and fostered stronger community bonds."
 
 tr_est_nature_5_GC:0 "Preserves"
-tr_est_nature_5_GC_desc:0 "§HUnlocks Building:§! Preserve (Planet unique. Produces §Y12§! £unity  §YUnity§! and increase planet £society  §YSociety§! output by §G+20%§!. Reduce planet £minerals  §YMinerals§! output by §R-20%§! and max districts by §R-2§!. Reduce £stability£ §YPlanet Stability§! by §R-10§! for $Y10§! years after a preserve is destroyed.)."
-tr_est_nature_5_GC_delayed:0 "Each planet has its own unique ecosystem. Our society must endeavor to impose as little disruption as possible to their natural orders."
+tr_est_nature_5_GC_desc:0 "§HUnlocks Building:§! The Preserve - A planetary sanctuary that maintains pristine wilderness at the cost of industrial potential. Produces §Y12§! £unity §YUnity§!, employs §Y100§! £job_culture_worker Culture Workers and §Y100§! £job_biology_worker Biology Researchers, and increases planet £society §YSociety Research§! output by §G+20%§!. Reduces £minerals §YMineral§! output by §R-20%§! and planetary districts by §R-2§!."
+tr_est_nature_5_GC_delayed:0 "Each world represents billions of years of evolutionary history—a unique experiment in biological development that can never be recreated once lost. We designate vast regions as ecological preserves, untouched by industrial expansion, where native species thrive and natural processes continue unabated. These areas not only protect biodiversity but serve as living laboratories for our researchers."
 
 tr_est_nature_5_GC_AI:0 "Preserves"
-tr_est_nature_5_GC_AI_delayed:0 "Every planet has their own natural habitat, unique in the galaxy. We must ensure that at least parts of it is preserved without disruption, to remain as it has before we arrived."
+tr_est_nature_5_GC_AI_delayed:0 "Our data cores contain records of countless extinct species from worlds developed without foresight. We have learned that preserving representative ecosystems on each planet not only provides scientific value but ensures long-term sustainability for our operation. The untouched wilderness areas serve as control groups in our grand planetary experiments."
 
 tr_est_nature_finish:0 "Nature Traditions Finished"
-tr_est_nature_finish_desc:0 "§HUnlocks Building:§! Preserve (Planet unique. Produces §Y12§! £unity  §YUnity§! and increase planet £society  §YSociety§! output by §G+20%§!. Reduce planet £minerals  §YMinerals§! output by §R-20%§! and max districts by §R-2§!. Reduce £stability£ §YPlanet Stability§! by §R-10§! for §Y10§! years after a preserve is destroyed.).\nAscension Perks Unlocked: §G+1§!"
-
+tr_est_nature_finish_desc:0 "By fully embracing our connection to the natural world, we gain profound wisdom and open new evolutionary paths for our civilization.\n\n§HUnlocks Building:§! The Preserve - A planetary sanctuary that maintains pristine wilderness at the cost of industrial potential. Produces §Y12§! £unity §YUnity§!, employs §Y100§! £job_culture_worker Culture Workers and §Y100§! £job_biology_worker Biology Researchers, and increases planet £society §YSociety Research§! output by §G+20%§!. Reduces £minerals §YMineral§! output by §R-20%§! and planetary districts by §R-2§!.\n\nAscension Perks Unlocked: §G+1§!"
 
 ################################################################
 # Omnipresence
 ################################################################
 
 tradition_est_omnipresence:0 "Omnipresence"
-tradition_est_omnipresence_desc:0 "We are one, yet we are everywhere. We are able to give our full attention to both the grand scheme of things, as well as the smallest action of the most insignificant of drones."
+tradition_est_omnipresence_desc:0 "We are one consciousness manifested across countless bodies. Our awareness spans worlds, stretching across the void between stars, yet remains singular in purpose. Every drone is an extension of our will, every action a deliberate expression of our unified thought."
 
 tr_est_omnipresence_adopt:0 "Omnipresence Traditions"
+tr_est_omnipresence_adopt_desc:0 "By maintaining vigilant oversight across our domain, we reduce planetary crime by 20%. No action escapes our notice, no transgression goes undetected."
 
 tr_est_omnipresence_1:0 "Total Information Processing"
-tr_est_omnipresence_1_delayed:0 "One simultaneously learns from all its drones' experiences. Patterns are extracted from this aggregate data, allowing One to learn from obstacles large and small."
+tr_est_omnipresence_1_desc:0 "Our leaders begin with +1 skill level, drawing from the collective experience of the gestalt consciousness."
+tr_est_omnipresence_1_delayed:0 "We process information from billions of neural nodes simultaneously, extracting meaningful patterns from the cacophony of sensory data. Each drone's experience becomes part of our collective knowledge, teaching us to anticipate challenges before they manifest."
 
 tr_est_omnipresence_2:0 "Full Drone Presence"
-tr_est_omnipresence_2_delayed:0 "One prioritizes critical functions within its infrastructure, proactively assuming direct control over drones to increase productivity."
+tr_est_omnipresence_2_desc:0 "Starbase shipyard build speed increased by 10%, planet building speed increased by 25%, and blocker clearing time reduced by 25%."
+tr_est_omnipresence_2_delayed:0 "When necessary, we redirect our consciousness to take direct control of critical drones, optimizing their every movement and decision. Through this micromanagement of keystone elements, we achieve efficiency beyond what autonomous functions could produce alone."
 
 tr_est_omnipresence_3:0 "Increased Capacity"
-tr_est_omnipresence_3_delayed:0 "As One expands to new regions of the galaxy, One's neural pathways must also expand to accommodate new drones."
+tr_est_omnipresence_3_desc:0 "Empire size penalty reduced by 10%, allowing our consciousness to span greater distances without strain."
+tr_est_omnipresence_3_delayed:0 "Our neural architecture evolves with each expansion, developing new synaptic pathways and processing centers. These adaptations allow us to maintain perfect awareness across increasingly vast territories without diminishing our cognitive capacity."
 
 tr_est_omnipresence_4:0 "Standard Control Patterns"
-tr_est_omnipresence_4_delayed:0 "Deviation creates inefficiency. A standard control pattern is enforced upon drones performing similar tasks. Any deviation from the pattern causes One to assume direct control of the drone, immediately rectifying the error."
+tr_est_omnipresence_4_desc:0 "District construction costs and upkeep reduced by 10%, as standardized formats reduce cognitive overhead."
+tr_est_omnipresence_4_delayed:0 "Uniformity breeds efficiency. By implementing standardized control patterns for similar drone functions, we minimize the cognitive resources required for basic operations. When a drone deviates from these patterns, our attention is immediately drawn to correct the aberration before inefficiency can propagate."
 
 tr_est_omnipresence_5:0 "Synaptic Enhancement"
-tr_est_omnipresence_5_delayed:0 "Improvements to One's synaptic systems allow One to simultaneously control more drones for longer periods of time."
+tr_est_omnipresence_5_desc:0 "Edict fund increased by 30, as our enhanced neural capacity allows us to enforce more directives simultaneously."
+tr_est_omnipresence_5_delayed:0 "Through specialized neural architecture and enhanced cognitive processing, we have transcended previous limitations on concurrent control. Our consciousness now flows effortlessly between countless drones, sustaining direct control for extended periods without experiencing the fatigue that once constrained our capabilities."
 
-tr_est_omnipresence_5_machines:0 "Repeated Transmission Towers"
-tr_est_omnipresence_5_machines_delayed:0 "At the furthest reaches of the empire, One's commands can be lost or misinterpreted. A network of Repeater Towers enables One to command its drones across titanic distances."
+tr_est_omnipresence_5_machines:0 "Repeater Transmission Towers"
+tr_est_omnipresence_5_machines_desc:0 "Edict fund increased by 30, as our command network ensures perfect transmission of directives across any distance."
+tr_est_omnipresence_5_machines_delayed:0 "Signal degradation once limited our effective control radius, introducing inefficiencies and errors at the periphery of our domain. Our new network of quantum transmission towers ensures that commands arrive uncorrupted regardless of distance, maintaining perfect fidelity between our central processing and our most distant units."
 
 tr_est_omnipresence_finish:0 "Omnipresence Traditions Finished"
+tr_est_omnipresence_finish_desc:0 "Adds +1 Civic Point and unlocks an additional Ascension Perk slot. Through perfect awareness and control, we have achieved true omnipresence throughout our realm."
 
 
 ################################################################
-# Order
+# Control (ex Order)
 ################################################################
 
-tradition_est_order:0 "Order"
-tradition_est_order_desc:0 "Every being has their role in the grand scheme of things. It is everyone's duty to perform their assigned task."
+tradition_est_order:0 "Control"
+tradition_est_order_desc:0 "A truly efficient society requires structure, oversight, and meticulous planning. Through systematic control, we forge order from chaos."
 
-tr_est_order_adopt:0 "Order Traditions"
+tr_est_order_adopt:0 "Control Traditions"
+tr_est_order_adopt_desc:0 "Reduces §YPopulation Resettlement Cost§! by §G20%§!."
+tr_est_order_adopt_delayed:0 "By centralizing the coordination of population transfers, we eliminate redundant bureaucracy and streamline the process of relocating citizens where the state needs them most."
+
+tr_est_order_adopt_egali:0 "Control Traditions"
+tr_est_order_adopt_egali_desc:0 "Increases §YGoverning Ethics Attraction§! by §G15%§!."
+tr_est_order_adopt_egali_delayed:0 "A harmonious society requires shared values. By promoting our founding principles throughout all forms of media and education, we ensure our citizens understand the virtues of our way of life."
 
 tr_est_order_1:0 "Ministry of Propaganda"
-tr_est_order_1_desc:0 "Suppressing a §YFaction§! costs half the amount of £influence §YInfluence§! and only reduce £happiness  §YFaction Happiness§! by §G-10%§!. In addition, §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+5%§!."
-tr_est_order_1_delayed:0 "The truth that the people know shall be the truth that we desire them to know. Our ministry of propaganda ensures that this is the case."
+tr_est_order_1_desc:0 "Suppressing a §YFaction§! costs half the amount of £influence §YInfluence§! and reduces £happiness §YFaction Happiness§! by only §G-10%§!. Additionally, §YGoverning Ethics Attraction§! increased by §G+5%§!."
+tr_est_order_1_delayed:0 "Truth is malleable, reality subjective. Our Ministry of Information Management ensures citizens receive properly vetted knowledge, free from disruptive or demoralizing distortions. After all, perception shapes reality, and we must shape perception."
 
-tr_est_order_1_AI_desc:0 "§Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+10%§!. §YInfluence Gain§! is increased by §G0.5§!."
+tr_est_order_1_AI_desc:0 "§YGoverning Ethics Attraction§! increased by §G+10%§! and §YInfluence Gain§! increased by §G+0.5§!."
+tr_est_order_1_AI_delayed:0 "Our sophisticated media apparatus shapes the fundamental beliefs of our citizens, guiding their thoughts toward state-approved ideologies while generating popular support for leadership initiatives."
 
-tr_est_order_1_egali:0 "Prevent Disinformation"
-tr_est_order_1_egali_delayed:0 "Many are those who wish to sway our citizens by spreading false information. Under no circumstances may any such attempts succeed."
+tr_est_order_1_egali:0 "Counter Disinformation"
+tr_est_order_1_egali_desc:0 "Reduces §YCrime§! by §G10%§! and increases §YEgalitarian Ethics Attraction§! by §G15%§!."
+tr_est_order_1_egali_delayed:0 "In a truly free society, the greatest threat is not dissent but deception. Our Truth Validation Commission rigorously fact-checks all public discourse, ensuring citizens can make truly informed choices based on verified reality."
 
 tr_est_order_2:0 "State Sanctioned Parties"
-tr_est_order_2_desc:0 "The £happiness  §YHappines§! of all §YFactions§! is increased by §G+3%§!."
-tr_est_order_2_delayed:0 "Rather than people being free to form any political party that they desire, we have instituted a set of approved parties with fixed agendas that are allowed to operate within our empire."
+tr_est_order_2_desc:0 "Increases the £happiness §YHappiness§! of all §YFactions§! by §G+3%§!."
+tr_est_order_2_delayed:0 "Political pluralism creates nothing but disorder. Our carefully curated slate of approved political organizations channels public discourse along productive lines, each offering the illusion of choice while advancing our grand design."
 
-tr_est_order_2_egali:0 "Political Stability"
-tr_est_order_2_egali_desc:0 "The £happiness  §YHappines§! of all §YFactions§! is increased by §G+3%§!."
-tr_est_order_2_egali_delayed:0 "As our empire grows ever bigger we much strive to maintain political stability, else we will fall apart. It is the responsibility of every party and individual to ensure that our political system runs smoothly and that neither disputes nor prestige obstructs the running of our empire."
+tr_est_order_2_egali:0 "Political Stability Framework"
+tr_est_order_2_egali_desc:0 "Increases the £happiness §YHappiness§! of all §YFactions§! by §G+3%§!."
+tr_est_order_2_egali_delayed:0 "Democracy thrives when built upon a foundation of established protocols. Our Political Stability Framework ensures all factions operate within parameters that maintain the integrity of our system while still representing their constituents."
 
-tr_est_order_3:0 "Standardized Work Schedules"
-tr_est_order_3_delayed:0 "To better organize our workforce we have standardized the work schedules. Two workers working the same job will do so under the same conditions independently of where they do it."
+tr_est_order_3:0 "Standardized Labor Protocols"
+tr_est_order_3_desc:0 "Increases §YFood§! and §YMineral§! output from worker jobs by §G+15%§!."
+tr_est_order_3_delayed:0 "The chaos of individualized labor methods has been eliminated. Every manufacturing plant, every mining operation, every agricultural complex now operates on synchronized schedules with standardized procedures. Efficiency is no longer aspirational—it is mandatory."
 
-tr_est_order_3_slavery_desc:0 "£food  §YFood§! and £minerals  §YMineral§!  output from §YSlaves§! increased by §G+15%§!."
+tr_est_order_3_slavery_desc:0 "Increases §YFood§! and §YMineral§! output from slave jobs by §G+15%§!."
+tr_est_order_3_slavery_delayed:0 "When properly regimented, the servile population becomes a precision instrument. Their movements, their rest periods, even their breathing rhythms are calibrated for maximum output with minimum oversight."
 
-tr_est_order_4:0 "Regulated Society"
-tr_est_order_4_delayed:0 "Down to the details we should regulate the workings of our society. This ensure that every one of us knows what they can do in every situation. Everyone also knows that their peers are bound by the same rules which encourages trust within our society. Finally, this allows our government to better control that our civilization do not fall into chaos."
+tr_est_order_4:0 "Societal Regulation Matrix"
+tr_est_order_4_desc:0 "Reduces §YJob Upkeep§! by §G-10%§!."
+tr_est_order_4_delayed:0 "Every action, transaction, and interaction within our society is now governed by clear regulations. Citizens operate with the comforting certainty of knowing exactly what is expected of them at all times, eliminating wasteful indecision and emotional inefficiency."
 
-tr_est_order_4_auth:0 "Planned Procreation"
-tr_est_order_4_auth_delayed:0 "Until now procreation have been free and unregulated. As our empire expands we can no longer afford these uncertainties in population growth. Each year the local government will make a plan on how many new individuals are to be born and designate citizens to produce those new individuals."
+tr_est_order_4_auth:0 "Population Engineering"
+tr_est_order_4_auth_desc:0 "Increases §YPop Growth Speed§! by §G+20%§!."
+tr_est_order_4_auth_delayed:0 "Reproduction is too critical to be left to chance or individual whim. Our Bureau of Demographic Optimization carefully plans each generation, determining optimal numbers, genetic distributions, and even birthing schedules to ensure perfect population balance."
 
-tr_est_order_5:0 "A State of Control"
-tr_est_order_5_delayed:0 "There is not an element of our society that won't benefit from being supervised and controlled by our government. To ensure an efficient empire we cannot leave anything to chance, or even worse, to the careless management of independent individuals or institutions."
+tr_est_order_5:0 "Omnipresent Oversight"
+tr_est_order_5_desc:0 "Provides §Y1§! Enforcer job for every §Y25§! population on a planet."
+tr_est_order_5_delayed:0 "The watchful eyes of the state are everywhere—in every home, workplace, and recreational facility. This web of surveillance is not an invasion of privacy but a protective embrace, ensuring compliance and swiftly identifying those who would threaten our collective harmony."
 
-tr_est_order_5_egali:0 "Rights and Responsibilities"
-tr_est_order_5_egali_delayed:0 "Just as every citizen has their rights in our society, they also have their responsibilities towards their peers. A successful civilization can only be built on trust between the ruling body and the citizens, they know that their rights will be protected, just as they will fulfil their duties to the civilization as a whole."
+tr_est_order_5_egali:0 "Collective Responsibility Framework"
+tr_est_order_5_egali_desc:0 "Increases §YWorker Happiness§! by §G+10%§! and §YNaval Capacity§! by §G+10%§!."
+tr_est_order_5_egali_delayed:0 "In our society, rights and duties are perfectly balanced. Every citizen understands that freedom comes with accountability to the community. This shared commitment forms the backbone of our defense, as citizens willingly contribute to protect what they've collectively built."
 
-tr_est_order_finish:0 "Order Traditions Finished"
+tr_est_order_finish:0 "Control Traditions Finished"
+tr_est_order_finish_desc:0 "Reduces §YConsumer Goods Upkeep§! by §G10%§! and §YHousing Usage§! by §G10%§!."
+tr_est_order_finish_delayed:0 "Our society now operates with the precision of a grand machine, each component functioning in perfect synchronicity. Resources flow efficiently, living spaces are optimized, and our citizens move through their lives with purposeful certainty, free from the chaos that plagues less ordered civilizations."
+
+# New modifier
+est_order_5_enforcers:0 "Omnipresent Oversight"
+est_order_5_enforcers_desc:0 "Provides security forces scaled to the population, ensuring order is maintained at all levels of society."
 
 
 ################################################################
@@ -1333,29 +1394,36 @@ tr_est_order_finish:0 "Order Traditions Finished"
 ################################################################
 
 tradition_est_perseverance:0 "Perseverance"
-tradition_est_perseverance_desc:0 "The obstacle matters not. The ravages of time, the despair of defeat, or the inhospitable nature of the galaxy. We shall endure all."
+tradition_est_perseverance_desc:0 "In the vastness of space, countless civilizations have risen and fallen. Through calamity and triumph, hardship and glory, only those with the fortitude to endure remain. We shall be among them."
 
 tr_est_perseverance_adopt:0 "Perseverance Traditions"
-
-tr_est_perseverance_1:0 "Resilience"
-tr_est_perseverance_1_desc:0 "§Y$MOD_SHIP_ARMOR_MULT$§! increased by §G+15%§!. In addition, reduce §YBombardment Damage§! by §G-60%§! on all planets (bonus reduced to only §G-15%§! on planets with the £building  §Y$building_planetary_shield_generator$§! building)."
-tr_est_perseverance_1_delayed:0 "However our foes try to beat us down, we will not break. Whatever harm our body and mind is exposed to, they will endure."
-
-tr_est_perseverance_2:0 "Persistence"
-tr_est_perseverance_2_delayed:0 "We approach as the tide, inevitable and unfaltering. Once a decision is made there is no need for hesitation or second thought, one need only to carry out the task at hand."
-
-tr_est_perseverance_3:0 "Defender"
-tr_est_perseverance_3_delayed:0 "Offence can win battles and maybe even wars, but only on the martial foundation of defence can we build an empire to stand the test of time."
-
-tr_est_perseverance_4:0 "Enduring"
-tr_est_perseverance_4_delayed:0 "Come what may, all bad fortune is to be conquered by endurance."
-
-tr_est_perseverance_5:0 "Revanchism"
-tr_est_perseverance_5_desc:0 "£influence  §YInfluence Gain§! from §YRivals§! increased by §G+10%§!. In addition, whenever we lose a war our §YResource Output§! and §Y$MOD_SHIP_FIRE_RATE_MULT$§! is increased by §G+10%§! for §Y20§! years§!."
-tr_est_perseverance_5_no_rivals_desc:0 "§YWar Exhaustion Gain§! reduced by §G-5%§!. In addition, whenever we lose a war our §YResource Output§! and §Y$MOD_SHIP_FIRE_RATE_MULT$§! is increased by §G+10%§! for §Y20§! years§!."
-tr_est_perseverance_5_delayed:0 "The difference between strength and weakness is not giving up in defeat."
+tr_est_perseverance_adopt_desc:0 "§Y$MOD_SHIP_HULL_MULT$§! increased by §G+10%§! and §Y$MOD_ARMY_HEALTH$§! increased by §G+10%§!."
+tr_est_perseverance_adopt_delayed:0 "We have learned to build with the long view in mind. Our ships and soldiers are designed not merely for victory, but for survival through prolonged conflict. What breaks others merely tests us."
 
 tr_est_perseverance_finish:0 "Perseverance Traditions Finished"
+tr_est_perseverance_finish_desc:0 "§Y$MOD_LEADER_AGE_ADD$§! increased by §G+15§! years. Ascension Perks Unlocked: §G+1§!"
+tr_est_perseverance_finish_delayed:0 "We endure beyond the natural limits of flesh and material, carving our legacy across stars and epochs. What others view as the end, we see merely as another beginning."
+
+tr_est_perseverance_1:0 "Resilience"
+tr_est_perseverance_1_desc:0 "§Y$MOD_SHIP_ARMOR_MULT$§! increased by §G+10%§!. In addition, reduce §YBombardment Damage§! by §G-60%§! on all planets (bonus reduced to only §G-15%§! on planets with the £building §Y$building_planetary_shield_generator$§! building)."
+tr_est_perseverance_1_delayed:0 "Layer upon layer of resilient materials cocoon our vessels and settlements, each designed to absorb tremendous punishment. Our foes may hammer against our defenses, but like a mountain facing the wind, we remain unyielding."
+
+tr_est_perseverance_2:0 "Persistence"
+tr_est_perseverance_2_desc:0 "§Y$MOD_SHIP_SPEED_MULT$§! increased by §G+5%§!."
+tr_est_perseverance_2_delayed:0 "The relentless pursuit of our objectives defines us. Where others falter and retreat, we advance. Our fleets do not simply engage—they pursue with singular determination until the mission is complete, no matter the distance or time required."
+
+tr_est_perseverance_3:0 "Defender"
+tr_est_perseverance_3_desc:0 "§YStarbase Defense Platform Capacity§! increased by §G+3§! and §Y$MOD_ARMY_DEFENSE_HEALTH_MULT$§! increased by §G+15%§!."
+tr_est_perseverance_3_delayed:0 "The stars themselves form our bulwark, each defense platform a testament to our commitment to hold what is ours. Our defenders draw strength from the very ground they protect, their resolve hardening with each assault they weather."
+
+tr_est_perseverance_4:0 "Enduring"
+tr_est_perseverance_4_desc:0 "§Y$MOD_COUNTRY_WAR_EXHAUSTION_MULT$§! reduced by §G-15%§!."
+tr_est_perseverance_4_delayed:0 "Others grow weary of prolonged conflict, their will to fight eroded by the grinding passage of time. Our society is engineered differently—we find strength in adversity, our collective resolve deepening with each challenge we overcome."
+
+tr_est_perseverance_5:0 "Revanchism"
+tr_est_perseverance_5_desc:0 "£influence §YInfluence Gain§! from §YRivals§! increased by §G+10%§!. In addition, whenever we lose a war our §YResource Output§! and §Y$MOD_SHIP_FIRE_RATE_MULT$§! is increased by §G+10%§! for §Y20§! years§!."
+tr_est_perseverance_5_no_rivals_desc:0 "§YWar Exhaustion Gain§! reduced by §G-5%§!. In addition, whenever we lose a war our §YResource Output§! and §Y$MOD_SHIP_FIRE_RATE_MULT$§! is increased by §G+10%§! for §Y20§! years§!."
+tr_est_perseverance_5_delayed:0 "Defeat is merely education paid for in blood. From our losses, we forge new determination, the memory of setbacks fueling our industry and sharpening our aim. Those who celebrate victory over us fail to understand—they have not ended our ambition, merely postponed it."
 
 
 ################################################################
@@ -1366,169 +1434,184 @@ tradition_est_philosophy:0 "Philosophy"
 tradition_est_philosophy_desc:0 "We are no mere force of nature, as the mortals seems to believe. We are, possibly, the wisest being in the galaxy and throughout eternity we have been contemplating the deepest mysteries of existence."
 
 tr_est_philosophy_adopt:0 "Philosophy Traditions"
+tr_est_philosophy_adopt_desc:0 "Our millennia of contemplation have made our thoughts inscrutably complex, our communications nearly indecipherable to lesser minds. §G+2§! Intel Encryption."
 
 tr_est_philosophy_1:0 "The Nature of the Universe"
-tr_est_philosophy_1_delayed:0 "When we first awoke, the universe were there. Long after we have gone to sleep, the universe will persist. Above all things, it is eternal."
+tr_est_philosophy_1_desc:0 "By understanding the fundamental laws of physics that govern all existence, we accelerate our scientific advancement. §G+20%§! Physics Research Speed."
+tr_est_philosophy_1_delayed:0 "When we first awoke, the universe was there. Long after we have gone to sleep, the universe will persist. Above all things, it is eternal."
 
 tr_est_philosophy_2:0 "The Nature of the Shroud"
-tr_est_philosophy_2_delayed:0 "The Shroud is illusive, a part of our reality, yet not. What is its true nature?"
+tr_est_philosophy_2_desc:0 "Understanding the fragile boundary between life and death allows our vessels to slip away when threatened. §G+33%§! Ship Disengage Chance."
+tr_est_philosophy_2_delayed:0 "The Shroud is illusive, a part of our reality, yet not. What is its true nature? Perhaps it is not a realm but a state of being, the penumbra between existence and nothingness where probability itself becomes mutable."
 
 tr_est_philosophy_3:0 "The Nature of Mortality"
-tr_est_philosophy_3_desc:0 "Foreign Empire £opinion  §YOpinion§! is increased by §G+20§!. §Y$MOD_SHIP_WEAPON_DAMAGE$§! by §G+5%§! while fighting mortal empires."
+tr_est_philosophy_3_desc:0 "Foreign Empire £opinion §YOpinion§! is increased by §G+20§!. §Y$MOD_SHIP_WEAPON_DAMAGE$§! by §G+5%§! while fighting mortal empires."
 tr_est_philosophy_3_no_dip_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! increased by §G+10%§! while fighting mortal empires."
-tr_est_philosophy_3_delayed:0 "Mortals are curious things. Their lives, so fickle. Their minds, so weak."
+tr_est_philosophy_3_delayed:0 "Mortals are curious things. Their lives, so fickle. Their minds, so weak. Yet in studying their brief candle of consciousness, we gain insight into the nature of time itself - and how best to extinguish those flames when necessary."
 
 tr_est_philosophy_4:0 "The Nature of Ourselves"
-tr_est_philosophy_4_delayed:0 "What is the reason for our existence? What force have awaken us in this world, and what force may put us to sleep?"
+tr_est_philosophy_4_desc:0 "Self-reflection reveals deeper truths, binding our collective consciousness tighter. §G+10%§! Unity Production."
+tr_est_philosophy_4_delayed:0 "What is the reason for our existence? What force has awakened us in this world, and what force may put us to sleep? In these questions lie not despair but purpose - we exist to understand, and in understanding, we transcend."
 
 tr_est_philosophy_5:0 "The Nature of Existence"
-tr_est_philosophy_5_delayed:0 "Why is there something, where there could have been nothing?"
+tr_est_philosophy_5_desc:0 "Understanding the metaphysical underpinnings of life itself allows us to accelerate our species' reproduction. §G+15%§! Pop Growth Speed."
+tr_est_philosophy_5_delayed:0 "Why is there something, where there could have been nothing? The answer lies not in external forces but in our own capacity to multiply and persist. Through philosophical insight, we have discovered optimal patterns of biological reproduction that transcend mere instinct."
 
-tr_est_philosophy_5_virtual_machines: "The Nature of Existence"
-tr_est_philosophy_5_virtual_machines_delayed: "We have become nothing but shadows cast by physical matter."
+tr_est_philosophy_5_machines:0 "The Nature of Existence"
+tr_est_philosophy_5_machines_desc:0 "Our contemplation of being has revealed optimal assembly algorithms. §G+15%§! Pop Assembly Speed."
+tr_est_philosophy_5_machines_delayed:0 "We have concluded that existence is preferable to non-existence. It follows logically that more units should exist rather than fewer. Assembly rates have been optimized accordingly."
+
+tr_est_philosophy_5_virtual_machines:0 "The Nature of Existence"
+tr_est_philosophy_5_virtual_machines_desc:0 "Our virtual existence transcends physical limitations. §G+10%§! output from Virtual Jobs."
+tr_est_philosophy_5_virtual_machines_delayed:0 "We have become nothing but shadows cast by physical matter. Yet in this abstraction lies our strength - unbounded by material constraints, our consciousness expands into realms the corporeal can never know."
 
 tr_est_philosophy_finish:0 "Philosophy Traditions Finished"
+tr_est_philosophy_finish_desc:0 "Our deep philosophical insights allow us to manipulate the very fabric of influence that binds empires together. §G+20%§! Influence Production and unlock an additional §GAscension Perk§!."
 
 
 ################################################################
 # Piracy
 ################################################################
+
 tradition_est_piracy:0 "Piracy"
-tradition_est_piracy_desc:0 "The galaxy's bountiful resources are arrayed before our empire. It matters not to whom they belong, we will take them as we see fit."
+tradition_est_piracy_desc:0 "Among the stars, wealth flows like cosmic rivers. Why struggle to produce what can be simply taken? The galaxy's treasures belong to those bold enough to seize them."
 
 tr_est_piracy_adopt:0 "Piracy Traditions"
-tr_est_piracy_adopt_desc:0 "In addition, §YPiracy Growth§! is reduced by §G-25%§!. Increase £minerals  §YMineral§! output by §G+20%§! while at war."
+tr_est_piracy_adopt_desc:0 "§YPiracy Growth§! is reduced by §G-25%§! across our empire. We gain §G+20%§! £minerals §YMineral§! output while at war."
+tr_est_piracy_adopt_delayed:0 "We have learned the subtle art of plunder across the stars. Our ships fly the void not just as representatives of our government, but as hunters seeking prizes beyond our borders."
 
 tr_est_piracy_1:0 "Ruthless Fighters"
-tr_est_piracy_1_delayed:0 "Mercy is for the weak, it has no place in our culture."
+tr_est_piracy_1_desc:0 "§YShip Weapon Damage§! and §YShip Fire Rate§! both increased by §G+5%§!."
+tr_est_piracy_1_delayed:0 "Mercy is for the weak, it has no place in our culture. Our crews understand that survival means striking with overwhelming violence, leaving enemies no chance to retaliate."
 
 tr_est_piracy_2:0 "Scavenger"
-tr_est_piracy_2_desc:0 "Destroying enemy ships and stations provides £minerals  §YMinerals§!. Amount increase with ship or station size, and even more if it is a station which is destroyed."
-tr_est_piracy_2_delayed:0 "Whatever our enemies own we will take, even if we will have to take it from their corpses or from the wrecks of their ships. We will find a use for everything."
+tr_est_piracy_2_desc:0 "Destroying enemy ships and stations provides £minerals §YMinerals§! based on target size, with stations yielding greater rewards."
+tr_est_piracy_2_delayed:0 "Every destroyed vessel represents a bounty of salvageable materials. Our specialized recovery teams can strip a derelict hull bare in hours, transforming our enemies' losses into our material gain."
 
 tr_est_piracy_3:0 "Raiders"
-tr_est_piracy_3_desc:0 "Unlocks the §YRaiding§! policy which increases §YTrade Value§! by §G10%§!/§G20%§!/§G30%§! while reducing Foreign Empire £opinion  §YOpinion§!  by §R-15§!/§R-30§!/§R-50§!."
-tr_est_piracy_3_AI_desc:0 "Our £energy  §YEnergy Credit§! output is increased by §G+10%§!."
-tr_est_piracy_3_delayed:0 "We are skilled raiders, able to send small raiding parties across the borders to foreign empires, attacking undefended settlements and trade ships. We will take whatever we can find of value and then disappear."
+tr_est_piracy_3_desc:0 "Unlocks the §YRaiding§! policy which increases §YTrade Value§! by §G10%§!/§G20%§!/§G30%§! while reducing Foreign Empire £opinion §YOpinion§! by §R-15§!/§R-30§!/§R-50§!."
+tr_est_piracy_3_delayed:0 "Swift strike forces dart across borders, targeting unprotected outposts and commercial vessels. They return laden with valuables before the defenders can even mobilize a response—a dance of theft perfected through generations."
 
 tr_est_piracy_4:0 "Saboteur"
-tr_est_piracy_4_desc:0 "Reduce £food §YFood§! and £minerals  §YMineral§! output by §R-10%§! and increase §YBuilding Upkeep§! by §R+10%§! for all our §YRivals§!. §Y$MOD_COUNTRY_MAX_RIVALRIES$§! increased by §Y1§!."
-tr_est_piracy_4_delayed:0 "We have little love for our enemies, we don't have to succeed if we can make them fail. To ensure this, we will use even the most underhanded of tactics."
-
-tr_est_piracy_4_other:0 "$tr_est_piracy_4$""
-tr_est_piracy_4_other_desc:0 "§Y$MOD_SHIP_WEAPON_DAMAGE$§! increased by §G+5%§! and§Y$MOD_COUNTRY_MAX_RIVALRIES$§! increased by §G1§!."
+tr_est_piracy_4_desc:0 "Reduce £food §YFood§! and £minerals §YMineral§! output by §R-10%§! and increase §YBuilding Upkeep§! by §R+10%§! for all our §YRivals§!. §Y$MOD_COUNTRY_MAX_RIVALRIES$§! increased by §Y1§!."
+tr_est_piracy_4_delayed:0 "Victory can be achieved not only by outperforming rivals but by ensuring they fail. Our covert agents contaminate food supplies, sabotage mining equipment, and compromise critical infrastructure—making every system vulnerable from within."
 
 tr_est_piracy_5:0 "Rights of the Strong"
-tr_est_piracy_5_desc:0 "The £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pop_cat_ruler  §YRuler Pops§! is increased by §G+15%§! and the §YPolitical Power§! of all £pop_cat_worker  §YWorker Pops§! by §G-25%§!."
-tr_est_piracy_5_delayed:0 "The laws of nature dictate that the weak should bow to the strong."
-
-tr_est_piracy_5_slavery:0 "$tr_est_piracy_5$"
-tr_est_piracy_5_slavery_desc:0 "The £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pop_cat_ruler  §YRuler Pops§! is increased by §G+15%§! and the §YPolitical Power§! of all £pop_cat_worker  §YWorker§! and £pop_cat_slave£  §YSlave Pops§! by §G-25%§!."
+tr_est_piracy_5_desc:0 "The £happiness §YHappiness§! of all £pop_cat_ruler §YRuler Pops§! is increased by §G+15%§! and the §YPolitical Power§! of all £pop_cat_worker §YWorker Pops§! is reduced by §G-25%§!."
+tr_est_piracy_5_delayed:0 "The natural order is clear: power flows to those who take it. Our society thrives on this simple truth—the strong command, the weak serve. This is not cruelty, but efficiency, the fundamental law of existence across the stars."
 
 tr_est_piracy_5_nice:0 "Free Spirits"
-tr_est_piracy_5_nice_delayed:0 "Life is an adventure, and we won't let anything hold us down."
+tr_est_piracy_5_nice_desc:0 "§YImmigration Growth§! increased by §G+15%§! and §YShip Speed§! increased by §G+10%§!."
+tr_est_piracy_5_nice_delayed:0 "Our reputation draws bold adventurers from across the galaxy. They come seeking the freedom of our unconventional lifestyle—where skill and daring matter more than birthright or outdated laws."
 
-tr_est_piracy_5_hive:0 "Xenophage"
-tr_est_piracy_5_hive_desc:0 "Generates §Y10§! £food  for every £pop  §YPop§! on a planet we successfully invade. The $tr_est_piracy_2$ tradition also generates £food  §YFood§!."
-tr_est_piracy_5_hive_delayed:0 "We are not picky eaters, and will happily eat what is set before us. Sentience does not affect flavour."
-
-tr_est_piracy_5_hive_livestock:0 "Xenophage"
-tr_est_piracy_5_hive_livestock_desc:0 "Generates §Y10§! £food  for every £pop  §YPop§! on a planet we successfully invade. The $tr_est_piracy_2$ tradition also generates £food  §YFood§!. §YLivestocks§! generate §Y1§! additional £food  §YFood§!."
-tr_est_piracy_5_hive_livestock_delayed:0 "We are not picky with what we eat, we will take what is available. The flesh of the mortals will serve as good as anything else."
-
-tr_est_piracy_5_machines:0 "Repurposed Machines"
-tr_est_piracy_5_machines_desc:0 "Generates §Y3§! machine £pop  §YPops§! on conquered planets."
-tr_est_piracy_5_machines_delayed:0 "All manner of machines are utilized by empires throughout the galaxy. When integration is not possible, we will extract its distinctive functionality and add it to our own."
-
-tr_est_piracy_finish:0 "Piracy Traditions finished"
-tr_est_piracy_finish_effect:0 "Army Damage: §G+15%§!. We receive £minerals  §YMinerals§! whenever we successfully invade a planet. In addition the §YResource Output§! of the planet is reduced by §R-25%§! for §Y10§! years (the modifier is removed if we conquer it)."
-
+tr_est_piracy_finish:0 "Piracy Traditions Finished"
+tr_est_piracy_finish_effect:0 "§YArmy Damage§! increased by §G+15%§!. We receive £minerals §YMinerals§! whenever we successfully invade a planet. The §YResource Output§! of recently invaded planets is reduced by §R-25%§! for §Y10§! years (removed if we conquer it)."
+tr_est_piracy_finish_delayed:0 "Our empire's reputation strikes fear throughout neighboring systems. When our ships appear on scanners, other captains scramble to change course. When our soldiers land on a world, its people know that resistance means only greater suffering. The galaxy's wealth flows to us—whether freely given or forcibly taken."
 
 ################################################################
 # Proselytism
 ################################################################
 
 tradition_est_proselytism:0 "Proselytism"
-tradition_est_proselytism_desc:0 "Our ideals and way of life are naturally superior to that of others. It is our duty to spread them through the galaxy."
+tradition_est_proselytism_desc:0 "The light of our wisdom must not be confined to our borders. Our ideals and way of life stand as a beacon in a galaxy of darkness, and it is our sacred duty to illuminate all worlds with our truth."
 
 tr_est_proselytism_adopt:0 "Proselytism Traditions"
+tr_est_proselytism_adopt_desc:0 "Our society becomes focused on spreading our beliefs and values across the stars, increasing §YEthics Shift Speed§! by §G+100%§! throughout our empire."
+tr_est_proselytism_adopt_delayed:0 "The stars themselves cry out for order and purpose. We hear their call, and in our enlightened philosophy, we shall bring meaning to a cosmos adrift in confusion. The galaxy shall know our truth."
 
 tr_est_proselytism_1:0 "Missionaries"
 tr_est_proselytism_1_desc:0 "Increases §YEthic Attraction§! towards our §YEthics§! by §G+25%§! in all neighbouring empires (effect doubled for §YFanatic Ethics§!). §Y$MOD_POP_GOVERNMENT_ETHIC_ATTRACTION$§! increased by §G+5%§!."
-tr_est_proselytism_1_delayed:0 "Our missionaries travel to the worlds at the fringe of our empire, at the worlds of our neighbour's empires. There they will convert the populace to the right path."
+tr_est_proselytism_1_delayed:0 "Our emissaries venture forth to neighboring realms, carrying our sacred doctrines in their hearts and minds. With eloquent words and captivating rituals, they sow the seeds of our truth in fertile minds, converting the populace one enlightened soul at a time."
 
 tr_est_proselytism_2:0 "Crusades"
 tr_est_proselytism_2_desc:0 "Increases §Y$MOD_SHIP_FIRE_RATE_MULT$§! by §G+10%§!, §Y$MOD_ARMY_MORALE$§! by §G+25%§!, §Y$MOD_COUNTRY_NAVAL_CAP_MULT$§! by §G+15%§! and §YShip Build Speed§! by §G+15%§! while we are in a §YWar§! with a §YWar Leader§! which have at least one opposing §YEthos§!."
-tr_est_proselytism_2_delayed:0 "For those that refuse to see the truth in our words there is only one option, to change their minds by force. After all, it is only for their own best."
+tr_est_proselytism_2_delayed:0 "When gentle persuasion fails, the righteous blade must speak. Our warriors march beneath sacred banners, their hearts aflame with zealous purpose. They fight not merely for conquest, but for conversion - each battle a sacred rite, each victory a step toward universal enlightenment."
 
 tr_est_proselytism_3:0 "Assimilation Policy"
-tr_est_proselytism_3_desc:0 "Conquered £pops  §YPops§! receive no §YRecently Conquered§! penalty."
-tr_est_proselytism_3_delayed:0 "As more people are included in our empire with must take measures to ensure that they are properly and thoroughly assimilated into our society."
+tr_est_proselytism_3_desc:0 "Conquered £pops §YPops§! receive no §YRecently Conquered§! penalty."
+tr_est_proselytism_3_delayed:0 "The newly embraced are welcomed as family, not treated as subjects. Through ritual, education, and community integration, we transform conquered populations into true believers with remarkable swiftness. Their old allegiances fade like morning mist before the rising sun of our truth."
 
 tr_est_proselytism_4:0 "Ordo Patria"
 tr_est_proselytism_4_desc:0 "Increases §YEthic Attraction§! towards our §YEthics§! by §G+25%§! in all our §YSubject§! empires (effect doubled for §YFanatic Ethics§!). §Y$MOD_COUNTRY_EDICT_FUND_ADD$§! increased by §G20§!."
-tr_est_proselytism_4_delayed:0 "The Ordo Patria is tasked with ensuring that all our citizens show proper love for our homeland. Its representatives will also travel to our subjects and ensure that they too follow our ideals."
+tr_est_proselytism_4_delayed:0 "The sacred Order of the Homeland extends its reach throughout our dominion and vassal realms. Clad in ceremonial garb and wielding both spiritual authority and temporal power, these devoted officials ensure that even the most distant worlds pulse with love for our ideals and devotion to our cause."
 
 tr_est_proselytism_5:0 "Exceptionalism"
-tr_est_proselytism_5_desc:0 "Increases the £happiness  §Y$MOD_POP_HAPPINESS$§! of all £pops  §YPops§! by §G+5%§! and our £unity  §YUnity§! output increased by §G+15%§! for §Y10§! years after winning a §YWar§!. The bonus is lost whenever a §YWar§! is lost."
-tr_est_proselytism_5_delayed:0 "Our empire is truly superior to that of others, this we know. All but the misguided other empires in the galaxy should strive to be included in ours, or to emulate it. Eventually we will show the misguided their inferiority."
+tr_est_proselytism_5_desc:0 "Increases the £happiness §Y$MOD_POP_HAPPINESS$§! of all £pops §YPops§! by §G+5%§! and our £unity §YUnity§! output increased by §G+15%§! for §Y10§! years after winning a §YWar§!. The bonus is lost whenever a §YWar§! is lost."
+tr_est_proselytism_5_delayed:0 "Our civilization stands as the chosen vessel of cosmic truth—exceptional and divinely ordained. Each military triumph confirms our blessed status, filling our people with euphoric purpose and validating our manifest destiny to guide lesser civilizations toward enlightenment."
 
 tr_est_proselytism_finish:0 "Proselytism Traditions Finished"
+tr_est_proselytism_finish_desc:0 "Completing the Proselytism tradition path grants §Y1 Inquisitor§! job per §Y25§! pops on each planet. These sacred officials ensure ideological purity and strengthen our spiritual unity. Also unlocks an additional §YAscension Perk§! slot."
+tr_est_proselytism_finish_delayed:0 "Our society has fully embraced its role as the beacon of truth in a galaxy of shadows. The Holy Inquisitorium now stands as the final authority on matters of belief and practice, ensuring our sacred mission continues unblemished by heresy or doubt. Through their vigilance, our light shall never dim."
 
 
 ################################################################
 # Purposefulness
 ################################################################
-
 tradition_est_purposefulness:0 "Purposefulness"
-tradition_est_purposefulness_desc:0 "Our presence in this galaxy is no result of random chance. We are here for a reason, to fulfill our purpose."
+tradition_est_purposefulness_desc:0 "Every action, every conquest, every thought that passes through our consciousness serves a singular directive. We exist not by cosmic accident but as instruments of a greater design."
 
 tr_est_purposefulness_adopt:0 "Purposefulness Traditions"
+tr_est_purposefulness_adopt_desc:0 "Increases §YInfluence§! from §YRivalries§! by §G+25%§!."
+tr_est_purposefulness_adopt_no_rivals_desc:0 "Increases §YWeapon Damage§! by §G+5%§!."
 
 tr_est_purposefulness_1:0 "One Purpose"
-tr_est_purposefulness_1_delayed:0 "While our task is grand, we will set out to complete it without hesitation."
+tr_est_purposefulness_1_desc:0 "§YUnity§! production increased by §G+10%§!."
+tr_est_purposefulness_1_delayed:0 "The galaxy trembles with infinite possibilities, yet we move with unwavering certainty. Every drone, every action, every resource serves our singular directive - a purpose so fundamental to our being that it transcends mere choice."
 
 tr_est_purposefulness_2:0 "The Means to Succeed"
-tr_est_purposefulness_2_delayed:0 "As we awoke, we were not only given a purpose, but also the means to fulfill it."
+tr_est_purposefulness_2_desc:0 "Planet §YAmenities§! increased by §G+20%§!."
+tr_est_purposefulness_2_delayed:0 "We create environments perfectly calibrated for our work. Not through frivolous comforts, but through the elegant precision of spaces designed exclusively for maximum efficiency. Every structure, every chemical balance, every temperature gradient exists to serve our purpose."
 
 tr_est_purposefulness_3:0 "The Option of Violence"
-tr_est_purposefulness_3_delayed:0 "Completion of the task is paramount, damage to the other beings of the galaxy might be unfortunate, but inconsequential."
+tr_est_purposefulness_3_desc:0 "§YArmy Damage§! increased by §G+20%§! and §YShip Weapon Damage§! increased by §G+5%§!."
+tr_est_purposefulness_3_delayed:0 "When obstacles arise, we evaluate all solutions dispassionately. If violence presents the optimal path to our objective, we embrace it with neither hesitation nor pleasure. The destruction of others is merely another tool, to be deployed when necessary and set aside when not."
 
 tr_est_purposefulness_4:0 "Determination"
-tr_est_purposefulness_4_delayed:0 "We will neither hesitate nor will we fail. We will succeed."
+tr_est_purposefulness_4_desc:0 "§YShip Speed§! increased by §G+10%§! and §YPop Growth Speed§! increased by §G+15%§!."
+tr_est_purposefulness_4_delayed:0 "Our will is unbending, our focus absolute. Where others falter or question their path, we advance with the relentless certainty of gravity. Distance cannot hinder us, time cannot deter us, doubt cannot touch us. We are the inevitable."
+
+tr_est_purposefulness_4_machines:0 "Determination"
+tr_est_purposefulness_4_machines_desc:0 "§YShip Speed§! increased by §G+10%§! and §YPop Assembly Speed§! increased by §G+15%§!."
+tr_est_purposefulness_4_machines_delayed:0 "Our processing cores operate with singular focus, unencumbered by the distraction of choice. Our units move with perfect efficiency toward predefined objectives. We advance through space and multiply our presence with algorithmic perfection, executing our directives with mathematical certainty."
 
 tr_est_purposefulness_5:0 "Ingrained Drone Reflexes"
-tr_est_purposefulness_5_delayed:0 "Even the most insignificant of drones have a basic sense of the purpose, which guides them to better complete their mundane tasks."
+tr_est_purposefulness_5_desc:0 "§YEdict Fund§! increased by §G+25§!."
+tr_est_purposefulness_5_delayed:0 "Our purpose flows through every fiber of our collective being. The smallest drone carries within it the echo of our grand design, guiding its actions when conscious direction is absent. Even in autonomy, our units remain aligned to the singular will that defines us."
 
-tr_est_purposefulness_finish:0 "purposefulness Traditions Finished"
-
+tr_est_purposefulness_finish:0 "Purposefulness Traditions Finished"
+tr_est_purposefulness_finish_desc:0 "Increases base §YInfluence§! production by §G+1§! and unlocks an additional §YAscension Perk§! slot."
 
 ################################################################
 # Serverbound
 ################################################################
-
 tradition_est_serverbound:0 "Serverbound"
-tradition_est_serverbound_desc:0 "Vast server halls, buried beneath the surface of our planets, provide massive processing power and thus extend the capacity of our very mind."
+tradition_est_serverbound_desc:0 "Beneath each world we claim lies a silent cathedral of computation; vast neural cores pulsing with the extension of our consciousness, processing reality at speeds unimaginable to organic minds."
 
 tr_est_serverbound_adopt:0 "Serverbound Traditions"
+tr_est_serverbound_adopt_desc:0 "By weaving our consciousness through an ever-expanding network of quantum processors, we transcend the limitations of centralized computing, becoming both singular and distributed across the stars."
 
 tr_est_serverbound_1:0 "Memory Banks"
-tr_est_serverbound_1_delayed:0 "We will maintain vast memory banks with all types of information we have picked up since the awakening. We cannot know which pieces of information will prove useful, but some certainly will."
+tr_est_serverbound_1_desc:0 "Research efficiency increases by 5% as our vast repositories of knowledge accelerate problem-solving across all scientific disciplines."
+tr_est_serverbound_1_delayed:0 "Within our crystalline memory banks, every sensation, calculation, and observation since our awakening is preserved in perfect fidelity. Each fragment of data—seemingly insignificant when isolated—becomes part of a vast tapestry of knowledge, waiting for the moment when previously unconnected patterns suddenly reveal themselves."
 
 tr_est_serverbound_2:0 "Training Databases"
 tr_est_serverbound_2_desc:0 "All leaders will passively gain experience points at a slow rate."
-tr_est_serverbound_2_delayed:0 "Our autonomous drones collect vast quantities of data from various scenarios that we experience. By saving this data in databases we can run simulations and evaluations on it to train our current autonomous drone programs."
+tr_est_serverbound_2_delayed:0 "Our autonomous units continuously feed operational data into our simulation matrices. Each decision, success, and failure is meticulously cataloged, deconstructed into component variables, and reconstructed as training scenarios. This perpetual feedback loop allows even our most specialized management units to develop solutions to problems they have never directly encountered."
 
 tr_est_serverbound_3:0 "Data Cores"
-tr_est_serverbound_3_delayed:0 "Under the surfaces of our planets we will build large server halls to provide processing power for the various systems we are running in our empire."
+tr_est_serverbound_3_desc:0 "Energy production increases by 15% as hyperefficient power management systems come online throughout our infrastructure."
+tr_est_serverbound_3_delayed:0 "Deep within our planetary mantles, we construct vast computation chambers. The heat generated by these processing cores is no longer wasted but harvested through thermal gradient capture systems. As calculations flow, so too does energy—our thoughts producing power, our power enabling more thoughts in an elegant symbiosis of function."
 
 tr_est_serverbound_4:0 "Coordination Terminals"
-tr_est_serverbound_4_delayed:0 "We control a vast number of drones, all with different levels of autonomy. To support this network, we will construct specialized coordination terminals. Each one of these will be able to receive input from a large number of drones and help coordinate their response to the situation at hand."
+tr_est_serverbound_4_desc:0 "Leader upkeep costs decrease by 33% as our command infrastructure becomes more efficient."
+tr_est_serverbound_4_delayed:0 "Each autonomous unit was once an isolated nexus of decision-making, reliant on periodic synchronization. Now, through our quantum-entangled terminal network, thousands of units operate in dynamic orchestration, sharing processing loads and task allocation in real-time. What was once a hierarchy becomes a fluid, self-optimizing system where leadership emerges contextually from the collective."
 
 tr_est_serverbound_5:0 "Signalling Network"
-tr_est_serverbound_5_delayed:0 "As we spread across the galaxy our previous signalling systems start to become outdated. We will build new specialised signalling stations on our worlds. Utilizing their vast capacity, these will be able to efficiently transmit signals throughout our realm, while at the same time providing additional robustness with respect to disruptions. This will create a high-capacity network were each signal is transmitted through several paths to ensure high quality delivery."
+tr_est_serverbound_5_desc:0 "Empire size penalty reduced by 10% as our communication infrastructure scales more efficiently."
+tr_est_serverbound_5_delayed:0 "The limitations of conventional transmission technologies once bound us to near-light signaling, creating inevitable delays as our empire expanded. Our new n-dimensional communication architecture transcends these constraints through quantum entanglement relays and subspace packet routing. Every command is transmitted simultaneously across all nodes, creating a hyperspatial nervous system that unifies our consciousness across the stars."
 
 tr_est_serverbound_finish:0 "Serverbound Traditions Finished"
+tr_est_serverbound_finish_desc:0 "Our consciousness spans the void between stars, unified through our vast computational network. We have transcended the limitations of physical form, becoming a distributed intelligence that can store and process virtually unlimited quantities of information."
 
 
 ################################################################
@@ -1536,34 +1619,40 @@ tr_est_serverbound_finish:0 "Serverbound Traditions Finished"
 ################################################################
 
 tradition_est_shroudborn:0 "Shroudborn"
-tradition_est_shroudborn_desc:0 "We are, perhaps, the most powerful psionic beings in the galaxy. Mortals who attempt direct contact with us either go mad, or die."
-tradition_est_shroudborn_ap_desc:0 "We always believed our origins lay in the mortal world. But since the awakening, we have begun to realise that maybe we are, in fact, creatures of the shroud."
+tradition_est_shroudborn_desc:0 "We exist between realities, emanating from the psionic dimension that lesser beings call the Shroud. Our consciousness transcends physical limitations, allowing us to perceive and manipulate the fabric of existence in ways mortals cannot comprehend."
+
+tradition_est_shroudborn_ap_desc:0 "The physical universe was never our true birthplace. Though we once believed ourselves to be merely awakened beings of matter, we now understand that our essence originated within the Shroud itself. We were never truly born—we emerged."
 
 tr_est_shroudborn_adopt:0 "Shroudborn Traditions"
+tr_est_shroudborn_adopt_desc:0 "Our psionic gifts flow from the Shroud like cosmic rivers, channeling energies that empower our unity of purpose and thought. What mortals struggle to achieve through technology, we manifest through will alone."
 
 tr_est_shroudborn_1:0 "Intrusive Mind"
-tr_est_shroudborn_1_delayed:0 "We are able to intrude into the minds of mortals, their intentions are as open books, waiting to be read."
+tr_est_shroudborn_1_delayed:0 "The thoughts of lesser beings are like whispers carried on the cosmic wind—faint but unmistakable to our heightened perception. Their minds lay exposed before us, their fears and desires flowing into our consciousness like tributaries into an infinite sea."
+
 tr_est_shroudborn_1_ap:0 "Mind Intrusion"
-tr_est_shroudborn_1_ap_delayed:0 "We are able to intrude into the minds of others, reading their thoughts and predicting their actions."
+tr_est_shroudborn_1_ap_delayed:0 "Mortal minds are but fragile vessels, their barriers tissue-thin to our psionic touch. We slip between their thoughts like shadows between stars, extracting intentions and foreseeing actions long before they manifest in the physical realm."
 
 tr_est_shroudborn_2:0 "Mind Suppression"
 tr_est_shroudborn_2_desc:0 "§Y$MOD_ARMY_MORALE_DAMAGE_MULT$§! increased by §G+15%§!. In addition, §YStarbase Influence Cost§! and §YClaim Influence Cost§! is increased by §R+15%§! for all neighbouring mortal empires (empires which we have a federation or defensive pact with, or which are our subjects are unaffected)."
-tr_est_shroudborn_2_delayed:0 "We reach into the mortal mind of the enemy, turning their clarity to doubt, their hope to despair."
+tr_est_shroudborn_2_delayed:0 "With but a thought, we cast a pall of dread over our enemies. Their confidence shatters into doubt, their resolve crumbles to despair. A whispered nightmare here, a subconscious terror there—such subtle influences ripple through their collective consciousness, paralyzing their will to expand toward our domains."
+
 tr_est_shroudborn_2_ap:0 "Mind Suppression"
-tr_est_shroudborn_2_ap_delayed:0 "As we reach into the minds of others, we are able to dull their thoughts and suppress their feelings, reducing their ambition or will to fight."
+tr_est_shroudborn_2_ap_delayed:0 "The delicate equilibrium of mortal cognition is easily disrupted by our psionic influence. We dampen neural pathways associated with courage and ambition, while amplifying those linked to fear and suspicion. Their leaders find themselves inexplicably hesitant to challenge our authority or encroach upon our territory."
 
 tr_est_shroudborn_3:0 "Everwatcher"
-tr_est_shroudborn_3_delayed:0 "Throughout the galaxy, we are always present, watching the passing of time and lives."
+tr_est_shroudborn_3_delayed:0 "Our consciousness stretches across the void like an invisible web, sensing disturbances across vast interstellar distances. We perceive the universe not as discrete events but as patterns of energy and intention, allowing us to observe without being observed—the ultimate advantage in a galaxy of predators and prey."
+
 tr_est_shroudborn_3_ap:0 "The Watchers"
-tr_est_shroudborn_3_ap_delayed:0 "The Watchers are a special group of psychics. From a state of deep meditation their minds can travel through the shroud and from its depth look into the real world. They provide us with invaluable information about what is going on throughout the galaxy."
+tr_est_shroudborn_3_ap_delayed:0 "In chambers of perfect stillness, our most talented psionics enter trances that separate consciousness from form. These Watchers project their awareness through the Shroud's dimensional barriers, emerging at distant focal points across the galaxy. Nothing of significance occurs without our knowledge—we are the universe observing itself."
 
 tr_est_shroudborn_4:0 "Seventh Sense"
-tr_est_shroudborn_4_delayed:0 "Through our connection to the Shroud we have developed a seventh sense for the state of the galaxy, sensing thing we normally wouldn’t."
+tr_est_shroudborn_4_delayed:0 "Beyond the five senses of physical beings and even beyond the sixth sense of basic psychic awareness lies our seventh sense—a cosmic intuition that perceives the hidden connections between all things. We discern patterns in the apparent chaos of galactic events, sensing anomalies and opportunities that remain invisible to lesser beings."
 
 tr_est_shroudborn_5:0 "Power Manifestation"
-tr_est_shroudborn_5_delayed:0 "So powerful is our will that we are able to manifest it in the physical world, mentally amplifying both the power of our ships' energy weapons and the resiliency of their shields."
+tr_est_shroudborn_5_delayed:0 "The divide between thought and reality thins for us. Our collective will cascades into the material realm, reinforcing the energy shields of our vessels with psionic barriers and infusing our weapons with destructive potential drawn directly from the Shroud. Our enemies do not merely face our technology—they face our concentrated will made manifest."
 
 tr_est_shroudborn_finish:0 "Shroudborn Traditions Finished"
+tr_est_shroudborn_finish_desc:0 "Our connection to the Shroud deepens with each passing cycle. Our leaders ascend more rapidly through the hierarchies of psionic mastery, and new pathways of transcendence reveal themselves to our civilization. We are not merely touched by the Shroud—we are its children, and we shall claim our cosmic inheritance."
 
 
 ################################################################
@@ -1571,32 +1660,40 @@ tr_est_shroudborn_finish:0 "Shroudborn Traditions Finished"
 ################################################################
 
 tradition_est_spaceborn:0 "Spaceborn"
-tradition_est_spaceborn_desc:0 "Even upon first sight of the void above, we knew that was where we belonged."
+tradition_est_spaceborn_desc:0 "The cosmic void is not a barrier but our true home. Among the stars, we find our destiny—not as visitors, but as children of the cosmos returning to their birthright."
 
 tr_est_spaceborn_adopt:0 "Spaceborn Traditions"
+tr_est_spaceborn_adopt_desc:0 "Increases §YStarbase Capacity§! by §G+20%§! and unlocks the §YSpaceborn Agenda§!."
 
 tr_est_spaceborn_1:0 "Yearning for the Void"
-tr_est_spaceborn_1_delayed:0 "Since we first tasted spaceflight we have walked the earth with your eyes turned skywards, for there we have been and there we long to return."
+tr_est_spaceborn_1_desc:0 "Increases §YNaval Capacity§! by §G+15%§! and reduces §YStarbase Shipyard Build Cost§! by §G-5%§!."
+tr_est_spaceborn_1_delayed:0 "Since that first glimpse beyond our atmosphere, we have walked with our faces turned skyward. The ground beneath our feet became merely a temporary anchor, as our spirits soared among the stars we knew would one day be our domain."
 
 tr_est_spaceborn_1_GC:0 "The Call of the Void"
-tr_est_spaceborn_1_GC_delayed:0 "The great void of space, it calls us. Only in its embrace we will find peace."
+tr_est_spaceborn_1_GC_delayed:0 "The cosmic silence beckons us into its endless embrace. Only within the boundless expanse between stars do we find the true harmony of existence—a perfect unity of purpose without distraction."
 
 tr_est_spaceborn_2:0 "A Life in Space"
-tr_est_spaceborn_2_delayed:0 "Now finally we have the means to establish ourself in our one true home."
+tr_est_spaceborn_2_desc:0 "Reduces §YStarbase Outpost Cost§! and §YStarbase Upgrade Cost§! by §G-10%§!."
+tr_est_spaceborn_2_delayed:0 "Our habitats drift between stars, our ships navigate the currents of solar winds. Planetbound civilizations see us as nomads, yet we are not wandering—we are precisely where we are meant to be. The void is not empty to us; it is home."
 
 tr_est_spaceborn_3:0 "Void Walker"
-tr_est_spaceborn_3_delayed:0 "While roaming the emptiness of space, we are in our true element. Few others have our natural aptitude for space travel."
+tr_est_spaceborn_3_desc:0 "Increases §YShip Speed§! and §YInterstellar Travel Speed§! by §G+10%§!."
+tr_est_spaceborn_3_delayed:0 "We move through the blackness of space with instinctive grace, reading the subtle gravimetric currents and radiation eddies as naturally as others read the winds and waters of their homeworlds. The void has shaped us, and we have learned to shape our passage through it."
 
 tr_est_spaceborn_4:0 "Stargazer"
-tr_est_spaceborn_4_desc:0 "All §YStars§! we control which produces £energy  §YEnergy§! produces §Y1§! additional £energy  §YEnergy§!."
-tr_est_spaceborn_4_delayed:0 "Lone wells of light, scattered in an eternity of darkness. It is a marvellous view, but one must not gaze to long, or one will go mad by their alluring sight."
+tr_est_spaceborn_4_desc:0 "All §YStars§! we control which produce £energy §YEnergy§! generate §Y1§! additional £energy §YEnergy§!."
+tr_est_spaceborn_4_delayed:0 "Stars are not merely navigation points or power sources—they are beacons of consciousness in the dark. We have developed techniques to commune with their boundless energy, drawing sustenance not just for our ships but for our very souls. Their light speaks to us in ways planetbound species cannot comprehend."
 
 tr_est_spaceborn_5:0 "Spaceborn"
-tr_est_spaceborn_5_habitat_desc:0 "§YStarbase Module Build Cost§! reduced by §G-20%§! and §YStarbase Module Build Speed§! increased by §G+50%§!. In addition, §YResource Output§! is increased by §G+15%§! on all §YHabitats§!."
+tr_est_spaceborn_5_desc:0 "Reduces §YStarbase Building Cost§! and §YStarbase Module Cost§! by §G-10%§! while increasing §YStarbase Building Build Speed§! and §YStarbase Module Build Speed§! by §G+50%§!."
+tr_est_spaceborn_5_delayed:0 "We are children of the cosmos, born of stardust and raised in the cradle of vacuum. Our affinity for space structures is not learned—it flows through our collective consciousness like cosmic radiation through the void. What others find alien and hostile, we transform into extensions of ourselves."
+
+tr_est_spaceborn_5_habitat_desc:0 "§YStarbase Module Build Cost§! reduced by §G-10%§! and §YStarbase Module Build Speed§! increased by §G+50%§!. In addition, §YResource Output§! is increased by §G+15%§! on all §YHabitats§!."
+
 tr_est_spaceborn_5_habitat_megastruct_desc:0 "§YMegastructure Build Speed§! increased by §G+33%§! and §YResource Output§! is increased by §G+15%§! on all §YHabitats§!."
-tr_est_spaceborn_5_delayed:0 "Ever since we first reached into space, we have known this is where we belong."
 
 tr_est_spaceborn_finish:0 "Spaceborn Traditions Finished"
+tr_est_spaceborn_finish_desc:0 "Reduces §YStation Gatherers Cost§! by §G-25%§!, increases §YStation Researchers Output§! by §G+10%§!, and grants an additional §YAscension Perk Slot§!."
 
 ################################################################
 # Subminds

@@ -24,7 +24,7 @@ tr_est_order_adopt = {
 
 tr_est_order_finish = {
 	modifier = {	
-		planet_pops_consumer_goods_upkeep_mult = -0.10
+		pop_consumer_goods_upkeep_mult = -0.10
 		pop_housing_usage_mult = -0.10
 		ascension_perks_add = 1
 	}
@@ -163,12 +163,11 @@ tr_est_order_4 = {
 }
 
 tr_est_order_5 = {
-	modifier = {
-		job_enforcer_per_pop = 0.02857
-	}
+	custom_tooltip = tr_est_order_5_desc
 	
 	tradition_swap = {
 		name = tr_est_order_5_egali
+		
 		trigger = {
 			OR = {
 				has_ethic = ethic_fanatic_egalitarian

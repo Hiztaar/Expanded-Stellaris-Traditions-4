@@ -6,19 +6,6 @@ tr_est_might_adopt = {
 		potential = { used_naval_capacity_percent > 0.99 }
 		planet_jobs_produces_mult  = 0.05
 	}
-
-	#on_enabled = {
-	#	if = {
-	#		limit = {
-	#			Not = {
-	#				used_naval_capacity_percent < 1.0
-	#			}
-	#		}
-	#		add_modifier = {
-	#			modifier = "mod_est_might_adopt"
-	#		}
-	#	}
-	#}	
 }
 
 tr_est_might_finish = {
@@ -30,22 +17,38 @@ tr_est_might_finish = {
 
 
 tr_est_might_1 = {
-	modifier = {
-		armies_cost_mult = -0.10
-		army_experience_gain_mult = 0.25
-		job_warrior_drone_per_pop = 0.04
-	}
+    modifier = {
+        armies_cost_mult = -0.10
+        army_experience_gain_mult = 0.25
+    }
+    
+    planet_modifier = {
+        planet_jobs_warrior_drone_add = { 
+            value = planet_pop_count
+            value_multiplicative = 0.04 # 1/25 = 0.04
+        }
+    }
+    
+    tradition_swap = {
+        name = tr_est_might_1_machines
+        inherit_effects = no # Changed to no
+        modifier = {
+            armies_cost_mult = -0.10
+            army_experience_gain_mult = 0.25
+        }
+        planet_modifier = {
+            planet_jobs_hunter_killer_drone_add = { # Changed job type for machines
+                value = planet_pop_count
+                value_multiplicative = 0.04 # 1/25 = 0.04
+            }
+        }
+        trigger = {
+            is_machine_empire = yes
+        }    
+        weight = { factor = 1 }
+    }
 
-	tradition_swap = {
-		name = tr_est_might_1_machines
-		inherit_effects = yes
-		trigger = {
-			is_machine_empire = yes
-		}	
-		weight = { factor = 1 }
-	}
-
-	ai_weight = { factor = 5000 }
+    ai_weight = { factor = 5000 }
 }
 
 tr_est_might_2 = {
@@ -59,12 +62,12 @@ tr_est_might_2 = {
 		army_morale_damage_mult = 0.2
 	}
 
-	on_enabled = {
-		every_owned_leader = {
-			if = {
-				limit = {
-					has_trait = subclass_commander_general
-				}
+    on_enabled = {
+        every_owned_leader = {
+            if = {
+                limit = {
+                    leader_class = commander  # Updated check for Stellaris 4.x
+                }
 				owner = {
 					country_event = { 
 						id = est_militarism.4
@@ -81,7 +84,6 @@ tr_est_might_2 = {
 }
 
 tr_est_might_3 = {
-	#custom_tooltip = tr_est_might_3_desc # (Metallichydra): Tooltip not required
 
 	modifier = {
 		country_naval_cap_mult = 0.10
@@ -100,13 +102,6 @@ tr_est_might_4 = {
 	}
 
 	modifier = {
-#		ship_compnenents_rare_crystals_cost_mult = -0.25 #(Ben_D): Depircated by Paradox
-#		ship_compnenents_exotic_gases_cost_mult = -0.25
-#		ship_compnenents_volatile_motes_cost_mult = -0.25
-#		ship_compnenents_sr_dark_matter_cost_mult = -0.25
-#		ship_compnenents_sr_zro_cost_mult = -0.25
-#		ship_compnenents_sr_living_metal_cost_mult = -0.25
-#		ship_compnenents_nanites_cost_mult = -0.25
 		ship_military_rare_crystals_cost_mult = -0.25 #(Ben_D): Added
 		ship_military_exotic_gases_cost_mult = -0.25
 		ship_military_volatile_motes_cost_mult = -0.25
@@ -114,6 +109,16 @@ tr_est_might_4 = {
 		ship_military_sr_zro_cost_mult = -0.25
 		ship_military_sr_living_metal_cost_mult = -0.25
 		ship_military_nanites_cost_mult = -0.25
+		
+		# Gigastructural Engineering Resources
+		ship_military_sr_iodizium_cost_mult = -0.25
+		ship_military_sr_solar_energy_cost_mult = -0.25
+		ship_military_sr_magical_neutronium_cost_mult = -0.25
+		ship_military_sr_psionic_sublimate_cost_mult = -0.25
+		ship_military_ehof_sr_negative_mass_cost_mult = -0.25
+		ship_military_ehof_sr_sentient_metal_cost_mult = -0.25
+		ship_military_giga_sr_amb_megaconstruction_cost_mult = -0.25
+		ship_military_giga_sr_catalyst_cost_mult = -0.25
 	}
 
 	ai_weight = { factor = 5000 }
@@ -147,7 +152,7 @@ tr_est_might_5 = {
 			every_owned_leader = {
 				if = {
 					limit = {
-						has_trait = subclass_commander_admiral
+						leader_class = commander
 					}
 					owner = {
 						country_event = { 

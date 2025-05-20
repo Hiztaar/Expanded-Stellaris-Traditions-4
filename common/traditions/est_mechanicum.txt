@@ -20,7 +20,7 @@ tr_est_mechanicum_adopt = {
 
 tr_est_mechanicum_finish = {
 	modifier = {	
-		planet_technician_energy_produces_add = 1
+		job_technician_energy_produces_add = 0.01
 		ascension_perks_add = 1
 	}
 }
@@ -43,7 +43,7 @@ tr_est_mechanicum_1 = {
 	}
 	
 	modifier = {
-		station_gatherers_cost_mult = -0.20
+		orbital_mining_station_build_cost_mult = -0.20
 	}
 
 	tradition_swap = {

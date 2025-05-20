@@ -13,11 +13,11 @@ tr_est_chivalry_adopt = {
 				}
 			}
 			if = {
-				limit = { leader_class = admiral }
+				limit = { has_trait = subclass_commander_admiral }
 				add_trait = leader_trait_admiral_est_chivalry
 			}
 			if = {
-				limit = { leader_class = general }
+				limit = { has_trait = subclass_commander_general }
 				add_trait = leader_trait_general_est_chivalry
 			}
 			if = {
@@ -39,11 +39,11 @@ tr_est_chivalry_adopt = {
 				}
 			}
 			if = {
-				limit = { leader_class = admiral }
+				limit = { has_trait = subclass_commander_admiral }
 				add_trait = leader_trait_admiral_est_chivalry
 			}
 			if = {
-				limit = { leader_class = general }
+				limit = { has_trait = subclass_commander_general }
 				add_trait = leader_trait_general_est_chivalry
 			}
 			if = {
@@ -54,10 +54,6 @@ tr_est_chivalry_adopt = {
 				limit = { leader_class = scientist }
 				add_trait = leader_trait_scientist_est_chivalry
 			}
-#			if = {
-#				limit = { leader_class = ruler }
-#				add_trait = leader_trait_ruler_est_chivalry
-#			}
 		}
 	}
 }

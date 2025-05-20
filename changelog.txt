@@ -81,8 +81,6 @@ Version: 4.0.0
 Date: 2025-05-15
 
 - Chivalry: Fully updated for Stellaris 4.x compatibility
-- Replaced obsolete `leader_class = commander` with `leader_class = admiral` and `leader_class = general`
-- Replaced deprecated `subclass_commander_*` trait detection with valid class-based checks
 - Perk 5 (`tr_est_chivalry_5`): Confirmed Unity gain on ship destruction functions through `on_ship_destroyed_perp` event
 - Added ship size support for NSC2: escort, patrol, light_cruiser, battlecruiser, dreadnought, superdreadnought, carrier, explorer, flagship, juggernaut
 - Added ship size support for Gigastructural superweapons: asteroid_artillery, moon_cracker, planet_cracker, system_cracker, superweapon, birthing_star, world_spear, stellar_gun, planetary_cannon
@@ -249,7 +247,6 @@ Version: 4.0.0
 Date: 2025-05-18
 
 - Individualism: Fully updated for Stellaris 4.x compatibility  
-- Replaced deprecated `commander_initial_skill` with valid admiral/general modifiers  
 - Added missing localization descriptions for Perk 2 and Perk 3  
 - Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
 
@@ -313,4 +310,138 @@ Date: 2025-05-19
 - Dramatically increased Unity rewards for destroying ships and stations
 - Added compatibility with NSC3 and Gigastructural Engineering ships and stations
 - Reframed tradition flavor text to present cruelty as a calculated, strategic tool rather than for sadistic pleasure
-- Added comprehensive localization in six languages: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Mechanicum Update
+Version: 4.0.0
+Date: 2025-05-19
+- Updated job_technician_energy_produces_add from 1 to 0.01 to match 4.x job modifier scaling
+- Replaced station_gatherers_cost_mult with orbital_mining_station_build_cost_mult for 4.x compatibility
+- Increased Titan army upkeep from 6.0 to 20.0 energy, reflecting their immense power grid requirements
+- Updated Engineers Guildhall to harness the full potential of 4.x job systems (300/200/100 jobs)
+- Redesigned building descriptions to showcase the guild's vast network of technical academies
+- Enhanced all localization text with deeper technical lore and industrial philosophy
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Stellaris Traditions - Might Update 
+Version: 4.0.0  
+Date: 2025-05-19 
+- Fixed compatibility with Stellaris 4.x job system: now adds 1 warrior drone job per 25 pops using dynamic scaling
+- Updated all leader class references to match the 4.x leader system
+- Updated ship resource cost modifiers to be compatible with NSC3, Gigastructural Engineering, and other major mods
+- Fixed trait application for admirals and generals
+- Added missing custom tooltips and localization descriptions
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Mystery Rework  
+Version: 4.0.0  
+Date: 2025-05-19  
+- Fixed Shadow Administrator job scaling for 4.x job system
+- Reworked leader trait system to work with 4.x leader classe 
+- Updated Mystery events to properly handle 4.x leader classes  
+- Expanded localization with more immersive and detailed descriptions  
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Nature Update 
+Version: 4.0.0  
+Date: 2025-05-19  
+- Fixed farmer job generation to work with 4.x job system  
+- Updated Nature Preserve building to use 4.x job system with proper worker distribution  
+- Expanded localization with more immersive and detailed descriptions  
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Omnipresence Update 
+Version: 4.0.0  
+Date: 2025-05-19    
+- Expanded localization with more immersive and detailed descriptions  
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Control (ex Order) Update 
+Version: 4.0.0  
+Date: 2025-05-19    
+- Renamed "Order" tradition to "Control" for better thematic alignment
+- Updated all modifiers for Stellaris 4.x compatibility
+- Fixed population-based enforcer jobs to work with current job system
+- Expanded localization with more immersive and detailed descriptions
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Perseverance Rework 
+Version: 4.0.0  
+Date: 2025-05-19    
+- Rebalanced tradition bonuses:
+  • Reduced Finisher leader lifespan from +25 to +15 years
+  • Reduced Perk 1 ship armor bonus from 15% to 10%
+  • Reduced Perk 2 ship speed bonus from 15% to 5%
+  • Reduced Perk 3 army defensive health bonus from 25% to 15%
+  • Reduced Perk 4 war exhaustion reduction from 25% to 15%
+- Expanded localization with more immersive and detailed descriptions
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Philosophy Update 
+Version: 4.0.0  
+Date: 2025-05-19
+- Replaced job additions in Perk 5 with +15% Pop Growth/Assembly Speed
+- Updated all tradition descriptions with more immersive text
+- Added detailed descriptions for previously missing entries
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Piracy Update 
+Version: 4.0.0  
+Date: 2025-05-19
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Proselytism Update
+Version: 4.0.0
+Date: 2025-05-20
+- Updated job scaling for Stellaris 4.x compatibility
+- Fixed Inquisitor job implementation to work with new job system
+- Expanded localization with more immersive and detailed descriptions
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Stellaris Traditions - Purposefulness Update
+Version: 4.0.0
+Date: 2025-05-20
+- Updated localization with more immersive and detailed descriptions
+- Enhanced flavor text to better reflect gestalt consciousness perspective
+- Added complete localization in six languages: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Serverbound Update 
+Version: 4.0.0  
+Date: 2025-05-19    
+- Expanded localization with more immersive and detailed descriptions  
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------
+
+Expanded Traditions - Spaceborn Update
+Version: 4.0.0
+Date: 2025-05-20
+- Rebalanced tradition modifiers for better gameplay balance
+- Expanded localization with more immersive and detailed descriptions
+- Added full localization in: Brazilian Portuguese, French, German, Polish, Russian, and Spanish
+
+---------------------------------------------------------------------------

@@ -36,7 +36,8 @@ on_monthly_pulse_country = {
 		#est_militarism.1 # (Metallichydra): Removed, uses triggered modifier now
 
 		est_order.1
-
+		est_order.6
+		
 		est_philosophy.1
 		est_philosophy.2
 

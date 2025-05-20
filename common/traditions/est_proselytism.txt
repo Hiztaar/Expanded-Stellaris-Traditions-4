@@ -6,10 +6,13 @@ tr_est_proselytism_adopt = {
 }
 
 tr_est_proselytism_finish = {
-	modifier = {	
-		job_est_inquisitor_per_pop = 0.02857
-		ascension_perks_add = 1
-	}
+    modifier = {
+        job_est_inquisitor_add = {
+            value = planet_pop_count
+            value_multiplicative = 0.04 # 1/25 = 0.04
+        }
+        ascension_perks_add = 1
+    }
 }
 
 

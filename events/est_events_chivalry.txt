@@ -52,12 +52,21 @@ country_event = {
 			}
 			every_owned_leader = {
 				if = {
-					limit = { leader_class = admiral }
+					limit = { 
+						AND = { 
+							leader_class = commander 
+							has_trait = subclass_commander_admiral			
+						}
+					}
 					add_trait = leader_trait_admiral_est_chivalry
 				}
 				else_if = {
-					limit = {
-						limit = { leader_class = general }
+					limit = { 
+						AND = { 
+							leader_class = commander 
+							has_trait = subclass_commander_general			
+						}
+					}
 					add_trait = leader_trait_general_est_chivalry
 				}
 			}
@@ -121,7 +130,7 @@ country_event = {
 					limit = {
 						exists = leader
 						leader = {
-							 leader_class = general
+							 leader_class = commander
 						}
 						planet = {
 							has_planet_flag = est_chivalry_adopt_tmp_planet_flag
@@ -164,7 +173,7 @@ country_event = {
 					limit = {
 						exists = leader
 						leader = {
-							 leader_class = general
+							 leader_class = commander
 						}
 						planet = {
 							has_planet_flag = est_chivalry_adopt_tmp_planet_flag
@@ -211,7 +220,7 @@ country_event = {
 						leader = {
 							if = {
 								limit = {
-									leader_class = admiral
+									leader_class = commander
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -234,7 +243,7 @@ country_event = {
 						leader = {
 							if = {
 								limit = {
-									leader_class = admiral
+									leader_class = commander
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -258,7 +267,7 @@ country_event = {
 						leader = {
 							if = {
 								limit = {
-									leader_class = admiral
+									leader_class = commander
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -282,7 +291,7 @@ country_event = {
 						leader = {
 							if = {
 								limit = {
-									leader_class = admiral
+									leader_class = commander
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -302,7 +311,7 @@ country_event = {
 					leader = {
 						if = {
 							limit = {
-								leader_class = admiral
+								leader_class = commander
 								NOT = {
 									has_trait = leader_trait_admiral_est_chivalry_hero
 								}
@@ -357,7 +366,7 @@ fleet_event = {
 						leader = {
 							if = {
 								limit = {
-									leader_class = admiral
+									leader_class = commander
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -381,7 +390,7 @@ fleet_event = {
 						leader = {
 							if = {
 								limit = {
-									leader_class = admiral
+									leader_class = commander
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -405,7 +414,7 @@ fleet_event = {
 						leader = {
 							if = {
 								limit = {
-									leader_class = admiral
+									leader_class = commander
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -431,7 +440,7 @@ fleet_event = {
 						leader = {
 							if = {
 								limit = {
-									leader_class = admiral
+									leader_class = commander
 									NOT = {
 										has_trait = leader_trait_admiral_est_chivalry_hero
 									}
@@ -451,7 +460,7 @@ fleet_event = {
 					leader = {
 						if = {
 							limit = {
-								leader_class = admiral
+								leader_class = commander
 								NOT = {
 									has_trait = leader_trait_admiral_est_chivalry_hero
 								}
